@@ -1,0 +1,2513 @@
+round0 C0	 CC 10.94	 SQ 4500	 TA 1200 KB 	 Loss 0.983231	 Score 54.3271
+round0 C3	 CC 4.02991	 SQ 4500	 TA 70 KB 	 Loss 0.993673	 Score 32.7334
+round0 C4	 CC 9.10957	 SQ 4500	 TA 1200 KB 	 Loss 0.969598	 Score 52.7574
+round0 C11	 CC 17.202	 SQ 4500	 TA 1200 KB 	 Loss 0.979687	 Score 56.7775
+round0 C12	 CC 6.09179	 SQ 45	 TA 1200 KB 	 Loss 0.975002	 Score 42.2955
+round0 C1	 CC 12.4958	 SQ 4500	 TA 600 KB 	 Loss 0.991347	 Score 44.9402
+round0 C14	 CC 11.8595	 SQ 45	 TA 1200 KB 	 Loss 0.975348	 Score 48.0207
+round0 C18	 CC 19.5983	 SQ 45	 TA 1200 KB 	 Loss 0.999201	 Score 52.7987
+round0 C10	 CC 7.43178	 SQ 4500	 TA 600 KB 	 Loss 0.965636	 Score 40.0613
+round0 C19	 CC 12.4369	 SQ 45	 TA 1200 KB 	 Loss 0.980962	 Score 48.8508
+round0 C21	 CC 5.53604	 SQ 45	 TA 600 KB 	 Loss 1	 Score 33.2952
+round0 C23	 CC 15.611	 SQ 45	 TA 600 KB 	 Loss 0.98415	 Score 40.7976
+round0 C26	 CC 15.3987	 SQ 45	 TA 600 KB 	 Loss 0.979817	 Score 40.7551
+round0 C8	 CC 10.0226	 SQ 4500	 TA 600 KB 	 Loss 0.99302	 Score 42.9812
+round0 C27	 CC 5.83056	 SQ 45	 TA 70 KB 	 Loss 0.978922	 Score 26.6645
+round0 C5	 CC 3.50034	 SQ 4500	 TA 600 KB 	 Loss 0.984666	 Score 39.1043
+round0 C28	 CC 11.1144	 SQ 45	 TA 600 KB 	 Loss 0.987335	 Score 37.2997
+round0 C20	 CC 8.78729	 SQ 45	 TA 70 KB 	 Loss 0.981149	 Score 28.9148
+round0 top m SingleCell.C[0].app[3] 11 56.7775 577.496 50
+round0 top m SingleCell.C[0].app[3] 0 54.3271 476.084 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 11 56.7775 577.496 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 0 54.3271 476.084 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 18 52.7987 536.999 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 4 52.7574 417.03 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 19 48.8508 396.185 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 14 48.0207 379.666 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 1 44.9402 250.521 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 8 42.9812 726.243 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 12 42.2955 350.202 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 23 40.7976 287.575 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 26 40.7551 252.854 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 10 40.0613 180.661 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 5 39.1043 268.109 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 28 37.2997 749.101 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 21 33.2952 722.5 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 3 32.7334 169.678 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 20 28.9148 63.369 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 27 26.6645 0.073697 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 15 -1111 983.555 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 2 -3333 302.905 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 16 -3333 145.45 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 7 -3333 271.55 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 22 -3333 943.828 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 9 -3333 904.051 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 24 -3333 83.1648 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 25 -3333 49.2853 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 6 -3333 39.2105 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 17 -3333 805.127 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 13 -3333 61.8892 50
+round0 --globalINFO-- SingleCell.C[0].app[3] 29 -3333 114.952 50
+round0 SingleCell.C[0].app[3] selected as client , time 18
+round0 top m SingleCell.C[11].app[3] 11 56.7775 577.496 50
+round0 top m SingleCell.C[11].app[3] 0 54.3271 476.084 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 11 56.7775 577.496 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 0 54.3271 476.084 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 18 52.7987 536.999 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 4 52.7574 417.03 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 19 48.8508 396.185 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 14 48.0207 379.666 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 1 44.9402 250.521 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 8 42.9812 726.243 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 12 42.2955 350.202 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 23 40.7976 287.575 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 26 40.7551 252.854 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 10 40.0613 180.661 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 5 39.1043 268.109 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 28 37.2997 749.101 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 21 33.2952 722.5 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 3 32.7334 169.678 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 20 -1111 63.369 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 25 -1111 49.2853 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 6 -1111 39.2105 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 27 -1111 0.073697 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 13 -1111 61.8892 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 7 -3333 271.55 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 22 -3333 943.828 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 9 -3333 904.051 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 24 -3333 83.1648 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 17 -3333 805.127 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 2 -3333 302.905 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 15 -3333 983.555 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 16 -3333 145.45 50
+round0 --globalINFO-- SingleCell.C[11].app[3] 29 -3333 114.952 50
+round0 SingleCell.C[11].app[3] selected as client , time 18
+round0 Client 11 uploading model is finished, time 18.269
+round0 Client 0 uploading model is finished, time 18.312
+0 isSelectedAsClient_flag: 1 completeUploadModel: 1
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 1 completeUploadModel: 1
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 11.pt 0.pt 
+After evaluate global model: 3.2595368247032166 0.5705
+round1 C2	 CC 19.2795	 SQ 4500	 TA 1200 KB 	 Loss 0.476196	 Score 42.4925
+round1 C1	 CC 6.62647	 SQ 4500	 TA 600 KB 	 Loss 0.480834	 Score 35.8172
+round1 C5	 CC 9.06664	 SQ 4500	 TA 600 KB 	 Loss 0.48282	 Score 37.9265
+round1 C8	 CC 17.5886	 SQ 4500	 TA 1200 KB 	 Loss 1	 Score 56.6701
+round1 C4	 CC 15.6248	 SQ 4500	 TA 600 KB 	 Loss 0.508777	 Score 41.7966
+round1 C10	 CC 15.0973	 SQ 4500	 TA 600 KB 	 Loss 0.286248	 Score 33.302
+round1 C12	 CC 13.905	 SQ 45	 TA 1200 KB 	 Loss 0.480308	 Score 34.8669
+round1 C13	 CC 6.68313	 SQ 45	 TA 1200 KB 	 Loss 0.726768	 Score 38.7202
+round1 C3	 CC 10.6881	 SQ 4500	 TA 600 KB 	 Loss 0.494017	 Score 39.6991
+round1 C9	 CC 19.2056	 SQ 4500	 TA 70 KB 	 Loss 0.720184	 Score 41.8281
+round1 C18	 CC 1.56105	 SQ 45	 TA 600 KB 	 Loss 0.835842	 Score 32.9918
+round1 C20	 CC 15.0838	 SQ 45	 TA 1200 KB 	 Loss 0.466732	 Score 34.8642
+round1 C25	 CC 5.5633	 SQ 45	 TA 1200 KB 	 Loss 0.260239	 Score 23.7609
+round1 C27	 CC 11.2503	 SQ 45	 TA 600 KB 	 Loss 0.732482	 Score 37.5169
+round1 C28	 CC 5.33673	 SQ 45	 TA 600 KB 	 Loss 0.43194	 Score 30.422
+round1 C21	 CC 2.3778	 SQ 45	 TA 70 KB 	 Loss 0.520963	 Score 19.508
+round1 C26	 CC 15.1244	 SQ 45	 TA 600 KB 	 Loss 0.68541	 Score 37.112
+round1 C16	 CC 10.8253	 SQ 45	 TA 600 KB 	 Loss 0.720182	 Score 37.112
+round1 C0	 CC 12.5627	 SQ 4500	 TA 70 KB 	 Loss 0.472571	 Score 27.4105
+round1 C22	 CC 7.12479	 SQ 45	 TA 600 KB 	 Loss 0.517861	 Score 33.9402
+round1 C17	 CC 12.9313	 SQ 45	 TA 600 KB 	 Loss 0.476263	 Score 36.0734
+round1 C23	 CC 10.4144	 SQ 45	 TA 600 KB 	 Loss 0.457003	 Score 35.1314
+round1 top m SingleCell.C[2].app[3] 8 56.6701 598.789 50
+round1 top m SingleCell.C[2].app[3] 2 42.4925 532.923 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 8 56.6701 598.789 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 2 42.4925 532.923 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 9 41.8281 128.231 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 4 41.7966 343.788 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 3 39.6991 184.496 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 13 38.7202 512.875 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 5 37.9265 802.866 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 27 37.5169 237.214 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 16 37.112 801.331 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 26 37.112 186.493 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 17 36.0734 232.1 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 1 35.8172 251.66 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 23 35.1314 248.424 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 12 34.8669 531.583 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 20 34.8642 426.131 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 22 33.9402 172.701 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 10 33.302 683.171 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 18 32.9918 304.005 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 28 30.422 749.281 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 0 27.4105 875.389 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 25 23.7609 595.83 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 21 19.508 948.458 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 15 -3333 768.853 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 6 -3333 204.122 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 24 -3333 824.46 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 14 -3333 105.385 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 11 -3333 982.881 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 7 -3333 198.648 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 19 -3333 903.331 50
+round1 --globalINFO-- SingleCell.C[2].app[3] 29 -3333 174.501 50
+round1 SingleCell.C[2].app[3] selected as client , time 18
+round1 top m SingleCell.C[8].app[3] 8 56.6701 598.789 50
+round1 top m SingleCell.C[8].app[3] 2 42.4925 532.923 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 8 56.6701 598.789 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 2 42.4925 532.923 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 9 41.8281 128.231 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 4 41.7966 343.788 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 3 39.6991 184.496 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 13 38.7202 512.875 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 5 37.9265 802.866 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 27 37.5169 237.214 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 16 37.112 801.331 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 26 37.112 186.493 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 17 36.0734 232.1 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 1 35.8172 251.66 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 23 35.1314 248.424 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 12 34.8669 531.583 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 20 34.8642 426.131 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 22 33.9402 172.701 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 10 33.302 683.171 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 18 32.9918 304.005 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 28 30.422 749.281 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 0 27.4105 875.389 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 25 23.7609 595.83 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 21 19.508 948.458 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 15 -3333 768.853 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 6 -3333 204.122 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 24 -3333 824.46 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 14 -3333 105.385 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 11 -3333 982.881 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 7 -3333 198.648 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 19 -3333 903.331 50
+round1 --globalINFO-- SingleCell.C[8].app[3] 29 -3333 174.501 50
+round1 SingleCell.C[8].app[3] selected as client , time 18
+round1 Client 2 uploading model is finished, time 18.263
+round1 Client 8 uploading model is finished, time 18.466
+round1 C6	 CC 2.2747	 SQ 4500	 TA 600 KB 	 Loss 0.730482	 Score 36.9752
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 1 completeUploadModel: 1
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 1 completeUploadModel: 1
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 8.pt 2.pt 
+After evaluate global model: 2.7515187165498736 0.6304
+round2 C7	 CC 17.7739	 SQ 4500	 TA 1200 KB 	 Loss 0.640245	 Score 50.3286
+round2 C8	 CC 1.83286	 SQ 4500	 TA 1200 KB 	 Loss 0.27511	 Score 27.9973
+round2 C9	 CC 18.5534	 SQ 4500	 TA 1200 KB 	 Loss 0.729367	 Score 54.1794
+round2 C10	 CC 7.62916	 SQ 4500	 TA 1200 KB 	 Loss 1	 Score 52.0172
+round2 C11	 CC 11.2654	 SQ 4500	 TA 1200 KB 	 Loss 0.993846	 Score 54.5818
+round2 C14	 CC 11.7905	 SQ 45	 TA 1200 KB 	 Loss 0.47082	 Score 32.9533
+round2 C3	 CC 5.133	 SQ 4500	 TA 600 KB 	 Loss 0.89712	 Score 39.2507
+round2 C16	 CC 3.02606	 SQ 45	 TA 600 KB 	 Loss 0.476574	 Score 32.1469
+round2 C18	 CC 6.69106	 SQ 45	 TA 600 KB 	 Loss 0.74104	 Score 33.7047
+round2 C23	 CC 19.3672	 SQ 45	 TA 1200 KB 	 Loss 0.635986	 Score 46.0133
+round2 C12	 CC 10.3021	 SQ 45	 TA 70 KB 	 Loss 0.653261	 Score 25.8901
+round2 C24	 CC 14.1702	 SQ 45	 TA 70 KB 	 Loss 0.38727	 Score 20.035
+round2 C28	 CC 3.03747	 SQ 45	 TA 1200 KB 	 Loss 0.368418	 Score 24.8647
+round2 C22	 CC 15.9068	 SQ 45	 TA 70 KB 	 Loss 0.650204	 Score 28.6907
+round2 C26	 CC 5.04862	 SQ 45	 TA 70 KB 	 Loss 0.382166	 Score 16.4241
+round2 C5	 CC 12.1048	 SQ 4500	 TA 600 KB 	 Loss 0.829967	 Score 44.4932
+round2 C29	 CC 19.2802	 SQ 45	 TA 70 KB 	 Loss 0.355488	 Score 20.6737
+round2 C20	 CC 3.54154	 SQ 45	 TA 70 KB 	 Loss 0.277955	 Score 14.13
+round2 C15	 CC 10.9994	 SQ 45	 TA 600 KB 	 Loss 0.986335	 Score 37.112
+round2 C0	 CC 17.3539	 SQ 4500	 TA 600 KB 	 Loss 0.991649	 Score 46.942
+round2 C6	 CC 5.80828	 SQ 4500	 TA 600 KB 	 Loss 0.627591	 Score 36.4103
+round2 top m SingleCell.C[9].app[3] 11 54.5818 483.641 50
+round2 top m SingleCell.C[9].app[3] 9 54.1794 544.997 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 11 54.5818 483.641 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 9 54.1794 544.997 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 10 52.0172 406.505 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 7 50.3286 558.646 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 0 46.942 266.497 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 23 46.0133 459.561 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 5 44.4932 252.924 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 3 39.2507 813.961 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 15 37.112 793.585 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 6 36.4103 810.213 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 18 33.7047 332.365 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 14 32.9533 527.752 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 16 32.1469 287.597 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 22 28.6907 893.222 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 8 27.9973 463.498 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 12 25.8901 81.0215 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 28 24.8647 471.819 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 29 20.6737 863.307 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 24 20.035 166.159 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 26 16.4241 157.528 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 20 14.13 943.471 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 21 -3333 142.272 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 13 -3333 240.243 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 1 -3333 922.87 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 2 -3333 736.291 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 25 -3333 895.168 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 19 -3333 748.249 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 27 -3333 937.791 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 4 -3333 115.882 50
+round2 --globalINFO-- SingleCell.C[9].app[3] 17 -3333 83.3897 50
+round2 SingleCell.C[9].app[3] selected as client , time 18
+round2 top m SingleCell.C[11].app[3] 11 54.5818 483.641 50
+round2 top m SingleCell.C[11].app[3] 9 54.1794 544.997 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 11 54.5818 483.641 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 9 54.1794 544.997 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 10 52.0172 406.505 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 7 50.3286 558.646 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 0 46.942 266.497 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 23 46.0133 459.561 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 5 44.4932 252.924 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 3 39.2507 813.961 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 15 37.112 793.585 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 6 36.4103 810.213 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 18 33.7047 332.365 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 14 32.9533 527.752 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 16 32.1469 287.597 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 22 28.6907 893.222 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 8 27.9973 463.498 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 12 25.8901 81.0215 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 28 24.8647 471.819 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 29 20.6737 863.307 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 24 20.035 166.159 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 26 16.4241 157.528 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 20 14.13 943.471 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 21 -3333 142.272 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 13 -3333 240.243 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 1 -3333 922.87 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 2 -3333 736.291 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 25 -3333 895.168 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 19 -3333 748.249 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 27 -3333 937.791 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 4 -3333 115.882 50
+round2 --globalINFO-- SingleCell.C[11].app[3] 17 -3333 83.3897 50
+round2 SingleCell.C[11].app[3] selected as client , time 18
+round2 Client 9 uploading model is finished, time 18.264
+round2 Client 11 uploading model is finished, time 18.273
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 1 completeUploadModel: 1
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 1 completeUploadModel: 1
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 11.pt 9.pt 
+After evaluate global model: 2.012298201191425 0.6917
+round3 C1	 CC 4.36785	 SQ 4500	 TA 1200 KB 	 Loss 0.0709823	 Score 14.9439
+round3 C4	 CC 14.59	 SQ 4500	 TA 1200 KB 	 Loss 0.864022	 Score 55.777
+round3 C5	 CC 10.1707	 SQ 4500	 TA 70 KB 	 Loss 0.575579	 Score 30.7752
+round3 C2	 CC 6.85408	 SQ 4500	 TA 600 KB 	 Loss 0.586279	 Score 36.7657
+round3 C7	 CC 16.5017	 SQ 4500	 TA 1200 KB 	 Loss 0.642641	 Score 50.2132
+round3 C9	 CC 4.91075	 SQ 4500	 TA 70 KB 	 Loss 0.786896	 Score 30.8693
+round3 C12	 CC 12.8884	 SQ 45	 TA 600 KB 	 Loss 0.613647	 Score 37.112
+round3 C13	 CC 6.19453	 SQ 45	 TA 1200 KB 	 Loss 0.793173	 Score 38.9564
+round3 C15	 CC 5.03606	 SQ 45	 TA 600 KB 	 Loss 0.830729	 Score 33.1896
+round3 C16	 CC 9.53864	 SQ 45	 TA 1200 KB 	 Loss 0.0818381	 Score 17.5587
+round3 C20	 CC 10.7129	 SQ 45	 TA 600 KB 	 Loss 1	 Score 37.112
+round3 C26	 CC 2.23752	 SQ 45	 TA 1200 KB 	 Loss 0.469105	 Score 26.4868
+round3 C28	 CC 9.90173	 SQ 45	 TA 1200 KB 	 Loss 0.222775	 Score 25.4364
+round3 C24	 CC 13.0485	 SQ 45	 TA 600 KB 	 Loss 0.315083	 Score 29.3563
+round3 C8	 CC 13.4205	 SQ 4500	 TA 600 KB 	 Loss 0.636545	 Score 41.7262
+round3 C25	 CC 11.7042	 SQ 45	 TA 600 KB 	 Loss 0.34002	 Score 30.0688
+round3 C21	 CC 11.1474	 SQ 45	 TA 70 KB 	 Loss 0.826779	 Score 28.2697
+round3 C6	 CC 8.72569	 SQ 4500	 TA 70 KB 	 Loss 0.573683	 Score 29.5043
+round3 top m SingleCell.C[4].app[3] 4 55.777 488.309 50
+round3 top m SingleCell.C[4].app[3] 7 50.2132 510.151 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 4 55.777 488.309 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 7 50.2132 510.151 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 8 41.7262 252.803 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 13 38.9564 503.778 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 12 37.112 282.558 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 20 37.112 275.257 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 2 36.7657 722.855 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 15 33.1896 314.605 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 9 30.8693 851.225 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 5 30.7752 139.505 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 25 30.0688 307.917 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 6 29.5043 107.342 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 24 29.3563 683.051 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 21 28.2697 875.369 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 26 26.4868 597.306 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 28 25.4364 434.623 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 16 17.5587 565.549 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 1 14.9439 565.759 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 18 -3333 919.384 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 19 -3333 136.326 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 11 -3333 155.426 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 3 -3333 656.847 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 22 -3333 73.59 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 23 -3333 126.574 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 0 -3333 801.718 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 10 -3333 74.0114 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 14 -3333 43.4606 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 27 -3333 873.855 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 17 -3333 85.8805 50
+round3 --globalINFO-- SingleCell.C[4].app[3] 29 -3333 821.528 50
+round3 SingleCell.C[4].app[3] selected as client , time 18
+round3 top m SingleCell.C[7].app[3] 4 55.777 488.309 50
+round3 top m SingleCell.C[7].app[3] 7 50.2132 510.151 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 4 55.777 488.309 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 7 50.2132 510.151 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 8 41.7262 252.803 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 13 38.9564 503.778 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 12 37.112 282.558 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 20 37.112 275.257 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 2 36.7657 722.855 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 15 33.1896 314.605 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 9 30.8693 851.225 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 5 30.7752 139.505 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 25 30.0688 307.917 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 6 29.5043 107.342 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 24 29.3563 683.051 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 21 28.2697 875.369 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 26 26.4868 597.306 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 28 25.4364 434.623 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 16 17.5587 565.549 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 1 14.9439 565.759 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 18 -3333 919.384 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 19 -3333 136.326 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 11 -3333 155.426 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 3 -3333 656.847 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 22 -3333 73.59 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 23 -3333 126.574 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 0 -3333 801.718 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 10 -3333 74.0114 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 14 -3333 43.4606 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 27 -3333 873.855 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 17 -3333 85.8805 50
+round3 --globalINFO-- SingleCell.C[7].app[3] 29 -3333 821.528 50
+round3 SingleCell.C[7].app[3] selected as client , time 18
+round3 Client 4 uploading model is finished, time 18.263
+round3 Client 7 uploading model is finished, time 18.273
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 1 completeUploadModel: 1
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 1 completeUploadModel: 1
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 4.pt 7.pt 
+After evaluate global model: 1.912160017169267 0.7379
+round4 C4	 CC 7.91237	 SQ 4500	 TA 1200 KB 	 Loss 0.822875	 Score 50.5309
+round4 C1	 CC 4.6442	 SQ 4500	 TA 70 KB 	 Loss 0.363487	 Score 19.6677
+round4 C11	 CC 18.9444	 SQ 4500	 TA 1200 KB 	 Loss 0.863509	 Score 56.2454
+round4 C13	 CC 11.9374	 SQ 45	 TA 1200 KB 	 Loss 0.396477	 Score 31.125
+round4 C15	 CC 15.6911	 SQ 45	 TA 600 KB 	 Loss 0.431352	 Score 33.7414
+round4 C14	 CC 12.6517	 SQ 45	 TA 70 KB 	 Loss 1	 Score 31.6287
+round4 C2	 CC 15.8593	 SQ 4500	 TA 1200 KB 	 Loss 0.0678024	 Score 17.002
+round4 C26	 CC 8.01354	 SQ 45	 TA 600 KB 	 Loss 0.276795	 Score 26.772
+round4 C20	 CC 19.3853	 SQ 45	 TA 1200 KB 	 Loss 0.356533	 Score 33.518
+round4 C28	 CC 10.6517	 SQ 45	 TA 600 KB 	 Loss 0.911436	 Score 37.112
+round4 C27	 CC 7.96632	 SQ 45	 TA 600 KB 	 Loss 0.604185	 Score 34.6074
+round4 C23	 CC 19.781	 SQ 45	 TA 600 KB 	 Loss 0.52535	 Score 37.112
+round4 C3	 CC 5.68528	 SQ 4500	 TA 1200 KB 	 Loss 0.0879352	 Score 16.1085
+round4 C25	 CC 14.5171	 SQ 45	 TA 600 KB 	 Loss 0.345898	 Score 30.2371
+round4 C9	 CC 19.7963	 SQ 4500	 TA 600 KB 	 Loss 0.422751	 Score 37.3722
+round4 C21	 CC 3.05194	 SQ 45	 TA 600 KB 	 Loss 0.534485	 Score 33.0172
+round4 C7	 CC 14.0321	 SQ 4500	 TA 1200 KB 	 Loss 0.826038	 Score 54.8146
+round4 C19	 CC 13.8306	 SQ 45	 TA 70 KB 	 Loss 0.888582	 Score 31.9748
+round4 C18	 CC 13.93	 SQ 45	 TA 600 KB 	 Loss 0.452139	 Score 34.8777
+round4 C17	 CC 1.39871	 SQ 45	 TA 600 KB 	 Loss 0.908179	 Score 32.9908
+round4 C6	 CC 13.1415	 SQ 4500	 TA 70 KB 	 Loss 0.540209	 Score 30.9084
+round4 C24	 CC 19.7071	 SQ 45	 TA 70 KB 	 Loss 0.142483	 Score 13.7647
+round4 C8	 CC 17.6927	 SQ 4500	 TA 70 KB 	 Loss 0.545844	 Score 32.7719
+round4 C22	 CC 14.3424	 SQ 45	 TA 600 KB 	 Loss 0.147422	 Score 27.2963
+round4 top m SingleCell.C[11].app[3] 11 56.2454 382.941 50
+round4 top m SingleCell.C[11].app[3] 7 54.8146 366.884 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 11 56.2454 382.941 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 7 54.8146 366.884 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 4 50.5309 362.828 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 9 37.3722 277.421 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 23 37.112 287.704 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 28 37.112 688.35 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 18 34.8777 719.509 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 27 34.6074 712.269 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 15 33.7414 186.984 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 20 33.518 593.563 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 21 33.0172 754.687 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 17 32.9908 191.595 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 8 32.7719 25.7124 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 19 31.9748 846.548 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 13 31.125 644.795 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 6 30.9084 845.921 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 25 30.2371 698.428 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 22 27.2963 306.447 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 26 26.772 196.331 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 2 17.002 544.1 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 3 16.1085 589.72 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 24 13.7647 69.7289 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 14 -1111 987.683 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 16 -1111 951.318 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 12 -1111 960.903 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 1 -1111 945.601 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 29 -1111 938.413 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 0 -3333 874.005 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 5 -3333 302.842 50
+round4 --globalINFO-- SingleCell.C[11].app[3] 10 -3333 203.367 50
+round4 SingleCell.C[11].app[3] selected as client , time 18
+round4 top m SingleCell.C[7].app[3] 11 56.2454 382.941 50
+round4 top m SingleCell.C[7].app[3] 7 54.8146 366.884 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 11 56.2454 382.941 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 7 54.8146 366.884 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 4 50.5309 362.828 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 9 37.3722 277.421 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 23 37.112 287.704 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 28 37.112 688.35 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 18 34.8777 719.509 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 27 34.6074 712.269 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 15 33.7414 186.984 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 20 33.518 593.563 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 21 33.0172 754.687 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 17 32.9908 191.595 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 8 32.7719 25.7124 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 19 31.9748 846.548 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 13 31.125 644.795 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 6 30.9084 845.921 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 25 30.2371 698.428 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 22 27.2963 306.447 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 26 26.772 196.331 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 2 17.002 544.1 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 3 16.1085 589.72 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 24 13.7647 69.7289 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 0 -1111 874.005 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 14 -1111 987.683 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 16 -1111 951.318 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 12 -1111 960.903 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 1 -1111 945.601 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 29 -1111 938.413 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 5 -3333 302.842 50
+round4 --globalINFO-- SingleCell.C[7].app[3] 10 -3333 203.367 50
+round4 SingleCell.C[7].app[3] selected as client , time 18
+round4 Client 11 uploading model is finished, time 18.264
+round4 Client 7 uploading model is finished, time 18.753
+round4 C0	 CC 13.85	 SQ 4500	 TA 70 KB 	 Loss 0.076268	 Score 11.8075
+round4 C5	 CC 13.3704	 SQ 4500	 TA 600 KB 	 Loss 0.0884211	 Score 24.5286
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 1 completeUploadModel: 1
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 1 completeUploadModel: 1
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 11.pt 7.pt 
+After evaluate global model: 1.53558018037288 0.759
+round5 C1	 CC 11.8638	 SQ 4500	 TA 1200 KB 	 Loss 0.105478	 Score 19.1456
+round5 C0	 CC 12.7442	 SQ 4500	 TA 1200 KB 	 Loss 0.240768	 Score 33.1333
+round5 C4	 CC 7.83391	 SQ 4500	 TA 1200 KB 	 Loss 0.102291	 Score 18.6143
+round5 C6	 CC 5.90204	 SQ 4500	 TA 1200 KB 	 Loss 0.23527	 Score 27.5056
+round5 C7	 CC 5.45022	 SQ 4500	 TA 1200 KB 	 Loss 0.825258	 Score 49.758
+round5 C8	 CC 3.99166	 SQ 4500	 TA 70 KB 	 Loss 0.821511	 Score 30.5677
+round5 C9	 CC 11.4372	 SQ 4500	 TA 600 KB 	 Loss 0.672389	 Score 40.4685
+round5 C21	 CC 16.6267	 SQ 45	 TA 600 KB 	 Loss 0.964811	 Score 40.8646
+round5 C22	 CC 15.9384	 SQ 45	 TA 1200 KB 	 Loss 0.189837	 Score 25.1065
+round5 C24	 CC 5.78631	 SQ 45	 TA 1200 KB 	 Loss 0.236427	 Score 23.0343
+round5 C26	 CC 7.99982	 SQ 45	 TA 1200 KB 	 Loss 0.267826	 Score 24.9952
+round5 C11	 CC 1.77805	 SQ 4500	 TA 70 KB 	 Loss 0.900928	 Score 31.0096
+round5 C23	 CC 8.76537	 SQ 45	 TA 70 KB 	 Loss 0.322614	 Score 16.722
+round5 C25	 CC 7.73705	 SQ 45	 TA 600 KB 	 Loss 0.606385	 Score 34.4008
+round5 C20	 CC 14.463	 SQ 45	 TA 70 KB 	 Loss 0.0532836	 Score 11.2293
+round5 C29	 CC 13.7842	 SQ 45	 TA 600 KB 	 Loss 1	 Score 40.1636
+round5 C5	 CC 18.7302	 SQ 4500	 TA 600 KB 	 Loss 0.905208	 Score 46.942
+round5 top m SingleCell.C[7].app[3] 7 49.758 476.857 50
+round5 top m SingleCell.C[7].app[3] 5 46.942 717.303 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 7 49.758 476.857 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 5 46.942 717.303 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 21 40.8646 662.631 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 9 40.4685 240.882 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 29 40.1636 678.694 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 25 34.4008 785.802 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 0 33.1333 458.989 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 11 31.0096 116.011 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 8 30.5677 30.0512 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 6 27.5056 622.509 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 22 25.1065 455.862 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 26 24.9952 510.199 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 24 23.0343 620.491 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 1 19.1456 635.29 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 4 18.6143 580.159 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 23 16.722 839.009 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 20 11.2293 868.387 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 27 -1111 987.757 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 18 -3333 705.643 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 19 -3333 944.273 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 16 -3333 860.511 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 2 -3333 9.23221 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 10 -3333 152.222 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 15 -3333 175.941 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 12 -3333 927.758 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 13 -3333 727.468 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 3 -3333 89.0296 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 17 -3333 941.086 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 28 -3333 265.553 50
+round5 --globalINFO-- SingleCell.C[7].app[3] 14 -3333 816.863 50
+round5 SingleCell.C[7].app[3] selected as client , time 18
+round5 top m SingleCell.C[5].app[3] 7 49.758 476.857 50
+round5 top m SingleCell.C[5].app[3] 5 46.942 717.303 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 7 49.758 476.857 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 5 46.942 717.303 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 21 40.8646 662.631 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 9 40.4685 240.882 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 29 40.1636 678.694 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 25 34.4008 785.802 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 0 33.1333 458.989 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 6 27.5056 622.509 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 22 25.1065 455.862 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 26 24.9952 510.199 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 24 23.0343 620.491 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 1 19.1456 635.29 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 4 18.6143 580.159 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 23 16.722 839.009 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 20 11.2293 868.387 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 15 -1111 175.941 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 2 -1111 9.23221 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 8 -1111 30.0512 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 10 -1111 152.222 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 11 -1111 116.011 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 3 -1111 89.0296 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 16 -3333 860.511 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 17 -3333 941.086 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 13 -3333 727.468 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 18 -3333 705.643 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 19 -3333 944.273 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 14 -3333 816.863 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 27 -3333 987.757 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 28 -3333 265.553 50
+round5 --globalINFO-- SingleCell.C[5].app[3] 12 -3333 927.758 50
+round5 SingleCell.C[5].app[3] selected as client , time 18
+round5 Client 7 uploading model is finished, time 18.273
+round5 Client 5 uploading model is finished, time 19.666
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 1 completeUploadModel: 1
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 1 completeUploadModel: 1
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 7.pt 5.pt 
+After evaluate global model: 1.3069460444723255 0.8346
+round6 C7	 CC 5.45022	 SQ 4500	 TA 1200 KB 	 Loss 0.825258	 Score 49.758
+round6 C10	 CC 5.44955	 SQ 4500	 TA 70 KB 	 Loss 0.313558	 Score 19.2594
+round6 C17	 CC 18.7776	 SQ 45	 TA 70 KB 	 Loss 0.687654	 Score 31.2373
+round6 C12	 CC 2.10309	 SQ 45	 TA 70 KB 	 Loss 0.435121	 Score 16.5169
+round6 C18	 CC 5.19791	 SQ 45	 TA 600 KB 	 Loss 0.19682	 Score 24.0572
+round6 C20	 CC 14.463	 SQ 45	 TA 70 KB 	 Loss 0.0532836	 Score 11.2293
+round6 C21	 CC 16.6267	 SQ 45	 TA 600 KB 	 Loss 0.964811	 Score 40.8646
+round6 C3	 CC 19.2373	 SQ 4500	 TA 70 KB 	 Loss 0.306455	 Score 23.6129
+round6 C11	 CC 1.77805	 SQ 4500	 TA 70 KB 	 Loss 0.900928	 Score 31.0096
+round6 C25	 CC 7.73705	 SQ 45	 TA 600 KB 	 Loss 0.606385	 Score 34.4008
+round6 C24	 CC 5.78631	 SQ 45	 TA 1200 KB 	 Loss 0.236427	 Score 23.0343
+round6 C29	 CC 13.7842	 SQ 45	 TA 600 KB 	 Loss 1	 Score 40.1636
+round6 C26	 CC 7.99982	 SQ 45	 TA 1200 KB 	 Loss 0.267826	 Score 24.9952
+round6 C16	 CC 17.801	 SQ 45	 TA 70 KB 	 Loss 0.000883877	 Score 9.08335
+round6 C9	 CC 11.4372	 SQ 4500	 TA 600 KB 	 Loss 0.672389	 Score 40.4685
+round6 C4	 CC 7.83391	 SQ 4500	 TA 1200 KB 	 Loss 0.102291	 Score 18.6143
+round6 C13	 CC 16.4947	 SQ 45	 TA 600 KB 	 Loss 0.74332	 Score 38.375
+round6 C27	 CC 1.21578	 SQ 45	 TA 70 KB 	 Loss 0.828328	 Score 21.8659
+round6 C14	 CC 3.08487	 SQ 45	 TA 600 KB 	 Loss 0.380438	 Score 27.6793
+round6 top m SingleCell.C[7].app[3] 7 49.758 504.685 50
+round6 top m SingleCell.C[7].app[3] 21 40.8646 555.034 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 7 49.758 504.685 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 21 40.8646 555.034 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 9 40.4685 994.311 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 29 40.1636 225.65 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 13 38.375 147.566 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 25 34.4008 601.418 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 17 31.2373 576.982 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 11 31.0096 812.651 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 14 27.6793 274.191 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 26 24.9952 34.8064 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 18 24.0572 562.396 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 3 23.6129 317.465 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 24 23.0343 351.595 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 27 21.8659 159.598 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 10 19.2594 524.543 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 4 18.6143 697.393 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 12 16.5169 823.153 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 20 11.2293 102.431 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 16 9.08335 781.99 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 19 -3333 57.9227 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 6 -3333 156.592 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 1 -3333 73.7089 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 22 -3333 66.5654 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 23 -3333 163.085 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 8 -3333 215.785 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 5 -3333 230.775 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 2 -3333 122.174 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 15 -3333 974.103 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 28 -3333 790.752 50
+round6 --globalINFO-- SingleCell.C[7].app[3] 0 -3333 881.66 50
+round6 SingleCell.C[7].app[3] selected as client , time 18
+round6 top m SingleCell.C[21].app[3] 7 49.758 504.685 50
+round6 top m SingleCell.C[21].app[3] 21 40.8646 555.034 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 7 49.758 504.685 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 21 40.8646 555.034 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 9 40.4685 994.311 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 29 40.1636 225.65 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 13 38.375 147.566 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 25 34.4008 601.418 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 17 31.2373 576.982 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 11 31.0096 812.651 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 14 27.6793 274.191 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 18 24.0572 562.396 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 3 23.6129 317.465 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 24 23.0343 351.595 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 27 21.8659 159.598 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 10 19.2594 524.543 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 4 18.6143 697.393 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 12 16.5169 823.153 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 20 11.2293 102.431 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 16 9.08335 781.99 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 26 -1111 34.8064 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 19 -3333 57.9227 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 6 -3333 156.592 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 1 -3333 73.7089 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 22 -3333 66.5654 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 23 -3333 163.085 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 0 -3333 881.66 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 5 -3333 230.775 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 2 -3333 122.174 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 15 -3333 974.103 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 28 -3333 790.752 50
+round6 --globalINFO-- SingleCell.C[21].app[3] 8 -3333 215.785 50
+round6 SingleCell.C[21].app[3] selected as client , time 18
+round6 Client 21 uploading model is finished, time 18.263
+round6 Client 7 uploading model is finished, time 18.271
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 1 completeUploadModel: 1
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 1 completeUploadModel: 1
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 21.pt 7.pt 
+After evaluate global model: 1.3028666333415195 0.8402
+round7 C2	 CC 16.2352	 SQ 4500	 TA 1200 KB 	 Loss 0.0838359	 Score 17.6624
+round7 C0	 CC 15.1305	 SQ 4500	 TA 600 KB 	 Loss 0.76079	 Score 44.057
+round7 C5	 CC 1.94742	 SQ 4500	 TA 600 KB 	 Loss 0.742295	 Score 37.3228
+round7 C7	 CC 8.41697	 SQ 4500	 TA 1200 KB 	 Loss 0.746459	 Score 49.94
+round7 C8	 CC 12.5247	 SQ 4500	 TA 1200 KB 	 Loss 0.746493	 Score 52.5493
+round7 C11	 CC 6.72649	 SQ 4500	 TA 1200 KB 	 Loss 0.121745	 Score 19.6547
+round7 C14	 CC 19.0734	 SQ 45	 TA 600 KB 	 Loss 0.845457	 Score 40.4168
+round7 C18	 CC 9.32634	 SQ 45	 TA 1200 KB 	 Loss 0.128783	 Score 20.9569
+round7 C1	 CC 11.5158	 SQ 4500	 TA 600 KB 	 Loss 0.719477	 Score 41.1773
+round7 C20	 CC 4.51155	 SQ 45	 TA 1200 KB 	 Loss 0.991455	 Score 41.697
+round7 C19	 CC 6.83254	 SQ 45	 TA 1200 KB 	 Loss 0.152215	 Score 20.2665
+round7 C23	 CC 18.1352	 SQ 45	 TA 600 KB 	 Loss 0.105887	 Score 25.558
+round7 C17	 CC 18.5287	 SQ 45	 TA 600 KB 	 Loss 0.691215	 Score 37.112
+round7 C24	 CC 10.0097	 SQ 45	 TA 600 KB 	 Loss 0.567619	 Score 37.112
+round7 C26	 CC 14.9912	 SQ 45	 TA 1200 KB 	 Loss 0.689264	 Score 46.1395
+round7 C4	 CC 17.8925	 SQ 4500	 TA 600 KB 	 Loss 0.122574	 Score 28.107
+round7 C13	 CC 14.3587	 SQ 45	 TA 70 KB 	 Loss 0.0218204	 Score 10.1495
+round7 C6	 CC 19.4006	 SQ 4500	 TA 70 KB 	 Loss 0.71588	 Score 41.8504
+round7 C21	 CC 16.3246	 SQ 45	 TA 70 KB 	 Loss 0.891904	 Score 33.04
+round7 top m SingleCell.C[7].app[3] 8 52.5493 352.309 50
+round7 top m SingleCell.C[7].app[3] 7 49.94 460.37 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 8 52.5493 352.309 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 7 49.94 460.37 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 26 46.1395 539.489 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 0 44.057 731.22 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 6 41.8504 830.475 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 20 41.697 563.978 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 1 41.1773 674.498 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 14 40.4168 779.719 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 5 37.3228 662.14 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 17 37.112 292.087 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 24 37.112 738.481 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 4 28.107 781.795 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 23 25.558 682.729 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 18 20.9569 487.653 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 19 20.2665 420.577 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 11 19.6547 514.77 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 2 17.6624 433.655 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 13 10.1495 58.9517 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 15 -1111 980.642 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 21 -1111 977.164 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 10 -1111 990.841 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 9 -3333 169.722 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 22 -3333 853.356 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 12 -3333 44.6719 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 3 -3333 132.777 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 25 -3333 20.9649 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 16 -3333 15.1044 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 27 -3333 868.862 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 28 -3333 87.1697 50
+round7 --globalINFO-- SingleCell.C[7].app[3] 29 -3333 871.021 50
+round7 SingleCell.C[7].app[3] selected as client , time 18
+round7 top m SingleCell.C[8].app[3] 8 52.5493 352.309 50
+round7 top m SingleCell.C[8].app[3] 7 49.94 460.37 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 8 52.5493 352.309 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 7 49.94 460.37 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 26 46.1395 539.489 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 0 44.057 731.22 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 6 41.8504 830.475 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 20 41.697 563.978 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 1 41.1773 674.498 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 14 40.4168 779.719 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 5 37.3228 662.14 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 17 37.112 292.087 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 24 37.112 738.481 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 4 28.107 781.795 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 23 25.558 682.729 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 18 20.9569 487.653 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 19 20.2665 420.577 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 11 19.6547 514.77 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 2 17.6624 433.655 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 13 10.1495 58.9517 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 15 -1111 980.642 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 21 -1111 977.164 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 22 -1111 853.356 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 10 -1111 990.841 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 27 -1111 868.862 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 29 -1111 871.021 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 9 -3333 169.722 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 25 -3333 20.9649 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 16 -3333 15.1044 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 3 -3333 132.777 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 28 -3333 87.1697 50
+round7 --globalINFO-- SingleCell.C[8].app[3] 12 -3333 44.6719 50
+round7 SingleCell.C[8].app[3] selected as client , time 18
+round7 Client 7 uploading model is finished, time 18.267
+round7 Client 8 uploading model is finished, time 18.282
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 1 completeUploadModel: 1
+8 isSelectedAsClient_flag: 1 completeUploadModel: 1
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 8.pt 7.pt 
+After evaluate global model: 0.8885764142422006 0.8077
+round8 C4	 CC 15.9812	 SQ 4500	 TA 1200 KB 	 Loss 0.347209	 Score 39.7823
+round8 C0	 CC 12.8352	 SQ 4500	 TA 1200 KB 	 Loss 0.776511	 Score 53.2692
+round8 C5	 CC 10.3233	 SQ 4500	 TA 1200 KB 	 Loss 0.761316	 Score 51.4948
+round8 C8	 CC 9.54521	 SQ 4500	 TA 1200 KB 	 Loss 0.552327	 Score 41.1281
+round8 C6	 CC 12.1072	 SQ 4500	 TA 1200 KB 	 Loss 0.235149	 Score 32.5205
+round8 C14	 CC 4.14505	 SQ 45	 TA 1200 KB 	 Loss 1	 Score 41.3906
+round8 C15	 CC 2.05857	 SQ 45	 TA 1200 KB 	 Loss 0.443021	 Score 25.6582
+round8 C16	 CC 3.42106	 SQ 45	 TA 1200 KB 	 Loss 0.605439	 Score 34.0345
+round8 C9	 CC 13.8379	 SQ 4500	 TA 600 KB 	 Loss 0.111077	 Score 26.8053
+round8 C19	 CC 15.458	 SQ 45	 TA 1200 KB 	 Loss 0.279152	 Score 30.4419
+round8 C12	 CC 18.8719	 SQ 45	 TA 600 KB 	 Loss 0.363501	 Score 30.7332
+round8 C23	 CC 16.8001	 SQ 45	 TA 1200 KB 	 Loss 0.319752	 Score 32.0944
+round8 C21	 CC 3.25534	 SQ 45	 TA 600 KB 	 Loss 0.795122	 Score 33.0256
+round8 C27	 CC 14.6302	 SQ 45	 TA 1200 KB 	 Loss 0.767879	 Score 47.2687
+round8 C11	 CC 15.0009	 SQ 4500	 TA 1200 KB 	 Loss 0.75981	 Score 54.4279
+round8 C18	 CC 1.99884	 SQ 45	 TA 600 KB 	 Loss 0.822837	 Score 32.9951
+round8 C22	 CC 10.7403	 SQ 45	 TA 600 KB 	 Loss 0.571215	 Score 37.112
+round8 C28	 CC 8.32903	 SQ 45	 TA 600 KB 	 Loss 0.288991	 Score 27.1468
+round8 C1	 CC 11.395	 SQ 4500	 TA 600 KB 	 Loss 0.241182	 Score 31.8247
+round8 C13	 CC 4.74576	 SQ 45	 TA 600 KB 	 Loss 0.537257	 Score 33.1472
+round8 C10	 CC 8.16019	 SQ 4500	 TA 70 KB 	 Loss 0.546935	 Score 27.7847
+round8 C7	 CC 5.76305	 SQ 4500	 TA 600 KB 	 Loss 0.764146	 Score 38.2611
+round8 C17	 CC 13.8096	 SQ 45	 TA 600 KB 	 Loss 0.0914334	 Score 24.705
+round8 C25	 CC 13.3496	 SQ 45	 TA 600 KB 	 Loss 0.776096	 Score 39.323
+round8 C29	 CC 18.9166	 SQ 45	 TA 600 KB 	 Loss 0.729532	 Score 37.9624
+round8 top m SingleCell.C[0].app[3] 11 54.4279 374.076 50
+round8 top m SingleCell.C[0].app[3] 0 53.2692 510.928 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 11 54.4279 374.076 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 0 53.2692 510.928 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 5 51.4948 578.692 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 27 47.2687 633.565 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 14 41.3906 635.836 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 8 41.1281 489.195 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 4 39.7823 554.178 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 25 39.323 264.401 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 7 38.2611 815.651 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 29 37.9624 268.177 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 22 37.112 749.217 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 16 34.0345 407.066 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 13 33.1472 702.533 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 21 33.0256 707.751 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 18 32.9951 305.482 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 6 32.5205 545.205 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 23 32.0944 376.659 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 1 31.8247 208.874 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 12 30.7332 343.097 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 19 30.4419 520.293 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 10 27.7847 914.249 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 28 27.1468 651.873 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 9 26.8053 266.876 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 15 25.6582 410.07 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 17 24.705 817.751 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 2 -3333 219.138 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 26 -3333 23.6853 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 3 -3333 135.033 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 24 -3333 272.063 50
+round8 --globalINFO-- SingleCell.C[0].app[3] 20 -3333 110.315 50
+round8 SingleCell.C[0].app[3] selected as client , time 18
+round8 top m SingleCell.C[11].app[3] 11 54.4279 374.076 50
+round8 top m SingleCell.C[11].app[3] 0 53.2692 510.928 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 11 54.4279 374.076 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 0 53.2692 510.928 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 5 51.4948 578.692 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 27 47.2687 633.565 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 14 41.3906 635.836 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 8 41.1281 489.195 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 4 39.7823 554.178 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 25 39.323 264.401 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 7 38.2611 815.651 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 29 37.9624 268.177 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 22 37.112 749.217 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 16 34.0345 407.066 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 13 33.1472 702.533 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 21 33.0256 707.751 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 18 32.9951 305.482 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 6 32.5205 545.205 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 23 32.0944 376.659 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 1 31.8247 208.874 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 12 30.7332 343.097 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 19 30.4419 520.293 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 28 27.1468 651.873 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 9 26.8053 266.876 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 15 25.6582 410.07 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 17 24.705 817.751 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 10 -1111 914.249 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 2 -3333 219.138 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 26 -3333 23.6853 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 3 -3333 135.033 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 20 -3333 110.315 50
+round8 --globalINFO-- SingleCell.C[11].app[3] 24 -3333 272.063 50
+round8 SingleCell.C[11].app[3] selected as client , time 18
+round8 Client 0 uploading model is finished, time 18.272
+round8 Client 11 uploading model is finished, time 18.291
+0 isSelectedAsClient_flag: 1 completeUploadModel: 1
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 1 completeUploadModel: 1
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 11.pt 0.pt 
+After evaluate global model: 0.4185053337286925 0.8773
+round9 C6	 CC 12.1072	 SQ 4500	 TA 1200 KB 	 Loss 0.235149	 Score 32.5205
+round9 C7	 CC 5.76305	 SQ 4500	 TA 600 KB 	 Loss 0.764146	 Score 38.2611
+round9 C8	 CC 9.54521	 SQ 4500	 TA 1200 KB 	 Loss 0.552327	 Score 41.1281
+round9 C13	 CC 4.74576	 SQ 45	 TA 600 KB 	 Loss 0.537257	 Score 33.1472
+round9 C18	 CC 1.99884	 SQ 45	 TA 600 KB 	 Loss 0.822837	 Score 32.9951
+round9 C19	 CC 15.458	 SQ 45	 TA 1200 KB 	 Loss 0.279152	 Score 30.4419
+round9 C26	 CC 10.0327	 SQ 45	 TA 70 KB 	 Loss 0.727742	 Score 26.0787
+round9 C25	 CC 13.3496	 SQ 45	 TA 600 KB 	 Loss 0.776096	 Score 39.323
+round9 C24	 CC 7.68051	 SQ 45	 TA 600 KB 	 Loss 0.528008	 Score 34.3514
+round9 C21	 CC 3.25534	 SQ 45	 TA 600 KB 	 Loss 0.795122	 Score 33.0256
+round9 C29	 CC 18.9166	 SQ 45	 TA 600 KB 	 Loss 0.729532	 Score 37.9624
+round9 C16	 CC 3.42106	 SQ 45	 TA 1200 KB 	 Loss 0.605439	 Score 34.0345
+round9 C22	 CC 10.7403	 SQ 45	 TA 600 KB 	 Loss 0.571215	 Score 37.112
+round9 C23	 CC 16.8001	 SQ 45	 TA 1200 KB 	 Loss 0.319752	 Score 32.0944
+round9 C20	 CC 6.51355	 SQ 45	 TA 70 KB 	 Loss 0.625151	 Score 23.4791
+round9 C14	 CC 4.14505	 SQ 45	 TA 1200 KB 	 Loss 1	 Score 41.3906
+round9 C2	 CC 19.4892	 SQ 4500	 TA 600 KB 	 Loss 0.750616	 Score 43.6425
+round9 C12	 CC 18.8719	 SQ 45	 TA 600 KB 	 Loss 0.363501	 Score 30.7332
+round9 C28	 CC 8.32903	 SQ 45	 TA 600 KB 	 Loss 0.288991	 Score 27.1468
+round9 C9	 CC 13.8379	 SQ 4500	 TA 600 KB 	 Loss 0.111077	 Score 26.8053
+round9 C27	 CC 14.6302	 SQ 45	 TA 1200 KB 	 Loss 0.767879	 Score 47.2687
+round9 C3	 CC 5.94108	 SQ 4500	 TA 70 KB 	 Loss 0.756775	 Score 31.4736
+round9 C5	 CC 10.3233	 SQ 4500	 TA 1200 KB 	 Loss 0.761316	 Score 51.4948
+round9 top m SingleCell.C[27].app[3] 5 51.4948 814.48 50
+round9 top m SingleCell.C[27].app[3] 27 47.2687 869.66 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 5 51.4948 814.48 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 27 47.2687 869.66 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 2 43.6425 760.939 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 14 41.3906 826.712 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 8 41.1281 534.002 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 25 39.323 677.311 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 29 37.9624 849.237 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 13 33.1472 403.345 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 18 32.9951 416.382 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 6 32.5205 416.425 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 12 30.7332 842.064 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 19 30.4419 390.556 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 9 26.8053 848.83 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 26 26.0787 392.598 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 3 -1111 236.315 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 15 -1111 -2222 -2222
+round9 --globalINFO-- SingleCell.C[27].app[3] 16 -1111 157.698 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 17 -1111 -2222 -2222
+round9 --globalINFO-- SingleCell.C[27].app[3] 4 -1111 167.022 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 11 -1111 250.607 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 20 -1111 152.89 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 21 -1111 332.514 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 22 -1111 220.24 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 23 -1111 263.92 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 24 -1111 226.557 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 0 -1111 -2222 -2222
+round9 --globalINFO-- SingleCell.C[27].app[3] 7 -1111 361.629 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 1 -1111 213.042 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 28 -1111 346.422 50
+round9 --globalINFO-- SingleCell.C[27].app[3] 10 -1111 -2222 -2222
+round9 SingleCell.C[27].app[3] selected as client , time 18
+round9 top m SingleCell.C[5].app[3] 5 51.4948 814.48 50
+round9 top m SingleCell.C[5].app[3] 27 47.2687 869.66 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 5 51.4948 814.48 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 27 47.2687 869.66 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 2 43.6425 760.939 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 14 41.3906 826.712 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 8 41.1281 534.002 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 25 39.323 677.311 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 7 38.2611 361.629 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 29 37.9624 849.237 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 13 33.1472 403.345 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 21 33.0256 332.514 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 18 32.9951 416.382 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 6 32.5205 416.425 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 12 30.7332 842.064 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 19 30.4419 390.556 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 28 27.1468 346.422 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 9 26.8053 848.83 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 26 26.0787 392.598 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 17 -1111 125.256 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 10 -1111 -2222 -2222
+round9 --globalINFO-- SingleCell.C[5].app[3] 4 -1111 167.022 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 20 -1111 152.89 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 15 -1111 -2222 -2222
+round9 --globalINFO-- SingleCell.C[5].app[3] 22 -1111 220.24 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 23 -1111 263.92 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 24 -1111 226.557 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 0 -1111 -2222 -2222
+round9 --globalINFO-- SingleCell.C[5].app[3] 16 -1111 157.698 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 1 -1111 213.042 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 3 -1111 236.315 50
+round9 --globalINFO-- SingleCell.C[5].app[3] 11 -1111 250.607 50
+round9 SingleCell.C[5].app[3] selected as client , time 18
+round9 Client 5 uploading model is finished, time 20.122
+round9 Client 27 uploading model is finished, time 20.417
+round9 C4	 CC 15.9812	 SQ 4500	 TA 1200 KB 	 Loss 0.347209	 Score 39.7823
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 1 completeUploadModel: 1
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 1 completeUploadModel: 1
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 27.pt 5.pt 
+After evaluate global model: 0.3119751126660674 0.9076
+round10 C2	 CC 15.6899	 SQ 4500	 TA 600 KB 	 Loss 0.232284	 Score 32.9504
+round10 C8	 CC 1.77457	 SQ 4500	 TA 600 KB 	 Loss 0.0719111	 Score 19.5063
+round10 C6	 CC 15.4221	 SQ 4500	 TA 600 KB 	 Loss 0.430652	 Score 37.8741
+round10 C10	 CC 1.05106	 SQ 4500	 TA 600 KB 	 Loss 0.320394	 Score 28.0134
+round10 C9	 CC 10.3391	 SQ 4500	 TA 600 KB 	 Loss 0.296161	 Score 31.808
+round10 C18	 CC 1.2648	 SQ 45	 TA 600 KB 	 Loss 0.367344	 Score 27.1924
+round10 C15	 CC 18.9436	 SQ 45	 TA 1200 KB 	 Loss 0.14383	 Score 22.3258
+round10 C12	 CC 1.89602	 SQ 45	 TA 600 KB 	 Loss 0.511964	 Score 32.9942
+round10 C19	 CC 12.317	 SQ 45	 TA 600 KB 	 Loss 0.36621	 Score 30.8084
+round10 C21	 CC 8.38025	 SQ 45	 TA 1200 KB 	 Loss 0.760821	 Score 40.5533
+round10 C27	 CC 19.2658	 SQ 45	 TA 600 KB 	 Loss 0.000972703	 Score 15.333
+round10 C1	 CC 7.98149	 SQ 4500	 TA 600 KB 	 Loss 0.505392	 Score 37.4627
+round10 C13	 CC 5.60889	 SQ 45	 TA 70 KB 	 Loss 0.266116	 Score 14.8873
+round10 C17	 CC 8.3088	 SQ 45	 TA 70 KB 	 Loss 0.311413	 Score 16.255
+round10 C3	 CC 4.24735	 SQ 4500	 TA 600 KB 	 Loss 0.380686	 Score 29.9343
+round10 top m SingleCell.C[6].app[3] 21 40.5533 461.813 50
+round10 top m SingleCell.C[6].app[3] 6 37.8741 722.987 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 21 40.5533 461.813 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 6 37.8741 722.987 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 12 32.9942 281.059 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 2 32.9504 690.015 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 9 31.808 300.528 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 19 30.8084 242.948 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 3 29.9343 349.125 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 10 28.0134 700.662 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 18 27.1924 344.026 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 15 22.3258 642.648 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 8 19.5063 681 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 17 16.255 964.964 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 27 15.333 702.446 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 13 -1111 105.148 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 4 -1111 137.48 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 11 -1111 67.2427 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 7 -1111 17.2675 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 22 -1111 170.449 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 1 -1111 185.223 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 28 -1111 131.241 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 20 -3333 225.774 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 0 -3333 773.457 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 14 -3333 972.137 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 23 -3333 853.189 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 24 -3333 775.4 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 25 -3333 947.472 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 26 -3333 675.944 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 16 -3333 973.971 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 5 -3333 771.065 50
+round10 --globalINFO-- SingleCell.C[6].app[3] 29 -3333 291.01 50
+round10 SingleCell.C[6].app[3] selected as client , time 18
+round10 top m SingleCell.C[21].app[3] 21 40.5533 461.813 50
+round10 top m SingleCell.C[21].app[3] 6 37.8741 722.987 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 21 40.5533 461.813 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 6 37.8741 722.987 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 1 37.4627 185.223 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 12 32.9942 281.059 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 2 32.9504 690.015 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 9 31.808 300.528 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 19 30.8084 242.948 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 3 29.9343 349.125 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 10 28.0134 700.662 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 18 27.1924 344.026 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 15 22.3258 642.648 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 8 19.5063 681 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 27 15.333 702.446 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 13 14.8873 105.148 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 14 -1111 972.137 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 16 -1111 973.971 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 17 -1111 964.964 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 11 -3333 67.2427 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 5 -3333 771.065 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 4 -3333 137.48 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 20 -3333 225.774 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 0 -3333 773.457 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 22 -3333 170.449 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 23 -3333 853.189 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 24 -3333 775.4 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 25 -3333 947.472 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 26 -3333 675.944 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 7 -3333 17.2675 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 28 -3333 131.241 50
+round10 --globalINFO-- SingleCell.C[21].app[3] 29 -3333 291.01 50
+round10 SingleCell.C[21].app[3] selected as client , time 18
+round10 top m SingleCell.C[1].app[3] 21 40.5533 461.813 50
+round10 top m SingleCell.C[1].app[3] 1 37.4627 185.223 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 21 40.5533 461.813 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 1 37.4627 185.223 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 12 32.9942 281.059 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 9 31.808 300.528 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 19 30.8084 242.948 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 3 29.9343 349.125 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 18 27.1924 344.026 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 15 22.3258 642.648 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 8 19.5063 681 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 13 14.8873 105.148 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 10 -1111 700.662 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 2 -1111 690.015 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 5 -1111 771.065 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 14 -1111 -2222 -2222
+round10 --globalINFO-- SingleCell.C[1].app[3] 16 -1111 -2222 -2222
+round10 --globalINFO-- SingleCell.C[1].app[3] 17 -1111 -2222 -2222
+round10 --globalINFO-- SingleCell.C[1].app[3] 6 -1111 722.987 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 0 -1111 773.457 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 23 -1111 853.189 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 24 -1111 775.4 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 25 -1111 -2222 -2222
+round10 --globalINFO-- SingleCell.C[1].app[3] 27 -1111 702.446 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 22 -3333 170.449 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 11 -3333 67.2427 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 4 -3333 137.48 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 20 -3333 225.774 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 26 -3333 675.944 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 7 -3333 17.2675 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 28 -3333 131.241 50
+round10 --globalINFO-- SingleCell.C[1].app[3] 29 -3333 291.01 50
+round10 SingleCell.C[1].app[3] selected as client , time 18
+round10 Client 21 uploading model is finished, time 18.262
+round10 Client 6 uploading model is finished, time 19.345
+round10 Client 1 uploading model is finished, time 19.368
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 1 completeUploadModel: 1
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 1 completeUploadModel: 1
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 1 completeUploadModel: 1
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 21.pt 1.pt 6.pt 
+After evaluate global model: 0.28983518227827737 0.9118
+round11 C1	 CC 7.98149	 SQ 4500	 TA 600 KB 	 Loss 0.505392	 Score 37.4627
+round11 C5	 CC 19.928	 SQ 4500	 TA 600 KB 	 Loss 0.253057	 Score 33.0841
+round11 C6	 CC 15.4221	 SQ 4500	 TA 600 KB 	 Loss 0.430652	 Score 37.8741
+round11 C7	 CC 10.3589	 SQ 4500	 TA 70 KB 	 Loss 0.490344	 Score 26.9036
+round11 C14	 CC 19.8993	 SQ 45	 TA 70 KB 	 Loss 0.304023	 Score 19.2904
+round11 C17	 CC 8.3088	 SQ 45	 TA 70 KB 	 Loss 0.311413	 Score 16.255
+round11 C11	 CC 5.87971	 SQ 4500	 TA 70 KB 	 Loss 0.228083	 Score 17.0478
+round11 C21	 CC 8.38025	 SQ 45	 TA 1200 KB 	 Loss 0.760821	 Score 40.5533
+round11 C22	 CC 12.8125	 SQ 45	 TA 600 KB 	 Loss 0.47325	 Score 35.9322
+round11 C3	 CC 4.24735	 SQ 4500	 TA 600 KB 	 Loss 0.380686	 Score 29.9343
+round11 C20	 CC 13.5178	 SQ 45	 TA 600 KB 	 Loss 0.505332	 Score 37.112
+round11 C18	 CC 1.2648	 SQ 45	 TA 600 KB 	 Loss 0.367344	 Score 27.1924
+round11 C25	 CC 5.36792	 SQ 45	 TA 70 KB 	 Loss 1	 Score 26.3628
+round11 C28	 CC 11.1158	 SQ 45	 TA 70 KB 	 Loss 0.241323	 Score 17.2729
+round11 C26	 CC 7.50177	 SQ 45	 TA 600 KB 	 Loss 0.324017	 Score 27.4056
+round11 C23	 CC 7.07702	 SQ 45	 TA 70 KB 	 Loss 0.709065	 Score 24.377
+round11 C24	 CC 18.5153	 SQ 45	 TA 600 KB 	 Loss 0.734933	 Score 38.1228
+round11 C2	 CC 15.6899	 SQ 4500	 TA 600 KB 	 Loss 0.232284	 Score 32.9504
+round11 C27	 CC 19.2658	 SQ 45	 TA 600 KB 	 Loss 0.000972703	 Score 15.333
+round11 C10	 CC 1.05106	 SQ 4500	 TA 600 KB 	 Loss 0.320394	 Score 28.0134
+round11 top m SingleCell.C[21].app[3] 21 40.5533 260.198 50
+round11 top m SingleCell.C[21].app[3] 6 37.8741 451.977 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 21 40.5533 260.198 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 6 37.8741 451.977 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 1 37.4627 637.14 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 20 37.112 236.479 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 22 35.9322 639.029 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 5 33.0841 599.139 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 2 32.9504 288.445 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 3 29.9343 663.877 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 10 28.0134 96.9343 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 26 27.4056 651.82 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 7 26.9036 516.015 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 25 26.3628 408.577 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 23 24.377 210.764 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 14 19.2904 564.128 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 28 17.2729 445.981 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 11 17.0478 295.743 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 17 16.255 395.012 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 16 -1111 -2222 -2222
+round11 --globalINFO-- SingleCell.C[21].app[3] 18 -1111 811.278 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 24 -1111 810.742 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 9 -1111 941.439 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 27 -1111 -2222 -2222
+round11 --globalINFO-- SingleCell.C[21].app[3] 4 -3333 6.35234 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 12 -3333 78.7131 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 19 -3333 589.079 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 15 -3333 121.548 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 8 -3333 664.069 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 0 -3333 142.797 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 13 -3333 259.408 50
+round11 --globalINFO-- SingleCell.C[21].app[3] 29 -3333 125.394 50
+round11 SingleCell.C[21].app[3] selected as client , time 18
+round11 top m SingleCell.C[24].app[3] 24 38.1228 810.742 50
+round11 top m SingleCell.C[24].app[3] 6 37.8741 451.977 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 24 38.1228 810.742 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 6 37.8741 451.977 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 1 37.4627 637.14 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 22 35.9322 639.029 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 5 33.0841 599.139 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 3 29.9343 663.877 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 26 27.4056 651.82 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 18 27.1924 811.278 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 7 26.9036 516.015 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 25 26.3628 408.577 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 14 19.2904 564.128 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 28 17.2729 445.981 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 17 16.255 395.012 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 27 15.333 993.896 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 10 -1111 96.9343 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 15 -1111 121.548 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 12 -1111 -2222 -2222
+round11 --globalINFO-- SingleCell.C[24].app[3] 20 -1111 236.479 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 21 -1111 260.198 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 4 -1111 -2222 -2222
+round11 --globalINFO-- SingleCell.C[24].app[3] 23 -1111 210.764 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 0 -1111 142.797 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 2 -1111 288.445 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 13 -1111 259.408 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 11 -1111 295.743 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 29 -1111 125.394 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 19 -3333 589.079 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 16 -3333 988.165 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 8 -3333 664.069 50
+round11 --globalINFO-- SingleCell.C[24].app[3] 9 -3333 941.439 50
+round11 SingleCell.C[24].app[3] selected as client , time 18
+round11 Client 21 uploading model is finished, time 18.256
+round11 Client 24 uploading model is finished, time 18.79
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 1 completeUploadModel: 1
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 1 completeUploadModel: 1
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 21.pt 24.pt 
+After evaluate global model: 0.2041796281404444 0.9411
+round12 C7	 CC 10.3589	 SQ 4500	 TA 70 KB 	 Loss 0.490344	 Score 26.9036
+round12 C2	 CC 15.6899	 SQ 4500	 TA 600 KB 	 Loss 0.232284	 Score 32.9504
+round12 C10	 CC 1.05106	 SQ 4500	 TA 600 KB 	 Loss 0.320394	 Score 28.0134
+round12 C15	 CC 18.9436	 SQ 45	 TA 1200 KB 	 Loss 0.14383	 Score 22.3258
+round12 C19	 CC 12.317	 SQ 45	 TA 600 KB 	 Loss 0.36621	 Score 30.8084
+round12 C22	 CC 12.8125	 SQ 45	 TA 600 KB 	 Loss 0.47325	 Score 35.9322
+round12 C6	 CC 15.4221	 SQ 4500	 TA 600 KB 	 Loss 0.430652	 Score 37.8741
+round12 C23	 CC 7.07702	 SQ 45	 TA 70 KB 	 Loss 0.709065	 Score 24.377
+round12 C18	 CC 1.2648	 SQ 45	 TA 600 KB 	 Loss 0.367344	 Score 27.1924
+round12 C9	 CC 10.3391	 SQ 4500	 TA 600 KB 	 Loss 0.296161	 Score 31.808
+round12 C24	 CC 18.5153	 SQ 45	 TA 600 KB 	 Loss 0.734933	 Score 38.1228
+round12 C26	 CC 7.50177	 SQ 45	 TA 600 KB 	 Loss 0.324017	 Score 27.4056
+round12 C17	 CC 8.3088	 SQ 45	 TA 70 KB 	 Loss 0.311413	 Score 16.255
+round12 C21	 CC 8.38025	 SQ 45	 TA 1200 KB 	 Loss 0.760821	 Score 40.5533
+round12 C5	 CC 19.928	 SQ 4500	 TA 600 KB 	 Loss 0.253057	 Score 33.0841
+round12 C1	 CC 7.98149	 SQ 4500	 TA 600 KB 	 Loss 0.505392	 Score 37.4627
+round12 top m SingleCell.C[6].app[3] 24 38.1228 169.854 50
+round12 top m SingleCell.C[6].app[3] 6 37.8741 181.802 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 24 38.1228 169.854 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 6 37.8741 181.802 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 1 37.4627 223.657 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 22 35.9322 485.387 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 5 33.0841 205.929 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 10 28.0134 539.685 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 26 27.4056 144.117 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 18 27.1924 221.571 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 7 26.9036 427.088 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 23 24.377 353.058 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 13 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[6].app[3] 15 -1111 790.121 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 17 -1111 897.231 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 8 -1111 803.702 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 19 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[6].app[3] 21 -1111 787.452 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 3 -1111 886.347 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 9 -1111 886.929 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 0 -1111 853.818 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 25 -1111 791.138 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 2 -1111 733.529 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 27 -1111 824.519 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 28 -1111 839.184 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 29 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[6].app[3] 4 -3333 98.4141 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 14 -3333 18.1612 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 20 -3333 218.931 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 11 -3333 613.004 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 16 -3333 181.339 50
+round12 --globalINFO-- SingleCell.C[6].app[3] 12 -3333 114.625 50
+round12 SingleCell.C[6].app[3] selected as client , time 18
+round12 top m SingleCell.C[24].app[3] 24 38.1228 169.854 50
+round12 top m SingleCell.C[24].app[3] 6 37.8741 181.802 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 24 38.1228 169.854 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 6 37.8741 181.802 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 1 37.4627 223.657 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 22 35.9322 485.387 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 5 33.0841 205.929 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 10 28.0134 539.685 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 26 27.4056 144.117 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 18 27.1924 221.571 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 7 26.9036 427.088 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 23 24.377 353.058 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 13 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[24].app[3] 15 -1111 790.121 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 17 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[24].app[3] 8 -1111 803.702 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 19 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[24].app[3] 21 -1111 787.452 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 3 -1111 886.347 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 9 -1111 886.929 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 0 -1111 853.818 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 25 -1111 791.138 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 2 -1111 733.529 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 27 -1111 824.519 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 28 -1111 839.184 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 29 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[24].app[3] 4 -3333 98.4141 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 14 -3333 18.1612 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 20 -3333 218.931 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 11 -3333 613.004 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 16 -3333 181.339 50
+round12 --globalINFO-- SingleCell.C[24].app[3] 12 -3333 114.625 50
+round12 SingleCell.C[24].app[3] selected as client , time 18
+round12 top m SingleCell.C[21].app[3] 21 40.5533 787.452 50
+round12 top m SingleCell.C[21].app[3] 22 35.9322 485.387 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 21 40.5533 787.452 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 22 35.9322 485.387 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 2 32.9504 733.529 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 9 31.808 886.929 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 19 30.8084 907.588 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 10 28.0134 539.685 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 7 26.9036 427.088 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 23 24.377 353.058 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 15 22.3258 790.121 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 17 16.255 897.231 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 5 -1111 205.929 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 12 -1111 114.625 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 14 -1111 -2222 -2222
+round12 --globalINFO-- SingleCell.C[21].app[3] 16 -1111 181.339 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 18 -1111 221.571 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 4 -1111 98.4141 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 20 -1111 218.931 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 1 -1111 223.657 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 6 -1111 181.802 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 24 -1111 169.854 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 26 -1111 144.117 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 0 -3333 853.818 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 3 -3333 886.347 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 11 -3333 613.004 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 8 -3333 803.702 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 25 -3333 791.138 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 13 -3333 934.466 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 27 -3333 824.519 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 28 -3333 839.184 50
+round12 --globalINFO-- SingleCell.C[21].app[3] 29 -3333 911.536 50
+round12 SingleCell.C[21].app[3] selected as client , time 18
+round12 Client 24 uploading model is finished, time 19.773
+round12 Client 6 uploading model is finished, time 19.795
+round12 Client 21 uploading model is finished, time 20.675
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 1 completeUploadModel: 1
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 1 completeUploadModel: 1
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 1 completeUploadModel: 1
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 21.pt 24.pt 6.pt 
+After evaluate global model: 0.2264773510381521 0.934
+round13 C2	 CC 13.7703	 SQ 4500	 TA 600 KB 	 Loss 0.513859	 Score 41.7966
+round13 C0	 CC 14.3626	 SQ 4500	 TA 1200 KB 	 Loss 0.286537	 Score 36.3979
+round13 C3	 CC 18.9139	 SQ 4500	 TA 600 KB 	 Loss 0.281215	 Score 33.2691
+round13 C6	 CC 11.4974	 SQ 4500	 TA 1200 KB 	 Loss 0.0628397	 Score 16.7658
+round13 C9	 CC 14.2985	 SQ 4500	 TA 1200 KB 	 Loss 0.277416	 Score 35.8916
+round13 C14	 CC 16.6448	 SQ 45	 TA 1200 KB 	 Loss 1	 Score 51.501
+round13 C11	 CC 5.11945	 SQ 4500	 TA 600 KB 	 Loss 0.259975	 Score 27.3183
+round13 C15	 CC 4.9081	 SQ 45	 TA 600 KB 	 Loss 0.00763342	 Score 15.9065
+round13 C18	 CC 14.3843	 SQ 45	 TA 1200 KB 	 Loss 0.39373	 Score 33.0801
+round13 C13	 CC 5.00852	 SQ 45	 TA 600 KB 	 Loss 0.0225125	 Score 17.4778
+round13 C19	 CC 19.9429	 SQ 45	 TA 600 KB 	 Loss 0.2847	 Score 28.8119
+round13 C20	 CC 11.3679	 SQ 45	 TA 1200 KB 	 Loss 0.101264	 Score 18.3329
+round13 C24	 CC 6.95738	 SQ 45	 TA 600 KB 	 Loss 0.00641132	 Score 16.286
+round13 C25	 CC 16.075	 SQ 45	 TA 1200 KB 	 Loss 0.572357	 Score 40.0962
+round13 C21	 CC 18.6418	 SQ 45	 TA 600 KB 	 Loss 0.133322	 Score 26.8567
+round13 C27	 CC 5.66736	 SQ 45	 TA 1200 KB 	 Loss 0.264979	 Score 23.924
+round13 C7	 CC 9.31743	 SQ 4500	 TA 600 KB 	 Loss 0.533334	 Score 38.9398
+round13 C10	 CC 2.90267	 SQ 4500	 TA 1200 KB 	 Loss 0.276864	 Score 29.3242
+round13 C28	 CC 1.03299	 SQ 45	 TA 600 KB 	 Loss 0.405211	 Score 28.5948
+round13 C5	 CC 16.0738	 SQ 4500	 TA 70 KB 	 Loss 0.274271	 Score 22.3814
+round13 C8	 CC 2.0797	 SQ 4500	 TA 70 KB 	 Loss 0.0785174	 Score 9.59236
+round13 C23	 CC 9.84664	 SQ 45	 TA 70 KB 	 Loss 0.00300633	 Score 9.21127
+round13 top m SingleCell.C[2].app[3] 14 51.501 581.135 50
+round13 top m SingleCell.C[2].app[3] 2 41.7966 784.63 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 14 51.501 581.135 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 2 41.7966 784.63 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 25 40.0962 407.717 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 7 38.9398 659.816 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 0 36.3979 442.24 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 9 35.8916 571.75 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 3 33.2691 655.915 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 18 33.0801 416.404 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 10 29.3242 377.285 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 19 28.8119 703.333 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 28 28.5948 672.756 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 27 23.924 378.679 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 5 22.3814 981.682 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 20 18.3329 568.313 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 13 17.4778 674.487 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 6 16.7658 411.86 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 24 16.286 748.468 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 15 15.9065 298.536 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 23 9.21127 889.859 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 21 -1111 278.08 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 17 -1111 267.25 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 1 -1111 279.181 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 26 -1111 204.176 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 11 -1111 220.098 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 8 -1111 169.657 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 12 -3333 742.38 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 22 -3333 876.093 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 4 -3333 810.058 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 16 -3333 899.457 50
+round13 --globalINFO-- SingleCell.C[2].app[3] 29 -3333 791.93 50
+round13 SingleCell.C[2].app[3] selected as client , time 18
+round13 top m SingleCell.C[14].app[3] 14 51.501 581.135 50
+round13 top m SingleCell.C[14].app[3] 2 41.7966 784.63 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 14 51.501 581.135 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 2 41.7966 784.63 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 25 40.0962 407.717 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 7 38.9398 659.816 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 0 36.3979 442.24 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 9 35.8916 571.75 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 3 33.2691 655.915 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 18 33.0801 416.404 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 10 29.3242 377.285 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 19 28.8119 703.333 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 28 28.5948 672.756 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 11 27.3183 220.098 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 21 26.8567 278.08 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 27 23.924 378.679 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 5 22.3814 981.682 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 20 18.3329 568.313 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 13 17.4778 674.487 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 6 16.7658 411.86 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 24 16.286 748.468 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 15 15.9065 298.536 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 8 9.59236 169.657 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 23 9.21127 889.859 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 22 -3333 876.093 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 12 -3333 742.38 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 17 -3333 267.25 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 1 -3333 279.181 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 26 -3333 204.176 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 16 -3333 899.457 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 4 -3333 810.058 50
+round13 --globalINFO-- SingleCell.C[14].app[3] 29 -3333 791.93 50
+round13 SingleCell.C[14].app[3] selected as client , time 18
+round13 Client 14 uploading model is finished, time 18.263
+round13 Client 2 uploading model is finished, time 18.27
+round13 C17	 CC 11.9416	 SQ 45	 TA 600 KB 	 Loss 0.546526	 Score 37.112
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 1 completeUploadModel: 1
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 1 completeUploadModel: 1
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 14.pt 2.pt 
+After evaluate global model: 0.18961092499275692 0.9491
+round14 C1	 CC 2.78848	 SQ 4500	 TA 1200 KB 	 Loss 0.4081	 Score 32.3456
+round14 C0	 CC 15.3586	 SQ 4500	 TA 1200 KB 	 Loss 0.135617	 Score 23.2887
+round14 C8	 CC 16.8118	 SQ 4500	 TA 1200 KB 	 Loss 0.178833	 Score 27.4471
+round14 C4	 CC 7.48788	 SQ 4500	 TA 600 KB 	 Loss 0.124565	 Score 26.5292
+round14 C10	 CC 5.33813	 SQ 4500	 TA 600 KB 	 Loss 0.2884	 Score 27.6194
+round14 C16	 CC 17.6537	 SQ 45	 TA 70 KB 	 Loss 0.253696	 Score 17.7733
+round14 C9	 CC 5.01397	 SQ 4500	 TA 600 KB 	 Loss 0.131708	 Score 24.5907
+round14 C22	 CC 4.09053	 SQ 45	 TA 1200 KB 	 Loss 0.282608	 Score 24.1924
+round14 C23	 CC 1.47498	 SQ 45	 TA 600 KB 	 Loss 0.140529	 Score 22.4534
+round14 C3	 CC 5.56588	 SQ 4500	 TA 1200 KB 	 Loss 0.405215	 Score 34.4804
+round14 C11	 CC 11.1439	 SQ 4500	 TA 600 KB 	 Loss 0.340801	 Score 32.9455
+round14 C24	 CC 10.7817	 SQ 45	 TA 600 KB 	 Loss 0.835124	 Score 37.112
+round14 C26	 CC 17.4299	 SQ 45	 TA 600 KB 	 Loss 0.151045	 Score 27.3883
+round14 C28	 CC 14.0997	 SQ 45	 TA 1200 KB 	 Loss 0.713735	 Score 46.3995
+round14 C5	 CC 5.64776	 SQ 4500	 TA 1200 KB 	 Loss 0.320519	 Score 31.5949
+round14 C18	 CC 13.4437	 SQ 45	 TA 70 KB 	 Loss 0.0871727	 Score 12.0449
+round14 C25	 CC 17.2881	 SQ 45	 TA 70 KB 	 Loss 0.494388	 Score 23.2448
+round14 C19	 CC 10.8262	 SQ 45	 TA 70 KB 	 Loss 0.390925	 Score 18.3684
+round14 C17	 CC 17.1561	 SQ 45	 TA 70 KB 	 Loss 1	 Score 33.5541
+round14 C15	 CC 10.3345	 SQ 45	 TA 70 KB 	 Loss 0.137726	 Score 13.6324
+round14 top m SingleCell.C[24].app[3] 28 46.3995 434.526 50
+round14 top m SingleCell.C[24].app[3] 24 37.112 234.085 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 28 46.3995 434.526 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 24 37.112 234.085 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 3 34.4804 633.955 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 17 33.5541 155.23 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 11 32.9455 253.709 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 1 32.3456 452.316 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 5 31.5949 604.418 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 10 27.6194 677.105 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 8 27.4471 413.595 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 26 27.3883 325.6 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 4 26.5292 705.42 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 9 24.5907 251.554 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 22 24.1924 516.753 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 0 23.2887 411.065 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 23 22.4534 666.044 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 16 17.7733 36.4623 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 15 13.6324 96.7031 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 2 -1111 871.709 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 18 -1111 924.186 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 19 -1111 -2222 -2222
+round14 --globalINFO-- SingleCell.C[24].app[3] 6 -1111 806.053 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 25 -1111 919.12 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 27 -1111 902.804 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 14 -3333 649.51 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 20 -3333 296.582 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 21 -3333 114.23 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 7 -3333 144.806 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 12 -3333 40.2062 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 13 -3333 126.063 50
+round14 --globalINFO-- SingleCell.C[24].app[3] 29 -3333 187.614 50
+round14 SingleCell.C[24].app[3] selected as client , time 18
+round14 top m SingleCell.C[28].app[3] 28 46.3995 434.526 50
+round14 top m SingleCell.C[28].app[3] 24 37.112 234.085 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 28 46.3995 434.526 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 24 37.112 234.085 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 3 34.4804 633.955 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 17 33.5541 155.23 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 11 32.9455 253.709 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 1 32.3456 452.316 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 5 31.5949 604.418 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 10 27.6194 677.105 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 8 27.4471 413.595 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 26 27.3883 325.6 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 4 26.5292 705.42 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 9 24.5907 251.554 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 22 24.1924 516.753 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 0 23.2887 411.065 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 25 23.2448 919.12 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 23 22.4534 666.044 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 16 17.7733 36.4623 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 15 13.6324 96.7031 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 18 12.0449 924.186 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 19 -1111 958.964 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 20 -3333 296.582 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 21 -3333 114.23 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 12 -3333 40.2062 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 2 -3333 871.709 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 6 -3333 806.053 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 14 -3333 649.51 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 7 -3333 144.806 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 27 -3333 902.804 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 13 -3333 126.063 50
+round14 --globalINFO-- SingleCell.C[28].app[3] 29 -3333 187.614 50
+round14 SingleCell.C[28].app[3] selected as client , time 18
+round14 Client 28 uploading model is finished, time 18.323
+round14 Client 24 uploading model is finished, time 18.976
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 1 completeUploadModel: 1
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 1 completeUploadModel: 1
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 24.pt 28.pt 
+After evaluate global model: 0.1539727181870141 0.9587
+round15 C6	 CC 16.8644	 SQ 4500	 TA 600 KB 	 Loss 0.0423267	 Score 20.9544
+round15 C0	 CC 4.67331	 SQ 4500	 TA 1200 KB 	 Loss 0.0329829	 Score 13.7821
+round15 C7	 CC 16.0381	 SQ 4500	 TA 600 KB 	 Loss 0.0574878	 Score 22.3473
+round15 C10	 CC 13.7364	 SQ 4500	 TA 1200 KB 	 Loss 0.101306	 Score 18.4247
+round15 C4	 CC 7.97942	 SQ 4500	 TA 70 KB 	 Loss 0.320151	 Score 19.7179
+round15 C11	 CC 1.63078	 SQ 4500	 TA 600 KB 	 Loss 0.313189	 Score 27.7853
+round15 C12	 CC 9.55493	 SQ 45	 TA 1200 KB 	 Loss 0.23862	 Score 25.4645
+round15 C16	 CC 16.0654	 SQ 45	 TA 1200 KB 	 Loss 0.112452	 Score 19.6109
+round15 C20	 CC 14.5904	 SQ 45	 TA 1200 KB 	 Loss 0.167997	 Score 23.9
+round15 C22	 CC 3.05165	 SQ 45	 TA 1200 KB 	 Loss 0.457647	 Score 26.658
+round15 C15	 CC 8.10162	 SQ 45	 TA 600 KB 	 Loss 0.380754	 Score 29.6884
+round15 C26	 CC 2.55576	 SQ 45	 TA 70 KB 	 Loss 0.23063	 Score 12.8947
+round15 C27	 CC 4.7694	 SQ 45	 TA 1200 KB 	 Loss 0.174775	 Score 20.075
+round15 C8	 CC 12.0535	 SQ 4500	 TA 1200 KB 	 Loss 0.0922282	 Score 17.9434
+round15 C5	 CC 3.25272	 SQ 4500	 TA 600 KB 	 Loss 0.349433	 Score 28.958
+round15 C2	 CC 19.6979	 SQ 4500	 TA 70 KB 	 Loss 0.354942	 Score 25.9924
+round15 C9	 CC 11.3563	 SQ 4500	 TA 600 KB 	 Loss 0.30758	 Score 32.3446
+round15 C3	 CC 11.8149	 SQ 4500	 TA 70 KB 	 Loss 0.271382	 Score 21.9485
+round15 C25	 CC 8.37235	 SQ 45	 TA 600 KB 	 Loss 1	 Score 35.0216
+round15 C17	 CC 13.8254	 SQ 45	 TA 70 KB 	 Loss 0.355117	 Score 19.9946
+round15 C21	 CC 2.83384	 SQ 45	 TA 600 KB 	 Loss 0.0516673	 Score 18.417
+round15 top m SingleCell.C[2].app[3] 22 26.658 561.761 50
+round15 top m SingleCell.C[2].app[3] 2 25.9924 972.999 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 22 26.658 561.761 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 2 25.9924 972.999 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 20 23.9 479.026 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 3 21.9485 881.219 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 6 20.9544 692.115 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 17 19.9946 861.786 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 4 19.7179 943.901 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 16 19.6109 485.312 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 21 18.417 798.727 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 9 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 10 -1111 451.717 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 11 -1111 289.223 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 12 -1111 400.992 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 13 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 15 -1111 308.43 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 7 -1111 326.363 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 5 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 18 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 1 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 8 -1111 375.438 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 0 -1111 367.596 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 23 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 25 -1111 276.047 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 26 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 27 -1111 450.525 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 29 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[2].app[3] 19 -3333 950.669 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 24 -3333 979.065 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 28 -3333 978.326 50
+round15 --globalINFO-- SingleCell.C[2].app[3] 14 -3333 987.017 50
+round15 SingleCell.C[2].app[3] selected as client , time 18
+round15 top m SingleCell.C[9].app[3] 25 35.0216 276.047 50
+round15 top m SingleCell.C[9].app[3] 9 32.3446 220.382 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 25 35.0216 276.047 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 9 32.3446 220.382 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 15 29.6884 308.43 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 5 28.958 181.765 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 11 27.7853 289.223 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 22 26.658 561.761 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 12 25.4645 400.992 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 20 23.9 479.026 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 7 22.3473 326.363 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 6 20.9544 692.115 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 27 20.075 450.525 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 16 19.6109 485.312 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 10 18.4247 451.717 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 8 17.9434 375.438 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 0 13.7821 367.596 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 26 12.8947 132.853 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 4 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[9].app[3] 17 -1111 861.786 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 19 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[9].app[3] 21 -1111 798.727 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 3 -1111 881.219 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 24 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[9].app[3] 14 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[9].app[3] 2 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[9].app[3] 28 -1111 -2222 -2222
+round15 --globalINFO-- SingleCell.C[9].app[3] 13 -3333 99.3087 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 23 -3333 216.197 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 1 -3333 11.1992 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 18 -3333 86.0625 50
+round15 --globalINFO-- SingleCell.C[9].app[3] 29 -3333 112.99 50
+round15 SingleCell.C[9].app[3] selected as client , time 18
+round15 top m SingleCell.C[25].app[3] 25 35.0216 276.047 50
+round15 top m SingleCell.C[25].app[3] 9 32.3446 220.382 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 25 35.0216 276.047 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 9 32.3446 220.382 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 15 29.6884 308.43 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 5 28.958 181.765 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 11 27.7853 289.223 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 22 26.658 561.761 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 12 25.4645 400.992 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 20 23.9 479.026 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 7 22.3473 326.363 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 6 20.9544 692.115 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 27 20.075 450.525 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 16 19.6109 485.312 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 10 18.4247 451.717 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 8 17.9434 375.438 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 0 13.7821 367.596 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 26 12.8947 132.853 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 4 -1111 943.901 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 17 -1111 861.786 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 19 -1111 950.669 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 21 -1111 798.727 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 3 -1111 881.219 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 24 -1111 979.065 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 14 -1111 987.017 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 2 -1111 972.999 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 28 -1111 978.326 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 13 -3333 99.3087 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 23 -3333 216.197 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 1 -3333 11.1992 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 18 -3333 86.0625 50
+round15 --globalINFO-- SingleCell.C[25].app[3] 29 -3333 112.99 50
+round15 SingleCell.C[25].app[3] selected as client , time 18
+round15 Client 25 uploading model is finished, time 18.289
+round15 Client 2 uploading model is finished, time 19.353
+round15 Client 9 uploading model is finished, time 19.386
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 1 completeUploadModel: 1
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 1 completeUploadModel: 1
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 1 completeUploadModel: 1
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 25.pt 9.pt 2.pt 
+After evaluate global model: 0.11286085523023504 0.9656
+round16 C1	 CC 6.66023	 SQ 4500	 TA 1200 KB 	 Loss 0.581462	 Score 41.7977
+round16 C7	 CC 18.4517	 SQ 4500	 TA 1200 KB 	 Loss 0.519582	 Score 43.5896
+round16 C10	 CC 18.4438	 SQ 4500	 TA 1200 KB 	 Loss 0.651933	 Score 51.2772
+round16 C11	 CC 13.6601	 SQ 4500	 TA 600 KB 	 Loss 0.424303	 Score 37.4701
+round16 C12	 CC 16.4385	 SQ 45	 TA 1200 KB 	 Loss 0.490932	 Score 35.5311
+round16 C4	 CC 19.3606	 SQ 4500	 TA 600 KB 	 Loss 0.390624	 Score 35.6462
+round16 C0	 CC 3.14479	 SQ 4500	 TA 600 KB 	 Loss 0.432157	 Score 32.5572
+round16 C16	 CC 1.54717	 SQ 45	 TA 600 KB 	 Loss 0.32943	 Score 25.817
+round16 C17	 CC 6.94856	 SQ 45	 TA 70 KB 	 Loss 0.106047	 Score 11.8026
+round16 C18	 CC 3.45323	 SQ 45	 TA 600 KB 	 Loss 0.124232	 Score 22.2772
+round16 C19	 CC 10.5157	 SQ 45	 TA 1200 KB 	 Loss 0.257459	 Score 27.3175
+round16 C15	 CC 8.83328	 SQ 45	 TA 600 KB 	 Loss 0.256754	 Score 27.3403
+round16 C20	 CC 5.52933	 SQ 45	 TA 1200 KB 	 Loss 0.66204	 Score 36.9848
+round16 C23	 CC 18.157	 SQ 45	 TA 1200 KB 	 Loss 0.252052	 Score 29.2389
+round16 C24	 CC 12.2012	 SQ 45	 TA 1200 KB 	 Loss 0.172381	 Score 23.887
+round16 C26	 CC 16.26	 SQ 45	 TA 1200 KB 	 Loss 0.848303	 Score 49.3114
+round16 C29	 CC 10.7794	 SQ 45	 TA 600 KB 	 Loss 0.540925	 Score 37.112
+round16 C2	 CC 8.82458	 SQ 4500	 TA 70 KB 	 Loss 0.404788	 Score 22.7087
+round16 C5	 CC 10.3226	 SQ 4500	 TA 1200 KB 	 Loss 0.478421	 Score 37.7226
+round16 C6	 CC 14.9678	 SQ 4500	 TA 70 KB 	 Loss 0.158361	 Score 16.1736
+round16 C13	 CC 2.43582	 SQ 45	 TA 600 KB 	 Loss 0.402774	 Score 28.4615
+round16 C3	 CC 3.2351	 SQ 4500	 TA 70 KB 	 Loss 0.577036	 Score 26.164
+round16 top m SingleCell.C[10].app[3] 10 51.2772 638.899 50
+round16 top m SingleCell.C[10].app[3] 26 49.3114 575.102 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 10 51.2772 638.899 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 26 49.3114 575.102 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 7 43.5896 598.593 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 1 41.7977 387.164 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 5 37.7226 406.611 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 11 37.4701 710.526 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 29 37.112 725.109 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 20 36.9848 404.021 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 4 35.6462 215.79 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 12 35.5311 519.247 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 0 32.5572 213.75 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 23 29.2389 373.478 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 13 28.4615 278.232 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 15 27.3403 708.897 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 19 27.3175 379.97 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 16 25.817 339.774 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 24 23.887 568.318 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 2 22.7087 892.171 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 18 22.2772 309.39 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 6 16.1736 947.34 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 17 -1111 46.8132 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 21 -1111 129.23 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 25 -1111 91.704 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 3 -1111 53.7761 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 27 -1111 132.24 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 22 -3333 877.935 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 8 -3333 978.098 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 9 -3333 897.899 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 28 -3333 848.017 50
+round16 --globalINFO-- SingleCell.C[10].app[3] 14 -3333 818.837 50
+round16 SingleCell.C[10].app[3] selected as client , time 18
+round16 top m SingleCell.C[26].app[3] 10 51.2772 638.899 50
+round16 top m SingleCell.C[26].app[3] 26 49.3114 575.102 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 10 51.2772 638.899 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 26 49.3114 575.102 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 7 43.5896 598.593 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 1 41.7977 387.164 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 5 37.7226 406.611 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 11 37.4701 710.526 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 29 37.112 725.109 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 20 36.9848 404.021 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 4 35.6462 215.79 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 12 35.5311 519.247 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 0 32.5572 213.75 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 23 29.2389 373.478 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 13 28.4615 278.232 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 15 27.3403 708.897 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 19 27.3175 379.97 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 16 25.817 339.774 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 24 23.887 568.318 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 2 22.7087 892.171 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 18 22.2772 309.39 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 6 16.1736 947.34 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 17 -1111 46.8132 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 3 -1111 53.7761 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 22 -3333 877.935 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 8 -3333 978.098 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 9 -3333 897.899 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 25 -3333 91.704 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 21 -3333 129.23 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 27 -3333 132.24 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 28 -3333 848.017 50
+round16 --globalINFO-- SingleCell.C[26].app[3] 14 -3333 818.837 50
+round16 SingleCell.C[26].app[3] selected as client , time 18
+round16 Client 26 uploading model is finished, time 18.263
+round16 Client 10 uploading model is finished, time 18.292
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 1 completeUploadModel: 1
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 1 completeUploadModel: 1
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 26.pt 10.pt 
+After evaluate global model: 0.22548108542315895 0.934
+round17 C1	 CC 15.3671	 SQ 4500	 TA 1200 KB 	 Loss 0.444194	 Score 42.2047
+round17 C8	 CC 6.10503	 SQ 4500	 TA 600 KB 	 Loss 0.240831	 Score 27.5636
+round17 C0	 CC 15.937	 SQ 4500	 TA 1200 KB 	 Loss 0.0596337	 Score 16.6272
+round17 C14	 CC 4.88943	 SQ 45	 TA 1200 KB 	 Loss 0.174244	 Score 20.0902
+round17 C10	 CC 14.0716	 SQ 4500	 TA 600 KB 	 Loss 0.30209	 Score 33.4443
+round17 C17	 CC 15.7038	 SQ 45	 TA 1200 KB 	 Loss 0.335773	 Score 32.7008
+round17 C21	 CC 5.59305	 SQ 45	 TA 1200 KB 	 Loss 0.104746	 Score 16.6596
+round17 C26	 CC 1.5239	 SQ 45	 TA 600 KB 	 Loss 0.254682	 Score 24.1196
+round17 C28	 CC 19.696	 SQ 45	 TA 1200 KB 	 Loss 0.24492	 Score 28.8619
+round17 C29	 CC 14.2627	 SQ 45	 TA 1200 KB 	 Loss 0.139218	 Score 21.9501
+round17 C19	 CC 11.1924	 SQ 45	 TA 600 KB 	 Loss 0.0395095	 Score 20.6658
+round17 C7	 CC 1.40774	 SQ 4500	 TA 600 KB 	 Loss 0.141004	 Score 24.3272
+round17 C4	 CC 17.6079	 SQ 4500	 TA 600 KB 	 Loss 0.147842	 Score 30.1971
+round17 C18	 CC 11.2062	 SQ 45	 TA 70 KB 	 Loss 0.0015592	 Score 9.12464
+round17 C9	 CC 6.88613	 SQ 4500	 TA 70 KB 	 Loss 0.320205	 Score 19.6027
+round17 C27	 CC 6.71782	 SQ 45	 TA 600 KB 	 Loss 0.418581	 Score 30.3247
+round17 C2	 CC 9.77081	 SQ 4500	 TA 600 KB 	 Loss 0.351091	 Score 32.7569
+round17 C20	 CC 12.9754	 SQ 45	 TA 600 KB 	 Loss 0.35331	 Score 30.4475
+round17 C23	 CC 16.625	 SQ 45	 TA 70 KB 	 Loss 0.288702	 Score 18.6483
+round17 top m SingleCell.C[1].app[3] 1 42.2047 439.555 50
+round17 top m SingleCell.C[1].app[3] 10 33.4443 714.744 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 1 42.2047 439.555 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 10 33.4443 714.744 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 2 32.7569 787.148 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 17 32.7008 421.489 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 20 30.4475 227.41 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 27 30.3247 811.454 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 4 30.1971 718.563 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 28 28.8619 443.906 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 8 27.5636 730.873 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 7 24.3272 321.175 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 26 24.1196 302.851 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 29 21.9501 572.508 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 19 20.6658 746.964 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 14 20.0902 404.305 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 9 19.6027 847.017 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 23 18.6483 124.367 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 21 16.6596 498.567 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 0 16.6272 381.34 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 18 9.12464 832.262 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 12 -3333 133.969 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 6 -3333 857.176 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 16 -3333 929.324 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 22 -3333 896.596 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 15 -3333 263.829 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 24 -3333 33.2267 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 25 -3333 74.7939 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 3 -3333 840.936 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 5 -3333 349.489 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 13 -3333 916.655 50
+round17 --globalINFO-- SingleCell.C[1].app[3] 11 -3333 154.094 50
+round17 SingleCell.C[1].app[3] selected as client , time 18
+round17 top m SingleCell.C[10].app[3] 1 42.2047 439.555 50
+round17 top m SingleCell.C[10].app[3] 10 33.4443 714.744 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 1 42.2047 439.555 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 10 33.4443 714.744 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 2 32.7569 787.148 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 17 32.7008 421.489 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 20 30.4475 227.41 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 27 30.3247 811.454 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 4 30.1971 718.563 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 28 28.8619 443.906 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 8 27.5636 730.873 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 7 24.3272 321.175 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 26 24.1196 302.851 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 29 21.9501 572.508 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 19 20.6658 746.964 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 14 20.0902 404.305 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 9 19.6027 847.017 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 21 16.6596 498.567 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 0 16.6272 381.34 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 18 9.12464 832.262 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 12 -1111 133.969 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 23 -1111 124.367 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 24 -1111 33.2267 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 25 -1111 74.7939 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 11 -1111 154.094 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 3 -3333 840.936 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 6 -3333 857.176 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 15 -3333 263.829 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 16 -3333 929.324 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 5 -3333 349.489 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 13 -3333 916.655 50
+round17 --globalINFO-- SingleCell.C[10].app[3] 22 -3333 896.596 50
+round17 SingleCell.C[10].app[3] selected as client , time 18
+round17 Client 1 uploading model is finished, time 18.269
+round17 Client 10 uploading model is finished, time 19.512
+round17 C5	 CC 15.9596	 SQ 4500	 TA 600 KB 	 Loss 0.300951	 Score 33.4156
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 1 completeUploadModel: 1
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 1 completeUploadModel: 1
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 1.pt 10.pt 
+After evaluate global model: 0.20425608022125963 0.9397
+round18 C10	 CC 14.0716	 SQ 4500	 TA 600 KB 	 Loss 0.30209	 Score 33.4443
+round18 C1	 CC 15.3671	 SQ 4500	 TA 1200 KB 	 Loss 0.444194	 Score 42.2047
+round18 C13	 CC 15.04	 SQ 45	 TA 70 KB 	 Loss 0.204375	 Score 15.9877
+round18 C4	 CC 17.6079	 SQ 4500	 TA 600 KB 	 Loss 0.147842	 Score 30.1971
+round18 C14	 CC 4.88943	 SQ 45	 TA 1200 KB 	 Loss 0.174244	 Score 20.0902
+round18 C15	 CC 5.50846	 SQ 45	 TA 600 KB 	 Loss 0.43561	 Score 30.6513
+round18 C17	 CC 15.7038	 SQ 45	 TA 1200 KB 	 Loss 0.335773	 Score 32.7008
+round18 C7	 CC 1.40774	 SQ 4500	 TA 600 KB 	 Loss 0.141004	 Score 24.3272
+round18 C18	 CC 11.2062	 SQ 45	 TA 70 KB 	 Loss 0.0015592	 Score 9.12464
+round18 C20	 CC 12.9754	 SQ 45	 TA 600 KB 	 Loss 0.35331	 Score 30.4475
+round18 C21	 CC 5.59305	 SQ 45	 TA 1200 KB 	 Loss 0.104746	 Score 16.6596
+round18 C22	 CC 5.19545	 SQ 45	 TA 70 KB 	 Loss 0.222964	 Score 13.4291
+round18 C24	 CC 4.18814	 SQ 45	 TA 70 KB 	 Loss 0.0460798	 Score 9.53091
+round18 C12	 CC 1.96409	 SQ 45	 TA 70 KB 	 Loss 1	 Score 23.877
+round18 C8	 CC 6.10503	 SQ 4500	 TA 600 KB 	 Loss 0.240831	 Score 27.5636
+round18 C2	 CC 9.77081	 SQ 4500	 TA 600 KB 	 Loss 0.351091	 Score 32.7569
+round18 C23	 CC 16.625	 SQ 45	 TA 70 KB 	 Loss 0.288702	 Score 18.6483
+round18 C16	 CC 13.7701	 SQ 45	 TA 70 KB 	 Loss 0.350016	 Score 19.9788
+round18 C25	 CC 9.75329	 SQ 45	 TA 70 KB 	 Loss 0.437311	 Score 18.6409
+round18 C3	 CC 16.1181	 SQ 4500	 TA 70 KB 	 Loss 0.151154	 Score 15.6828
+round18 C29	 CC 14.2627	 SQ 45	 TA 1200 KB 	 Loss 0.139218	 Score 21.9501
+round18 top m SingleCell.C[10].app[3] 1 42.2047 657.939 50
+round18 top m SingleCell.C[10].app[3] 10 33.4443 533.417 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 1 42.2047 657.939 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 10 33.4443 533.417 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 2 32.7569 879.026 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 17 32.7008 230.992 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 15 30.6513 550.678 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 20 30.4475 501.993 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 4 30.1971 347.675 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 8 27.5636 675.078 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 7 24.3272 676.315 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 12 23.877 300.984 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 29 21.9501 185.047 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 14 20.0902 168.834 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 16 19.9788 167.535 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 23 18.6483 211.984 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 25 18.6409 762.906 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 21 16.6596 604.566 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 13 15.9877 536.878 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 3 15.6828 899.694 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 22 13.4291 826.267 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 24 9.53091 879.512 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 18 9.12464 586.613 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 19 -1111 11.6432 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 26 -1111 26.3772 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 9 -3333 990.134 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 6 -3333 879.317 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 11 -3333 262.603 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 5 -3333 756.888 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 27 -3333 894.062 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 28 -3333 70.4419 50
+round18 --globalINFO-- SingleCell.C[10].app[3] 0 -3333 847.512 50
+round18 SingleCell.C[10].app[3] selected as client , time 18
+round18 top m SingleCell.C[1].app[3] 1 42.2047 657.939 50
+round18 top m SingleCell.C[1].app[3] 10 33.4443 533.417 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 1 42.2047 657.939 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 10 33.4443 533.417 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 2 32.7569 879.026 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 17 32.7008 230.992 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 15 30.6513 550.678 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 20 30.4475 501.993 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 4 30.1971 347.675 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 8 27.5636 675.078 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 7 24.3272 676.315 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 12 23.877 300.984 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 29 21.9501 185.047 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 14 20.0902 168.834 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 16 19.9788 167.535 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 23 18.6483 211.984 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 25 18.6409 762.906 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 21 16.6596 604.566 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 13 15.9877 536.878 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 3 15.6828 899.694 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 22 13.4291 826.267 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 24 9.53091 879.512 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 18 9.12464 586.613 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 19 -1111 11.6432 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 26 -1111 26.3772 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 28 -1111 70.4419 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 6 -3333 879.317 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 11 -3333 262.603 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 5 -3333 756.888 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 27 -3333 894.062 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 9 -3333 990.134 50
+round18 --globalINFO-- SingleCell.C[1].app[3] 0 -3333 847.512 50
+round18 SingleCell.C[1].app[3] selected as client , time 18
+round18 Client 10 uploading model is finished, time 18.264
+round18 Client 1 uploading model is finished, time 19.397
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 1 completeUploadModel: 1
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 0 completeUploadModel: 0
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 1 completeUploadModel: 1
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 0 completeUploadModel: 0
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 1.pt 10.pt 
+After evaluate global model: 0.10505789673044347 0.9687
+round19 C4	 CC 3.70626	 SQ 4500	 TA 1200 KB 	 Loss 0.253511	 Score 28.2678
+round19 C5	 CC 7.45956	 SQ 4500	 TA 1200 KB 	 Loss 0.360232	 Score 33.4155
+round19 C11	 CC 14.3368	 SQ 4500	 TA 600 KB 	 Loss 0.23964	 Score 32.9964
+round19 C14	 CC 2.92218	 SQ 45	 TA 1200 KB 	 Loss 0.208024	 Score 21.1289
+round19 C16	 CC 15.6307	 SQ 45	 TA 1200 KB 	 Loss 0.0792016	 Score 17.4794
+round19 C12	 CC 15.5319	 SQ 45	 TA 600 KB 	 Loss 0.183399	 Score 27.98
+round19 C17	 CC 16.9006	 SQ 45	 TA 1200 KB 	 Loss 0.140811	 Score 22.1006
+round19 C3	 CC 11.7394	 SQ 4500	 TA 1200 KB 	 Loss 0.323311	 Score 36.4493
+round19 C20	 CC 11.0336	 SQ 45	 TA 1200 KB 	 Loss 0.0542158	 Score 16.3525
+round19 C23	 CC 13.3239	 SQ 45	 TA 1200 KB 	 Loss 0.0337305	 Score 15.1853
+round19 C18	 CC 4.279	 SQ 45	 TA 70 KB 	 Loss 0.13787	 Score 10.8859
+round19 C8	 CC 17.5958	 SQ 4500	 TA 600 KB 	 Loss 0.328969	 Score 34.1122
+round19 C28	 CC 17.4021	 SQ 45	 TA 1200 KB 	 Loss 1	 Score 51.5891
+round19 C24	 CC 19.8029	 SQ 45	 TA 70 KB 	 Loss 0.87589	 Score 34.4452
+round19 C25	 CC 5.33147	 SQ 45	 TA 70 KB 	 Loss 0.0879555	 Score 10.5084
+round19 C19	 CC 3.34337	 SQ 45	 TA 70 KB 	 Loss 0.886245	 Score 24.5204
+round19 C10	 CC 8.35174	 SQ 4500	 TA 600 KB 	 Loss 0.361933	 Score 31.4233
+round19 C13	 CC 7.29932	 SQ 45	 TA 70 KB 	 Loss 0.116267	 Score 12.253
+round19 C9	 CC 3.9971	 SQ 4500	 TA 600 KB 	 Loss 0.243285	 Score 26.9078
+round19 C0	 CC 8.11609	 SQ 4500	 TA 600 KB 	 Loss 0.391982	 Score 32.0239
+round19 C6	 CC 17.411	 SQ 4500	 TA 70 KB 	 Loss 0.25538	 Score 21.4012
+round19 C2	 CC 6.11073	 SQ 4500	 TA 600 KB 	 Loss 0.225136	 Score 27.4487
+round19 C1	 CC 10.2372	 SQ 4500	 TA 600 KB 	 Loss 0.433816	 Score 36.3375
+round19 top m SingleCell.C[3].app[3] 28 51.5891 483.391 50
+round19 top m SingleCell.C[3].app[3] 3 36.4493 363.293 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 28 51.5891 483.391 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 3 36.4493 363.293 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 1 36.3375 822.386 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 8 34.1122 696.524 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 5 33.4155 625.277 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 11 32.9964 340.08 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 0 32.0239 289.988 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 10 31.4233 307.635 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 4 28.2678 511.764 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 12 27.98 306.666 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 2 27.4487 207.62 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 9 26.9078 686.886 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 19 24.5204 150.649 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 17 22.1006 459.643 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 6 21.4012 145.199 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 14 21.1289 376.886 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 16 17.4794 525.75 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 20 16.3525 414.219 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 23 15.1853 531.067 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 13 12.253 40.327 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 18 10.8859 75.5715 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 22 -1111 994.019 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 24 -1111 891.099 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 25 -1111 944.288 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 27 -1111 900.78 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 7 -3333 64.5506 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 26 -3333 232.779 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 21 -3333 23.6705 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 15 -3333 792.7 50
+round19 --globalINFO-- SingleCell.C[3].app[3] 29 -3333 837.814 50
+round19 SingleCell.C[3].app[3] selected as client , time 18
+round19 top m SingleCell.C[28].app[3] 28 51.5891 483.391 50
+round19 top m SingleCell.C[28].app[3] 3 36.4493 363.293 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 28 51.5891 483.391 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 3 36.4493 363.293 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 1 36.3375 822.386 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 24 34.4452 891.099 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 8 34.1122 696.524 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 5 33.4155 625.277 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 11 32.9964 340.08 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 0 32.0239 289.988 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 10 31.4233 307.635 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 4 28.2678 511.764 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 12 27.98 306.666 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 2 27.4487 207.62 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 9 26.9078 686.886 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 19 24.5204 150.649 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 17 22.1006 459.643 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 6 21.4012 145.199 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 14 21.1289 376.886 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 16 17.4794 525.75 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 20 16.3525 414.219 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 23 15.1853 531.067 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 13 12.253 40.327 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 18 10.8859 75.5715 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 25 10.5084 944.288 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 22 -1111 994.019 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 15 -3333 792.7 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 21 -3333 23.6705 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 26 -3333 232.779 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 27 -3333 900.78 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 7 -3333 64.5506 50
+round19 --globalINFO-- SingleCell.C[28].app[3] 29 -3333 837.814 50
+round19 SingleCell.C[28].app[3] selected as client , time 18
+round19 Client 28 uploading model is finished, time 18.258
+round19 Client 3 uploading model is finished, time 18.744
+0 isSelectedAsClient_flag: 0 completeUploadModel: 0
+1 isSelectedAsClient_flag: 0 completeUploadModel: 0
+2 isSelectedAsClient_flag: 0 completeUploadModel: 0
+3 isSelectedAsClient_flag: 1 completeUploadModel: 1
+4 isSelectedAsClient_flag: 0 completeUploadModel: 0
+5 isSelectedAsClient_flag: 0 completeUploadModel: 0
+6 isSelectedAsClient_flag: 0 completeUploadModel: 0
+7 isSelectedAsClient_flag: 0 completeUploadModel: 0
+8 isSelectedAsClient_flag: 0 completeUploadModel: 0
+9 isSelectedAsClient_flag: 0 completeUploadModel: 0
+10 isSelectedAsClient_flag: 0 completeUploadModel: 0
+11 isSelectedAsClient_flag: 0 completeUploadModel: 0
+12 isSelectedAsClient_flag: 0 completeUploadModel: 0
+13 isSelectedAsClient_flag: 0 completeUploadModel: 0
+14 isSelectedAsClient_flag: 0 completeUploadModel: 0
+15 isSelectedAsClient_flag: 0 completeUploadModel: 0
+16 isSelectedAsClient_flag: 0 completeUploadModel: 0
+17 isSelectedAsClient_flag: 0 completeUploadModel: 0
+18 isSelectedAsClient_flag: 0 completeUploadModel: 0
+19 isSelectedAsClient_flag: 0 completeUploadModel: 0
+20 isSelectedAsClient_flag: 0 completeUploadModel: 0
+21 isSelectedAsClient_flag: 0 completeUploadModel: 0
+22 isSelectedAsClient_flag: 0 completeUploadModel: 0
+23 isSelectedAsClient_flag: 0 completeUploadModel: 0
+24 isSelectedAsClient_flag: 0 completeUploadModel: 0
+25 isSelectedAsClient_flag: 0 completeUploadModel: 0
+26 isSelectedAsClient_flag: 0 completeUploadModel: 0
+27 isSelectedAsClient_flag: 0 completeUploadModel: 0
+28 isSelectedAsClient_flag: 1 completeUploadModel: 1
+29 isSelectedAsClient_flag: 0 completeUploadModel: 0
+selected client which successful upload their model 3.pt 28.pt 
+After evaluate global model: 0.08972485915972211 0.9733

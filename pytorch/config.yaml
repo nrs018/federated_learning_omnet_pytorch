@@ -1,0 +1,54 @@
+data_config:
+  data_path: "./data/"
+  dataset_name: "MNIST"
+  more_sample_quantity_per_client: 4500  # 一些客户端包含更多的样本
+  less_sample_quantity_per_client: 45    # 其他一些客户端包含较少的样本
+#  20 clients :
+#        num_client_with_more_sample: 8
+#        num_client_with_less_sample: 12
+#  40 clients :
+#        num_client_with_more_sample: 16
+#        num_client_with_less_sample: 24
+#  60 clients :
+#        num_client_with_more_sample: 24
+#        num_client_with_less_sample: 36
+#  80 clients :
+#        num_client_with_more_sample: 32
+#        num_client_with_less_sample: 48
+#  100 clients :
+#        num_client_with_more_sample: 40
+#        num_client_with_less_sample: 60
+  num_client_with_more_sample: 8
+  num_client_with_less_sample: 12
+  contained_num_class: 6
+
+---
+fed_config:
+  #C: 0.1
+  K: 20  # number of clients
+  R: 20
+  E: 10
+  B: 16
+  criterion: torch.nn.CrossEntropyLoss
+  optimizer: torch.optim.SGD
+---
+optim_config:
+  lr: 0.01
+  momentum: 0.9
+---
+init_config:
+  init_type: "xavier"
+  init_gain: 1.0
+  gpu_ids: [0, 1, 2]
+---
+model_config: 
+  #name: TwoNN
+  #in_features: 784
+  #num_hiddens: 200
+  #num_classes: 10
+  
+  name: CNN
+  in_channels: 1
+  hidden_channels: 32
+  num_hiddens: 512
+  num_classes: 10

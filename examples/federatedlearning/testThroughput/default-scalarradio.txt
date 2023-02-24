@@ -1,0 +1,6 @@
+ tcp closed 11.299 SingleCell.C[0].app[0].thread_16, posistion:2110 , 50
+ tcp closed 5.624 SingleCell.C[0].app[0].thread_16, posistion:2210 , 50
+ tcp closed 3.867 SingleCell.C[0].app[0].thread_16, posistion:2310 , 50
+ tcp closed 2.124 SingleCell.C[0].app[0].thread_16, posistion:2510 , 50
+ tcp closed 1.947 SingleCell.C[0].app[0].thread_16, posistion:2610 , 50
+ tcp closed 11.54 SingleCell.C[0].app[0].thread_16, posistion:2710 , 50

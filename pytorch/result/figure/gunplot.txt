@@ -1,0 +1,74 @@
+set term post eps color enh solid
+set term pdfcairo lw 2 font 'Liberation Serif, 18'
+datafile='comparison.txt'
+set output 'comparison.pdf'
+set xlabel 'Communication round'
+set xrange [0:20]
+set xtics 0, 5, 20 nomirror
+set ylabel 'Test accuracy'
+set yrange [0:1]
+set ytics 0, 0.2, 1 nomirror
+set key bottom right font ',14'
+set grid mytics ytics 
+plot datafile using 2 title 'Distributed-uniform' linecolor 'red' with lines, \
+     datafile using 3 title 'Centralized' linecolor 'web-green' with lines, \
+     datafile using 4 title 'Centralized-random' linecolor 'web-blue' with lines, \
+     datafile using 5 title 'Distributed-worst' linecolor 'orange' with lines
+set output
+
+
+datafile='comparison.txt'
+set output 'comparison0.9.pdf'
+set xlabel 'Communication round'
+set xrange [0:20]
+set xtics 0, 5, 20 nomirror
+set ylabel 'Test accuracy'
+set yrange [0.9:1]
+set ytics 0.9, 0.02, 1 nomirror
+set key bottom right font ',14'
+plot datafile using 2 title 'Distributed' linecolor 'red' with lines, \
+     datafile using 3 title 'Centralized' linecolor 'web-green' with lines, \
+     datafile using 4 title 'Random' linecolor 'web-blue' with lines
+set output
+
+
+datafile='9class.txt'
+set output '9class.pdf'
+set xlabel 'Communication round'
+set xrange [0:20]
+set xtics 0, 5, 20 nomirror
+set ylabel 'Test accuracy'
+set yrange [0:1]
+set ytics 0, 0.2, 1 nomirror
+set key center right font ',14'
+plot datafile using 1 title 'Distributed' linecolor 'red' with lines, \
+     datafile using 2 title 'Random' linecolor 'web-green' with lines
+set output
+
+datafile='6class.txt'
+set output '6class.pdf'
+set xlabel 'Communication round'
+set xrange [0:20]
+set xtics 0, 5, 20 nomirror
+set ylabel 'Test accuracy'
+set yrange [0:1]
+set ytics 0, 0.2, 1 nomirror
+set key center right font ',14'
+plot datafile using 1 title 'Distributed' linecolor 'red' with lines, \
+     datafile using 2 title 'Random' linecolor 'web-green' with lines
+set output
+
+
+
+datafile='2class.txt'
+set output '2class.pdf'
+set xlabel 'Communication round'
+set xrange [0:20]
+set xtics 0, 5, 20 nomirror
+set ylabel 'Test accuracy'
+set yrange [0:1]
+set ytics 0, 0.2, 1 nomirror
+set key top left font ',14'
+plot datafile using 1 title 'Distributed' linecolor 'red' with lines, \
+     datafile using 2 title 'Random' linecolor 'web-green' with lines
+set output

@@ -1,0 +1,1821 @@
+version 2
+run General-0-20221116-14:27:59-25685
+attr configname General
+attr datetime 20221116-14:27:59
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AntennaDirectionalSelectivityExample
+attr processid 25685
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.host*.mobility.constraintAreaMinZ 0m
+param *.host*.mobility.constraintAreaMinX 0m
+param *.host*.mobility.constraintAreaMinY 0m
+param *.host*.mobility.constraintAreaMaxX 1000m
+param *.host*.mobility.constraintAreaMaxY 1000m
+param *.host*.mobility.constraintAreaMaxZ 0m
+param *.hostA.numApps 1
+param *.hostA.app[0].typename "\"PingApp\""
+param *.hostA.app[0].destAddr "\"hostB\""
+param *.hostA.app[0].startTime 0s
+param *.host*.wlan[*].radio.antenna.typename "\"DipoleAntenna\""
+param *.host*.wlan[*].radio.antenna.length 20cm
+
+scalar AntennaDirectionalSelectivityExample.radioMedium.propagation "Arrival computation count" 14491
+scalar AntennaDirectionalSelectivityExample.radioMedium "transmission count" 14491
+scalar AntennaDirectionalSelectivityExample.radioMedium "signal send count" 14491
+scalar AntennaDirectionalSelectivityExample.radioMedium "reception computation count" 14490
+scalar AntennaDirectionalSelectivityExample.radioMedium "interference computation count" 57962
+scalar AntennaDirectionalSelectivityExample.radioMedium "reception decision computation count" 14490
+scalar AntennaDirectionalSelectivityExample.radioMedium "listening decision computation count" 28982
+scalar AntennaDirectionalSelectivityExample.radioMedium "reception cache hit" 85.714285714286
+attr unit %
+scalar AntennaDirectionalSelectivityExample.radioMedium "interference cache hit" 66.666666666667
+attr unit %
+scalar AntennaDirectionalSelectivityExample.radioMedium "noise cache hit" 0
+attr unit %
+scalar AntennaDirectionalSelectivityExample.radioMedium "snir cache hit" 50
+attr unit %
+scalar AntennaDirectionalSelectivityExample.radioMedium "reception decision cache hit" 50
+attr unit %
+scalar AntennaDirectionalSelectivityExample.radioMedium "reception result cache hit" 0
+attr unit %
+scalar AntennaDirectionalSelectivityExample.hostA.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar AntennaDirectionalSelectivityExample.hostA.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar AntennaDirectionalSelectivityExample.hostA.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:count 3631
+attr interpolationmode none
+attr title "packet popped, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:sum(packetBytes) 434040
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:histogram
+field count 3631
+field mean 3.1985678876343e-06
+field stddev 3.8254360498145e-05
+field min 0
+field max 0.000714
+field sum 0.011614
+field sqrsum 5.349276e-06
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	3600
+bin	1e-05	0
+bin	2e-05	0
+bin	3e-05	0
+bin	4e-05	0
+bin	5e-05	0
+bin	6e-05	1
+bin	7e-05	0
+bin	8e-05	0
+bin	9e-05	0
+bin	0.0001	1
+bin	0.00011	0
+bin	0.00012	0
+bin	0.00013	0
+bin	0.00014	0
+bin	0.00015	0
+bin	0.00016	0
+bin	0.00017	1
+bin	0.00018	0
+bin	0.00019	0
+bin	0.0002	4
+bin	0.00021	1
+bin	0.00022	0
+bin	0.00023	0
+bin	0.00024	2
+bin	0.00025	0
+bin	0.00026	0
+bin	0.00027	2
+bin	0.00028	2
+bin	0.00029	1
+bin	0.0003	0
+bin	0.00031	2
+bin	0.00032	1
+bin	0.00033	0
+bin	0.00034	0
+bin	0.00035	0
+bin	0.00036	0
+bin	0.00037	0
+bin	0.00038	0
+bin	0.00039	1
+bin	0.0004	0
+bin	0.00041	0
+bin	0.00042	0
+bin	0.00043	0
+bin	0.00044	0
+bin	0.00045	0
+bin	0.00046	2
+bin	0.00047	2
+bin	0.00048	0
+bin	0.00049	0
+bin	0.0005	0
+bin	0.00051	0
+bin	0.00052	0
+bin	0.00053	0
+bin	0.00054	0
+bin	0.00055	1
+bin	0.00056	0
+bin	0.00057	0
+bin	0.00058	0
+bin	0.00059	1
+bin	0.0006	1
+bin	0.00061	1
+bin	0.00062	1
+bin	0.00063	0
+bin	0.00064	0
+bin	0.00065	1
+bin	0.00066	0
+bin	0.00067	1
+bin	0.00068	0
+bin	0.00069	0
+bin	0.0007	0
+bin	0.00071	1
+bin	0.00072	0
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:timeavg 3.2261111111111e-06
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:count 3631
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:sum(packetBytes) 434040
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:histogram
+field count 3630
+field mean 0.00011463705258622
+field stddev 4.4764910959142e-06
+field min 5e-05
+field max 0.000115000692
+field sum 0.41613250088797
+field sqrsum 4.7776924818447e-05
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, histogram"
+bin	-inf	0
+bin	3.2e-05	0
+bin	3.4e-05	0
+bin	3.6e-05	0
+bin	3.8e-05	0
+bin	4e-05	0
+bin	4.2e-05	0
+bin	4.4e-05	0
+bin	4.6e-05	0
+bin	4.8e-05	16
+bin	5e-05	0
+bin	5.2e-05	0
+bin	5.4e-05	0
+bin	5.6e-05	0
+bin	5.8e-05	0
+bin	6e-05	0
+bin	6.2e-05	0
+bin	6.4e-05	0
+bin	6.6e-05	0
+bin	6.8e-05	0
+bin	7e-05	0
+bin	7.2e-05	0
+bin	7.4e-05	0
+bin	7.6e-05	0
+bin	7.8e-05	0
+bin	8e-05	0
+bin	8.2e-05	0
+bin	8.4e-05	0
+bin	8.6e-05	0
+bin	8.8e-05	0
+bin	9e-05	0
+bin	9.2e-05	0
+bin	9.4e-05	14
+bin	9.6e-05	0
+bin	9.8e-05	0
+bin	0.0001	0
+bin	0.000102	0
+bin	0.000104	0
+bin	0.000106	0
+bin	0.000108	0
+bin	0.00011	0
+bin	0.000112	0
+bin	0.000114	3600
+bin	0.000116	0
+bin	0.000118	0
+bin	0.00012	0
+bin	0.000122	0
+bin	0.000124	0
+bin	0.000126	0
+bin	0.000128	0
+bin	0.00013	0
+bin	0.000132	0
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, max"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:timeavg 0.00011559236488976
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, timeavg"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.contention channelAccessGranted:count 3631
+attr title "channel access granted, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess.contention stateChanged:count 58032
+attr interpolationmode none
+attr title "contention state changed, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.channelAccess channelOwnershipChanged:count 7261
+attr interpolationmode sample-hold
+attr title "channel ownership, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.originatorMacDataService packetAggregated:count 0
+attr title "packets aggregated, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.originatorMacDataService packetFragmented:count 0
+attr title "packets fragmented, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.recipientMacDataService packetDeaggregated:count 0
+attr title "packets deaggregated, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.recipientMacDataService packetDefragmented:count 3630
+attr title "packets defragmented, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf.recoveryProcedure retryLimitReached:count 0
+attr title "retry limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf frameSequenceFinished:count 3630
+attr title "finished frame sequences, count"
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf frameSequenceDuration:histogram
+field count 3630
+field mean 0.00011463705258622
+field stddev 4.4764910959142e-06
+field min 5e-05
+field max 0.000115000692
+field sum 0.41613250088797
+field sqrsum 4.7776924818447e-05
+attr source frameSequenceDuration(frameSequenceFinished)
+attr title "frame sequence durations, histogram"
+bin	-inf	0
+bin	3.2e-05	0
+bin	3.4e-05	0
+bin	3.6e-05	0
+bin	3.8e-05	0
+bin	4e-05	0
+bin	4.2e-05	0
+bin	4.4e-05	0
+bin	4.6e-05	0
+bin	4.8e-05	16
+bin	5e-05	0
+bin	5.2e-05	0
+bin	5.4e-05	0
+bin	5.6e-05	0
+bin	5.8e-05	0
+bin	6e-05	0
+bin	6.2e-05	0
+bin	6.4e-05	0
+bin	6.6e-05	0
+bin	6.8e-05	0
+bin	7e-05	0
+bin	7.2e-05	0
+bin	7.4e-05	0
+bin	7.6e-05	0
+bin	7.8e-05	0
+bin	8e-05	0
+bin	8.2e-05	0
+bin	8.4e-05	0
+bin	8.6e-05	0
+bin	8.8e-05	0
+bin	9e-05	0
+bin	9.2e-05	0
+bin	9.4e-05	14
+bin	9.6e-05	0
+bin	9.8e-05	0
+bin	0.0001	0
+bin	0.000102	0
+bin	0.000104	0
+bin	0.000106	0
+bin	0.000108	0
+bin	0.00011	0
+bin	0.000112	0
+bin	0.000114	3600
+bin	0.000116	0
+bin	0.000118	0
+bin	0.00012	0
+bin	0.000122	0
+bin	0.000124	0
+bin	0.000126	0
+bin	0.000128	0
+bin	0.00013	0
+bin	0.000132	0
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf frameSequenceNumPackets:histogram
+field count 3630
+field mean 1.9955922865014
+field stddev 0.066253262467224
+field min 1
+field max 2
+field sum 7244
+field sqrsum 14472
+attr source frameSequenceNumPackets(frameSequenceFinished)
+attr title "frame sequences: number of packets, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	16
+bin	2	3614
+bin	3	0
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeer:count 7244
+attr interpolationmode none
+attr title "packets received, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeer:sum(packetBytes) 484516
+attr interpolationmode none
+attr title "packets received, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerUnicast:count 7230
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerUnicast:sum(packetBytes) 483620
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerMulticast:count 14
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerMulticast:sum(packetBytes) 896
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerBroadcast:count 14
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerBroadcast:sum(packetBytes) 896
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:count 7244
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:sum(packetBytes) 484516
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeer:count 7246
+attr interpolationmode none
+attr title "packets sent, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeer:sum(packetBytes) 484544
+attr interpolationmode none
+attr title "packets sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerUnicast:count 7230
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerUnicast:sum(packetBytes) 483520
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerMulticast:count 16
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerMulticast:sum(packetBytes) 1024
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerBroadcast:count 16
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerBroadcast:sum(packetBytes) 1024
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerWithoutRetry:count 7246
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetSentToPeerWithoutRetry:sum(packetBytes) 484544
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac.dcf linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetReceivedFromLower:count 7244
+attr interpolationmode none
+attr title "packets received from lower layer, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetReceivedFromLower:sum(packetBytes) 484516
+attr interpolationmode none
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetSentToLower:count 7247
+attr interpolationmode none
+attr title "packets sent to lower layer, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetSentToLower:sum(packetBytes) 484664
+attr interpolationmode none
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetReceivedFromUpper:count 3631
+attr interpolationmode none
+attr title "packets received from upper layer, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetReceivedFromUpper:sum(packetBytes) 332372
+attr interpolationmode none
+attr title "packets received from upper layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetSentToUpper:count 3630
+attr interpolationmode none
+attr title "packets sent to upper layer, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetSentToUpper:sum(packetBytes) 332280
+attr interpolationmode none
+attr title "packets sent to upper layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropOther:count 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac packetDropOther:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].radio radioMode:count 14496
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].radio receptionState:count 28982
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar AntennaDirectionalSelectivityExample.hostA.wlan[0].radio transmissionState:count 28986
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].radio minSnir:histogram
+field count 7244
+field mean 19565.77552104
+field stddev 0
+field min 19565.775521038
+field max 19565.775521038
+field sum 141734477.87441
+field sqrsum 2773144977682.4
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	19565.26	0
+bin	19565.28	0
+bin	19565.3	0
+bin	19565.32	0
+bin	19565.34	0
+bin	19565.36	0
+bin	19565.38	0
+bin	19565.4	0
+bin	19565.42	0
+bin	19565.44	0
+bin	19565.46	0
+bin	19565.48	0
+bin	19565.5	0
+bin	19565.52	0
+bin	19565.54	0
+bin	19565.56	0
+bin	19565.58	0
+bin	19565.6	0
+bin	19565.62	0
+bin	19565.64	0
+bin	19565.66	0
+bin	19565.68	0
+bin	19565.7	0
+bin	19565.72	0
+bin	19565.74	0
+bin	19565.76	7244
+bin	19565.78	0
+bin	19565.8	0
+bin	19565.82	0
+bin	19565.84	0
+bin	19565.86	0
+bin	19565.88	0
+bin	19565.9	0
+bin	19565.92	0
+bin	19565.94	0
+bin	19565.96	0
+bin	19565.98	0
+bin	19566	0
+bin	19566.02	0
+bin	19566.04	0
+bin	19566.06	0
+bin	19566.08	0
+bin	19566.1	0
+bin	19566.12	0
+bin	19566.14	0
+bin	19566.16	0
+bin	19566.18	0
+bin	19566.2	0
+bin	19566.22	0
+bin	19566.24	0
+bin	19566.26	0
+bin	19566.28	0
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].radio packetErrorRate:histogram
+field count 7244
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	7244
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic AntennaDirectionalSelectivityExample.hostA.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpResolutionFailed:count 0
+attr title "ARP failed resolutions, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpResolutionCompleted:count 30
+attr title "ARP completed resolutions, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpResolutionInitiated:count 16
+attr title "ARP initiated resolutions, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpReplySent:count 14
+attr source arpReplySent
+attr title "ARP replies sent, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpReplySent:sum(packetBytes) 392
+attr source arpReplySent
+attr title "ARP replies sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpRequestSent:count 16
+attr source arpRequestSent
+attr title "ARP request sent, count"
+scalar AntennaDirectionalSelectivityExample.hostA.ipv4.arp arpRequestSent:sum(packetBytes) 448
+attr source arpRequestSent
+attr title "ARP request sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar AntennaDirectionalSelectivityExample.hostA.udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.udp packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar AntennaDirectionalSelectivityExample.hostA.udp packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostA.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar AntennaDirectionalSelectivityExample.hostA.udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar AntennaDirectionalSelectivityExample.hostA.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] "Pings sent" 3601
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] "ping loss rate (%)" 0.027770063871147
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] "ping out-of-order rate (%)" 0
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] pingRxSeq:count 3600
+attr interpolationmode none
+attr title "ping rx seq, count"
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] pingTxSeq:count 3601
+attr interpolationmode none
+attr title "ping tx seq, count"
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] numOutOfOrderArrivals:last nan
+attr interpolationmode none
+attr title "ping out-of-order arrivals, last"
+scalar AntennaDirectionalSelectivityExample.hostA.app[0] numLost:last nan
+attr interpolationmode none
+attr title "pings lost, last"
+statistic AntennaDirectionalSelectivityExample.hostA.app[0] rtt:histogram
+field count 3600
+field mean 0.00055115069776666
+field stddev 0.0002022547406306
+field min 0.000235000692
+field max 0.001980001384
+field sum 1.98414251196
+field sqrsum 0.0012407857513423
+attr interpolationmode none
+attr title "ping round-trip time, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	4e-05	0
+bin	8e-05	0
+bin	0.00012	0
+bin	0.00016	0
+bin	0.0002	130
+bin	0.00024	203
+bin	0.00028	235
+bin	0.00032	259
+bin	0.00036	231
+bin	0.0004	186
+bin	0.00044	216
+bin	0.00048	196
+bin	0.00052	239
+bin	0.00056	216
+bin	0.0006	203
+bin	0.00064	207
+bin	0.00068	244
+bin	0.00072	239
+bin	0.00076	229
+bin	0.0008	240
+bin	0.00084	99
+bin	0.00088	1
+bin	0.00092	1
+bin	0.00096	1
+bin	0.001	1
+bin	0.00104	2
+bin	0.00108	0
+bin	0.00112	0
+bin	0.00116	2
+bin	0.0012	1
+bin	0.00124	0
+bin	0.00128	4
+bin	0.00132	2
+bin	0.00136	1
+bin	0.0014	2
+bin	0.00144	1
+bin	0.00148	3
+bin	0.00152	0
+bin	0.00156	0
+bin	0.0016	0
+bin	0.00164	1
+bin	0.00168	0
+bin	0.00172	0
+bin	0.00176	1
+bin	0.0018	0
+bin	0.00184	0
+bin	0.00188	0
+bin	0.00192	3
+bin	0.00196	1
+bin	0.002	0
+scalar AntennaDirectionalSelectivityExample.hostB.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar AntennaDirectionalSelectivityExample.hostB.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar AntennaDirectionalSelectivityExample.hostB.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:count 3630
+attr interpolationmode none
+attr title "packet popped, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:sum(packetBytes) 433920
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:histogram
+field count 3630
+field mean 0.0004027261707989
+field stddev 0.00018723996816997
+field min 7e-05
+field max 0.000714
+field sum 1.461896
+field sqrsum 0.000715972184
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1e-05	0
+bin	2e-05	0
+bin	3e-05	0
+bin	4e-05	0
+bin	5e-05	0
+bin	6e-05	1
+bin	7e-05	0
+bin	8e-05	0
+bin	9e-05	131
+bin	0.0001	0
+bin	0.00011	115
+bin	0.00012	0
+bin	0.00013	96
+bin	0.00014	0
+bin	0.00015	126
+bin	0.00016	1
+bin	0.00017	112
+bin	0.00018	1
+bin	0.00019	139
+bin	0.0002	0
+bin	0.00021	124
+bin	0.00022	0
+bin	0.00023	131
+bin	0.00024	0
+bin	0.00025	103
+bin	0.00026	0
+bin	0.00027	91
+bin	0.00028	0
+bin	0.00029	99
+bin	0.0003	0
+bin	0.00031	125
+bin	0.00032	0
+bin	0.00033	95
+bin	0.00034	0
+bin	0.00035	102
+bin	0.00036	0
+bin	0.00037	97
+bin	0.00038	0
+bin	0.00039	118
+bin	0.0004	1
+bin	0.00041	122
+bin	0.00042	1
+bin	0.00043	113
+bin	0.00044	1
+bin	0.00045	108
+bin	0.00046	0
+bin	0.00047	103
+bin	0.00048	0
+bin	0.00049	105
+bin	0.0005	0
+bin	0.00051	105
+bin	0.00052	2
+bin	0.00053	103
+bin	0.00054	0
+bin	0.00055	113
+bin	0.00056	1
+bin	0.00057	132
+bin	0.00058	0
+bin	0.00059	121
+bin	0.0006	0
+bin	0.00061	120
+bin	0.00062	0
+bin	0.00063	118
+bin	0.00064	0
+bin	0.00065	114
+bin	0.00066	0
+bin	0.00067	115
+bin	0.00068	0
+bin	0.00069	126
+bin	0.0007	0
+bin	0.00071	99
+bin	0.00072	0
+bin	0.00073	0
+bin	0.00074	0
+bin	0.00075	0
+bin	0.00076	0
+bin	0.00077	0
+bin	0.00078	0
+bin	0.00079	0
+bin	0.0008	0
+bin	0.00081	0
+bin	0.00082	0
+bin	0.00083	0
+bin	0.00084	0
+bin	0.00085	0
+bin	0.00086	0
+bin	0.00087	0
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:timeavg 0.00040608224032676
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:count 3630
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:sum(packetBytes) 433920
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:histogram
+field count 3630
+field mean 0.00011466184635592
+field stddev 4.2365465024469e-06
+field min 5e-05
+field max 0.000115000692
+field sum 0.41622250227197
+field sqrsum 4.7789975081408e-05
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, histogram"
+bin	-inf	0
+bin	4.95e-05	14
+bin	5.1e-05	0
+bin	5.25e-05	0
+bin	5.4e-05	0
+bin	5.55e-05	0
+bin	5.7e-05	0
+bin	5.85e-05	0
+bin	6e-05	0
+bin	6.15e-05	0
+bin	6.3e-05	0
+bin	6.45e-05	0
+bin	6.6e-05	0
+bin	6.75e-05	0
+bin	6.9e-05	0
+bin	7.05e-05	0
+bin	7.2e-05	0
+bin	7.35e-05	0
+bin	7.5e-05	0
+bin	7.65e-05	0
+bin	7.8e-05	0
+bin	7.95e-05	0
+bin	8.1e-05	0
+bin	8.25e-05	0
+bin	8.4e-05	0
+bin	8.55e-05	0
+bin	8.7e-05	0
+bin	8.85e-05	0
+bin	9e-05	0
+bin	9.15e-05	0
+bin	9.3e-05	0
+bin	9.45e-05	16
+bin	9.6e-05	0
+bin	9.75e-05	0
+bin	9.9e-05	0
+bin	0.0001005	0
+bin	0.000102	0
+bin	0.0001035	0
+bin	0.000105	0
+bin	0.0001065	0
+bin	0.000108	0
+bin	0.0001095	0
+bin	0.000111	0
+bin	0.0001125	0
+bin	0.000114	3600
+bin	0.0001155	0
+bin	0.000117	0
+bin	0.0001185	0
+bin	0.00012	0
+bin	0.0001215	0
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, max"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:timeavg 0.00011561737299886
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, timeavg"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.contention channelAccessGranted:count 3630
+attr title "channel access granted, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess.contention stateChanged:count 58018
+attr interpolationmode none
+attr title "contention state changed, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.channelAccess channelOwnershipChanged:count 7260
+attr interpolationmode sample-hold
+attr title "channel ownership, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.originatorMacDataService packetAggregated:count 0
+attr title "packets aggregated, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.originatorMacDataService packetFragmented:count 0
+attr title "packets fragmented, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.recipientMacDataService packetDeaggregated:count 0
+attr title "packets deaggregated, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.recipientMacDataService packetDefragmented:count 3630
+attr title "packets defragmented, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf.recoveryProcedure retryLimitReached:count 0
+attr title "retry limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf frameSequenceFinished:count 3630
+attr title "finished frame sequences, count"
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf frameSequenceDuration:histogram
+field count 3630
+field mean 0.00011466184635592
+field stddev 4.2365465024469e-06
+field min 5e-05
+field max 0.000115000692
+field sum 0.41622250227197
+field sqrsum 4.7789975081408e-05
+attr source frameSequenceDuration(frameSequenceFinished)
+attr title "frame sequence durations, histogram"
+bin	-inf	0
+bin	4.95e-05	14
+bin	5.1e-05	0
+bin	5.25e-05	0
+bin	5.4e-05	0
+bin	5.55e-05	0
+bin	5.7e-05	0
+bin	5.85e-05	0
+bin	6e-05	0
+bin	6.15e-05	0
+bin	6.3e-05	0
+bin	6.45e-05	0
+bin	6.6e-05	0
+bin	6.75e-05	0
+bin	6.9e-05	0
+bin	7.05e-05	0
+bin	7.2e-05	0
+bin	7.35e-05	0
+bin	7.5e-05	0
+bin	7.65e-05	0
+bin	7.8e-05	0
+bin	7.95e-05	0
+bin	8.1e-05	0
+bin	8.25e-05	0
+bin	8.4e-05	0
+bin	8.55e-05	0
+bin	8.7e-05	0
+bin	8.85e-05	0
+bin	9e-05	0
+bin	9.15e-05	0
+bin	9.3e-05	0
+bin	9.45e-05	16
+bin	9.6e-05	0
+bin	9.75e-05	0
+bin	9.9e-05	0
+bin	0.0001005	0
+bin	0.000102	0
+bin	0.0001035	0
+bin	0.000105	0
+bin	0.0001065	0
+bin	0.000108	0
+bin	0.0001095	0
+bin	0.000111	0
+bin	0.0001125	0
+bin	0.000114	3600
+bin	0.0001155	0
+bin	0.000117	0
+bin	0.0001185	0
+bin	0.00012	0
+bin	0.0001215	0
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf frameSequenceNumPackets:histogram
+field count 3630
+field mean 1.9961432506887
+field stddev 0.061991398237166
+field min 1
+field max 2
+field sum 7246
+field sqrsum 14478
+attr source frameSequenceNumPackets(frameSequenceFinished)
+attr title "frame sequences: number of packets, histogram"
+bin	-inf	0
+bin	1	14
+bin	2	3616
+bin	3	0
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeer:count 7246
+attr interpolationmode none
+attr title "packets received, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeer:sum(packetBytes) 484544
+attr interpolationmode none
+attr title "packets received, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerUnicast:count 7230
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerUnicast:sum(packetBytes) 483520
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerMulticast:count 16
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerMulticast:sum(packetBytes) 1024
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerBroadcast:count 16
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerBroadcast:sum(packetBytes) 1024
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:count 7246
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:sum(packetBytes) 484544
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeer:count 7244
+attr interpolationmode none
+attr title "packets sent, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeer:sum(packetBytes) 484516
+attr interpolationmode none
+attr title "packets sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerUnicast:count 7230
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerUnicast:sum(packetBytes) 483620
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerMulticast:count 14
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerMulticast:sum(packetBytes) 896
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerBroadcast:count 14
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerBroadcast:sum(packetBytes) 896
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerWithoutRetry:count 7244
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetSentToPeerWithoutRetry:sum(packetBytes) 484516
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac.dcf linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetReceivedFromLower:count 7246
+attr interpolationmode none
+attr title "packets received from lower layer, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetReceivedFromLower:sum(packetBytes) 484544
+attr interpolationmode none
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetSentToLower:count 7244
+attr interpolationmode none
+attr title "packets sent to lower layer, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetSentToLower:sum(packetBytes) 484516
+attr interpolationmode none
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetReceivedFromUpper:count 3630
+attr interpolationmode none
+attr title "packets received from upper layer, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetReceivedFromUpper:sum(packetBytes) 332280
+attr interpolationmode none
+attr title "packets received from upper layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetSentToUpper:count 3630
+attr interpolationmode none
+attr title "packets sent to upper layer, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetSentToUpper:sum(packetBytes) 332280
+attr interpolationmode none
+attr title "packets sent to upper layer, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropOther:count 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac packetDropOther:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].radio radioMode:count 14491
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].radio receptionState:count 28981
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar AntennaDirectionalSelectivityExample.hostB.wlan[0].radio transmissionState:count 28976
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].radio minSnir:histogram
+field count 7246
+field mean 19565.77552104
+field stddev 0
+field min 19565.775521038
+field max 19565.775521038
+field sum 141773609.42545
+field sqrsum 2773910616825.9
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	19565.26	0
+bin	19565.28	0
+bin	19565.3	0
+bin	19565.32	0
+bin	19565.34	0
+bin	19565.36	0
+bin	19565.38	0
+bin	19565.4	0
+bin	19565.42	0
+bin	19565.44	0
+bin	19565.46	0
+bin	19565.48	0
+bin	19565.5	0
+bin	19565.52	0
+bin	19565.54	0
+bin	19565.56	0
+bin	19565.58	0
+bin	19565.6	0
+bin	19565.62	0
+bin	19565.64	0
+bin	19565.66	0
+bin	19565.68	0
+bin	19565.7	0
+bin	19565.72	0
+bin	19565.74	0
+bin	19565.76	7246
+bin	19565.78	0
+bin	19565.8	0
+bin	19565.82	0
+bin	19565.84	0
+bin	19565.86	0
+bin	19565.88	0
+bin	19565.9	0
+bin	19565.92	0
+bin	19565.94	0
+bin	19565.96	0
+bin	19565.98	0
+bin	19566	0
+bin	19566.02	0
+bin	19566.04	0
+bin	19566.06	0
+bin	19566.08	0
+bin	19566.1	0
+bin	19566.12	0
+bin	19566.14	0
+bin	19566.16	0
+bin	19566.18	0
+bin	19566.2	0
+bin	19566.22	0
+bin	19566.24	0
+bin	19566.26	0
+bin	19566.28	0
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].radio packetErrorRate:histogram
+field count 7246
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	7246
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic AntennaDirectionalSelectivityExample.hostB.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpResolutionFailed:count 0
+attr title "ARP failed resolutions, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpResolutionCompleted:count 30
+attr title "ARP completed resolutions, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpResolutionInitiated:count 14
+attr title "ARP initiated resolutions, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpReplySent:count 16
+attr source arpReplySent
+attr title "ARP replies sent, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpReplySent:sum(packetBytes) 448
+attr source arpReplySent
+attr title "ARP replies sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpRequestSent:count 14
+attr source arpRequestSent
+attr title "ARP request sent, count"
+scalar AntennaDirectionalSelectivityExample.hostB.ipv4.arp arpRequestSent:sum(packetBytes) 392
+attr source arpRequestSent
+attr title "ARP request sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar AntennaDirectionalSelectivityExample.hostB.udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.udp packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar AntennaDirectionalSelectivityExample.hostB.udp packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar AntennaDirectionalSelectivityExample.hostB.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar AntennaDirectionalSelectivityExample.hostB.udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar AntennaDirectionalSelectivityExample.hostB.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+

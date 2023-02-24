@@ -1,0 +1,72 @@
+version 2
+run VoIP-UL-0-20221109-17:19:59-27791
+attr configname VoIP-UL
+attr datetime 20221109-17:19:59
+attr experiment VoIP-UL
+attr inifile omnetpp.ini
+attr iterationvars $numUEs=10
+attr iterationvarsf numUEs=10-
+attr measurement $numUEs=10
+attr network inet.examples.simulations.cars.Highway
+attr processid 27791
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+itervar numUEs 10
+param *.server.numApps 10
+param *.server.app[*].typename "\"VoIPReceiver\""
+param *.server.app[*].localPort "3000 + ancestorIndex(0)"
+param *.car[*].numApps 1
+param *.car[*].app[0].typename "\"VoIPSender\""
+param *.car[*].app[0].destAddress "\"server\""
+param *.car[*].app[0].destPort "3000 + ancestorIndex(1)"
+param *.configurator.config "xmldoc(\"demo.xml\")"
+param **.coreDebug false
+param **.routingRecorder.enabled false
+param *.playgroundSizeX 20000m
+param *.playgroundSizeY 20000m
+param *.playgroundSizeZ 50m
+param *.veinsManager.host "\"localhost\""
+param *.veinsManager.moduleType "\"lte.corenetwork.nodes.cars.Car\""
+param *.veinsManager.moduleName "\"car\""
+param *.veinsManager.launchConfig "xmldoc(\"heterogeneous.launchd.xml\")"
+param *.veinsManager.updateInterval 0.1s
+param *.car[*].mobilityType "\"VeinsInetMobility\""
+param **.channelControl.pMax 10W
+param **.channelControl.alpha 1.0
+param **.channelControl.carrierFrequency 2100e+6Hz
+param *.car[*].lteNic.phy.dynamicCellAssociation true
+param **.car[*].masterId 1
+param **.car[*].macCellId 1
+param **.eNodeB1.macCellId 1
+param **.eNodeB1.macNodeId 1
+param **.eNodeB2.macCellId 2
+param **.eNodeB2.macNodeId 2
+param **.eNodeBCount 2
+param **.rbAllocationType "\"localized\""
+param **.feedbackType "\"ALLBANDS\""
+param **.feedbackGeneratorType "\"IDEAL\""
+param **.maxHarqRtx 3
+param **.numUe 10
+param **.cellInfo.ruRange 50
+param **.cellInfo.ruTxPower "\"50,50,50;\""
+param **.cellInfo.antennaCws "\"2;\""
+param **.cellInfo.numRbDl 25
+param **.cellInfo.numRbUl 25
+param **.numBands 25
+param **.fbDelay 1
+param *.car[*].lteNic.phy.enableHandover true
+param *.eNodeB*.lteNic.phy.enableHandover true
+param *.eNodeB*.lteNic.phy.broadcastMessageInterval 0.5s
+param *.eNodeB*.numX2Apps 1
+param *.eNodeB*.x2App[*].server.localPort "5000 + ancestorIndex(1)"
+param *.eNodeB1.x2App[0].client.connectAddress "\"eNodeB2%x2ppp0\""
+param *.eNodeB2.x2App[0].client.connectAddress "\"eNodeB1%x2ppp0\""
+param **.sctp.nagleEnabled false
+param **.sctp.enableHeartbeats false
+
+scalar Highway.eNodeB1.x2App[0].client ums 1452
+scalar Highway.eNodeB2.x2App[0].client ums 1452
+

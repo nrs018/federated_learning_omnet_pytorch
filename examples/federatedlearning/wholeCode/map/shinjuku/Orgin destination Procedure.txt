@@ -1,0 +1,25 @@
+Create TAZ file -- input edge details
+Create OD_file.od -- Input route from which edge to which edge and no of vehicles
+Create od2trips.config -- create config file 
+Create od_file.odtrips.xml  -- by inputting the command1 on cmd window
+
+Create duarcfg_file.trips2routes.duarcfg 
+Create route file using command2
+
+Create sumo config file
+
+Command1:
+od2trips -c PATH\od2trips.config.xml -n PATH\taz_file.taz.xml –d PATH\OD_file.od -o PATH\od_file.odtrips.xml
+
+Command2:
+duarouter –c PATH\duarcfg_file.trips2routes.duarcfg – o od_route_file.odtrips.rou.xml
+
+
+
+
+
+od2trips -c C:\Users\OTSLCPS004\Sumo\2022-01-28-10-37-36\test_od2trips.config.xml -n C:\Users\OTSLCPS004\Sumo\2022-01-28-10-37-36\test_TAZ_file.taz.xml –d C:\Users\OTSLCPS004\Sumo\2022-01-28-10-37-36\test_OD_file.od -o C:\Users\OTSLCPS004\Sumo\2022-01-28-10-37-36\test_od_file.odtrips.xml
+
+
+
+duarouter –c C:\Users\OTSLCPS004\Sumo\2022-01-28-10-37-36\test_duarcfg_file.trips2routes.duarcfg –o test_od_route_file.odtrips.rou.xml

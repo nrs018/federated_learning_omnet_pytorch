@@ -1,0 +1,139 @@
+ ==================== epoch：3 ======================
+ client 0 - 4: 5000个sample， 10 class
+ client 5 - 9: 500个sample， 1 class
+ ---------------------------------------------------
+[Round: 0001] ...2 clients are selected and updated (with total sample size: 9769)!
+	[Client 0000] loss: 0.0508, accuracy: 98.47%
+	[Client 0001] loss: 0.0651, accuracy: 97.79%
+	[Server] Loss: 0.0910, Accuracy: 96.92%
+[Round: 0002] ...1 clients are selected and updated (with total sample size: 500)!
+	[Client 0007] loss: 0.0001, accuracy: 100.00%
+	[Server] Loss: 0.2952, Accuracy: 90.26%
+
+
+
+ ==================== epoch：20 =====================
+ client 0 - 4: 5000个sample， 10 class
+ client 5 - 9: 500个sample， 1 class
+ ---------------------------------------------------
+[Round: 0001] ...2 clients are selected and updated (with total sample size: 9772)!
+	[Client 0000] loss: 0.0001, accuracy: 100.00%
+	[Client 0001] loss: 0.0001, accuracy: 100.00%
+	[Server] Loss: 0.0826, Accuracy: 98.02%
+
+[Round: 0002] ...2 clients are selected and updated (with total sample size: 9440)!
+	[Client 0002] loss: 0.0001, accuracy: 100.00%
+	[Client 0003] loss: 0.0001, accuracy: 100.00%
+	[Server] Loss: 0.0505, Accuracy: 98.67%
+
+[Round: 0003] ...3 clients are selected and updated (with total sample size: 5742)!
+	[Client 0004] loss: 0.0001, accuracy: 100.00%
+	[Client 0008] loss: 0.0000, accuracy: 100.00%
+	[Client 0007] loss: 0.0000, accuracy: 100.00%
+	[Server] Loss: 0.1110, Accuracy: 97.43%
+	
+ 
+ 
+ ==================== epoch：20 =====================
+ client 0 - 4: 2700个sample， 9 class
+ client 5 - 9: 600个sample， 2 class
+ ---------------------------------------------------
+[Round: 0001] ...2 clients are selected and updated (with total sample size: 5231)!
+	[Client 0000] loss: 0.0002, accuracy: 100.00%
+	[Client 0001] loss: 0.0002, accuracy: 100.00%
+	[Server] Loss: 0.8503, Accuracy: 82.21%
+[Round: 0002] ...2 clients are selected and updated (with total sample size: 5400)!
+	[Client 0002] loss: 0.0001, accuracy: 100.00%
+	[Client 0003] loss: 0.0001, accuracy: 100.00%              
+	[Server] Loss: 0.1190, Accuracy: 96.d87%
+[Round: 0003] ...3 clients are selected and updated (with total sample size: 3814)!
+	[Client 0004] loss: 0.0001, accuracy: 100.00%
+	[Client 0008] loss: 0.0000, accuracy: 100.00%
+	[Client 0007] loss: 0.0000, accuracy: 100.00%
+	[Server] Loss: 0.1774, Accuracy: 95.28%
+
+
+
+ 
+ ==================== epoch：20 =====================
+ client 0 - 4: 2700个sample， 9 class
+ client 5 - 9: 600个sample， 2 class
+ --------------------------------------------------- 
+[Round: 0001] ...2 clients are selected and updated (with total sample size: 5365)!
+	[Client 0000] loss: 0.0002, accuracy: 100.00%
+	[Client 0001] loss: 0.0001, accuracy: 100.00%
+	[Server] Loss: 0.6914, Accuracy: 83.33%
+[Round: 0002] ...2 clients are selected and updated (with total sample size: 5400)!
+	[Client 0002] loss: 0.0001, accuracy: 100.00%
+	[Client 0003] loss: 0.0001, accuracy: 100.00%              
+	[Server] Loss: 0.1303, Accuracy: 97.04%
+[Round: 0003] ...2 clients are selected and updated (with total sample size: 1200)!
+	[Client 0005] loss: 0.0000, accuracy: 100.00%
+	[Client 0006] loss: 0.0000, accuracy: 100.00%
+	[Server] Loss: 0.2118, Accuracy: 94.81%
+[Round: 0004] ...2 clients are selected and updated (with total sample size: 1149)!
+	[Client 0007] loss: 0.0000, accuracy: 100.00%
+	[Client 0008] loss: 0.0001, accuracy: 100.00%
+	[Server] Loss: 0.5523, Accuracy: 88.76%
+
+ 
+ ==================== epoch：20 =====================
+ client 0 - 4: 2700个sample， 9 class
+ client 5 - 9: 600个sample， 2 class
+ ---------------------------------------------------  
+[Round: 0001] ...2 clients are selected and updated (with total sample size: 5358)!
+	[Client 0000] loss: 0.0007, accuracy: 100.00%
+	[Client 0001] loss: 0.0005, accuracy: 100.00%          
+	[Server] Loss: 1.7224, Accuracy: 88.10%
+[Round: 0002] ...2 clients are selected and updated (with total sample size: 5242)!
+	[Client 0002] loss: 0.0003, accuracy: 100.00%
+	[Client 0003] loss: 0.0003, accuracy: 100.00%
+	[Server] Loss: 0.1616, Accuracy: 95.96%
+[Round: 0003] ...2 clients are selected and updated (with total sample size: 1123)!
+	[Client 0005] loss: 0.0000, accuracy: 100.00%
+	[Client 0006] loss: 0.0000, accuracy: 100.00%   
+	[Server] Loss: 0.3509, Accuracy: 91.75%
+[Round: 0004] ...2 clients are selected and updated (with total sample size: 1200)!
+	[Client 0007] loss: 0.0000, accuracy: 100.00%
+	[Client 0008] loss: 0.0000, accuracy: 100.00%
+	[Server] Loss: 0.1836, Accuracy: 95.00%
+[Round: 0005] ...1 clients are selected and updated (with total sample size: 518)!
+	[Client 0009] loss: 0.0000, accuracy: 100.00%
+	[Server] Loss: 1.1827, Accuracy: 77.95%
+[Round: 0006] ...1 clients are selected and updated (with total sample size: 523)!
+	[Client 0006] loss: 0.0001, accuracy: 100.00%
+	[Server] Loss: 1.8117, Accuracy: 71.33%
+
+
+ ==================== epoch：20 =====================
+ client 0 - 4: 2700个sample， 9 class
+ client 5 - 9: 600个sample， 2 class
+ --------------------------------------------------- 
+[Round: 0001] ...2 clients are selected and updated (with total sample size: 1200)!
+	[Client 0005] loss: 0.0055, accuracy: 99.83%
+	[Client 0006] loss: 0.0015, accuracy: 100.00%          
+	[Server] Loss: 3.8926, Accuracy: 34.72%
+[Round: 0002] ...2 clients are selected and updated (with total sample size: 1200)!
+	[Client 0007] loss: 0.0006, accuracy: 100.00%
+	[Client 0008] loss: 0.0012, accuracy: 100.00%
+	[Server] Loss: 8.7008, Accuracy: 20.12%
+[Round: 0003] ...1 clients are selected and updated (with total sample size: 600)!
+	[Client 0009] loss: 0.0046, accuracy: 99.83%
+	[Server] Loss: 18.5344, Accuracy: 18.98%
+[Round: 0004] ...1 clients are selected and updated (with total sample size: 600)!
+	[Client 0006] loss: 0.0023, accuracy: 100.00%
+	[Server] Loss: 14.9749, Accuracy: 19.71%
+[Round: 0005] ...2 clients are selected and updated (with total sample size: 5349)!
+	[Client 0000] loss: 0.0018, accuracy: 99.96%
+	[Client 0001] loss: 0.0012, accuracy: 100.00%
+	[Server] Loss: 0.9652, Accuracy: 88.17%
+[Round: 0006] ...2 clients are selected and updated (with total sample size: 5121)!
+	[Client 0002] loss: 0.0003, accuracy: 100.00%
+	[Client 0003] loss: 0.0004, accuracy: 100.00%
+	[Server] Loss: 0.1096, Accuracy: 96.98%
+
+
+
+
+
+

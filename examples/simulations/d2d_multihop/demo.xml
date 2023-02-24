@@ -1,0 +1,61 @@
+<config>
+
+    <interface hosts="ue1[0]" names="cellular*" address="192.168.0.3" netmask="255.255.x.x"/>
+	<interface hosts="ue1[1]" names="cellular*" address="192.168.0.4" netmask="255.255.x.x"/>
+	<interface hosts="ue1[2]" names="cellular*" address="192.168.0.5" netmask="255.255.x.x"/>
+	<interface hosts="ue1[3]" names="cellular*" address="192.168.0.6" netmask="255.255.x.x"/>
+	<interface hosts="ue1[4]" names="cellular*" address="192.168.0.7" netmask="255.255.x.x"/>
+	<interface hosts="ue1[5]" names="cellular*" address="192.168.0.8" netmask="255.255.x.x"/>
+	<interface hosts="ue1[6]" names="cellular*" address="192.168.0.9" netmask="255.255.x.x"/>
+	<interface hosts="ue1[7]" names="cellular*" address="192.168.0.10" netmask="255.255.x.x"/>
+	<interface hosts="ue1[8]" names="cellular*" address="192.168.0.11" netmask="255.255.x.x"/>
+	<interface hosts="ue1[9]" names="cellular*" address="192.168.0.12" netmask="255.255.x.x"/>
+	<interface hosts="ue2[0]" names="cellular*" address="192.168.0.13" netmask="255.255.x.x"/>
+	<interface hosts="ue2[1]" names="cellular*" address="192.168.0.14" netmask="255.255.x.x"/>
+	<interface hosts="ue2[2]" names="cellular*" address="192.168.0.15" netmask="255.255.x.x"/>
+	<interface hosts="ue2[3]" names="cellular*" address="192.168.0.16" netmask="255.255.x.x"/>
+	<interface hosts="ue2[4]" names="cellular*" address="192.168.0.17" netmask="255.255.x.x"/>
+	<interface hosts="ue2[5]" names="cellular*" address="192.168.0.18" netmask="255.255.x.x"/>
+	<interface hosts="ue2[6]" names="cellular*" address="192.168.0.19" netmask="255.255.x.x"/>
+	<interface hosts="ue2[7]" names="cellular*" address="192.168.0.20" netmask="255.255.x.x"/>
+	<interface hosts="ue2[8]" names="cellular*" address="192.168.0.21" netmask="255.255.x.x"/>
+	<interface hosts="ue2[9]" names="cellular*" address="192.168.0.22" netmask="255.255.x.x"/>
+	<interface hosts="ue3[0]" names="cellular*" address="192.168.0.23" netmask="255.255.x.x"/>
+	<interface hosts="ue3[1]" names="cellular*" address="192.168.0.24" netmask="255.255.x.x"/>
+	<interface hosts="ue3[2]" names="cellular*" address="192.168.0.25" netmask="255.255.x.x"/>
+	<interface hosts="ue3[3]" names="cellular*" address="192.168.0.26" netmask="255.255.x.x"/>
+	<interface hosts="ue3[4]" names="cellular*" address="192.168.0.27" netmask="255.255.x.x"/>
+	<interface hosts="ue3[5]" names="cellular*" address="192.168.0.28" netmask="255.255.x.x"/>
+	<interface hosts="ue3[6]" names="cellular*" address="192.168.0.29" netmask="255.255.x.x"/>
+	<interface hosts="ue3[7]" names="cellular*" address="192.168.0.30" netmask="255.255.x.x"/>
+	<interface hosts="ue3[8]" names="cellular*" address="192.168.0.31" netmask="255.255.x.x"/>
+	<interface hosts="ue3[9]" names="cellular*" address="192.168.0.32" netmask="255.255.x.x"/>
+	<interface hosts="ue4[0]" names="cellular*" address="192.168.0.33" netmask="255.255.x.x"/>
+	<interface hosts="ue4[1]" names="cellular*" address="192.168.0.34" netmask="255.255.x.x"/>
+	<interface hosts="ue4[2]" names="cellular*" address="192.168.0.35" netmask="255.255.x.x"/>
+	<interface hosts="ue4[3]" names="cellular*" address="192.168.0.36" netmask="255.255.x.x"/>
+	<interface hosts="ue4[4]" names="cellular*" address="192.168.0.37" netmask="255.255.x.x"/>
+	<interface hosts="ue4[5]" names="cellular*" address="192.168.0.38" netmask="255.255.x.x"/>
+	<interface hosts="ue4[6]" names="cellular*" address="192.168.0.39" netmask="255.255.x.x"/>
+	<interface hosts="ue4[7]" names="cellular*" address="192.168.0.40" netmask="255.255.x.x"/>
+	<interface hosts="ue4[8]" names="cellular*" address="192.168.0.41" netmask="255.255.x.x"/>
+	<interface hosts="ue4[9]" names="cellular*" address="192.168.0.42" netmask="255.255.x.x"/>
+	<interface hosts="ue5[0]" names="cellular*" address="192.168.0.43" netmask="255.255.x.x"/>
+	<interface hosts="ue5[1]" names="cellular*" address="192.168.0.44" netmask="255.255.x.x"/>
+	<interface hosts="ue5[2]" names="cellular*" address="192.168.0.45" netmask="255.255.x.x"/>
+	<interface hosts="ue5[3]" names="cellular*" address="192.168.0.46" netmask="255.255.x.x"/>
+	<interface hosts="ue5[4]" names="cellular*" address="192.168.0.47" netmask="255.255.x.x"/>
+	<interface hosts="ue5[5]" names="cellular*" address="192.168.0.48" netmask="255.255.x.x"/>
+	<interface hosts="ue5[6]" names="cellular*" address="192.168.0.49" netmask="255.255.x.x"/>
+	<interface hosts="ue5[7]" names="cellular*" address="192.168.0.50" netmask="255.255.x.x"/>
+	<interface hosts="ue5[8]" names="cellular*" address="192.168.0.51" netmask="255.255.x.x"/>
+	<interface hosts="ue5[9]" names="cellular*" address="192.168.0.52" netmask="255.255.x.x"/>
+	
+
+	
+	<interface hosts="ue*" names="wlan*" address="10.x.x.x" netmask="255.x.x.x"/>
+    <interface hosts="ue*" names="cellular*" address="192.168.x.x" netmask="255.255.x.x"/>
+    
+	<interface hosts="*"  address="11.10.x.x" netmask="255.255.x.x"/>
+    
+</config>

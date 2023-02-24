@@ -1,0 +1,207 @@
+/usr/bin/python3.8 /home/narisu/src/TFF/toyota_distributedFL/pytorch/random_selection.py
+server setup......
+create clients
+setup clients
+sampled_client_indices:  [17]
+  0%|          | 0/1 [00:00<?, ?it/s]/home/narisu/.local/lib/python3.8/site-packages/torch/autograd/__init__.py:130: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:100.)
+  Variable._execution_engine.run_backward(
+[Round: 0001] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0017] loss: 0.7269, accuracy: 84.09%
+
+[Round: 0001] ...finished evaluation of 1 selected clients!
+[Round: 0001] Aggregate updated weights of 1 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0001] Evaluate global model's performance...!                
+	[Server] Loss: 3.7248, Accuracy: 14.57%
+
+sampled_client_indices:  [19, 24]
+[Round: 0002] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0019] loss: 0.6633, accuracy: 50.00%
+
+	[Client 0024] loss: 0.3714, accuracy: 97.73%
+
+[Round: 0002] ...finished evaluation of 2 selected clients!
+[Round: 0002] Aggregate updated weights of 2 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0002] Evaluate global model's performance...!                
+	[Server] Loss: 3.3131, Accuracy: 10.10%
+
+sampled_client_indices:  [18]
+[Round: 0003] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0018] loss: 0.6031, accuracy: 52.27%
+
+[Round: 0003] ...finished evaluation of 1 selected clients!
+[Round: 0003] Aggregate updated weights of 1 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0003] Evaluate global model's performance...!                
+	[Server] Loss: 4.9541, Accuracy: 10.67%
+
+sampled_client_indices:  [22]
+[Round: 0004] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0022] loss: 2.2452, accuracy: 50.00%
+
+[Round: 0004] ...finished evaluation of 1 selected clients!
+[Round: 0004] Aggregate updated weights of 1 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0004] Evaluate global model's performance...!                
+	[Server] Loss: 2.2980, Accuracy: 10.32%
+
+sampled_client_indices:  [17]
+[Round: 0005] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0017] loss: 2.2858, accuracy: 0.00%
+
+[Round: 0005] ...finished evaluation of 1 selected clients!
+[Round: 0005] Aggregate updated weights of 1 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0005] Evaluate global model's performance...!                
+	[Server] Loss: 2.2968, Accuracy: 10.37%
+
+sampled_client_indices:  [24]
+[Round: 0006] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0024] loss: 2.2303, accuracy: 59.09%
+
+[Round: 0006] ...finished evaluation of 1 selected clients!
+[Round: 0006] Aggregate updated weights of 1 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0006] Evaluate global model's performance...!                
+	[Server] Loss: 2.2931, Accuracy: 24.22%
+
+sampled_client_indices:  [15]
+[Round: 0007] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0015] loss: 2.2578, accuracy: 40.91%
+
+[Round: 0007] ...finished evaluation of 1 selected clients!
+[Round: 0007] Aggregate updated weights of 1 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0007] Evaluate global model's performance...!                
+	[Server] Loss: 2.2922, Accuracy: 28.25%
+
+sampled_client_indices:  [15, 22]
+[Round: 0008] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0015] loss: 2.0209, accuracy: 84.09%
+
+	[Client 0022] loss: 1.9733, accuracy: 77.27%
+
+[Round: 0008] ...finished evaluation of 2 selected clients!
+[Round: 0008] Aggregate updated weights of 2 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0008] Evaluate global model's performance...!                
+	[Server] Loss: 2.2871, Accuracy: 23.09%
+
+sampled_client_indices:  [14]
+[Round: 0009] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0014] loss: 1.6584, accuracy: 68.18%
+
+[Round: 0009] ...finished evaluation of 1 selected clients!
+[Round: 0009] Aggregate updated weights of 1 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0009] Evaluate global model's performance...!                
+	[Server] Loss: 2.3055, Accuracy: 13.44%
+
+sampled_client_indices:  [7]
+[Round: 0010] ...1 clients are selected and updated (with total sample size: 4400)!
+	[Client 0007] loss: 0.0083, accuracy: 99.61%
+
+[Round: 0010] ...finished evaluation of 1 selected clients!
+[Round: 0010] Aggregate updated weights of 1 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0010] Evaluate global model's performance...!                
+	[Server] Loss: 11.8398, Accuracy: 18.42%
+
+sampled_client_indices:  [20, 26]
+[Round: 0011] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0020] loss: 2.0360, accuracy: 50.00%
+
+	[Client 0026] loss: 0.4378, accuracy: 97.73%
+
+[Round: 0011] ...finished evaluation of 2 selected clients!
+[Round: 0011] Aggregate updated weights of 2 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0011] Evaluate global model's performance...!                
+	[Server] Loss: 2.2383, Accuracy: 27.11%
+
+sampled_client_indices:  [21, 24]
+[Round: 0012] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0021] loss: 1.9782, accuracy: 72.73%
+
+	[Client 0024] loss: 0.7283, accuracy: 93.18%
+
+[Round: 0012] ...finished evaluation of 2 selected clients!
+[Round: 0012] Aggregate updated weights of 2 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0012] Evaluate global model's performance...!                
+	[Server] Loss: 2.1997, Accuracy: 25.73%
+
+sampled_client_indices:  [19, 22]
+[Round: 0013] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0019] loss: 0.8713, accuracy: 50.00%
+
+	[Client 0022] loss: 0.1421, accuracy: 100.00%
+
+[Round: 0013] ...finished evaluation of 2 selected clients!
+[Round: 0013] Aggregate updated weights of 2 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0013] Evaluate global model's performance...!                
+	[Server] Loss: 2.8094, Accuracy: 23.03%
+
+sampled_client_indices:  [14]
+[Round: 0014] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0014] loss: 0.1719, accuracy: 100.00%
+
+[Round: 0014] ...finished evaluation of 1 selected clients!
+[Round: 0014] Aggregate updated weights of 1 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0014] Evaluate global model's performance...!                
+	[Server] Loss: 4.9176, Accuracy: 19.99%
+
+sampled_client_indices:  [26]
+[Round: 0015] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0026] loss: 0.4170, accuracy: 95.45%
+
+[Round: 0015] ...finished evaluation of 1 selected clients!
+[Round: 0015] Aggregate updated weights of 1 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0015] Evaluate global model's performance...!                
+	[Server] Loss: 2.3524, Accuracy: 19.91%
+
+sampled_client_indices:  [12, 22]
+[Round: 0016] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0012] loss: 0.8391, accuracy: 93.18%
+
+	[Client 0022] loss: 0.3886, accuracy: 95.45%
+
+[Round: 0016] ...finished evaluation of 2 selected clients!
+[Round: 0016] Aggregate updated weights of 2 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0016] Evaluate global model's performance...!                
+	[Server] Loss: 1.9380, Accuracy: 34.65%
+
+sampled_client_indices:  [12, 14]
+[Round: 0017] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0012] loss: 0.1197, accuracy: 97.73%
+
+	[Client 0014] loss: 0.4343, accuracy: 90.91%
+
+[Round: 0017] ...finished evaluation of 2 selected clients!
+[Round: 0017] Aggregate updated weights of 2 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0017] Evaluate global model's performance...!                
+	[Server] Loss: 2.0202, Accuracy: 38.03%
+
+sampled_client_indices:  [12, 23]
+[Round: 0018] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0012] loss: 0.0541, accuracy: 97.73%
+
+	[Client 0023] loss: 0.1634, accuracy: 93.18%
+
+[Round: 0018] ...finished evaluation of 2 selected clients!
+[Round: 0018] Aggregate updated weights of 2 clients...!
+  0%|          | 0/1 [00:00<?, ?it/s][Round: 0018] Evaluate global model's performance...!                
+	[Server] Loss: 3.2613, Accuracy: 31.63%
+
+sampled_client_indices:  [22]
+[Round: 0019] ...1 clients are selected and updated (with total sample size: 44)!
+	[Client 0022] loss: 0.0145, accuracy: 100.00%
+
+[Round: 0019] ...finished evaluation of 1 selected clients!
+[Round: 0019] Aggregate updated weights of 1 clients...!
+  0%|          | 0/2 [00:00<?, ?it/s][Round: 0019] Evaluate global model's performance...!                
+	[Server] Loss: 5.5714, Accuracy: 20.80%
+
+sampled_client_indices:  [14, 23]
+[Round: 0020] ...2 clients are selected and updated (with total sample size: 88)!
+	[Client 0014] loss: 0.0628, accuracy: 100.00%
+
+	[Client 0023] loss: 0.6078, accuracy: 88.64%
+
+[Round: 0020] ...finished evaluation of 2 selected clients!
+[Round: 0020] Aggregate updated weights of 2 clients...!
+[Round: 0020] Evaluate global model's performance...!                
+	[Server] Loss: 1.9730, Accuracy: 30.53%
+
+
+Process finished with exit code 0
+

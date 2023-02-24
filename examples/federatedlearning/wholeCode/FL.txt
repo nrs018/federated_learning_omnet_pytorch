@@ -1,0 +1,104 @@
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.531167	 Score 37.3139
+round0 V16	 CC 13.8431	 SQ 45	 TA 600 KB 	 Loss 1	 Score 39.3567
+round0 V19	 CC 19.6417	 SQ 45	 TA 600 KB 	 Loss 0.0892876	 Score 21.7432
+round0 V4	 CC 2.11278	 SQ 4500	 TA 600 KB 	 Loss 0.527014	 Score 36.0997
+round0 V3	 CC 18.5967	 SQ 4500	 TA 1200 KB 	 Loss 0.86679	 Score 56.969
+round0 V18	 CC 15.4653	 SQ 45	 TA 70 KB 	 Loss 0.0806687	 Score 10.3486
+round0 V5	 CC 5.17886	 SQ 4500	 TA 70 KB 	 Loss 0.407563	 Score 21.3534
+round0 V11	 CC 8.45391	 SQ 45	 TA 1200 KB 	 Loss 0.0113442	 Score 13.1
+round0 V2	 CC 7.96022	 SQ 4500	 TA 600 KB 	 Loss 0.861076	 Score 40.8904
+round0 V8	 CC 5.9448	 SQ 45	 TA 1200 KB 	 Loss 0.039571	 Score 13.9595
+round0 V12	 CC 6.09529	 SQ 45	 TA 600 KB 	 Loss 0.851851	 Score 32.2898
+round0 V13	 CC 10.2519	 SQ 45	 TA 1200 KB 	 Loss 0.08013	 Score 15.5739
+round0 V1	 CC 18.743	 SQ 4500	 TA 1200 KB 	 Loss 0.889033	 Score 57.1366
+round0 V17	 CC 4.65129	 SQ 45	 TA 600 KB 	 Loss 0.0122293	 Score 15.68
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.196855	 Score 28.4222
+round0 V4	 CC 2.11278	 SQ 4500	 TA 600 KB 	 Loss 0.294574	 Score 27.2983
+round0 V13	 CC 10.2519	 SQ 45	 TA 70 KB 	 Loss 1	 Score 29.3603
+round0 V15	 CC 19.2858	 SQ 45	 TA 600 KB 	 Loss 0.0024739	 Score 15.6045
+round0 V18	 CC 15.4653	 SQ 45	 TA 600 KB 	 Loss 0.00059905	 Score 15.2644
+round0 V19	 CC 19.6417	 SQ 45	 TA 600 KB 	 Loss 0.00505474	 Score 15.9377
+round0 V5	 CC 5.17886	 SQ 4500	 TA 600 KB 	 Loss 0.0822694	 Score 21.459
+round0 V10	 CC 12.0998	 SQ 45	 TA 600 KB 	 Loss 0.27766	 Score 27.47
+round0 V8	 CC 5.9448	 SQ 45	 TA 600 KB 	 Loss 0.0145855	 Score 16.92
+round0 V3	 CC 18.5967	 SQ 4500	 TA 600 KB 	 Loss 0.291801	 Score 33.5293
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.357628	 Score 30.7992
+round0 V4	 CC 2.11278	 SQ 4500	 TA 70 KB 	 Loss 0.382866	 Score 18.5013
+round0 V10	 CC 12.0998	 SQ 45	 TA 70 KB 	 Loss 0.894283	 Score 30.4941
+round0 V14	 CC 11.1053	 SQ 45	 TA 70 KB 	 Loss 0.0668975	 Score 10.2083
+round0 V16	 CC 13.8431	 SQ 45	 TA 600 KB 	 Loss 0.0762725	 Score 21.1525
+round0 V15	 CC 19.2858	 SQ 45	 TA 600 KB 	 Loss 0.191281	 Score 26.6941
+round0 V19	 CC 19.6417	 SQ 45	 TA 600 KB 	 Loss 0.0645439	 Score 20.5509
+round0 V2	 CC 7.96022	 SQ 4500	 TA 600 KB 	 Loss 0.575593	 Score 37.4465
+round0 V18	 CC 15.4653	 SQ 45	 TA 600 KB 	 Loss 1	 Score 39.9284
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.416145	 Score 33.0829
+round0 V1	 CC 18.743	 SQ 4500	 TA 70 KB 	 Loss 0.158941	 Score 15.9871
+round0 V15	 CC 19.2858	 SQ 45	 TA 600 KB 	 Loss 0.101195	 Score 22.3105
+round0 V16	 CC 13.8431	 SQ 45	 TA 600 KB 	 Loss 0.0445927	 Score 19.3389
+round0 V18	 CC 15.4653	 SQ 45	 TA 1200 KB 	 Loss 0.0260466	 Score 13.8228
+round0 V19	 CC 19.6417	 SQ 45	 TA 1200 KB 	 Loss 0.132466	 Score 19.7033
+round0 V2	 CC 7.96022	 SQ 4500	 TA 1200 KB 	 Loss 0.351502	 Score 33.7513
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.358489	 Score 30.823
+round0 V2	 CC 7.96022	 SQ 4500	 TA 600 KB 	 Loss 0.764225	 Score 39.3182
+round0 V8	 CC 5.9448	 SQ 45	 TA 600 KB 	 Loss 0.118494	 Score 21.2055
+round0 V18	 CC 15.4653	 SQ 45	 TA 600 KB 	 Loss 0.0415753	 Score 19.1323
+round0 V19	 CC 19.6417	 SQ 45	 TA 600 KB 	 Loss 0.3174	 Score 28.2121
+round0 V13	 CC 10.2519	 SQ 45	 TA 600 KB 	 Loss 0.455433	 Score 34.0966
+round0 V16	 CC 13.8431	 SQ 45	 TA 1200 KB 	 Loss 0.0736316	 Score 15.4085
+round0 V3	 CC 18.5967	 SQ 4500	 TA 600 KB 	 Loss 0.692398	 Score 42.0123
+round0 V5	 CC 5.17886	 SQ 4500	 TA 600 KB 	 Loss 0.379169	 Score 30.0464
+round0 V2	 CC 7.96022	 SQ 4500	 TA 70 KB 	 Loss 0.460054	 Score 24.6059
+round0 V3	 CC 18.5967	 SQ 4500	 TA 70 KB 	 Loss 0.351155	 Score 25.5791
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.34489	 Score 30.4437
+round0 V4	 CC 2.11278	 SQ 4500	 TA 70 KB 	 Loss 0.305971	 Score 17.0001
+round0 V15	 CC 19.2858	 SQ 45	 TA 600 KB 	 Loss 0.0242309	 Score 17.7982
+round0 V1	 CC 18.743	 SQ 4500	 TA 600 KB 	 Loss 0.481717	 Score 41.0633
+round0 V14	 CC 11.1053	 SQ 45	 TA 600 KB 	 Loss 0.0123721	 Score 16.7028
+round0 V16	 CC 13.8431	 SQ 45	 TA 600 KB 	 Loss 0.0749464	 Score 21.0883
+round0 V18	 CC 15.4653	 SQ 45	 TA 600 KB 	 Loss 0.535548	 Score 36.2807
+round0 V19	 CC 19.6417	 SQ 45	 TA 600 KB 	 Loss 1	 Score 40.0243
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.152541	 Score 27.7755
+round0 V6	 CC 17.0109	 SQ 4500	 TA 70 KB 	 Loss 0.092429	 Score 12.153
+round0 V7	 CC 4.10979	 SQ 4500	 TA 600 KB 	 Loss 0.181729	 Score 26.1811
+round0 V16	 CC 13.8431	 SQ 45	 TA 600 KB 	 Loss 0.209155	 Score 26.9312
+round0 V18	 CC 15.4653	 SQ 45	 TA 1200 KB 	 Loss 0.113627	 Score 17.7539
+round0 V19	 CC 19.6417	 SQ 45	 TA 70 KB 	 Loss 0.0875078	 Score 10.4143
+round0 V14	 CC 11.1053	 SQ 45	 TA 600 KB 	 Loss 1	 Score 36.4528
+round0 V4	 CC 2.11278	 SQ 4500	 TA 600 KB 	 Loss 0.341494	 Score 28.6845
+round0 V9	 CC 8.05313	 SQ 45	 TA 1200 KB 	 Loss 0.0148577	 Score 13.2891
+round0 V12	 CC 6.09529	 SQ 45	 TA 600 KB 	 Loss 0.0599102	 Score 19.3338
+round0 V2	 CC 7.96022	 SQ 4500	 TA 600 KB 	 Loss 0.345016	 Score 30.5961
+round0 V11	 CC 8.45391	 SQ 45	 TA 1200 KB 	 Loss 0.431451	 Score 28.5458
+round0 V3	 CC 18.5967	 SQ 4500	 TA 600 KB 	 Loss 0.141748	 Score 29.9873
+round0 V13	 CC 10.2519	 SQ 45	 TA 1200 KB 	 Loss 0.434332	 Score 30.3354
+round0 V0	 CC 7.78117	 SQ 4500	 TA 600 KB 	 Loss 0.116581	 Score 26.6415
+round0 V1	 CC 18.743	 SQ 4500	 TA 70 KB 	 Loss 0.273002	 Score 22.1935
+round0 V7	 CC 4.10979	 SQ 4500	 TA 600 KB 	 Loss 0.323125	 Score 28.2139
+round0 V8	 CC 5.9448	 SQ 45	 TA 600 KB 	 Loss 0.0769831	 Score 19.6579
+round0 V15	 CC 19.2858	 SQ 45	 TA 600 KB 	 Loss 0.09917	 Score 22.1482
+round0 V16	 CC 13.8431	 SQ 45	 TA 70 KB 	 Loss 0.193683	 Score 14.1795
+round0 V19	 CC 19.6417	 SQ 45	 TA 600 KB 	 Loss 0.111551	 Score 23.2985
+selected client which successful upload their model 11.pt 3.pt 4.pt 8.pt 1.pt 2.pt 19.pt 18.pt 
+After evaluate global model: 0.08910351677660897 0.9763
+selected client which successful upload their model 11.pt 16.pt 3.pt 4.pt 0.pt 17.pt 8.pt 13.pt 1.pt 10.pt 9.pt 5.pt 2.pt 19.pt 15.pt 18.pt 
+After evaluate global model: 0.08617919018051505 0.977
+selected client which successful upload their model 16.pt 0.pt 13.pt 1.pt 10.pt 9.pt 5.pt 19.pt 15.pt 18.pt 
+After evaluate global model: 0.06617784948298062 0.982
+selected client which successful upload their model 3.pt 1.pt 5.pt 14.pt 2.pt 18.pt 
+After evaluate global model: 0.06913476894409902 0.9812
+selected client which successful upload their model 16.pt 3.pt 0.pt 12.pt 13.pt 1.pt 19.pt 
+After evaluate global model: 0.06274807775220907 0.9831
+selected client which successful upload their model 3.pt 4.pt 1.pt 2.pt 
+After evaluate global model: 0.16876107687990016 0.9569
+selected client which successful upload their model 11.pt 16.pt 3.pt 8.pt 12.pt 1.pt 10.pt 7.pt 14.pt 2.pt 15.pt 18.pt 
+After evaluate global model: 0.11560084373854158 0.9663
+selected client which successful upload their model 11.pt 16.pt 3.pt 4.pt 0.pt 17.pt 8.pt 13.pt 1.pt 10.pt 7.pt 5.pt 14.pt 2.pt 19.pt 18.pt 
+After evaluate global model: 0.08545713448673689 0.9778
+selected client which successful upload their model 11.pt 3.pt 4.pt 8.pt 13.pt 1.pt 7.pt 9.pt 14.pt 2.pt 19.pt 18.pt 
+After evaluate global model: 0.0874409715252679 0.9752
+selected client which successful upload their model 3.pt 0.pt 14.pt 19.pt 
+After evaluate global model: 0.05946623821505071 0.9834
+selected client which successful upload their model 16.pt 3.pt 8.pt 14.pt 2.pt 19.pt 
+After evaluate global model: 0.04832807084454978 0.9859
+selected client which successful upload their model 3.pt 4.pt 5.pt 19.pt 18.pt 
+After evaluate global model: 0.04570844946305652 0.9866

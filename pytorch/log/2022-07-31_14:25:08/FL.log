@@ -1,0 +1,10 @@
+[INFO](2022/07/31/ 02:25:11 PM) 
+[WELCOME] Unfolding configurations...!
+[INFO](2022/07/31/ 02:25:11 PM) {'global_config': {'seed': 5959, 'device': 'cuda', 'is_mp': True}}
+[INFO](2022/07/31/ 02:25:11 PM) {'data_config': {'data_path': './data/', 'dataset_name': 'MNIST', 'num_shards': 200, 'iid': False}}
+[INFO](2022/07/31/ 02:25:11 PM) {'fed_config': {'C': 0.1, 'K': 100, 'R': 500, 'E': 10, 'B': 10, 'criterion': 'torch.nn.CrossEntropyLoss', 'optimizer': 'torch.optim.SGD'}}
+[INFO](2022/07/31/ 02:25:11 PM) {'optim_config': {'lr': 0.01, 'momentum': 0.9}}
+[INFO](2022/07/31/ 02:25:11 PM) {'init_config': {'init_type': 'xavier', 'init_gain': 1.0, 'gpu_ids': [0, 1, 2]}}
+[INFO](2022/07/31/ 02:25:11 PM) {'model_config': {'name': 'CNN', 'in_channels': 1, 'hidden_channels': 32, 'num_hiddens': 512, 'num_classes': 10}}
+[INFO](2022/07/31/ 02:25:11 PM) {'log_config': {'log_path': './log/2022-07-31_14:25:08', 'log_name': 'FL.log', 'tb_port': 5252, 'tb_host': '0.0.0.0'}}
+[INFO](2022/07/31/ 02:25:12 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!

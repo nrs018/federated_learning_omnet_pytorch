@@ -1,0 +1,106 @@
+version 2
+run General-0-20230117-14:22:53-16402
+attr configname General
+attr datetime 20230117-14:22:53
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network X1
+attr processid 16402
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.testing false
+param **.testTimeout 0s
+param *.sctp_client.hasSctp true
+param *.sctp_server.hasSctp true
+param **.addStaticRoutes false
+param *.radioMedium.backgroundNoise.power -110dBm
+param *.configurator.config "xmldoc(\"config.xml\")"
+param **.sctp_client.numApps 1
+param **.sctp_client.app[*].localAddress "\"10.1.1.1 10.2.1.1\""
+param **.sctp_client.app[0].requestLength 1400
+param **.sctp_client.app[0].typename "\"SctpClient\""
+param **.sctp_client.app[*].connectAddress "\"10.1.3.1\""
+param **.sctp_client.app[*].primaryPath "\"10.1.3.1\""
+param **.sctp_client.app[0].connectPort 6666
+param **.sctp_client.app[0].startTime truncnormal(1s,0.2s)
+param **.sctp_client.app[0].stopTime truncnormal(60s,10s)
+param **.sctp_client.app[0].numRequestsPerSession 100000000
+param **.sctp_client.app[0].queueSize 100
+param **.sctp_client.app[0].outboundStreams 1
+param **.sctp_server.numApps 1
+param **.sctp_server.app[0].typename "\"SctpServer\""
+param **.sctp_server.app[*].localAddress "\"10.1.3.1 10.2.3.1\""
+param **.sctp_server.app[0].localPort 6666
+param **.sctp_server.app[*].readingInterval 0s
+param **.sctp_server.app[*].bytesToPush 0
+param **.sctp_server.app[*].queueSize 0
+param **.sctp_server.app[*].numPacketsToSendPerClient 0
+param **.sctp_server.app[*].numPacketsToReceivePerClient 0
+param **.sctp_server.app[*].outboundStreams 1
+param **.sctp_client.ipv4.routingTable.routingFile "\"multi_client.mrt\""
+param **.sctp_server.ipv4.routingTable.routingFile "\"multi_server.mrt\""
+param **.router.ipv4.routingTable.routingFile "\"multi_router.mrt\""
+param **.cmtCCVariant "\"cmt\""
+param **.cmtCUCVariant "\"pseudoCumAckV2\""
+param **.cmtUseSFR true
+param **.cmtUseDAC true
+param **.cmtUseFRC true
+param **.sctp.sctpAlgorithmClass "\"SctpAlg\""
+param **.sctp.fragPoint 1400
+param **.sctp.numGapReports 3
+param **.sctp.rtoMin 1s
+param **.sctp.rtoMax 60s
+param **.sctp.rtoInitial 3s
+param **.sctp.maxBurst 4
+param **.sctp.assocMaxRetrans 10
+param **.sctp.pathMaxRetrans 5
+param **.sctp.maxInitRetrans 8
+param **.sctp.hbInterval 30s
+param **.sctp.nagleEnabled true
+param **.sctp.naglePoint 1468
+param **.sctp.osbWithHeader false
+param **.sctp.padding false
+param **.sctp.reactivatePrimaryPath false
+param **.sctp.sackPeriod 0.2s
+param **.sctp.sackFrequency 2
+param **.sctp.validCookieLifetime 10s
+param **.sctp.fragment false
+param **.sctp.arwnd 65535
+param **.sctp.auth false
+param **.sctp.addIP false
+param **.sctp.addTime 0s
+param **.sctp.addAddress "\"\""
+param **.sctp.addIp.typename "\"0\""
+param **.sctp.chunks "\"\""
+param **.sctp.packetDrop false
+param **.sctp.RTXMethod 0
+param **.sctp.crcMode "\"computed\""
+param **.ipv4.**.crcMode "\"computed\""
+param **.tcp.typename "\"Tcp\""
+param **.tcp.mss 1024
+param **.tcp.advertisedWindow 65535
+param **.tcp.tcpAlgorithmClass "\"TcpReno\""
+param **.ppp[*].ppp.queue.typename "\"DropTailQueue\""
+param **.ppp[*].ppp.queue.packetCapacity 100
+param **.ppp[*].ppp.mtu "1500 B"
+param *.accessPoint.numWlanInterfaces 1
+param *.accessPoint.wlan[0].mgmt.ssid "\"wlan2.4\""
+param *.accessPoint.wlan[0].bitrate 54Mbps
+param *.accessPoint.wlan[0].radio.bandName "\"2.4 GHz\""
+param *.accessPoint1.numWlanInterfaces 1
+param *.accessPoint1.wlan[0].mgmt.ssid "\"wlan5\""
+param *.accessPoint1.wlan[0].bitrate 54Mbps
+param *.accessPoint1.wlan[0].radio.bandName "\"5 GHz\""
+param *.sctp_server.wlan[0].agent.defaultSsid "\"wlan2.4\""
+param *.sctp_server.wlan[0].radio.bandName "\"2.4 GHz\""
+param *.sctp_server.wlan[1].agent.defaultSsid "\"wlan5\""
+param *.sctp_server.wlan[1].radio.bandName "\"5 GHz\""
+
+scalar X1.sctp_client.app[0] ums 1400
+

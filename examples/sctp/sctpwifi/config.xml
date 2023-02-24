@@ -1,0 +1,5 @@
+<config>
+   <interface hosts="accessPoint222" names="eth0" address="10.1.2.254" netmask="255.255.255.255" metric="1"/>
+   <interface hosts="accessPoint122" names="eth0" address="10.2.2.254" netmask="255.255.255.255" metric="1"/>
+   <interface hosts='**' address='10.4.x.x' natmask='255.255.x.x'/>
+</config>

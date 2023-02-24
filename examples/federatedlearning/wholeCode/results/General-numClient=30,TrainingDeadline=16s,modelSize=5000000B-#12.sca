@@ -1,0 +1,166 @@
+version 2
+run General-12-20221113-16:40:11-28273
+attr configname General
+attr datetime 20221113-16:40:11
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars "$numClient=30, $TrainingDeadline=16s, $modelSize=5000000B"
+attr iterationvarsf numClient=30,TrainingDeadline=16s,modelSize=5000000B-
+attr measurement "$numClient=30, $TrainingDeadline=16s, $modelSize=5000000B"
+attr network SingleCell
+attr processid 28273
+attr repetition 12
+attr replication #12
+attr resultdir results
+attr runnumber 12
+attr seedset 12
+itervar TrainingDeadline 16s
+itervar modelSize 5000000B
+itervar numClient 30
+param **.routingRecorder.enabled false
+param *.configurator.config "xmldoc(\"demo.xml\")"
+param **.round 12
+param **.randomSeed 12
+param **.mobility.constraintAreaMinZ 0m
+param **.mobility.constraintAreaMaxZ 0m
+param *.s.mobility.initFromDisplayString false
+param **.numRbDl 50
+param **.numRbUl 50
+param **.binder.numBands 50
+param **.lteNic.phy.enableHandover true
+param *.eNB*.numX2Apps 2
+param *.eNB0.x2App[0].server.localPort 2000
+param *.eNB1.x2App[0].server.localPort 2001
+param *.eNB2.x2App[0].server.localPort 2002
+param *.eNB3.x2App[0].server.localPort 2003
+param *.eNB0.x2App[1].server.localPort 2004
+param *.eNB1.x2App[1].server.localPort 2005
+param *.eNB2.x2App[1].server.localPort 2006
+param *.eNB3.x2App[1].server.localPort 2007
+param *.eNB0.x2App[0].client.connectAddress "\"eNB1%x2ppp0\""
+param *.eNB0.x2App[1].client.connectAddress "\"eNB3%x2ppp0\""
+param *.eNB1.x2App[0].client.connectAddress "\"eNB0%x2ppp0\""
+param *.eNB1.x2App[1].client.connectAddress "\"eNB2%x2ppp0\""
+param *.eNB2.x2App[0].client.connectAddress "\"eNB1%x2ppp0\""
+param *.eNB2.x2App[1].client.connectAddress "\"eNB3%x2ppp0\""
+param *.eNB3.x2App[0].client.connectAddress "\"eNB0%x2ppp0\""
+param *.eNB3.x2App[1].client.connectAddress "\"eNB2%x2ppp0\""
+param **.ueTxPower 26
+param **.eNodeBTxPower 40
+param **.C[*].macCellId 1
+param **.C[*].masterId 1
+param **.s.macCellId 1
+param **.s.masterId 1
+param *.s.mobilityType "\"StationaryMobility\""
+param *.s.**.initialX 1830m
+param *.s.**.initialY 880m
+param *.s.**.initialZ 0m
+param *.C[*].mobilityType "\"SUMOMobility\""
+param *.C[*].mobility.constraintAreaMinX 0m
+param *.C[*].mobility.constraintAreaMinY 0m
+param *.C[*].mobility.constraintAreaMaxX 4939.44m
+param *.C[*].mobility.constraintAreaMaxY 6386.11m
+param *.configurator.dumpAddresses true
+param *.configurator.dumpTopology true
+param *.configurator.dumpLinks true
+param *.configurator.dumpRoutes true
+param **.ipv4.arp.typename "\"GlobalArp\""
+param *.*.ipv4.routingTable.netmaskRoutes "\"\""
+param **.numClient 30
+param **.TrainingDeadline 16s
+param *.C[*].numApps 4
+param *.C[*].app[0].typename "\"ClientSink\""
+param *.C[*].app[0].localPort 3000
+param *.C[*].app[1].typename "\"exchangeInfo_broadcast\""
+param *.C[*].app[1].destAddresses "\"224.0.0.9\""
+param *.C[*].app[1].destPort 6000
+param *.C[*].app[1].messageLength 30B
+param *.C[*].app[1].sendInterval 0.1s
+param *.C[*].app[1].startTime uniform(1s,1.2s)
+param *.C[*].app[1].joinLocalMulticastGroups true
+param **.checkInterval 3
+param *.C[*].app[2].typename "\"exchangeInfo_sink\""
+param *.C[*].app[2].localPort 6000
+param *.C[*].app[2].multicastGroup "\"224.0.0.9\""
+param *.C[*].app[3].typename "\"upload_ClientSession\""
+param *.C[*].app[3].connectAddress "\"192.168.0.2\""
+param *.C[*].app[3].connectPort 9000
+param *.C[*].app[3].sendBytes 5000000B
+param *.C[*].app[3].localPort 8000
+param *.C[*].app[3].tOpen 16s
+param *.C[*].app[3].tSend 16s
+param *.C[*].app[3].tClose -1s
+param *.C[*].app[3].SelectClientNumPerCoverage 2
+param **.selectionRange 200m
+param **.modelSize 5000000B
+param *.s.numApps "30 + 1"
+param **.alpha0 0
+param **.alpha1 0
+param **.alpha2 1
+param **.alpha3 1
+param *.s.app[0..29].typename "\"Broadcast\""
+param *.s.app[0..29].connectAddress "\"192.168.0.\" + string(3 + ancestorIndex(0))"
+param *.s.app[0..29].connectPort 3000
+param *.s.app[0..29].sendBytes 5000000B
+param *.s.app[0..29].localPort "4000 + ancestorIndex(0)"
+param *.s.app[0..29].tOpen 1.01s
+param *.s.app[0..29].tSend 1.015s
+param *.s.app[0..29].tClose -1s
+param *.s.app[30].typename "\"upload_ServerSink\""
+param *.s.app[30].localPort 9000
+param **.wlan[0].opMode "\"p\""
+param **.wlan[0].radio.typename "\"Ieee80211DimensionalRadio\""
+param **.wlan[0].radio.bandName "\"5.9 GHz\""
+param **.wlan[0].radio.channelNumber 3
+param **.wlan[0].radio.transmitter.power 100mW
+param **.wlan[0].radio.bandwidth "10 MHz"
+param **.wlan[*].radio.antenna.mobility.typename "\"AttachedMobility\""
+param **.wlan[*].radio.antenna.mobility.mobilityModule "\"^.^.^.^.mobility\""
+param **.wlan[*].radio.antenna.mobility.offsetX -2.5m
+param **.wlan[*].radio.antenna.mobility.offsetZ 1.5m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMinX 0m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMaxX 0m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMinY 0m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMaxY 0m
+param **.channelModel.dynamic_los true
+param *.C[*].app[0].computationCapability uniform(1,20)
+param *.C[0].app[1].sampleQuantity 4500
+param *.C[1].app[1].sampleQuantity 4500
+param *.C[2].app[1].sampleQuantity 4500
+param *.C[3].app[1].sampleQuantity 4500
+param *.C[4].app[1].sampleQuantity 4500
+param *.C[5].app[1].sampleQuantity 4500
+param *.C[6].app[1].sampleQuantity 4500
+param *.C[7].app[1].sampleQuantity 4500
+param *.C[8].app[1].sampleQuantity 4500
+param *.C[9].app[1].sampleQuantity 4500
+param *.C[10].app[1].sampleQuantity 4500
+param *.C[11].app[1].sampleQuantity 4500
+param *.C[12].app[1].sampleQuantity 45
+param *.C[13].app[1].sampleQuantity 45
+param *.C[14].app[1].sampleQuantity 45
+param *.C[15].app[1].sampleQuantity 45
+param *.C[16].app[1].sampleQuantity 45
+param *.C[17].app[1].sampleQuantity 45
+param *.C[18].app[1].sampleQuantity 45
+param *.C[19].app[1].sampleQuantity 45
+param *.C[20].app[1].sampleQuantity 45
+param *.C[21].app[1].sampleQuantity 45
+param *.C[22].app[1].sampleQuantity 45
+param *.C[23].app[1].sampleQuantity 45
+param *.C[24].app[1].sampleQuantity 45
+param *.C[25].app[1].sampleQuantity 45
+param *.C[26].app[1].sampleQuantity 45
+param *.C[27].app[1].sampleQuantity 45
+param *.C[28].app[1].sampleQuantity 45
+param *.C[29].app[1].sampleQuantity 45
+
+scalar SingleCell.eNB0.x2App[0].client ums 1452
+scalar SingleCell.eNB0.x2App[1].client ums 1452
+scalar SingleCell.eNB1.x2App[0].client ums 1452
+scalar SingleCell.eNB1.x2App[1].client ums 1452
+scalar SingleCell.eNB2.x2App[0].client ums 1452
+scalar SingleCell.eNB2.x2App[1].client ums 1452
+scalar SingleCell.eNB3.x2App[0].client ums 1452
+scalar SingleCell.eNB3.x2App[1].client ums 1452
+

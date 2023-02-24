@@ -1,0 +1,3505 @@
+version 2
+run General-11-20220829-14:51:02-54960
+attr configname General
+attr datetime 20220829-14:51:02
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars "$numClient=30, $TrainingDeadline=15s, $modelSize=50000B"
+attr iterationvarsf numClient=30,TrainingDeadline=15s,modelSize=50000B-
+attr measurement "$numClient=30, $TrainingDeadline=15s, $modelSize=50000B"
+attr network SingleCell
+attr processid 54960
+attr repetition 11
+attr replication #11
+attr resultdir results
+attr runnumber 11
+attr seedset 11
+itervar TrainingDeadline 15s
+itervar modelSize 50000B
+itervar numClient 30
+param **.routingRecorder.enabled false
+param *.configurator.config "xmldoc(\"demo.xml\")"
+param **.round 11
+param **.mobility.constraintAreaMinZ 0m
+param **.mobility.constraintAreaMaxZ 0m
+param **.mobility.initFromDisplayString false
+param **.numRbDl 50
+param **.numRbUl 50
+param **.binder.numBands 50
+param **.ueTxPower 26
+param **.eNodeBTxPower 40
+param **.C[*].macCellId 1
+param **.C[*].masterId 1
+param **.s.macCellId 1
+param **.s.masterId 1
+param *.eNB.mobility.initialX 500m
+param *.eNB.mobility.initialY 10m
+param *.s.mobility.typename "\"StationaryMobility\""
+param *.s.mobility.initialX 520m
+param *.s.mobility.initialY 50m
+param *.C[*].mobility.typename "\"StationaryMobility\""
+param *.C[0..11].mobility.initialX "uniform(480m, 520m)"
+param *.C[12..20].mobility.initialX "uniform(250m, 270m)"
+param *.C[21..29].mobility.initialX "uniform(730m, 750m)"
+param *.C[*].mobility.initialY 50m
+param *.configurator.dumpAddresses true
+param *.configurator.dumpTopology true
+param *.configurator.dumpLinks true
+param *.configurator.dumpRoutes true
+param **.ipv4.arp.typename "\"GlobalArp\""
+param *.*.ipv4.routingTable.netmaskRoutes "\"\""
+param **.numClient 30
+param **.TrainingDeadline 15s
+param *.C[*].numApps 4
+param *.C[*].app[0].typename "\"ClientSink\""
+param *.C[*].app[0].localPort 3000
+param *.C[*].app[1].typename "\"exchangeInfo_broadcast\""
+param *.C[*].app[1].destAddresses "\"224.0.0.9\""
+param *.C[*].app[1].destPort 6000
+param *.C[*].app[1].messageLength 30B
+param *.C[*].app[1].sendInterval 0.1s
+param *.C[*].app[1].startTime uniform(0s,0.2s)
+param *.C[*].app[1].joinLocalMulticastGroups true
+param **.checkInterval 3
+param *.C[*].app[2].typename "\"exchangeInfo_sink\""
+param *.C[*].app[2].localPort 6000
+param *.C[*].app[2].multicastGroup "\"224.0.0.9\""
+param *.C[*].app[3].typename "\"upload_ClientSession\""
+param *.C[*].app[3].connectAddress "\"192.168.0.2\""
+param *.C[*].app[3].connectPort 9000
+param *.C[*].app[3].sendBytes 50000B
+param *.C[*].app[3].localPort 8000
+param *.C[*].app[3].tOpen 15s
+param *.C[*].app[3].tSend 15s
+param *.C[*].app[3].tClose -1s
+param *.C[*].app[3].SelectClientNumPerCoverage 2
+param **.selectionRange 200m
+param **.modelSize 50000B
+param *.s.numApps "30 + 1"
+param **.alpha0 0
+param **.alpha1 0
+param **.alpha2 1
+param **.alpha3 1
+param *.s.app[0..29].typename "\"Broadcast\""
+param *.s.app[0..29].connectAddress "\"192.168.0.\" + string(3 + ancestorIndex(0))"
+param *.s.app[0..29].connectPort 3000
+param *.s.app[0..29].sendBytes 50000B
+param *.s.app[0..29].localPort "4000 + ancestorIndex(0)"
+param *.s.app[0..29].tOpen 0.01s
+param *.s.app[0..29].tSend 0.015s
+param *.s.app[0..29].tClose -1s
+param *.s.app[30].typename "\"upload_ServerSink\""
+param *.s.app[30].localPort 9000
+param **.wlan[0].opMode "\"p\""
+param **.wlan[0].radio.typename "\"Ieee80211DimensionalRadio\""
+param **.wlan[0].radio.bandName "\"5.9 GHz\""
+param **.wlan[0].radio.channelNumber 3
+param **.wlan[0].radio.transmitter.power 100mW
+param **.wlan[0].radio.bandwidth "10 MHz"
+param **.wlan[*].radio.antenna.mobility.typename "\"AttachedMobility\""
+param **.wlan[*].radio.antenna.mobility.mobilityModule "\"^.^.^.^.mobility\""
+param **.wlan[*].radio.antenna.mobility.offsetX -2.5m
+param **.wlan[*].radio.antenna.mobility.offsetZ 1.5m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMinX 0m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMaxX 0m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMinY 0m
+param **.wlan[*].radio.antenna.mobility.constraintAreaMaxY 0m
+param **.channelModel.dynamic_los true
+param *.C[*].app[0].computationCapability uniform(1,20)
+param *.C[0].app[1].sampleQuantity 4500
+param *.C[1].app[1].sampleQuantity 4500
+param *.C[2].app[1].sampleQuantity 4500
+param *.C[3].app[1].sampleQuantity 4500
+param *.C[4].app[1].sampleQuantity 4500
+param *.C[5].app[1].sampleQuantity 4500
+param *.C[6].app[1].sampleQuantity 4500
+param *.C[7].app[1].sampleQuantity 4500
+param *.C[8].app[1].sampleQuantity 4500
+param *.C[9].app[1].sampleQuantity 4500
+param *.C[10].app[1].sampleQuantity 4500
+param *.C[11].app[1].sampleQuantity 4500
+param *.C[12].app[1].sampleQuantity 45
+param *.C[13].app[1].sampleQuantity 45
+param *.C[14].app[1].sampleQuantity 45
+param *.C[15].app[1].sampleQuantity 45
+param *.C[16].app[1].sampleQuantity 45
+param *.C[17].app[1].sampleQuantity 45
+param *.C[18].app[1].sampleQuantity 45
+param *.C[19].app[1].sampleQuantity 45
+param *.C[20].app[1].sampleQuantity 45
+param *.C[21].app[1].sampleQuantity 45
+param *.C[22].app[1].sampleQuantity 45
+param *.C[23].app[1].sampleQuantity 45
+param *.C[24].app[1].sampleQuantity 45
+param *.C[25].app[1].sampleQuantity 45
+param *.C[26].app[1].sampleQuantity 45
+param *.C[27].app[1].sampleQuantity 45
+param *.C[28].app[1].sampleQuantity 45
+param *.C[29].app[1].sampleQuantity 45
+
+scalar SingleCell.server.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.server.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.server.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.server.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp.queue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.server.ppp[0].ppp.queue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.server.ppp[0].ppp.queue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.server.ppp[0].ppp.queue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.server.ppp[0].ppp.queue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.server.ppp[0].ppp.queue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.server.ppp[0].ppp.queue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp.queue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.server.ppp[0].ppp.queue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp.queue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.server.ppp[0].ppp.queue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp transmissionState:timeavg 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, timeavg"
+scalar SingleCell.server.ppp[0].ppp rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar SingleCell.server.ppp[0].ppp rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar SingleCell.server.ppp[0].ppp txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.server.ppp[0].ppp rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.server.ppp[0].ppp passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar SingleCell.server.ppp[0].ppp packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar SingleCell.server.ppp[0].ppp packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar SingleCell.server.ppp[0].ppp packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar SingleCell.server.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar SingleCell.server.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar SingleCell.server.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar SingleCell.server.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar SingleCell.server.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar SingleCell.server.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar SingleCell.server.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar SingleCell.server.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar SingleCell.server.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar SingleCell.server.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar SingleCell.server.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar SingleCell.server.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar SingleCell.server.udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.server.udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar SingleCell.server.udp packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.server.udp packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.server.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar SingleCell.server.udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar SingleCell.server.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar SingleCell.router.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.router.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.router.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.router.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp.queue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.router.ppp[0].ppp.queue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.router.ppp[0].ppp.queue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.router.ppp[0].ppp.queue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.router.ppp[0].ppp.queue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.router.ppp[0].ppp.queue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.router.ppp[0].ppp.queue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp.queue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.router.ppp[0].ppp.queue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp.queue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.router.ppp[0].ppp.queue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp transmissionState:timeavg 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, timeavg"
+scalar SingleCell.router.ppp[0].ppp rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar SingleCell.router.ppp[0].ppp rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar SingleCell.router.ppp[0].ppp txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.router.ppp[0].ppp rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.router.ppp[0].ppp passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar SingleCell.router.ppp[0].ppp packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar SingleCell.router.ppp[0].ppp packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar SingleCell.router.ppp[0].ppp packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp.queue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.router.ppp[1].ppp.queue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.router.ppp[1].ppp.queue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.router.ppp[1].ppp.queue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.router.ppp[1].ppp.queue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.router.ppp[1].ppp.queue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.router.ppp[1].ppp.queue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp.queue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.router.ppp[1].ppp.queue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp.queue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.router.ppp[1].ppp.queue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp transmissionState:timeavg 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, timeavg"
+scalar SingleCell.router.ppp[1].ppp rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar SingleCell.router.ppp[1].ppp rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar SingleCell.router.ppp[1].ppp txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.router.ppp[1].ppp rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.router.ppp[1].ppp passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar SingleCell.router.ppp[1].ppp packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar SingleCell.router.ppp[1].ppp packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar SingleCell.router.ppp[1].ppp packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar SingleCell.router.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar SingleCell.router.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar SingleCell.router.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar SingleCell.router.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar SingleCell.router.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar SingleCell.router.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar SingleCell.router.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar SingleCell.router.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar SingleCell.router.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar SingleCell.router.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar SingleCell.router.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar SingleCell.router.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar SingleCell.pgw.lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.pgw.lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.pgw.lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.pgw.lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.pgw.ppp[0].ppp.queue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.pgw.ppp[0].ppp.queue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.pgw.ppp[0].ppp.queue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.pgw.ppp[0].ppp.queue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp transmissionState:timeavg 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, timeavg"
+scalar SingleCell.pgw.ppp[0].ppp rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar SingleCell.pgw.ppp[0].ppp rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar SingleCell.pgw.ppp[0].ppp txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.pgw.ppp[0].ppp rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.pgw.ppp[0].ppp passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar SingleCell.pgw.ppp[0].ppp packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar SingleCell.pgw.ppp[0].ppp packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar SingleCell.pgw.ppp[0].ppp packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar SingleCell.pgw.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar SingleCell.pgw.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar SingleCell.pgw.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar SingleCell.pgw.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar SingleCell.pgw.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar SingleCell.pgw.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar SingleCell.pgw.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar SingleCell.pgw.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar SingleCell.pgw.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar SingleCell.pgw.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar SingleCell.pgw.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar SingleCell.pgw.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp.queue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.pgw.pppIf.ppp.queue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.pgw.pppIf.ppp.queue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.pgw.pppIf.ppp.queue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.pgw.pppIf.ppp.queue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.pgw.pppIf.ppp.queue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.pgw.pppIf.ppp.queue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp.queue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.pgw.pppIf.ppp.queue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp.queue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.pgw.pppIf.ppp.queue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp transmissionState:timeavg 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, timeavg"
+scalar SingleCell.pgw.pppIf.ppp rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar SingleCell.pgw.pppIf.ppp rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar SingleCell.pgw.pppIf.ppp txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.pgw.pppIf.ppp rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.pgw.pppIf.ppp passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar SingleCell.pgw.pppIf.ppp packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar SingleCell.pgw.pppIf.ppp packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar SingleCell.pgw.pppIf.ppp packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar SingleCell.pgw.udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.pgw.udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar SingleCell.pgw.udp packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.pgw.udp packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.pgw.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar SingleCell.pgw.udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar SingleCell.pgw.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar SingleCell.radioMedium.propagation "Arrival computation count" 224580
+scalar SingleCell.radioMedium "transmission count" 7486
+scalar SingleCell.radioMedium "signal send count" 224580
+scalar SingleCell.radioMedium "reception computation count" 224580
+scalar SingleCell.radioMedium "interference computation count" 681257
+scalar SingleCell.radioMedium "reception decision computation count" 224580
+scalar SingleCell.radioMedium "listening decision computation count" 232097
+scalar SingleCell.radioMedium "reception cache hit" 85.714285714286
+attr unit %
+scalar SingleCell.radioMedium "interference cache hit" 66.666666666667
+attr unit %
+scalar SingleCell.radioMedium "noise cache hit" 0
+attr unit %
+scalar SingleCell.radioMedium "snir cache hit" 50
+attr unit %
+scalar SingleCell.radioMedium "reception decision cache hit" 50
+attr unit %
+scalar SingleCell.radioMedium "reception result cache hit" 0
+attr unit %
+scalar SingleCell.eNB.lteNic.pdcpRrc sentPacketToLowerLayer:count 6664
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc sentPacketToLowerLayer:sum(packetBytes) 2015248
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc sentPacketToUpperLayer:count 6664
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc sentPacketToUpperLayer:sum(packetBytes) 2008584
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc receivedPacketFromLowerLayer:count 6664
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc receivedPacketFromLowerLayer:sum(packetBytes) 2015248
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc receivedPacketFromUpperLayer:count 6664
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.pdcpRrc receivedPacketFromUpperLayer:sum(packetBytes) 2008584
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.tm rlcPacketLossDl:mean -nan
+attr source rlcPacketLossDl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.tm rlcPacketLossDl:sum 0
+attr source rlcPacketLossDl
+attr title "rlc Packet Loss, sum"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.tm rlcPacketLossUl:mean -nan
+attr source rlcPacketLossUl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.tm rlcPacketLossUl:sum 0
+attr source rlcPacketLossUl
+attr title "rlc Packet Loss, sum"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.tm sentPacketToLowerLayer:count 0
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.tm sentPacketToLowerLayer:sum(packetBytes) 0
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.tm sentPacketToUpperLayer:count 0
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.tm sentPacketToUpperLayer:sum(packetBytes) 0
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.tm receivedPacketFromLowerLayer:count 0
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.tm receivedPacketFromLowerLayer:sum(packetBytes) 0
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.tm receivedPacketFromUpperLayer:count 0
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.tm receivedPacketFromUpperLayer:sum(packetBytes) 0
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.um rlcPduPacketLossDl:mean -nan
+attr source rlcPduPacketLossDl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcPduPacketLossUl:mean -nan
+attr source rlcPduPacketLossUl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcPduThroughputUl:mean -nan
+attr source rlcPduThroughputUl
+attr title "Throughput at the rlc layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.um rlcPduDelayUl:mean -nan
+attr source rlcPduDelayUl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.um rlcPduThroughputDl:mean -nan
+attr source rlcPduThroughputDl
+attr title "Throughput at the rlc layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.um rlcPduDelayDl:mean -nan
+attr source rlcPduDelayDl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.um rlcCellPacketLossUl:mean 0
+attr source rlcCellPacketLossUl
+attr title "rlc Cell Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcCellPacketLossDl:mean 0
+attr source rlcCellPacketLossDl
+attr title "rlc Cell Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcCellThroughputDl:mean 2163738.8724157
+attr source rlcCellThroughputDl
+attr title "Cell Throughput at the rlc layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.um rlcCellThroughputUl:mean 2131026.7775318
+attr source rlcCellThroughputUl
+attr title "Cell Throughput at the rlc layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.um rlcPacketLossTotal:mean -nan
+attr source rlcPacketLossTotal
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcThroughputUl:mean -nan
+attr source rlcThroughputUl
+attr title "Throughput at the rlc layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.um rlcDelayUl:mean -nan
+attr source rlcDelayUl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.um rlcThroughputDl:mean -nan
+attr source rlcThroughputDl
+attr title "Throughput at the rlc layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.um rlcDelayDl:mean -nan
+attr source rlcDelayDl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.um rlcPacketLossDl:mean 0
+attr source rlcPacketLossDl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcPacketLossDl:sum 0
+attr source rlcPacketLossDl
+attr title "rlc Packet Loss, sum"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcPacketLossUl:mean -nan
+attr source rlcPacketLossUl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um rlcPacketLossUl:sum 0
+attr source rlcPacketLossUl
+attr title "rlc Packet Loss, sum"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.um sentPacketToLowerLayer:count 5718
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.um sentPacketToLowerLayer:sum(packetBytes) 1985373
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.um sentPacketToUpperLayer:count 6664
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.um sentPacketToUpperLayer:sum(packetBytes) 2015248
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.um receivedPacketFromLowerLayer:count 5420
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.um receivedPacketFromLowerLayer:sum(packetBytes) 2026088
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.rlc.um receivedPacketFromUpperLayer:count 6664
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.um receivedPacketFromUpperLayer:sum(packetBytes) 2015248
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.rlc.am rlcPduPacketLossDl:mean -nan
+attr source rlcPduPacketLossDl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.am rlcPduPacketLossUl:mean -nan
+attr source rlcPduPacketLossUl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.am rlcPduThroughputUl:mean -nan
+attr source rlcPduThroughputUl
+attr title "Throughput at the rlc layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.am rlcPduDelayUl:mean -nan
+attr source rlcPduDelayUl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.am rlcPduThroughputDl:mean -nan
+attr source rlcPduThroughputDl
+attr title "Throughput at the rlc layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.am rlcPduDelayDl:mean -nan
+attr source rlcPduDelayDl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.am rlcCellPacketLossUl:mean -nan
+attr source rlcCellPacketLossUl
+attr title "rlc Cell Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.am rlcCellPacketLossDl:mean -nan
+attr source rlcCellPacketLossDl
+attr title "rlc Cell Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.am rlcCellThroughputDl:mean -nan
+attr source rlcCellThroughputDl
+attr title "Cell Throughput at the rlc layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.am rlcCellThroughputUl:mean -nan
+attr source rlcCellThroughputUl
+attr title "Cell Throughput at the rlc layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.am rlcPacketLossTotal:mean -nan
+attr source rlcPacketLossTotal
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.am rlcThroughputUl:mean -nan
+attr source rlcThroughputUl
+attr title "Throughput at the rlc layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.am rlcDelayUl:mean -nan
+attr source rlcDelayUl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.am rlcThroughputDl:mean -nan
+attr source rlcThroughputDl
+attr title "Throughput at the rlc layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.rlc.am rlcDelayDl:mean -nan
+attr source rlcDelayDl
+attr title "Delay at the rlc layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.rlc.am rlcPacketLossDl:mean -nan
+attr source rlcPacketLossDl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.rlc.am rlcPacketLossUl:mean -nan
+attr source rlcPacketLossUl
+attr title "rlc Packet Loss, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac avgServedBlocksUl:mean 7.55532
+attr source avgServedBlocksUl
+attr title "LTE Avg Served Blocks Ul, mean"
+attr unit blocks
+scalar SingleCell.eNB.lteNic.mac avgServedBlocksDl:mean 7.1988
+attr source avgServedBlocksDl
+attr title "LTE Avg Served Blocks Dl, mean"
+attr unit blocks
+scalar SingleCell.eNB.lteNic.mac cellBlocksUtilizationUl:mean 0.1511064
+attr source cellBlocksUtilizationUl
+attr title "LTE Cell Blocks Utilization Ul, mean"
+attr unit blocks
+scalar SingleCell.eNB.lteNic.mac cellBlocksUtilizationDl:mean 0.143976
+attr source cellBlocksUtilizationDl
+attr title "LTE Cell Blocks Utilization Dl, mean"
+attr unit blocks
+scalar SingleCell.eNB.lteNic.mac measuredItbs:mean 5.0058680909378
+attr source measuredItbs
+attr title "TBS index, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_4th_Dl:mean -nan
+attr source harqErrorRate_4th_Dl
+attr title "Harq Error Rate Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_4th_Ul:mean -nan
+attr source harqErrorRate_4th_Ul
+attr title "Harq Error Rate Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_3rd_Dl:mean -nan
+attr source harqErrorRate_3rd_Dl
+attr title "Harq Error Rate Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_3rd_Ul:mean -nan
+attr source harqErrorRate_3rd_Ul
+attr title "Harq Error Rate Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_2nd_Dl:mean -nan
+attr source harqErrorRate_2nd_Dl
+attr title "Harq Error Rate Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_2nd_Ul:mean -nan
+attr source harqErrorRate_2nd_Ul
+attr title "Harq Error Rate Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_1st_Dl:mean -nan
+attr source harqErrorRate_1st_Dl
+attr title "Harq Error Rate Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRate_1st_Ul:mean -nan
+attr source harqErrorRate_1st_Ul
+attr title "Harq Error Rate Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRateDl:mean -nan
+attr source harqErrorRateDl
+attr title "Harq Error Rate Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac harqErrorRateUl:mean -nan
+attr source harqErrorRateUl
+attr title "Harq Error Rate Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac macBufferOverFlowD2D:mean -nan
+attr source macBufferOverFlowD2D
+attr title "Mac buffer overflow as function of time, mean"
+attr unit Byte/s
+scalar SingleCell.eNB.lteNic.mac macBufferOverFlowUl:mean -nan
+attr source macBufferOverFlowUl
+attr title "Mac buffer overflow as function of time, mean"
+attr unit Byte/s
+scalar SingleCell.eNB.lteNic.mac macBufferOverFlowDl:mean -nan
+attr source macBufferOverFlowDl
+attr title "Mac buffer overflow as function of time, mean"
+attr unit Byte/s
+scalar SingleCell.eNB.lteNic.mac macPacketLossDl:mean -nan
+attr source macPacketLossDl
+attr title "Mac Packet Loss Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac macPacketLossUl:mean -nan
+attr source macPacketLossUl
+attr title "Mac Packet Loss Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac macCellPacketLossUl:mean 0
+attr source macCellPacketLossUl
+attr title "Mac Cell Packet Loss Ul, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac macCellPacketLossDl:mean 0.00070028011204482
+attr source macCellPacketLossDl
+attr title "Mac Cell Packet Loss Dl, mean"
+attr unit ""
+scalar SingleCell.eNB.lteNic.mac macCellThroughputDl:mean 1562585.2589289
+attr source macCellThroughputDl
+attr title "Cell Throughput at the MAC layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.mac macCellThroughputUl:mean 1109262.8209705
+attr source macCellThroughputUl
+attr title "Cell Throughput at the MAC layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.mac macThroughputUl:mean -nan
+attr source macThroughputUl
+attr title "Throughput at the MAC layer UL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.mac macDelayUl:mean -nan
+attr source macDelayUl
+attr title "Delay at the MAC layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.mac macThroughputDl:mean -nan
+attr source macThroughputDl
+attr title "Throughput at the MAC layer DL, mean"
+attr unit Bps
+scalar SingleCell.eNB.lteNic.mac macDelayDl:mean 0.0040283812193415
+attr source macDelayDl
+attr title "Delay at the MAC layer UL, mean"
+attr unit s
+scalar SingleCell.eNB.lteNic.mac sentPacketToLowerLayer:count 29116
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.mac sentPacketToLowerLayer:sum(packetBytes) 2065003
+attr interpolationmode none
+attr source sentPacketToLowerLayer
+scalar SingleCell.eNB.lteNic.mac sentPacketToUpperLayer:count 11138
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.mac sentPacketToUpperLayer:sum(packetBytes) 2031806
+attr interpolationmode none
+attr source sentPacketToUpperLayer
+scalar SingleCell.eNB.lteNic.mac receivedPacketFromLowerLayer:count 150475
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.mac receivedPacketFromLowerLayer:sum(packetBytes) 2208870
+attr interpolationmode none
+attr source receivedPacketFromLowerLayer
+scalar SingleCell.eNB.lteNic.mac receivedPacketFromUpperLayer:count 12382
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.mac receivedPacketFromUpperLayer:sum(packetBytes) 4013949
+attr interpolationmode none
+attr source receivedPacketFromUpperLayer
+scalar SingleCell.eNB.lteNic.channelModel rcvdSinr:mean 33.480114061616
+attr source rcvdSinr
+attr title "SINR measured at packet reception, mean"
+attr unit dB
+scalar SingleCell.eNB.pppIf.ppp.queue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.eNB.pppIf.ppp.queue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.eNB.pppIf.ppp.queue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.eNB.pppIf.ppp.queue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.eNB.pppIf.ppp.queue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.eNB.pppIf.ppp.queue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.eNB.pppIf.ppp.queue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp.queue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.eNB.pppIf.ppp.queue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp.queue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.eNB.pppIf.ppp.queue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp transmissionState:timeavg 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, timeavg"
+scalar SingleCell.eNB.pppIf.ppp rxPkOk:count 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, count"
+scalar SingleCell.eNB.pppIf.ppp rxPkOk:sum(packetBytes) 0
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp txPk:count 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, count"
+scalar SingleCell.eNB.pppIf.ppp txPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar SingleCell.eNB.pppIf.ppp rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar SingleCell.eNB.pppIf.ppp passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, count"
+scalar SingleCell.eNB.pppIf.ppp packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drop: incorrectly received, sum(packetBytes)"
+scalar SingleCell.eNB.pppIf.ppp packetDropInterfaceDown:count 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, count"
+scalar SingleCell.eNB.pppIf.ppp packetDropInterfaceDown:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsInterfaceDown(packetDropped)
+attr title "packet drop: interface down, sum(packetBytes)"
+scalar SingleCell.eNB.ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar SingleCell.eNB.ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar SingleCell.eNB.ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar SingleCell.eNB.ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar SingleCell.eNB.ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar SingleCell.eNB.ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar SingleCell.eNB.ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar SingleCell.eNB.ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar SingleCell.eNB.ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar SingleCell.eNB.ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar SingleCell.eNB.ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar SingleCell.eNB.ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar SingleCell.eNB.udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.eNB.udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar SingleCell.eNB.udp packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.eNB.udp packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.eNB.udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar SingleCell.eNB.udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar SingleCell.eNB.udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:count 0
+attr interpolationmode none
+attr title "packet popped, count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:count 0
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+statistic SingleCell.s.wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:max -nan
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, max"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:timeavg -nan
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, timeavg"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.contention channelAccessGranted:count 0
+attr title "channel access granted, count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess.contention stateChanged:count 29946
+attr interpolationmode none
+attr title "contention state changed, count"
+scalar SingleCell.s.wlan[0].mac.dcf.channelAccess channelOwnershipChanged:count 0
+attr interpolationmode sample-hold
+attr title "channel ownership, count"
+scalar SingleCell.s.wlan[0].mac.dcf.originatorMacDataService packetAggregated:count 0
+attr title "packets aggregated, count"
+scalar SingleCell.s.wlan[0].mac.dcf.originatorMacDataService packetFragmented:count 0
+attr title "packets fragmented, count"
+scalar SingleCell.s.wlan[0].mac.dcf.recipientMacDataService packetDeaggregated:count 0
+attr title "packets deaggregated, count"
+scalar SingleCell.s.wlan[0].mac.dcf.recipientMacDataService packetDefragmented:count 7486
+attr title "packets defragmented, count"
+scalar SingleCell.s.wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar SingleCell.s.wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf.recoveryProcedure retryLimitReached:count 0
+attr title "retry limit reached, count"
+scalar SingleCell.s.wlan[0].mac.dcf frameSequenceFinished:count 0
+attr title "finished frame sequences, count"
+statistic SingleCell.s.wlan[0].mac.dcf frameSequenceDuration:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source frameSequenceDuration(frameSequenceFinished)
+attr title "frame sequence durations, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.wlan[0].mac.dcf frameSequenceNumPackets:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source frameSequenceNumPackets(frameSequenceFinished)
+attr title "frame sequences: number of packets, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeer:count 7486
+attr interpolationmode none
+attr title "packets received, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeer:sum(packetBytes) 658768
+attr interpolationmode none
+attr title "packets received, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerUnicast:count 0
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerUnicast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerMulticast:count 7486
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerMulticast:sum(packetBytes) 658768
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerBroadcast:count 0
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerBroadcast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:count 7486
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:sum(packetBytes) 658768
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeer:count 0
+attr interpolationmode none
+attr title "packets sent, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeer:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerUnicast:count 0
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerUnicast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerMulticast:count 0
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerMulticast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerBroadcast:count 0
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , count"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerBroadcast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerWithoutRetry:count 0
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetSentToPeerWithoutRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar SingleCell.s.wlan[0].mac.dcf packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac.dcf linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+scalar SingleCell.s.wlan[0].mac packetReceivedFromLower:count 7486
+attr interpolationmode none
+attr title "packets received from lower layer, count"
+scalar SingleCell.s.wlan[0].mac packetReceivedFromLower:sum(packetBytes) 658768
+attr interpolationmode none
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetSentToLower:count 0
+attr interpolationmode none
+attr title "packets sent to lower layer, count"
+scalar SingleCell.s.wlan[0].mac packetSentToLower:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetReceivedFromUpper:count 0
+attr interpolationmode none
+attr title "packets received from upper layer, count"
+scalar SingleCell.s.wlan[0].mac packetReceivedFromUpper:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets received from upper layer, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetSentToUpper:count 7486
+attr interpolationmode none
+attr title "packets sent to upper layer, count"
+scalar SingleCell.s.wlan[0].mac packetSentToUpper:sum(packetBytes) 449160
+attr interpolationmode none
+attr title "packets sent to upper layer, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar SingleCell.s.wlan[0].mac packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, count"
+scalar SingleCell.s.wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar SingleCell.s.wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar SingleCell.s.wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar SingleCell.s.wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar SingleCell.s.wlan[0].mac packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac packetDropOther:count 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, count"
+scalar SingleCell.s.wlan[0].mac packetDropOther:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, sum(packetBytes)"
+scalar SingleCell.s.wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+statistic SingleCell.s.wlan[0].radio radioChannel:histogram
+field count 1
+field mean 3
+field stddev -nan
+field min 3
+field max 3
+field sum 3
+field sqrsum 9
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	2	0
+bin	3	1
+bin	4	0
+scalar SingleCell.s.wlan[0].radio radioMode:count 3
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar SingleCell.s.wlan[0].radio receptionState:count 14973
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar SingleCell.s.wlan[0].radio transmissionState:count 0
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic SingleCell.s.wlan[0].radio minSnir:histogram
+field count 7486
+field mean 1271371.1219669
+field stddev 5872873.5847387
+field min 2504.5832062112
+field max 32888226.155229
+field sum 9517484219.0443
+field sqrsum 2.7026272599515e+17
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	6240
+bin	500000	997
+bin	1000000	0
+bin	1500000	0
+bin	2000000	0
+bin	2500000	0
+bin	3000000	0
+bin	3500000	0
+bin	4000000	0
+bin	4500000	0
+bin	5000000	0
+bin	5500000	0
+bin	6000000	0
+bin	6500000	0
+bin	7000000	0
+bin	7500000	0
+bin	8000000	0
+bin	8500000	0
+bin	9000000	0
+bin	9500000	0
+bin	10000000	0
+bin	10500000	0
+bin	11000000	0
+bin	11500000	0
+bin	12000000	0
+bin	12500000	0
+bin	13000000	0
+bin	13500000	0
+bin	14000000	0
+bin	14500000	0
+bin	15000000	0
+bin	15500000	0
+bin	16000000	0
+bin	16500000	0
+bin	17000000	0
+bin	17500000	0
+bin	18000000	0
+bin	18500000	0
+bin	19000000	0
+bin	19500000	0
+bin	20000000	0
+bin	20500000	0
+bin	21000000	0
+bin	21500000	0
+bin	22000000	0
+bin	22500000	0
+bin	23000000	0
+bin	23500000	0
+bin	24000000	0
+bin	24500000	0
+bin	25000000	0
+bin	25500000	0
+bin	26000000	0
+bin	26500000	0
+bin	27000000	0
+bin	27500000	0
+bin	28000000	0
+bin	28500000	0
+bin	29000000	0
+bin	29500000	0
+bin	30000000	0
+bin	30500000	0
+bin	31000000	0
+bin	31500000	0
+bin	32000000	0
+bin	32500000	249
+bin	33000000	0
+bin	33500000	0
+bin	34000000	0
+bin	34500000	0
+bin	35000000	0
+bin	35500000	0
+bin	36000000	0
+bin	36500000	0
+bin	37000000	0
+bin	37500000	0
+bin	38000000	0
+bin	38500000	0
+bin	39000000	0
+bin	39500000	0
+bin	40000000	0
+bin	40500000	0
+bin	41000000	0
+bin	41500000	0
+statistic SingleCell.s.wlan[0].radio packetErrorRate:histogram
+field count 7486
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	7486
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic SingleCell.s.wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[0] bytesRcvd 0
+scalar SingleCell.s.app[0] bytesSent 50000
+scalar SingleCell.s.app[0] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[0] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[0] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[0] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[0] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[0] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[1] bytesRcvd 0
+scalar SingleCell.s.app[1] bytesSent 50000
+scalar SingleCell.s.app[1] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[1] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[1] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[1] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[1] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[1] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[2] bytesRcvd 0
+scalar SingleCell.s.app[2] bytesSent 50000
+scalar SingleCell.s.app[2] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[2] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[2] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[2] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[2] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[2] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[3] bytesRcvd 0
+scalar SingleCell.s.app[3] bytesSent 50000
+scalar SingleCell.s.app[3] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[3] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[3] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[3] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[3] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[3] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[4] bytesRcvd 0
+scalar SingleCell.s.app[4] bytesSent 50000
+scalar SingleCell.s.app[4] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[4] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[4] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[4] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[4] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[4] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[5] bytesRcvd 0
+scalar SingleCell.s.app[5] bytesSent 50000
+scalar SingleCell.s.app[5] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[5] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[5] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[5] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[5] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[5] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[6] bytesRcvd 0
+scalar SingleCell.s.app[6] bytesSent 50000
+scalar SingleCell.s.app[6] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[6] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[6] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[6] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[6] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[6] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[7] bytesRcvd 0
+scalar SingleCell.s.app[7] bytesSent 50000
+scalar SingleCell.s.app[7] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[7] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[7] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[7] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[7] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[7] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[8] bytesRcvd 0
+scalar SingleCell.s.app[8] bytesSent 50000
+scalar SingleCell.s.app[8] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[8] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[8] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[8] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[8] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[8] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[9] bytesRcvd 0
+scalar SingleCell.s.app[9] bytesSent 50000
+scalar SingleCell.s.app[9] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[9] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[9] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[9] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[9] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[9] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[10] bytesRcvd 0
+scalar SingleCell.s.app[10] bytesSent 50000
+scalar SingleCell.s.app[10] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[10] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[10] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[10] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[10] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[10] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[11] bytesRcvd 0
+scalar SingleCell.s.app[11] bytesSent 50000
+scalar SingleCell.s.app[11] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[11] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[11] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[11] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[11] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[11] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[12] bytesRcvd 0
+scalar SingleCell.s.app[12] bytesSent 50000
+scalar SingleCell.s.app[12] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[12] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[12] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[12] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[12] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[12] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[13] bytesRcvd 0
+scalar SingleCell.s.app[13] bytesSent 50000
+scalar SingleCell.s.app[13] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[13] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[13] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[13] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[13] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[13] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[14] bytesRcvd 0
+scalar SingleCell.s.app[14] bytesSent 0
+scalar SingleCell.s.app[14] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[14] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[14] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[14] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[14] packetSent:count 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[14] packetSent:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[15] bytesRcvd 0
+scalar SingleCell.s.app[15] bytesSent 50000
+scalar SingleCell.s.app[15] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[15] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[15] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[15] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[15] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[15] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[16] bytesRcvd 0
+scalar SingleCell.s.app[16] bytesSent 50000
+scalar SingleCell.s.app[16] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[16] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[16] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[16] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[16] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[16] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[17] bytesRcvd 0
+scalar SingleCell.s.app[17] bytesSent 50000
+scalar SingleCell.s.app[17] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[17] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[17] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[17] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[17] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[17] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[18] bytesRcvd 0
+scalar SingleCell.s.app[18] bytesSent 50000
+scalar SingleCell.s.app[18] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[18] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[18] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[18] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[18] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[18] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[19] bytesRcvd 0
+scalar SingleCell.s.app[19] bytesSent 50000
+scalar SingleCell.s.app[19] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[19] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[19] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[19] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[19] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[19] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[20] bytesRcvd 0
+scalar SingleCell.s.app[20] bytesSent 50000
+scalar SingleCell.s.app[20] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[20] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[20] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[20] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[20] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[20] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[21] bytesRcvd 0
+scalar SingleCell.s.app[21] bytesSent 50000
+scalar SingleCell.s.app[21] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[21] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[21] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[21] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[21] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[21] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[22] bytesRcvd 0
+scalar SingleCell.s.app[22] bytesSent 50000
+scalar SingleCell.s.app[22] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[22] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[22] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[22] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[22] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[22] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[23] bytesRcvd 0
+scalar SingleCell.s.app[23] bytesSent 50000
+scalar SingleCell.s.app[23] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[23] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[23] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[23] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[23] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[23] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[24] bytesRcvd 0
+scalar SingleCell.s.app[24] bytesSent 50000
+scalar SingleCell.s.app[24] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[24] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[24] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[24] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[24] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[24] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[25] bytesRcvd 0
+scalar SingleCell.s.app[25] bytesSent 50000
+scalar SingleCell.s.app[25] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[25] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[25] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[25] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[25] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[25] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[26] bytesRcvd 0
+scalar SingleCell.s.app[26] bytesSent 50000
+scalar SingleCell.s.app[26] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[26] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[26] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[26] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[26] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[26] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[27] bytesRcvd 0
+scalar SingleCell.s.app[27] bytesSent 50000
+scalar SingleCell.s.app[27] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[27] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[27] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[27] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[27] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[27] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[28] bytesRcvd 0
+scalar SingleCell.s.app[28] bytesSent 50000
+scalar SingleCell.s.app[28] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[28] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[28] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[28] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[28] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[28] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar SingleCell.s.app[29] bytesRcvd 0
+scalar SingleCell.s.app[29] bytesSent 50000
+scalar SingleCell.s.app[29] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar SingleCell.s.app[29] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic SingleCell.s.app[29] endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic SingleCell.s.app[29] endToEndDelay:weightedHistogram
+field count 0
+field mean -nan
+field stddev -nan
+field min -nan
+field max -nan
+field weights 0
+field weightedSum 0
+field sqrSumWeights 0
+field weightedSqrSum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "end-to-end delay, weightedHistogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar SingleCell.s.app[29] packetSent:count 1
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar SingleCell.s.app[29] packetSent:sum(packetBytes) 50000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"

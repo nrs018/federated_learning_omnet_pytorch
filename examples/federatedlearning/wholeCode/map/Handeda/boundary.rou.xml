@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-02-07 14:51:12 by Eclipse SUMO netedit Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\OTSLCPS004\Sumo\2022-01-28-09-57-08-Handeda\osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\OTSLCPS004\Sumo\2022-01-28-09-57-08-Handeda\osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\OTSLCPS004\Sumo\2022-01-28-09-57-08-Handeda\boundary.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="vehicle_0" depart="0.00" color="red" from="197914056#0" to="45683113" via="387938687#0 387938687#1 262946962#1 262946962#2 262946987#1 678761500"/>
+    <trip id="vehicle_1" depart="0.00" color="green" from="197914056#0" to="45683113" via="387938687#0 387938687#1 262946969#1 262946969#3 262946969#6 926993943 722085187 23334837 42750920 722087240 881581728#1"/>
+    <trip id="vehicle_2" depart="0.00" color="orange" from="5204786" to="-964816689" via="42752388#1 -535068843#0"/>
+    <trip id="vehicle_3" depart="0.00" color="255,0,233" from="45683111" to="322744965#1" via="5170833 42748309 908533349 322744973#1 387938685"/>
+</routes>

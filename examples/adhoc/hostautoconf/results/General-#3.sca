@@ -1,0 +1,2765 @@
+version 2
+run General-3-20221116-16:24:43-44208
+attr configname General
+attr datetime 20221116-16:24:43
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Scenario
+attr processid 44208
+attr repetition 3
+attr replication #3
+attr resultdir results
+attr runnumber 3
+attr seedset 3
+param *.hosts 3
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 400m
+param **.constraintAreaMaxZ 0m
+param **.host*.ipv4.configurator.typename "\"HostAutoConfigurator\""
+param **.host*.ipv4.configurator.interfaces "\"wlan0\""
+param **.host*.mobility.typename "\"MassMobility\""
+param **.host*.mobility.initFromDisplayString false
+param **.host*.mobility.changeInterval "truncnormal(2s, 0.5s)"
+param **.host*.mobility.angleDelta "normal(0deg, 30deg)"
+param **.host*.mobility.speed "truncnormal(20mps, 8mps)"
+param **.host*.mobility.updateInterval 100ms
+param **.host*.numApps 1
+param **.app[0].typename "\"UdpBasicApp\""
+param **.app[0].destAddresses "\"host[0]\""
+param **.app[0].localPort 9001
+param **.app[0].destPort 9001
+param **.app[0].messageLength 100B
+param **.app[0].startTime "uniform(10s, 30s)"
+param **.app[0].sendInterval "uniform(10s, 30s)"
+param **.wlan[*].bitrate 2Mbps
+param **.wlan[*].mac.dcf.channelAccess.cwMin 7
+param **.wlan[*].radio.transmitter.power 2mW
+param **.wlan[*].radio.receiver.sensitivity -85dBm
+param **.wlan[*].radio.receiver.snirThreshold 4dB
+
+scalar Scenario.radioMedium.propagation "Arrival computation count" 3028
+scalar Scenario.radioMedium "transmission count" 1514
+scalar Scenario.radioMedium "signal send count" 3028
+scalar Scenario.radioMedium "reception computation count" 3028
+scalar Scenario.radioMedium "interference computation count" 10601
+scalar Scenario.radioMedium "reception decision computation count" 1229
+scalar Scenario.radioMedium "listening decision computation count" 6344
+scalar Scenario.radioMedium "reception cache hit" 80.834230014558
+attr unit %
+scalar Scenario.radioMedium "interference cache hit" 66.666666666667
+attr unit %
+scalar Scenario.radioMedium "noise cache hit" 0
+attr unit %
+scalar Scenario.radioMedium "snir cache hit" 50
+attr unit %
+scalar Scenario.radioMedium "reception decision cache hit" 50
+attr unit %
+scalar Scenario.radioMedium "reception result cache hit" 0
+attr unit %
+scalar Scenario.host[0].lo[0].lo rcvdPkFromHl:count 180
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar Scenario.host[0].lo[0].lo rcvdPkFromHl:sum(packetBytes) 23040
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar Scenario.host[0].lo[0].lo passedUpPk:count 180
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar Scenario.host[0].lo[0].lo passedUpPk:sum(packetBytes) 23040
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:count 50
+attr interpolationmode none
+attr title "packet popped, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:sum(packetBytes) 3228
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:histogram
+field count 50
+field mean 0.00013236
+field stddev 6.026565678523e-05
+field min 5e-05
+field max 0.000368
+field sum 0.006618
+field sqrsum 1.053924e-06
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	0
+bin	5e-06	0
+bin	1e-05	0
+bin	1.5e-05	0
+bin	2e-05	0
+bin	2.5e-05	0
+bin	3e-05	0
+bin	3.5e-05	0
+bin	4e-05	0
+bin	4.5e-05	7
+bin	5e-05	0
+bin	5.5e-05	0
+bin	6e-05	0
+bin	6.5e-05	5
+bin	7e-05	0
+bin	7.5e-05	0
+bin	8e-05	0
+bin	8.5e-05	5
+bin	9e-05	0
+bin	9.5e-05	0
+bin	0.0001	0
+bin	0.000105	3
+bin	0.00011	0
+bin	0.000115	0
+bin	0.00012	0
+bin	0.000125	7
+bin	0.00013	0
+bin	0.000135	0
+bin	0.00014	0
+bin	0.000145	3
+bin	0.00015	0
+bin	0.000155	0
+bin	0.00016	0
+bin	0.000165	10
+bin	0.00017	0
+bin	0.000175	0
+bin	0.00018	0
+bin	0.000185	9
+bin	0.00019	0
+bin	0.000195	0
+bin	0.0002	0
+bin	0.000205	0
+bin	0.00021	0
+bin	0.000215	0
+bin	0.00022	0
+bin	0.000225	0
+bin	0.00023	0
+bin	0.000235	0
+bin	0.00024	0
+bin	0.000245	0
+bin	0.00025	0
+bin	0.000255	0
+bin	0.00026	0
+bin	0.000265	0
+bin	0.00027	0
+bin	0.000275	0
+bin	0.00028	0
+bin	0.000285	0
+bin	0.00029	0
+bin	0.000295	0
+bin	0.0003	0
+bin	0.000305	0
+bin	0.00031	0
+bin	0.000315	0
+bin	0.00032	0
+bin	0.000325	0
+bin	0.00033	0
+bin	0.000335	0
+bin	0.00034	0
+bin	0.000345	0
+bin	0.00035	0
+bin	0.000355	0
+bin	0.00036	0
+bin	0.000365	1
+bin	0.00037	0
+bin	0.000375	0
+bin	0.00038	0
+bin	0.000385	0
+bin	0.00039	0
+bin	0.000395	0
+bin	0.0004	0
+bin	0.000405	0
+bin	0.00041	0
+bin	0.000415	0
+bin	0.00042	0
+bin	0.000425	0
+bin	0.00043	0
+bin	0.000435	0
+bin	0.00044	0
+bin	0.000445	0
+bin	0.00045	0
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:timeavg 1.8455851015617e-06
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:count 50
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:sum(packetBytes) 3228
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+statistic Scenario.host[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:histogram
+field count 50
+field mean 0.00070919058128
+field stddev 1.576990351666e-05
+field min 0.000706106462
+field max 0.000818434795
+field sum 0.035459529064
+field sqrsum 2.5159749831803e-05
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, histogram"
+bin	-inf	0
+bin	0.000678	0
+bin	0.00068	0
+bin	0.000682	0
+bin	0.000684	0
+bin	0.000686	0
+bin	0.000688	0
+bin	0.00069	0
+bin	0.000692	0
+bin	0.000694	0
+bin	0.000696	0
+bin	0.000698	0
+bin	0.0007	0
+bin	0.000702	0
+bin	0.000704	0
+bin	0.000706	49
+bin	0.000708	0
+bin	0.00071	0
+bin	0.000712	0
+bin	0.000714	0
+bin	0.000716	0
+bin	0.000718	0
+bin	0.00072	0
+bin	0.000722	0
+bin	0.000724	0
+bin	0.000726	0
+bin	0.000728	0
+bin	0.00073	0
+bin	0.000732	0
+bin	0.000734	0
+bin	0.000736	0
+bin	0.000738	0
+bin	0.00074	0
+bin	0.000742	0
+bin	0.000744	0
+bin	0.000746	0
+bin	0.000748	0
+bin	0.00075	0
+bin	0.000752	0
+bin	0.000754	0
+bin	0.000756	0
+bin	0.000758	0
+bin	0.00076	0
+bin	0.000762	0
+bin	0.000764	0
+bin	0.000766	0
+bin	0.000768	0
+bin	0.00077	0
+bin	0.000772	0
+bin	0.000774	0
+bin	0.000776	0
+bin	0.000778	0
+bin	0.00078	0
+bin	0.000782	0
+bin	0.000784	0
+bin	0.000786	0
+bin	0.000788	0
+bin	0.00079	0
+bin	0.000792	0
+bin	0.000794	0
+bin	0.000796	0
+bin	0.000798	0
+bin	0.0008	0
+bin	0.000802	0
+bin	0.000804	0
+bin	0.000806	0
+bin	0.000808	0
+bin	0.00081	0
+bin	0.000812	0
+bin	0.000814	0
+bin	0.000816	0
+bin	0.000818	1
+bin	0.00082	0
+bin	0.000822	0
+bin	0.000824	0
+bin	0.000826	0
+bin	0.000828	0
+bin	0.00083	0
+bin	0.000832	0
+bin	0.000834	0
+bin	0.000836	0
+bin	0.000838	0
+bin	0.00084	0
+bin	0.000842	0
+bin	0.000844	0
+bin	0.000846	0
+bin	0.000848	0
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, max"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:timeavg 9.8887249397845e-06
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, timeavg"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.contention channelAccessGranted:count 50
+attr title "channel access granted, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess.contention stateChanged:count 2146
+attr interpolationmode none
+attr title "contention state changed, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.channelAccess channelOwnershipChanged:count 100
+attr interpolationmode sample-hold
+attr title "channel ownership, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.originatorMacDataService packetAggregated:count 0
+attr title "packets aggregated, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.originatorMacDataService packetFragmented:count 0
+attr title "packets fragmented, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.recipientMacDataService packetDeaggregated:count 0
+attr title "packets deaggregated, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.recipientMacDataService packetDefragmented:count 242
+attr title "packets defragmented, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar Scenario.host[0].wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf.recoveryProcedure retryLimitReached:count 0
+attr title "retry limit reached, count"
+scalar Scenario.host[0].wlan[0].mac.dcf frameSequenceFinished:count 50
+attr title "finished frame sequences, count"
+statistic Scenario.host[0].wlan[0].mac.dcf frameSequenceDuration:histogram
+field count 50
+field mean 0.00070919058128
+field stddev 1.576990351666e-05
+field min 0.000706106462
+field max 0.000818434795
+field sum 0.035459529064
+field sqrsum 2.5159749831803e-05
+attr source frameSequenceDuration(frameSequenceFinished)
+attr title "frame sequence durations, histogram"
+bin	-inf	0
+bin	0.000678	0
+bin	0.00068	0
+bin	0.000682	0
+bin	0.000684	0
+bin	0.000686	0
+bin	0.000688	0
+bin	0.00069	0
+bin	0.000692	0
+bin	0.000694	0
+bin	0.000696	0
+bin	0.000698	0
+bin	0.0007	0
+bin	0.000702	0
+bin	0.000704	0
+bin	0.000706	49
+bin	0.000708	0
+bin	0.00071	0
+bin	0.000712	0
+bin	0.000714	0
+bin	0.000716	0
+bin	0.000718	0
+bin	0.00072	0
+bin	0.000722	0
+bin	0.000724	0
+bin	0.000726	0
+bin	0.000728	0
+bin	0.00073	0
+bin	0.000732	0
+bin	0.000734	0
+bin	0.000736	0
+bin	0.000738	0
+bin	0.00074	0
+bin	0.000742	0
+bin	0.000744	0
+bin	0.000746	0
+bin	0.000748	0
+bin	0.00075	0
+bin	0.000752	0
+bin	0.000754	0
+bin	0.000756	0
+bin	0.000758	0
+bin	0.00076	0
+bin	0.000762	0
+bin	0.000764	0
+bin	0.000766	0
+bin	0.000768	0
+bin	0.00077	0
+bin	0.000772	0
+bin	0.000774	0
+bin	0.000776	0
+bin	0.000778	0
+bin	0.00078	0
+bin	0.000782	0
+bin	0.000784	0
+bin	0.000786	0
+bin	0.000788	0
+bin	0.00079	0
+bin	0.000792	0
+bin	0.000794	0
+bin	0.000796	0
+bin	0.000798	0
+bin	0.0008	0
+bin	0.000802	0
+bin	0.000804	0
+bin	0.000806	0
+bin	0.000808	0
+bin	0.00081	0
+bin	0.000812	0
+bin	0.000814	0
+bin	0.000816	0
+bin	0.000818	1
+bin	0.00082	0
+bin	0.000822	0
+bin	0.000824	0
+bin	0.000826	0
+bin	0.000828	0
+bin	0.00083	0
+bin	0.000832	0
+bin	0.000834	0
+bin	0.000836	0
+bin	0.000838	0
+bin	0.00084	0
+bin	0.000842	0
+bin	0.000844	0
+bin	0.000846	0
+bin	0.000848	0
+statistic Scenario.host[0].wlan[0].mac.dcf frameSequenceNumPackets:histogram
+field count 50
+field mean 2
+field stddev 0
+field min 2
+field max 2
+field sum 100
+field sqrsum 200
+attr source frameSequenceNumPackets(frameSequenceFinished)
+attr title "frame sequences: number of packets, histogram"
+bin	-inf	0
+bin	1	0
+bin	2	50
+bin	3	0
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeer:count 292
+attr interpolationmode none
+attr title "packets received, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeer:sum(packetBytes) 35488
+attr interpolationmode none
+attr title "packets received, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerUnicast:count 243
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerUnicast:sum(packetBytes) 32352
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerMulticast:count 49
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerMulticast:sum(packetBytes) 3136
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:count 49
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:sum(packetBytes) 3136
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerWithRetry:count 1
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerWithRetry:sum(packetBytes) 164
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:count 291
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:sum(packetBytes) 35324
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeer:count 243
+attr interpolationmode none
+attr title "packets sent, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeer:sum(packetBytes) 5930
+attr interpolationmode none
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerUnicast:count 243
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerUnicast:sum(packetBytes) 5930
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerMulticast:count 0
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerMulticast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerBroadcast:count 0
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerBroadcast:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerWithoutRetry:count 243
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetSentToPeerWithoutRetry:sum(packetBytes) 5930
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar Scenario.host[0].wlan[0].mac.dcf packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac.dcf linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+scalar Scenario.host[0].wlan[0].mac packetReceivedFromLower:count 292
+attr interpolationmode none
+attr title "packets received from lower layer, count"
+scalar Scenario.host[0].wlan[0].mac packetReceivedFromLower:sum(packetBytes) 35488
+attr interpolationmode none
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetSentToLower:count 243
+attr interpolationmode none
+attr title "packets sent to lower layer, count"
+scalar Scenario.host[0].wlan[0].mac packetSentToLower:sum(packetBytes) 5930
+attr interpolationmode none
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetReceivedFromUpper:count 50
+attr interpolationmode none
+attr title "packets received from upper layer, count"
+scalar Scenario.host[0].wlan[0].mac packetReceivedFromUpper:sum(packetBytes) 1828
+attr interpolationmode none
+attr title "packets received from upper layer, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetSentToUpper:count 242
+attr interpolationmode none
+attr title "packets sent to upper layer, count"
+scalar Scenario.host[0].wlan[0].mac packetSentToUpper:sum(packetBytes) 28012
+attr interpolationmode none
+attr title "packets sent to upper layer, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDrop:count 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar Scenario.host[0].wlan[0].mac packetDrop:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, count"
+scalar Scenario.host[0].wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDropNotAddressedToUs:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar Scenario.host[0].wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[0].wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDropRetryLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar Scenario.host[0].wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar Scenario.host[0].wlan[0].mac packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac packetDropOther:count 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, count"
+scalar Scenario.host[0].wlan[0].mac packetDropOther:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, sum(packetBytes)"
+scalar Scenario.host[0].wlan[0].mac linkBroken:count 0
+attr interpolationmode none
+attr title "link breaks, count"
+statistic Scenario.host[0].wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar Scenario.host[0].wlan[0].radio radioMode:count 489
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar Scenario.host[0].wlan[0].radio receptionState:count 1073
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar Scenario.host[0].wlan[0].radio transmissionState:count 972
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic Scenario.host[0].wlan[0].radio minSnir:histogram
+field count 292
+field mean 5558.2251002127
+field stddev 35893.707692177
+field min 317.80823482881
+field max 548395.35453721
+field sum 1623001.7292621
+field sqrsum 383933260249.68
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	280
+bin	10000	4
+bin	20000	0
+bin	30000	0
+bin	40000	3
+bin	50000	0
+bin	60000	0
+bin	70000	3
+bin	80000	0
+bin	90000	0
+bin	100000	0
+bin	110000	0
+bin	120000	0
+bin	130000	0
+bin	140000	0
+bin	150000	0
+bin	160000	0
+bin	170000	0
+bin	180000	0
+bin	190000	0
+bin	200000	0
+bin	210000	0
+bin	220000	0
+bin	230000	1
+bin	240000	0
+bin	250000	0
+bin	260000	0
+bin	270000	0
+bin	280000	0
+bin	290000	0
+bin	300000	0
+bin	310000	0
+bin	320000	0
+bin	330000	0
+bin	340000	0
+bin	350000	0
+bin	360000	0
+bin	370000	0
+bin	380000	0
+bin	390000	0
+bin	400000	0
+bin	410000	0
+bin	420000	0
+bin	430000	0
+bin	440000	0
+bin	450000	0
+bin	460000	0
+bin	470000	0
+bin	480000	0
+bin	490000	0
+bin	500000	0
+bin	510000	0
+bin	520000	0
+bin	530000	0
+bin	540000	1
+bin	550000	0
+bin	560000	0
+bin	570000	0
+bin	580000	0
+bin	590000	0
+bin	600000	0
+bin	610000	0
+bin	620000	0
+bin	630000	0
+bin	640000	0
+bin	650000	0
+bin	660000	0
+bin	670000	0
+bin	680000	0
+bin	690000	0
+statistic Scenario.host[0].wlan[0].radio packetErrorRate:histogram
+field count 292
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	292
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic Scenario.host[0].wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic Scenario.host[0].wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar Scenario.host[0].ipv4.ip packetDropAddressResolutionFailed:count 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar Scenario.host[0].ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar Scenario.host[0].ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar Scenario.host[0].ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar Scenario.host[0].ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar Scenario.host[0].ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar Scenario.host[0].ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.arp arpResolutionFailed:count 0
+attr title "ARP failed resolutions, count"
+scalar Scenario.host[0].ipv4.arp arpResolutionCompleted:count 49
+attr title "ARP completed resolutions, count"
+scalar Scenario.host[0].ipv4.arp arpResolutionInitiated:count 0
+attr title "ARP initiated resolutions, count"
+scalar Scenario.host[0].ipv4.arp arpReplySent:count 49
+attr source arpReplySent
+attr title "ARP replies sent, count"
+scalar Scenario.host[0].ipv4.arp arpReplySent:sum(packetBytes) 1372
+attr source arpReplySent
+attr title "ARP replies sent, sum(packetBytes)"
+scalar Scenario.host[0].ipv4.arp arpRequestSent:count 0
+attr source arpRequestSent
+attr title "ARP request sent, count"
+scalar Scenario.host[0].ipv4.arp arpRequestSent:sum(packetBytes) 0
+attr source arpRequestSent
+attr title "ARP request sent, sum(packetBytes)"
+scalar Scenario.host[0].udp packetReceived:count 373
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar Scenario.host[0].udp packetReceived:sum(packetBytes) 40284
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar Scenario.host[0].udp packetSent:count 180
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar Scenario.host[0].udp packetSent:sum(packetBytes) 19440
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[0].udp passedUpPk:count 372
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar Scenario.host[0].udp droppedPkWrongPort:count 1
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar Scenario.host[0].udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar Scenario.host[0].app[0] "packets sent" 180
+scalar Scenario.host[0].app[0] "packets received" 372
+scalar Scenario.host[0].app[0] packetReceived:count 372
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar Scenario.host[0].app[0] packetReceived:sum(packetBytes) 37200
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic Scenario.host[0].app[0] rcvdPkLifetime:stats
+field count 372
+field mean 0.014390185947632
+field stddev 0.15530409098654
+field min 0
+field max 2.002324467859
+field sum 5.353149172519
+field sqrsum 9.0253156232232
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "received packet lifetime, stats"
+attr unit s
+scalar Scenario.host[0].app[0] packetSent:count 180
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar Scenario.host[0].app[0] packetSent:sum(packetBytes) 18000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[1].lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar Scenario.host[1].lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar Scenario.host[1].lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar Scenario.host[1].lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:count 241
+attr interpolationmode none
+attr title "packet popped, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:sum(packetBytes) 31824
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:histogram
+field count 241
+field mean 0.00027029045643154
+field stddev 0.0018253555814188
+field min 0
+field max 0.019188
+field sum 0.06514
+field sqrsum 0.00081726824
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	227
+bin	0.0004	9
+bin	0.0008	0
+bin	0.0012	0
+bin	0.0016	0
+bin	0.002	0
+bin	0.0024	0
+bin	0.0028	0
+bin	0.0032	0
+bin	0.0036	1
+bin	0.004	0
+bin	0.0044	0
+bin	0.0048	0
+bin	0.0052	0
+bin	0.0056	0
+bin	0.006	0
+bin	0.0064	0
+bin	0.0068	0
+bin	0.0072	0
+bin	0.0076	1
+bin	0.008	0
+bin	0.0084	0
+bin	0.0088	0
+bin	0.0092	0
+bin	0.0096	0
+bin	0.01	1
+bin	0.0104	0
+bin	0.0108	0
+bin	0.0112	0
+bin	0.0116	0
+bin	0.012	0
+bin	0.0124	0
+bin	0.0128	0
+bin	0.0132	0
+bin	0.0136	0
+bin	0.014	0
+bin	0.0144	0
+bin	0.0148	0
+bin	0.0152	0
+bin	0.0156	0
+bin	0.016	1
+bin	0.0164	0
+bin	0.0168	0
+bin	0.0172	0
+bin	0.0176	0
+bin	0.018	0
+bin	0.0184	0
+bin	0.0188	1
+bin	0.0192	0
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:timeavg 1.8189135257628e-05
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:count 241
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:sum(packetBytes) 31824
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+statistic Scenario.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:histogram
+field count 241
+field mean 0.0069724969288589
+field stddev 0.013413296179046
+field min 0.000448
+field max 0.081806
+field sum 1.680371759855
+field sqrsum 0.054896350387764
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, histogram"
+bin	-inf	0
+bin	0	174
+bin	0.002	0
+bin	0.004	0
+bin	0.006	0
+bin	0.008	0
+bin	0.01	5
+bin	0.012	7
+bin	0.014	9
+bin	0.016	8
+bin	0.018	19
+bin	0.02	7
+bin	0.022	5
+bin	0.024	0
+bin	0.026	0
+bin	0.028	0
+bin	0.03	0
+bin	0.032	0
+bin	0.034	0
+bin	0.036	0
+bin	0.038	0
+bin	0.04	0
+bin	0.042	0
+bin	0.044	0
+bin	0.046	0
+bin	0.048	0
+bin	0.05	0
+bin	0.052	0
+bin	0.054	0
+bin	0.056	0
+bin	0.058	0
+bin	0.06	0
+bin	0.062	1
+bin	0.064	1
+bin	0.066	1
+bin	0.068	1
+bin	0.07	0
+bin	0.072	0
+bin	0.074	1
+bin	0.076	0
+bin	0.078	0
+bin	0.08	2
+bin	0.082	0
+bin	0.084	0
+bin	0.086	0
+bin	0.088	0
+bin	0.09	0
+bin	0.092	0
+bin	0.094	0
+bin	0.096	0
+bin	0.098	0
+bin	0.1	0
+bin	0.102	0
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, max"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:timeavg 0.00046921260704791
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, timeavg"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.contention channelAccessGranted:count 643
+attr title "channel access granted, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess.contention stateChanged:count 7166
+attr interpolationmode none
+attr title "contention state changed, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.channelAccess channelOwnershipChanged:count 1286
+attr interpolationmode sample-hold
+attr title "channel ownership, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.originatorMacDataService packetAggregated:count 0
+attr title "packets aggregated, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.originatorMacDataService packetFragmented:count 0
+attr title "packets fragmented, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.recipientMacDataService packetDeaggregated:count 0
+attr title "packets deaggregated, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.recipientMacDataService packetDefragmented:count 79
+attr title "packets defragmented, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar Scenario.host[1].wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf.recoveryProcedure retryLimitReached:count 67
+attr title "retry limit reached, count"
+scalar Scenario.host[1].wlan[0].mac.dcf frameSequenceFinished:count 643
+attr title "finished frame sequences, count"
+statistic Scenario.host[1].wlan[0].mac.dcf frameSequenceDuration:histogram
+field count 643
+field mean 0.0010010882734915
+field stddev 0.00020457765369795
+field min 0.000448
+field max 0.001107644981
+field sum 0.643699759855
+field sqrsum 0.00067126927576413
+attr source frameSequenceDuration(frameSequenceFinished)
+attr title "frame sequence durations, histogram"
+bin	-inf	0
+bin	0.00028	0
+bin	0.0003	0
+bin	0.00032	0
+bin	0.00034	0
+bin	0.00036	0
+bin	0.00038	0
+bin	0.0004	0
+bin	0.00042	0
+bin	0.00044	77
+bin	0.00046	0
+bin	0.00048	0
+bin	0.0005	0
+bin	0.00052	0
+bin	0.00054	0
+bin	0.00056	0
+bin	0.00058	0
+bin	0.0006	0
+bin	0.00062	0
+bin	0.00064	0
+bin	0.00066	0
+bin	0.00068	0
+bin	0.0007	0
+bin	0.00072	0
+bin	0.00074	0
+bin	0.00076	0
+bin	0.00078	0
+bin	0.0008	0
+bin	0.00082	0
+bin	0.00084	0
+bin	0.00086	0
+bin	0.00088	0
+bin	0.0009	0
+bin	0.00092	0
+bin	0.00094	0
+bin	0.00096	0
+bin	0.00098	0
+bin	0.001	0
+bin	0.00102	0
+bin	0.00104	0
+bin	0.00106	469
+bin	0.00108	0
+bin	0.0011	97
+bin	0.00112	0
+bin	0.00114	0
+bin	0.00116	0
+bin	0.00118	0
+bin	0.0012	0
+bin	0.00122	0
+bin	0.00124	0
+bin	0.00126	0
+bin	0.00128	0
+statistic Scenario.host[1].wlan[0].mac.dcf frameSequenceNumPackets:histogram
+field count 643
+field mean 1.8802488335925
+field stddev 0.32492309223417
+field min 1
+field max 2
+field sum 1209
+field sqrsum 2341
+attr source frameSequenceNumPackets(frameSequenceFinished)
+attr title "frame sequences: number of packets, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	77
+bin	2	566
+bin	3	0
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeer:count 176
+attr interpolationmode none
+attr title "packets received, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeer:sum(packetBytes) 6414
+attr interpolationmode none
+attr title "packets received, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerUnicast:count 122
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerUnicast:sum(packetBytes) 2958
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerMulticast:count 54
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerMulticast:sum(packetBytes) 3456
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:count 54
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:sum(packetBytes) 3456
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:count 176
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:sum(packetBytes) 6414
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeer:count 668
+attr interpolationmode none
+attr title "packets sent, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeer:sum(packetBytes) 98102
+attr interpolationmode none
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerUnicast:count 591
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerUnicast:sum(packetBytes) 93174
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerMulticast:count 77
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerMulticast:sum(packetBytes) 4928
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerBroadcast:count 77
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerBroadcast:sum(packetBytes) 4928
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerWithRetry:count 402
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerWithRetry:sum(packetBytes) 65928
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerWithoutRetry:count 266
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetSentToPeerWithoutRetry:sum(packetBytes) 32174
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDrop:count 329
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDrop:sum(packetBytes) 41806
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDropNotAddressedToUs:count 262
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDropNotAddressedToUs:sum(packetBytes) 30818
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDropRetryLimitReached:count 67
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar Scenario.host[1].wlan[0].mac.dcf packetDropRetryLimitReached:sum(packetBytes) 10988
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac.dcf linkBroken:count 67
+attr interpolationmode none
+attr title "link breaks, count"
+scalar Scenario.host[1].wlan[0].mac packetReceivedFromLower:count 438
+attr interpolationmode none
+attr title "packets received from lower layer, count"
+scalar Scenario.host[1].wlan[0].mac packetReceivedFromLower:sum(packetBytes) 37232
+attr interpolationmode none
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetSentToLower:count 668
+attr interpolationmode none
+attr title "packets sent to lower layer, count"
+scalar Scenario.host[1].wlan[0].mac packetSentToLower:sum(packetBytes) 98102
+attr interpolationmode none
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetReceivedFromUpper:count 241
+attr interpolationmode none
+attr title "packets received from upper layer, count"
+scalar Scenario.host[1].wlan[0].mac packetReceivedFromUpper:sum(packetBytes) 25076
+attr interpolationmode none
+attr title "packets received from upper layer, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetSentToUpper:count 79
+attr interpolationmode none
+attr title "packets sent to upper layer, count"
+scalar Scenario.host[1].wlan[0].mac packetSentToUpper:sum(packetBytes) 2844
+attr interpolationmode none
+attr title "packets sent to upper layer, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDrop:count 329
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar Scenario.host[1].wlan[0].mac packetDrop:sum(packetBytes) 41806
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, count"
+scalar Scenario.host[1].wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDropNotAddressedToUs:count 262
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar Scenario.host[1].wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 30818
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[1].wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDropRetryLimitReached:count 67
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar Scenario.host[1].wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 10988
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar Scenario.host[1].wlan[0].mac packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac packetDropOther:count 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, count"
+scalar Scenario.host[1].wlan[0].mac packetDropOther:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, sum(packetBytes)"
+scalar Scenario.host[1].wlan[0].mac linkBroken:count 67
+attr interpolationmode none
+attr title "link breaks, count"
+statistic Scenario.host[1].wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar Scenario.host[1].wlan[0].radio radioMode:count 1339
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar Scenario.host[1].wlan[0].radio receptionState:count 2213
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar Scenario.host[1].wlan[0].radio transmissionState:count 2672
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic Scenario.host[1].wlan[0].radio minSnir:histogram
+field count 438
+field mean 3102.965865965
+field stddev 10885.058537945
+field min 321.69586420512
+field max 200676.64168559
+field sum 1359099.0492927
+field sqrsum 55994964185.07
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	367
+bin	3600	36
+bin	7200	8
+bin	10800	7
+bin	14400	14
+bin	18000	1
+bin	21600	1
+bin	25200	0
+bin	28800	0
+bin	32400	0
+bin	36000	1
+bin	39600	0
+bin	43200	1
+bin	46800	0
+bin	50400	0
+bin	54000	0
+bin	57600	0
+bin	61200	1
+bin	64800	0
+bin	68400	0
+bin	72000	0
+bin	75600	0
+bin	79200	0
+bin	82800	0
+bin	86400	0
+bin	90000	0
+bin	93600	0
+bin	97200	0
+bin	100800	0
+bin	104400	0
+bin	108000	0
+bin	111600	0
+bin	115200	0
+bin	118800	0
+bin	122400	0
+bin	126000	0
+bin	129600	0
+bin	133200	0
+bin	136800	0
+bin	140400	0
+bin	144000	0
+bin	147600	0
+bin	151200	0
+bin	154800	0
+bin	158400	0
+bin	162000	0
+bin	165600	0
+bin	169200	0
+bin	172800	0
+bin	176400	0
+bin	180000	0
+bin	183600	0
+bin	187200	0
+bin	190800	0
+bin	194400	0
+bin	198000	1
+bin	201600	0
+statistic Scenario.host[1].wlan[0].radio packetErrorRate:histogram
+field count 438
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	438
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic Scenario.host[1].wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic Scenario.host[1].wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar Scenario.host[1].ipv4.ip packetDropAddressResolutionFailed:count 16
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar Scenario.host[1].ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 2048
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar Scenario.host[1].ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar Scenario.host[1].ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar Scenario.host[1].ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar Scenario.host[1].ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar Scenario.host[1].ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.arp arpResolutionFailed:count 16
+attr title "ARP failed resolutions, count"
+scalar Scenario.host[1].ipv4.arp arpResolutionCompleted:count 25
+attr title "ARP completed resolutions, count"
+scalar Scenario.host[1].ipv4.arp arpResolutionInitiated:count 41
+attr title "ARP initiated resolutions, count"
+scalar Scenario.host[1].ipv4.arp arpReplySent:count 0
+attr source arpReplySent
+attr title "ARP replies sent, count"
+scalar Scenario.host[1].ipv4.arp arpReplySent:sum(packetBytes) 0
+attr source arpReplySent
+attr title "ARP replies sent, sum(packetBytes)"
+scalar Scenario.host[1].ipv4.arp arpRequestSent:count 77
+attr source arpRequestSent
+attr title "ARP request sent, count"
+scalar Scenario.host[1].ipv4.arp arpRequestSent:sum(packetBytes) 2156
+attr source arpRequestSent
+attr title "ARP request sent, sum(packetBytes)"
+scalar Scenario.host[1].udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar Scenario.host[1].udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar Scenario.host[1].udp packetSent:count 180
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar Scenario.host[1].udp packetSent:sum(packetBytes) 19440
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[1].udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar Scenario.host[1].udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar Scenario.host[1].udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar Scenario.host[1].app[0] "packets sent" 180
+scalar Scenario.host[1].app[0] "packets received" 0
+scalar Scenario.host[1].app[0] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar Scenario.host[1].app[0] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic Scenario.host[1].app[0] rcvdPkLifetime:stats
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "received packet lifetime, stats"
+attr unit s
+scalar Scenario.host[1].app[0] packetSent:count 180
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar Scenario.host[1].app[0] packetSent:sum(packetBytes) 18000
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[2].lo[0].lo rcvdPkFromHl:count 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, count"
+scalar Scenario.host[2].lo[0].lo rcvdPkFromHl:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, sum(packetBytes)"
+scalar Scenario.host[2].lo[0].lo passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, count"
+scalar Scenario.host[2].lo[0].lo passedUpPk:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:count 253
+attr interpolationmode none
+attr title "packet popped, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:sum(packetBytes) 31192
+attr interpolationmode none
+attr title "packet popped, sum(packetBytes)"
+statistic Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:histogram
+field count 253
+field mean 0.00029609486166008
+field stddev 0.0018644680905842
+field min 0
+field max 0.020548
+field sum 0.074912
+field sqrsum 0.000898193856
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, histogram"
+attr unit s
+bin	-inf	0
+bin	0	247
+bin	0.0005	0
+bin	0.001	0
+bin	0.0015	0
+bin	0.002	0
+bin	0.0025	0
+bin	0.003	0
+bin	0.0035	0
+bin	0.004	0
+bin	0.0045	0
+bin	0.005	0
+bin	0.0055	0
+bin	0.006	0
+bin	0.0065	1
+bin	0.007	0
+bin	0.0075	0
+bin	0.008	0
+bin	0.0085	1
+bin	0.009	0
+bin	0.0095	1
+bin	0.01	0
+bin	0.0105	0
+bin	0.011	1
+bin	0.0115	1
+bin	0.012	0
+bin	0.0125	0
+bin	0.013	0
+bin	0.0135	0
+bin	0.014	0
+bin	0.0145	0
+bin	0.015	0
+bin	0.0155	0
+bin	0.016	0
+bin	0.0165	0
+bin	0.017	0
+bin	0.0175	0
+bin	0.018	0
+bin	0.0185	0
+bin	0.019	0
+bin	0.0195	0
+bin	0.02	0
+bin	0.0205	1
+bin	0.021	0
+bin	0.0215	0
+bin	0.022	0
+bin	0.0225	0
+bin	0.023	0
+bin	0.0235	0
+bin	0.024	0
+bin	0.0245	0
+bin	0.025	0
+bin	0.0255	0
+bin	0.026	0
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, max"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:timeavg 2.0890972173875e-05
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, timeavg"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:count 253
+attr interpolationmode none
+attr title "packet pushed, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:sum(packetBytes) 31192
+attr interpolationmode none
+attr title "packet pushed, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:count 0
+attr interpolationmode none
+attr title "packets removed, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.pendingQueue packetRemoved:sum(packetBytes) 0
+attr interpolationmode none
+attr title "packets removed, sum(packetBytes)"
+statistic Scenario.host[2].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:histogram
+field count 253
+field mean 0.0056145679701858
+field stddev 0.011841084203357
+field min 0.000448
+field max 0.086346
+field sum 1.420485696457
+field sqrsum 0.043308654821406
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, histogram"
+bin	-inf	0
+bin	0	198
+bin	0.002	1
+bin	0.004	0
+bin	0.006	0
+bin	0.008	0
+bin	0.01	2
+bin	0.012	6
+bin	0.014	7
+bin	0.016	5
+bin	0.018	12
+bin	0.02	8
+bin	0.022	5
+bin	0.024	3
+bin	0.026	0
+bin	0.028	0
+bin	0.03	0
+bin	0.032	0
+bin	0.034	0
+bin	0.036	0
+bin	0.038	0
+bin	0.04	0
+bin	0.042	0
+bin	0.044	0
+bin	0.046	1
+bin	0.048	0
+bin	0.05	1
+bin	0.052	0
+bin	0.054	0
+bin	0.056	1
+bin	0.058	0
+bin	0.06	0
+bin	0.062	0
+bin	0.064	0
+bin	0.066	0
+bin	0.068	0
+bin	0.07	1
+bin	0.072	0
+bin	0.074	0
+bin	0.076	1
+bin	0.078	0
+bin	0.08	0
+bin	0.082	0
+bin	0.084	0
+bin	0.086	1
+bin	0.088	0
+bin	0.09	0
+bin	0.092	0
+bin	0.094	0
+bin	0.096	0
+bin	0.098	0
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:max 1
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, max"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:timeavg 0.00039613582814596
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, timeavg"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.contention channelAccessGranted:count 578
+attr title "channel access granted, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess.contention stateChanged:count 7270
+attr interpolationmode none
+attr title "contention state changed, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.channelAccess channelOwnershipChanged:count 1156
+attr interpolationmode sample-hold
+attr title "channel ownership, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.originatorMacDataService packetAggregated:count 0
+attr title "packets aggregated, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.originatorMacDataService packetFragmented:count 0
+attr title "packets fragmented, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.recipientMacDataService packetDeaggregated:count 0
+attr title "packets deaggregated, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.recipientMacDataService packetDefragmented:count 62
+attr title "packets defragmented, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar Scenario.host[2].wlan[0].mac.dcf.recipientMacDataService packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf.recoveryProcedure retryLimitReached:count 54
+attr title "retry limit reached, count"
+scalar Scenario.host[2].wlan[0].mac.dcf frameSequenceFinished:count 578
+attr title "finished frame sequences, count"
+statistic Scenario.host[2].wlan[0].mac.dcf frameSequenceDuration:histogram
+field count 578
+field mean 0.00096532127414706
+field stddev 0.00024148478771916
+field min 0.000448
+field max 0.001107655308
+field sum 0.557955696457
+field sqrsum 0.00057225420267925
+attr source frameSequenceDuration(frameSequenceFinished)
+attr title "frame sequence durations, histogram"
+bin	-inf	0
+bin	0.00028	0
+bin	0.0003	0
+bin	0.00032	0
+bin	0.00034	0
+bin	0.00036	0
+bin	0.00038	0
+bin	0.0004	0
+bin	0.00042	0
+bin	0.00044	103
+bin	0.00046	0
+bin	0.00048	0
+bin	0.0005	0
+bin	0.00052	0
+bin	0.00054	0
+bin	0.00056	0
+bin	0.00058	0
+bin	0.0006	0
+bin	0.00062	0
+bin	0.00064	0
+bin	0.00066	0
+bin	0.00068	0
+bin	0.0007	0
+bin	0.00072	0
+bin	0.00074	0
+bin	0.00076	0
+bin	0.00078	0
+bin	0.0008	0
+bin	0.00082	0
+bin	0.00084	0
+bin	0.00086	0
+bin	0.00088	0
+bin	0.0009	0
+bin	0.00092	0
+bin	0.00094	0
+bin	0.00096	0
+bin	0.00098	0
+bin	0.001	0
+bin	0.00102	0
+bin	0.00104	0
+bin	0.00106	379
+bin	0.00108	0
+bin	0.0011	96
+bin	0.00112	0
+bin	0.00114	0
+bin	0.00116	0
+bin	0.00118	0
+bin	0.0012	0
+bin	0.00122	0
+bin	0.00124	0
+bin	0.00126	0
+bin	0.00128	0
+statistic Scenario.host[2].wlan[0].mac.dcf frameSequenceNumPackets:histogram
+field count 578
+field mean 1.8217993079585
+field stddev 0.38301306754844
+field min 1
+field max 2
+field sum 1053
+field sqrsum 2003
+attr source frameSequenceNumPackets(frameSequenceFinished)
+attr title "frame sequences: number of packets, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	103
+bin	2	475
+bin	3	0
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeer:count 158
+attr interpolationmode none
+attr title "packets received, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeer:sum(packetBytes) 5340
+attr interpolationmode none
+attr title "packets received, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerUnicast:count 121
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerUnicast:sum(packetBytes) 2972
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerMulticast:count 37
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerMulticast:sum(packetBytes) 2368
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:count 37
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:sum(packetBytes) 2368
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerWithRetry:count 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerWithRetry:sum(packetBytes) 0
+attr interpolationmode none
+attr source ieee80211Retry(packetReceivedFromPeer)
+attr title "packets received: with retry, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:count 158
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:sum(packetBytes) 5340
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeer:count 603
+attr interpolationmode none
+attr title "packets sent, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeer:sum(packetBytes) 84842
+attr interpolationmode none
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerUnicast:count 500
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerUnicast:sum(packetBytes) 78250
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerMulticast:count 103
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerMulticast:sum(packetBytes) 6592
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerBroadcast:count 103
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerBroadcast:sum(packetBytes) 6592
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerWithRetry:count 325
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerWithRetry:sum(packetBytes) 53300
+attr interpolationmode none
+attr source ieee80211Retry(packetSentToPeer)
+attr title "packets sent: with retry, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerWithoutRetry:count 278
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetSentToPeerWithoutRetry:sum(packetBytes) 31542
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDrop:count 395
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDrop:sum(packetBytes) 54130
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDropNotAddressedToUs:count 341
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDropNotAddressedToUs:sum(packetBytes) 45274
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDropRetryLimitReached:count 54
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar Scenario.host[2].wlan[0].mac.dcf packetDropRetryLimitReached:sum(packetBytes) 8856
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac.dcf linkBroken:count 54
+attr interpolationmode none
+attr title "link breaks, count"
+scalar Scenario.host[2].wlan[0].mac packetReceivedFromLower:count 499
+attr interpolationmode none
+attr title "packets received from lower layer, count"
+scalar Scenario.host[2].wlan[0].mac packetReceivedFromLower:sum(packetBytes) 50614
+attr interpolationmode none
+attr title "packets received from lower layer, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetSentToLower:count 603
+attr interpolationmode none
+attr title "packets sent to lower layer, count"
+scalar Scenario.host[2].wlan[0].mac packetSentToLower:sum(packetBytes) 84842
+attr interpolationmode none
+attr title "packets sent to lower layer, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetReceivedFromUpper:count 253
+attr interpolationmode none
+attr title "packets received from upper layer, count"
+scalar Scenario.host[2].wlan[0].mac packetReceivedFromUpper:sum(packetBytes) 24108
+attr interpolationmode none
+attr title "packets received from upper layer, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetSentToUpper:count 62
+attr interpolationmode none
+attr title "packets sent to upper layer, count"
+scalar Scenario.host[2].wlan[0].mac packetSentToUpper:sum(packetBytes) 2260
+attr interpolationmode none
+attr title "packets sent to upper layer, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDrop:count 395
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, count"
+scalar Scenario.host[2].wlan[0].mac packetDrop:sum(packetBytes) 54130
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDropIncorrectlyReceived:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, count"
+scalar Scenario.host[2].wlan[0].mac packetDropIncorrectlyReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packet drops: incorrectly received, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDropNotAddressedToUs:count 341
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, count"
+scalar Scenario.host[2].wlan[0].mac packetDropNotAddressedToUs:sum(packetBytes) 45274
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDropQueueOverflow:count 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, count"
+scalar Scenario.host[2].wlan[0].mac packetDropQueueOverflow:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsQueueOverflow(packetDropped)
+attr title "packet drops: queue overflow, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDropRetryLimitReached:count 54
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, count"
+scalar Scenario.host[2].wlan[0].mac packetDropRetryLimitReached:sum(packetBytes) 8856
+attr interpolationmode none
+attr source packetDropReasonIsRetryLimitReached(packetDropped)
+attr title "packet drops: retry limit reached, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDropDuplicateDetected:count 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, count"
+scalar Scenario.host[2].wlan[0].mac packetDropDuplicateDetected:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsDuplicateDetected(packetDropped)
+attr title "packet drops: duplicate detected, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac packetDropOther:count 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, count"
+scalar Scenario.host[2].wlan[0].mac packetDropOther:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsOther(packetDropped)
+attr title "packet drops: other, sum(packetBytes)"
+scalar Scenario.host[2].wlan[0].mac linkBroken:count 54
+attr interpolationmode none
+attr title "link breaks, count"
+statistic Scenario.host[2].wlan[0].radio radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	1
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+scalar Scenario.host[2].wlan[0].radio radioMode:count 1209
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, count"
+scalar Scenario.host[2].wlan[0].radio receptionState:count 2205
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, count"
+scalar Scenario.host[2].wlan[0].radio transmissionState:count 2412
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, count"
+statistic Scenario.host[2].wlan[0].radio minSnir:histogram
+field count 499
+field mean 4288.6482713524
+field stddev 28369.170712189
+field min 317.79786859233
+field max 546919.09514828
+field sum 2140035.4874048
+field sqrsum 409973163248.57
+attr source minimumSnir(packetSentToUpper)
+attr title "Min SNIR, histogram"
+bin	-inf	0
+bin	0	477
+bin	10000	10
+bin	20000	2
+bin	30000	3
+bin	40000	2
+bin	50000	0
+bin	60000	0
+bin	70000	2
+bin	80000	0
+bin	90000	0
+bin	100000	0
+bin	110000	0
+bin	120000	0
+bin	130000	0
+bin	140000	0
+bin	150000	0
+bin	160000	1
+bin	170000	0
+bin	180000	0
+bin	190000	0
+bin	200000	0
+bin	210000	0
+bin	220000	0
+bin	230000	1
+bin	240000	0
+bin	250000	0
+bin	260000	0
+bin	270000	0
+bin	280000	0
+bin	290000	0
+bin	300000	0
+bin	310000	0
+bin	320000	0
+bin	330000	0
+bin	340000	0
+bin	350000	0
+bin	360000	0
+bin	370000	0
+bin	380000	0
+bin	390000	0
+bin	400000	0
+bin	410000	0
+bin	420000	0
+bin	430000	0
+bin	440000	0
+bin	450000	0
+bin	460000	0
+bin	470000	0
+bin	480000	0
+bin	490000	0
+bin	500000	0
+bin	510000	0
+bin	520000	0
+bin	530000	0
+bin	540000	1
+bin	550000	0
+bin	560000	0
+bin	570000	0
+bin	580000	0
+bin	590000	0
+bin	600000	0
+bin	610000	0
+bin	620000	0
+bin	630000	0
+bin	640000	0
+bin	650000	0
+bin	660000	0
+bin	670000	0
+bin	680000	0
+bin	690000	0
+statistic Scenario.host[2].wlan[0].radio packetErrorRate:histogram
+field count 499
+field mean 0
+field stddev 0
+field min 0
+field max 0
+field sum 0
+field sqrsum 0
+attr source packetErrorRate(packetSentToUpper)
+attr title "Packet error rate, histogram"
+bin	-inf	0
+bin	-0.5	0
+bin	-0.48	0
+bin	-0.46	0
+bin	-0.44	0
+bin	-0.42	0
+bin	-0.4	0
+bin	-0.38	0
+bin	-0.36	0
+bin	-0.34	0
+bin	-0.32	0
+bin	-0.3	0
+bin	-0.28	0
+bin	-0.26	0
+bin	-0.24	0
+bin	-0.22	0
+bin	-0.2	0
+bin	-0.18	0
+bin	-0.16	0
+bin	-0.14	0
+bin	-0.12	0
+bin	-0.1	0
+bin	-0.08	0
+bin	-0.06	0
+bin	-0.04	0
+bin	-0.02	0
+bin	0	499
+bin	0.02	0
+bin	0.04	0
+bin	0.06	0
+bin	0.08	0
+bin	0.1	0
+bin	0.12	0
+bin	0.14	0
+bin	0.16	0
+bin	0.18	0
+bin	0.2	0
+bin	0.22	0
+bin	0.24	0
+bin	0.26	0
+bin	0.28	0
+bin	0.3	0
+bin	0.32	0
+bin	0.34	0
+bin	0.36	0
+bin	0.38	0
+bin	0.4	0
+bin	0.42	0
+bin	0.44	0
+bin	0.46	0
+bin	0.48	0
+bin	0.5	0
+statistic Scenario.host[2].wlan[0].radio bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr source bitErrorRate(packetSentToUpper)
+attr title "Bit error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+statistic Scenario.host[2].wlan[0].radio symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr source symbolErrorRate(packetSentToUpper)
+attr title "Symbol error rate, histogram"
+bin	-inf	0
+bin	0	0
+bin	1	0
+scalar Scenario.host[2].ipv4.ip packetDropAddressResolutionFailed:count 26
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, count"
+scalar Scenario.host[2].ipv4.ip packetDropAddressResolutionFailed:sum(packetBytes) 3328
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.ip packetDropHopLimitReached:count 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, count"
+scalar Scenario.host[2].ipv4.ip packetDropHopLimitReached:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsHopLimitReached(packetDropped)
+attr title "packet drop: hop limit reached, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.ip packetDropForwardingDisabled:count 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, count"
+scalar Scenario.host[2].ipv4.ip packetDropForwardingDisabled:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsForwardingDisabled(packetDropped)
+attr title "packet drop: forwarding disabled, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.ip packetDropNoInterfaceFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, count"
+scalar Scenario.host[2].ipv4.ip packetDropNoInterfaceFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoInterfaceFound(packetDropped)
+attr title "packet drop: no interface found, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.ip packetDropNoRouteFound:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, count"
+scalar Scenario.host[2].ipv4.ip packetDropNoRouteFound:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsNoRouteFound(packetDropped)
+attr title "packet drop: no route found, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.ip packetDropUndefined:count 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, count"
+scalar Scenario.host[2].ipv4.ip packetDropUndefined:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetDropReasonIsUndefined(packetDropped)
+attr title "packet drop: undefined, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.arp arpResolutionFailed:count 26
+attr title "ARP failed resolutions, count"
+scalar Scenario.host[2].ipv4.arp arpResolutionCompleted:count 24
+attr title "ARP completed resolutions, count"
+scalar Scenario.host[2].ipv4.arp arpResolutionInitiated:count 50
+attr title "ARP initiated resolutions, count"
+scalar Scenario.host[2].ipv4.arp arpReplySent:count 0
+attr source arpReplySent
+attr title "ARP replies sent, count"
+scalar Scenario.host[2].ipv4.arp arpReplySent:sum(packetBytes) 0
+attr source arpReplySent
+attr title "ARP replies sent, sum(packetBytes)"
+scalar Scenario.host[2].ipv4.arp arpRequestSent:count 103
+attr source arpRequestSent
+attr title "ARP request sent, count"
+scalar Scenario.host[2].ipv4.arp arpRequestSent:sum(packetBytes) 2884
+attr source arpRequestSent
+attr title "ARP request sent, sum(packetBytes)"
+scalar Scenario.host[2].udp packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar Scenario.host[2].udp packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+scalar Scenario.host[2].udp packetSent:count 176
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar Scenario.host[2].udp packetSent:sum(packetBytes) 19008
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+scalar Scenario.host[2].udp passedUpPk:count 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed up, count"
+scalar Scenario.host[2].udp droppedPkWrongPort:count 0
+attr interpolationmode none
+attr source packetDropReasonIsNoPortFound(packetDropped)
+attr title "packets dropped (wrong port), count"
+scalar Scenario.host[2].udp droppedPkBadChecksum:count 0
+attr interpolationmode none
+attr source packetDropReasonIsIncorrectlyReceived(packetDropped)
+attr title "packets dropped (checksum error), count"
+scalar Scenario.host[2].app[0] "packets sent" 176
+scalar Scenario.host[2].app[0] "packets received" 0
+scalar Scenario.host[2].app[0] packetReceived:count 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, count"
+scalar Scenario.host[2].app[0] packetReceived:sum(packetBytes) 0
+attr interpolationmode none
+attr source packetReceived
+attr title "packets received, sum(packetBytes)"
+statistic Scenario.host[2].app[0] rcvdPkLifetime:stats
+field count 0
+field mean -nan
+field stddev nan
+field min nan
+field max nan
+field sum 0
+field sqrsum 0
+attr interpolationmode none
+attr source dataAge(packetReceived)
+attr title "received packet lifetime, stats"
+attr unit s
+scalar Scenario.host[2].app[0] packetSent:count 176
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, count"
+scalar Scenario.host[2].app[0] packetSent:sum(packetBytes) 17600
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, sum(packetBytes)"
+

@@ -1,0 +1,972 @@
+round0 C[0] model received, time : 0.273
+round0 C[0], model received time:0.273, computation Capablity: 10.94, sample quantity : 3900, training time: 14.727 , globalInfo : 61.6194
+round0 C[3] model received, time : 0.285
+round0 C[3], model received time:0.285, computation Capablity: 4.02991, sample quantity : 3900, training time: 14.715 , globalInfo : 51.0603
+round0 C[4] model received, time : 0.309
+round0 C[4], model received time:0.309, computation Capablity: 9.10957, sample quantity : 3900, training time: 14.691 , globalInfo : 62.3854
+round0 C[11] model received, time : 0.325
+round0 C[11], model received time:0.325, computation Capablity: 17.202, sample quantity : 3900, training time: 14.675 , globalInfo : 57.8591
+round0 C[12] model received, time : 0.39
+round0 C[12], model received time:0.39, computation Capablity: 6.09179, sample quantity : 3900, training time: 14.61 , globalInfo : 63.7594
+round0 C[1] model received, time : 0.404
+round0 C[1], model received time:0.404, computation Capablity: 12.4958, sample quantity : 3900, training time: 14.596 , globalInfo : 57.1209
+round0 C[14] model received, time : 0.443
+round0 C[14], model received time:0.443, computation Capablity: 11.8595, sample quantity : 3900, training time: 14.557 , globalInfo : 60.8767
+round0 C[18] model received, time : 0.452
+round0 C[18], model received time:0.452, computation Capablity: 19.5983, sample quantity : 300, training time: 14.548 , globalInfo : 46.944
+round0 C[10] model received, time : 0.455
+round0 C[10], model received time:0.455, computation Capablity: 7.43178, sample quantity : 3900, training time: 14.545 , globalInfo : 60.6728
+round0 C[19] model received, time : 0.464
+round0 C[19], model received time:0.464, computation Capablity: 12.4369, sample quantity : 300, training time: 14.536 , globalInfo : 50.3361
+round0 C[21] model received, time : 0.521
+round0 C[21], model received time:0.521, computation Capablity: 5.53604, sample quantity : 3900, training time: 14.479 , globalInfo : 61.2662
+round0 C[23] model received, time : 0.577
+round0 C[23], model received time:0.577, computation Capablity: 15.611, sample quantity : 3900, training time: 14.423 , globalInfo : 56.9993
+round0 C[26] model received, time : 0.631
+round0 C[26], model received time:0.631, computation Capablity: 15.3987, sample quantity : 300, training time: 14.369 , globalInfo : 48.2153
+round0 C[8] model received, time : 0.661
+round0 C[8], model received time:0.661, computation Capablity: 10.0226, sample quantity : 3900, training time: 14.339 , globalInfo : 58.6603
+round0 C[27] model received, time : 0.69
+round0 C[27], model received time:0.69, computation Capablity: 5.83056, sample quantity : 300, training time: 14.31 , globalInfo : 40.5454
+round0 C[5] model received, time : 0.915
+round0 C[5], model received time:0.915, computation Capablity: 3.50034, sample quantity : 3900, training time: 14.085 , globalInfo : 61.9593
+round0 C[28] model received, time : 5.405
+round0 C[28], model received time:5.405, computation Capablity: 11.1144, sample quantity : 300, training time: 9.595 , globalInfo : 52.8218
+round0 C[20] model received, time : 5.416
+round0 C[20], model received time:5.416, computation Capablity: 8.78729, sample quantity : 3900, training time: 9.584 , globalInfo : 47.526
+round0 top m SingleCell.C[4].app[3] 12 63.7594 350.202 50
+round0 top m SingleCell.C[4].app[3] 4 62.3854 417.03 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 12 63.7594 350.202 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 4 62.3854 417.03 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 5 61.9593 268.109 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 0 61.6194 476.084 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 21 61.2662 722.5 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 14 60.8767 379.666 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 10 60.6728 180.661 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 8 58.6603 726.243 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 11 57.8591 577.496 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 1 57.1209 250.521 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 23 56.9993 287.575 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 28 52.8218 749.101 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 3 51.0603 169.678 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 19 50.3361 396.185 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 26 48.2153 252.854 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 20 47.526 63.369 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 18 46.944 536.999 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 27 40.5454 0.073697 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 15 -1111 983.555 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 22 -1111 943.828 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 16 -3333 145.45 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 9 -3333 904.051 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 13 -3333 61.8892 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 6 -3333 39.2105 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 24 -3333 83.1648 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 25 -3333 49.2853 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 2 -3333 302.905 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 17 -3333 805.127 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 7 -3333 271.55 50
+round0 --globalINFO-- SingleCell.C[4].app[3] 29 -3333 114.952 50
+round0 SingleCell.C[4].app[3] selected as client , time 18
+round0 top m SingleCell.C[12].app[3] 12 63.7594 350.202 50
+round0 top m SingleCell.C[12].app[3] 4 62.3854 417.03 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 12 63.7594 350.202 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 4 62.3854 417.03 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 5 61.9593 268.109 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 0 61.6194 476.084 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 21 61.2662 722.5 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 14 60.8767 379.666 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 10 60.6728 180.661 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 8 58.6603 726.243 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 11 57.8591 577.496 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 1 57.1209 250.521 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 23 56.9993 287.575 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 28 52.8218 749.101 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 3 51.0603 169.678 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 19 50.3361 396.185 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 26 48.2153 252.854 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 20 47.526 63.369 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 18 46.944 536.999 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 27 40.5454 0.073697 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 15 -1111 983.555 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 9 -1111 904.051 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 22 -1111 943.828 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 13 -3333 61.8892 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 16 -3333 145.45 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 6 -3333 39.2105 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 24 -3333 83.1648 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 25 -3333 49.2853 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 2 -3333 302.905 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 17 -3333 805.127 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 7 -3333 271.55 50
+round0 --globalINFO-- SingleCell.C[12].app[3] 29 -3333 114.952 50
+round0 SingleCell.C[12].app[3] selected as client , time 18
+round0 Client 4 uploading model is finished, time 18.258
+round0 Client 12 uploading model is finished, time 18.331
+selected client which successful upload their model 4.pt 12.pt 
+After evaluate global model: 0.10605911726498696 0.9755
+round1 C[2] model received, time : 0.28
+round1 C[2], model received time:0.28, computation Capablity: 19.2795, sample quantity : 3900, training time: 14.72 , globalInfo : 4.85506
+round1 C[1] model received, time : 0.31
+round1 C[1], model received time:0.31, computation Capablity: 6.62647, sample quantity : 3900, training time: 14.69 , globalInfo : 5.16299
+round1 C[5] model received, time : 0.333
+round1 C[5], model received time:0.333, computation Capablity: 9.06664, sample quantity : 3900, training time: 14.667 , globalInfo : 5.13273
+round1 C[8] model received, time : 0.378
+round1 C[8], model received time:0.378, computation Capablity: 17.5886, sample quantity : 3900, training time: 14.622 , globalInfo : 5.11351
+round1 C[4] model received, time : 0.383
+round1 C[4], model received time:0.383, computation Capablity: 15.6248, sample quantity : 3900, training time: 14.617 , globalInfo : 5.14533
+round1 C[10] model received, time : 0.443
+round1 C[10], model received time:0.443, computation Capablity: 15.0973, sample quantity : 3900, training time: 14.557 , globalInfo : 5.14428
+round1 C[12] model received, time : 0.502
+round1 C[12], model received time:0.502, computation Capablity: 13.905, sample quantity : 3900, training time: 14.498 , globalInfo : 5.57599
+round1 C[13] model received, time : 0.519
+round1 C[13], model received time:0.519, computation Capablity: 6.68313, sample quantity : 3900, training time: 14.481 , globalInfo : 4.75736
+round1 C[3] model received, time : 0.526
+round1 C[3], model received time:0.526, computation Capablity: 10.6881, sample quantity : 3900, training time: 14.474 , globalInfo : 5.15637
+round1 C[9] model received, time : 0.529
+round1 C[9], model received time:0.529, computation Capablity: 19.2056, sample quantity : 3900, training time: 14.471 , globalInfo : 4.91397
+round1 C[18] model received, time : 0.642
+round1 C[18], model received time:0.642, computation Capablity: 1.56105, sample quantity : 300, training time: 14.358 , globalInfo : 5.14428
+round1 C[20] model received, time : 0.668
+round1 C[20], model received time:0.668, computation Capablity: 15.0838, sample quantity : 3900, training time: 14.332 , globalInfo : 4.6948
+round1 C[25] model received, time : 0.716
+round1 C[25], model received time:0.716, computation Capablity: 5.5633, sample quantity : 3900, training time: 14.284 , globalInfo : 5.00817
+round1 C[27] model received, time : 0.785
+round1 C[27], model received time:0.785, computation Capablity: 11.2503, sample quantity : 300, training time: 14.215 , globalInfo : 5.46192
+round1 C[28] model received, time : 0.839
+round1 C[28], model received time:0.839, computation Capablity: 5.33673, sample quantity : 300, training time: 14.161 , globalInfo : 5.1305
+round1 C[21] model received, time : 1.227
+round1 C[21], model received time:1.227, computation Capablity: 2.3778, sample quantity : 3900, training time: 13.773 , globalInfo : 4.71491
+round1 C[26] model received, time : 1.258
+round1 C[26], model received time:1.258, computation Capablity: 15.1244, sample quantity : 300, training time: 13.742 , globalInfo : 5.19686
+round1 C[16] model received, time : 1.294
+round1 C[16], model received time:1.294, computation Capablity: 10.8253, sample quantity : 300, training time: 13.706 , globalInfo : 5.44669
+round1 C[0] model received, time : 1.316
+round1 C[0], model received time:1.316, computation Capablity: 12.5627, sample quantity : 3900, training time: 13.684 , globalInfo : 4.69481
+round1 C[22] model received, time : 6.009
+round1 C[22], model received time:6.009, computation Capablity: 7.12479, sample quantity : 3900, training time: 8.991 , globalInfo : 5.14757
+round1 C[17] model received, time : 6.077
+round1 C[17], model received time:6.077, computation Capablity: 12.9313, sample quantity : 300, training time: 8.923 , globalInfo : 5.1305
+round1 C[23] model received, time : 6.101
+round1 C[23], model received time:6.101, computation Capablity: 10.4144, sample quantity : 3900, training time: 8.899 , globalInfo : 5.15658
+round1 top m SingleCell.C[12].app[3] 12 5.57599 531.583 50
+round1 top m SingleCell.C[12].app[3] 27 5.46192 237.214 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 12 5.57599 531.583 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 27 5.46192 237.214 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 16 5.44669 801.331 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 26 5.19686 186.493 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 1 5.16299 251.66 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 23 5.15658 248.424 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 3 5.15637 184.496 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 22 5.14757 172.701 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 4 5.14533 343.788 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 10 5.14428 683.171 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 18 5.14428 304.005 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 5 5.13273 802.866 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 28 5.1305 749.281 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 17 5.1305 232.1 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 8 5.11351 598.789 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 25 5.00817 595.83 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 9 4.91397 128.231 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 2 4.85506 532.923 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 13 4.75736 512.875 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 21 4.71491 948.458 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 0 4.69481 875.389 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 20 4.6948 426.131 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 7 -3333 198.648 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 11 -3333 982.881 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 24 -3333 824.46 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 15 -3333 768.853 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 6 -3333 204.122 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 14 -3333 105.385 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 19 -3333 903.331 50
+round1 --globalINFO-- SingleCell.C[12].app[3] 29 -3333 174.501 50
+round1 SingleCell.C[12].app[3] selected as client , time 18
+round1 top m SingleCell.C[27].app[3] 12 5.57599 531.583 50
+round1 top m SingleCell.C[27].app[3] 27 5.46192 237.214 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 12 5.57599 531.583 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 27 5.46192 237.214 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 26 5.19686 186.493 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 1 5.16299 251.66 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 23 5.15658 248.424 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 3 5.15637 184.496 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 22 5.14757 172.701 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 4 5.14533 343.788 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 10 5.14428 683.171 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 18 5.14428 304.005 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 17 5.1305 232.1 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 8 5.11351 598.789 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 25 5.00817 595.83 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 9 4.91397 128.231 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 2 4.85506 532.923 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 13 4.75736 512.875 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 20 4.6948 426.131 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 11 -1111 -2222 -2222
+round1 --globalINFO-- SingleCell.C[27].app[3] 15 -1111 768.853 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 19 -1111 903.331 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 16 -1111 801.331 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 21 -1111 948.458 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 24 -1111 824.46 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 0 -1111 875.389 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 5 -1111 802.866 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 28 -1111 749.281 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 14 -3333 105.385 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 6 -3333 204.122 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 7 -3333 198.648 50
+round1 --globalINFO-- SingleCell.C[27].app[3] 29 -3333 174.501 50
+round1 SingleCell.C[27].app[3] selected as client , time 18
+round1 top m SingleCell.C[16].app[3] 12 5.57599 531.583 50
+round1 top m SingleCell.C[16].app[3] 16 5.44669 801.331 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 12 5.57599 531.583 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 16 5.44669 801.331 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 4 5.14533 343.788 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 10 5.14428 683.171 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 18 5.14428 304.005 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 5 5.13273 802.866 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 28 5.1305 749.281 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 8 5.11351 598.789 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 25 5.00817 595.83 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 2 4.85506 532.923 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 13 4.75736 512.875 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 21 4.71491 948.458 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 0 4.69481 875.389 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 20 4.6948 426.131 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 14 -1111 105.385 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 1 -1111 251.66 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 17 -1111 232.1 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 9 -1111 128.231 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 3 -1111 184.496 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 22 -1111 172.701 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 23 -1111 248.424 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 7 -1111 198.648 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 26 -1111 186.493 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 27 -1111 237.214 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 6 -1111 204.122 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 29 -1111 174.501 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 19 -3333 903.331 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 15 -3333 768.853 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 24 -3333 824.46 50
+round1 --globalINFO-- SingleCell.C[16].app[3] 11 -3333 982.881 50
+round1 SingleCell.C[16].app[3] selected as client , time 18
+round1 Client 12 uploading model is finished, time 18.342
+round1 Client 27 uploading model is finished, time 19.526
+round1 Client 16 uploading model is finished, time 19.749
+round1 C[6] model received, time : 23.753
+round1 C[6], model received time:23.753, computation Capablity: 2.2747, sample quantity : 3900, training time: -8.753 , globalInfo : 5.14083
+round2 C[7] model received, time : 0.279
+round2 C[7], model received time:0.279, computation Capablity: 17.7739, sample quantity : 3900, training time: 14.721 , globalInfo : 4.77391
+round2 C[8] model received, time : 0.29
+round2 C[8], model received time:0.29, computation Capablity: 1.83286, sample quantity : 3900, training time: 14.71 , globalInfo : 5.11351
+round2 C[9] model received, time : 0.32
+round2 C[9], model received time:0.32, computation Capablity: 18.5534, sample quantity : 3900, training time: 14.68 , globalInfo : 4.91397
+round2 C[10] model received, time : 0.343
+round2 C[10], model received time:0.343, computation Capablity: 7.62916, sample quantity : 3900, training time: 14.657 , globalInfo : 4.88768
+round2 C[11] model received, time : 0.354
+round2 C[11], model received time:0.354, computation Capablity: 11.2654, sample quantity : 3900, training time: 14.646 , globalInfo : 4.88009
+round2 C[14] model received, time : 0.377
+round2 C[14], model received time:0.377, computation Capablity: 11.7905, sample quantity : 3900, training time: 14.623 , globalInfo : 4.70658
+round2 C[3] model received, time : 0.44
+round2 C[3], model received time:0.44, computation Capablity: 5.133, sample quantity : 3900, training time: 14.56 , globalInfo : 5.15637
+round2 C[16] model received, time : 0.445
+round2 C[16], model received time:0.445, computation Capablity: 3.02606, sample quantity : 300, training time: 14.555 , globalInfo : 5.44669
+round2 C[18] model received, time : 0.472
+round2 C[18], model received time:0.472, computation Capablity: 6.69106, sample quantity : 300, training time: 14.528 , globalInfo : 5.14428
+round2 C[23] model received, time : 0.494
+round2 C[23], model received time:0.494, computation Capablity: 19.3672, sample quantity : 3900, training time: 14.506 , globalInfo : 4.77041
+round2 C[12] model received, time : 0.496
+round2 C[12], model received time:0.496, computation Capablity: 10.3021, sample quantity : 3900, training time: 14.504 , globalInfo : 5.57599
+round2 C[24] model received, time : 0.552
+round2 C[24], model received time:0.552, computation Capablity: 14.1702, sample quantity : 3900, training time: 14.448 , globalInfo : 4.87726
+round2 C[28] model received, time : 0.694
+round2 C[28], model received time:0.694, computation Capablity: 3.03747, sample quantity : 300, training time: 14.306 , globalInfo : 5.05864
+round2 C[22] model received, time : 0.696
+round2 C[22], model received time:0.696, computation Capablity: 15.9068, sample quantity : 3900, training time: 14.304 , globalInfo : 4.8553
+round2 C[26] model received, time : 0.705
+round2 C[26], model received time:0.705, computation Capablity: 5.04862, sample quantity : 300, training time: 14.295 , globalInfo : 4.55917
+round2 C[5] model received, time : 0.918
+round2 C[5], model received time:0.918, computation Capablity: 12.1048, sample quantity : 3900, training time: 14.082 , globalInfo : 5.13273
+round2 C[29] model received, time : 0.952
+round2 C[29], model received time:0.952, computation Capablity: 19.2802, sample quantity : 300, training time: 14.048 , globalInfo : 4.88777
+round2 C[20] model received, time : 2.139
+round2 C[20], model received time:2.139, computation Capablity: 3.54154, sample quantity : 3900, training time: 12.861 , globalInfo : 4.6948
+round2 C[15] model received, time : 2.593
+round2 C[15], model received time:2.593, computation Capablity: 10.9994, sample quantity : 300, training time: 12.407 , globalInfo : 5.19641
+round2 C[0] model received, time : 2.631
+round2 C[0], model received time:2.631, computation Capablity: 17.3539, sample quantity : 3900, training time: 12.369 , globalInfo : 5.16514
+round2 C[6] model received, time : 5.162
+round2 C[6], model received time:5.162, computation Capablity: 5.80828, sample quantity : 3900, training time: 9.838 , globalInfo : 5.14083
+round2 top m SingleCell.C[3].app[3] 15 5.19641 793.585 50
+round2 top m SingleCell.C[3].app[3] 3 5.15637 813.961 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 15 5.19641 793.585 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 3 5.15637 813.961 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 18 5.14428 332.365 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 6 5.14083 810.213 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 8 5.11351 463.498 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 28 5.05864 471.819 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 9 4.91397 544.997 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 29 4.88777 863.307 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 10 4.88768 406.505 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 11 4.88009 483.641 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 22 4.8553 893.222 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 7 4.77391 558.646 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 23 4.77041 459.561 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 14 4.70658 527.752 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 20 4.6948 943.471 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 0 -1111 266.497 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 16 -1111 287.597 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 17 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[3].app[3] 13 -1111 240.243 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 21 -1111 142.272 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 4 -1111 115.882 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 12 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[3].app[3] 24 -1111 166.159 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 26 -1111 157.528 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 5 -1111 252.924 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 25 -3333 895.168 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 19 -3333 748.249 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 27 -3333 937.791 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 2 -3333 736.291 50
+round2 --globalINFO-- SingleCell.C[3].app[3] 1 -3333 922.87 50
+round2 SingleCell.C[3].app[3] selected as client , time 18
+round2 top m SingleCell.C[16].app[3] 12 5.57599 81.0215 50
+round2 top m SingleCell.C[16].app[3] 16 5.44669 287.597 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 12 5.57599 81.0215 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 16 5.44669 287.597 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 0 5.16514 266.497 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 18 5.14428 332.365 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 5 5.13273 252.924 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 8 5.11351 463.498 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 28 5.05864 471.819 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 9 4.91397 544.997 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 10 4.88768 406.505 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 11 4.88009 483.641 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 24 4.87726 166.159 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 7 4.77391 558.646 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 23 4.77041 459.561 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 14 4.70658 527.752 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 26 4.55917 157.528 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 15 -1111 793.585 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 1 -1111 922.87 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 3 -1111 813.961 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 20 -1111 943.471 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 22 -1111 893.222 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 25 -1111 895.168 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 27 -1111 937.791 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 6 -1111 810.213 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 29 -1111 863.307 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 4 -3333 115.882 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 17 -3333 83.3897 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 13 -3333 240.243 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 21 -3333 142.272 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 19 -3333 748.249 50
+round2 --globalINFO-- SingleCell.C[16].app[3] 2 -3333 736.291 50
+round2 SingleCell.C[16].app[3] selected as client , time 18
+round2 top m SingleCell.C[12].app[3] 12 5.57599 81.0215 50
+round2 top m SingleCell.C[12].app[3] 16 5.44669 287.597 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 12 5.57599 81.0215 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 16 5.44669 287.597 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 0 5.16514 266.497 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 18 5.14428 332.365 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 5 5.13273 252.924 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 8 5.11351 463.498 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 28 5.05864 471.819 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 9 4.91397 544.997 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 10 4.88768 406.505 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 11 4.88009 483.641 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 24 4.87726 166.159 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 7 4.77391 558.646 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 23 4.77041 459.561 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 14 4.70658 527.752 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 26 4.55917 157.528 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 15 -1111 793.585 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 1 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 3 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 19 -1111 748.249 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 20 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 22 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 2 -1111 736.291 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 25 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 27 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 6 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 29 -1111 -2222 -2222
+round2 --globalINFO-- SingleCell.C[12].app[3] 13 -3333 240.243 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 21 -3333 142.272 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 4 -3333 115.882 50
+round2 --globalINFO-- SingleCell.C[12].app[3] 17 -3333 83.3897 50
+round2 SingleCell.C[12].app[3] selected as client , time 18
+round2 top m SingleCell.C[15].app[3] 15 5.19641 793.585 50
+round2 top m SingleCell.C[15].app[3] 3 5.15637 813.961 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 15 5.19641 793.585 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 3 5.15637 813.961 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 18 5.14428 332.365 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 6 5.14083 810.213 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 8 5.11351 463.498 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 28 5.05864 471.819 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 9 4.91397 544.997 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 29 4.88777 863.307 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 10 4.88768 406.505 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 11 4.88009 483.641 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 22 4.8553 893.222 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 7 4.77391 558.646 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 23 4.77041 459.561 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 14 4.70658 527.752 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 20 4.6948 943.471 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 0 -1111 266.497 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 16 -1111 287.597 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 17 -1111 83.3897 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 13 -1111 240.243 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 21 -1111 142.272 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 4 -1111 115.882 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 12 -1111 81.0215 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 24 -1111 166.159 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 26 -1111 157.528 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 5 -1111 252.924 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 25 -3333 895.168 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 19 -3333 748.249 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 27 -3333 937.791 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 2 -3333 736.291 50
+round2 --globalINFO-- SingleCell.C[15].app[3] 1 -3333 922.87 50
+round2 SingleCell.C[15].app[3] selected as client , time 18
+round2 Client 15 uploading model is finished, time 19.894
+round2 Client 16 uploading model is finished, time 20.325
+round2 Client 3 uploading model is finished, time 20.902
+round2 Client 12 uploading model is finished, time 21.052
+selected client which successful upload their model 16.pt 3.pt 12.pt 27.pt 15.pt 
+After evaluate global model: 5.054612633609771 0.5722
+round3 C[1] model received, time : 0.277
+round3 C[1], model received time:0.277, computation Capablity: 4.36785, sample quantity : 3900, training time: 14.723 , globalInfo : 58.7542
+round3 C[4] model received, time : 0.289
+round3 C[4], model received time:0.289, computation Capablity: 14.59, sample quantity : 3900, training time: 14.711 , globalInfo : 54.7464
+round3 C[5] model received, time : 0.342
+round3 C[5], model received time:0.342, computation Capablity: 10.1707, sample quantity : 3900, training time: 14.658 , globalInfo : 44.8611
+round3 C[2] model received, time : 0.345
+round3 C[2], model received time:0.345, computation Capablity: 6.85408, sample quantity : 3900, training time: 14.655 , globalInfo : 54.9513
+round3 C[7] model received, time : 0.357
+round3 C[7], model received time:0.357, computation Capablity: 16.5017, sample quantity : 3900, training time: 14.643 , globalInfo : 54.7464
+round3 C[9] model received, time : 0.388
+round3 C[9], model received time:0.388, computation Capablity: 4.91075, sample quantity : 3900, training time: 14.612 , globalInfo : 48.733
+round3 C[12] model received, time : 0.448
+round3 C[12], model received time:0.448, computation Capablity: 12.8884, sample quantity : 3900, training time: 14.552 , globalInfo : 53.4492
+round3 C[13] model received, time : 0.491
+round3 C[13], model received time:0.491, computation Capablity: 6.19453, sample quantity : 3900, training time: 14.509 , globalInfo : 57.2941
+round3 C[15] model received, time : 0.528
+round3 C[15], model received time:0.528, computation Capablity: 5.03606, sample quantity : 300, training time: 14.472 , globalInfo : 5.58165
+round3 C[16] model received, time : 0.537
+round3 C[16], model received time:0.537, computation Capablity: 9.53864, sample quantity : 300, training time: 14.463 , globalInfo : 36.8664
+round3 C[20] model received, time : 0.595
+round3 C[20], model received time:0.595, computation Capablity: 10.7129, sample quantity : 3900, training time: 14.405 , globalInfo : 53.4492
+round3 C[26] model received, time : 0.638
+round3 C[26], model received time:0.638, computation Capablity: 2.23752, sample quantity : 300, training time: 14.362 , globalInfo : 5.58165
+round3 C[28] model received, time : 0.663
+round3 C[28], model received time:0.663, computation Capablity: 9.90173, sample quantity : 300, training time: 14.337 , globalInfo : 52.9255
+round3 C[24] model received, time : 0.726
+round3 C[24], model received time:0.726, computation Capablity: 13.0485, sample quantity : 3900, training time: 14.274 , globalInfo : 53.4492
+round3 C[8] model received, time : 0.766
+round3 C[8], model received time:0.766, computation Capablity: 13.4205, sample quantity : 3900, training time: 14.234 , globalInfo : 53.4492
+round3 C[25] model received, time : 5.63
+round3 C[25], model received time:5.63, computation Capablity: 11.7042, sample quantity : 3900, training time: 9.37 , globalInfo : 53.4492
+round3 C[21] model received, time : 6.157
+round3 C[21], model received time:6.157, computation Capablity: 11.1474, sample quantity : 3900, training time: 8.843 , globalInfo : 44.8611
+round3 C[6] model received, time : 6.213
+round3 C[6], model received time:6.213, computation Capablity: 8.72569, sample quantity : 3900, training time: 8.787 , globalInfo : 44.8611
+round3 top m SingleCell.C[1].app[3] 1 58.7542 565.759 50
+round3 top m SingleCell.C[1].app[3] 13 57.2941 503.778 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 1 58.7542 565.759 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 13 57.2941 503.778 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 2 54.9513 722.855 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 4 54.7464 488.309 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 7 54.7464 510.151 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 20 53.4492 275.257 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 25 53.4492 307.917 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 8 53.4492 252.803 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 12 53.4492 282.558 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 24 53.4492 683.051 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 28 52.9255 434.623 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 9 48.733 851.225 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 5 44.8611 139.505 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 21 44.8611 875.369 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 6 44.8611 107.342 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 16 36.8664 565.549 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 15 5.58165 314.605 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 26 5.58165 597.306 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 14 -1111 43.4606 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 19 -3333 136.326 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 3 -3333 656.847 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 0 -3333 801.718 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 22 -3333 73.59 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 23 -3333 126.574 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 11 -3333 155.426 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 18 -3333 919.384 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 17 -3333 85.8805 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 27 -3333 873.855 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 10 -3333 74.0114 50
+round3 --globalINFO-- SingleCell.C[1].app[3] 29 -3333 821.528 50
+round3 SingleCell.C[1].app[3] selected as client , time 18
+round3 top m SingleCell.C[13].app[3] 1 58.7542 565.759 50
+round3 top m SingleCell.C[13].app[3] 13 57.2941 503.778 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 1 58.7542 565.759 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 13 57.2941 503.778 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 2 54.9513 722.855 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 4 54.7464 488.309 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 7 54.7464 510.151 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 20 53.4492 275.257 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 25 53.4492 307.917 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 8 53.4492 252.803 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 12 53.4492 282.558 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 24 53.4492 683.051 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 28 52.9255 434.623 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 9 48.733 851.225 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 5 44.8611 139.505 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 21 44.8611 875.369 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 6 44.8611 107.342 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 16 36.8664 565.549 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 15 5.58165 314.605 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 26 5.58165 597.306 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 18 -3333 919.384 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 19 -3333 136.326 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 3 -3333 656.847 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 0 -3333 801.718 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 22 -3333 73.59 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 23 -3333 126.574 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 11 -3333 155.426 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 14 -3333 43.4606 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 17 -3333 85.8805 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 27 -3333 873.855 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 10 -3333 74.0114 50
+round3 --globalINFO-- SingleCell.C[13].app[3] 29 -3333 821.528 50
+round3 SingleCell.C[13].app[3] selected as client , time 18
+round3 Client 1 uploading model is finished, time 18.263
+round3 Client 13 uploading model is finished, time 18.273
+selected client which successful upload their model 13.pt 1.pt 
+After evaluate global model: 0.07524261811366961 0.9809
+round4 C[4] model received, time : 0.3
+round4 C[4], model received time:0.3, computation Capablity: 7.91237, sample quantity : 3900, training time: 14.7 , globalInfo : 5.17912
+round4 C[1] model received, time : 0.31
+round4 C[1], model received time:0.31, computation Capablity: 4.6442, sample quantity : 3900, training time: 14.69 , globalInfo : 5.5791
+round4 C[11] model received, time : 0.314
+round4 C[11], model received time:0.314, computation Capablity: 18.9444, sample quantity : 3900, training time: 14.686 , globalInfo : 5.00368
+round4 C[13] model received, time : 0.359
+round4 C[13], model received time:0.359, computation Capablity: 11.9374, sample quantity : 3900, training time: 14.641 , globalInfo : 4.99632
+round4 C[15] model received, time : 0.371
+round4 C[15], model received time:0.371, computation Capablity: 15.6911, sample quantity : 300, training time: 14.629 , globalInfo : 5.1528
+round4 C[14] model received, time : 0.401
+round4 C[14], model received time:0.401, computation Capablity: 12.6517, sample quantity : 3900, training time: 14.599 , globalInfo : 4.91111
+round4 C[2] model received, time : 0.43
+round4 C[2], model received time:0.43, computation Capablity: 15.8593, sample quantity : 3900, training time: 14.57 , globalInfo : 4.91365
+round4 C[26] model received, time : 0.457
+round4 C[26], model received time:0.457, computation Capablity: 8.01354, sample quantity : 300, training time: 14.543 , globalInfo : 5.15608
+round4 C[20] model received, time : 0.468
+round4 C[20], model received time:0.468, computation Capablity: 19.3853, sample quantity : 3900, training time: 14.532 , globalInfo : 4.88109
+round4 C[28] model received, time : 0.5
+round4 C[28], model received time:0.5, computation Capablity: 10.6517, sample quantity : 300, training time: 14.5 , globalInfo : 5.14151
+round4 C[27] model received, time : 0.531
+round4 C[27], model received time:0.531, computation Capablity: 7.96632, sample quantity : 300, training time: 14.469 , globalInfo : 5.26265
+round4 C[23] model received, time : 0.579
+round4 C[23], model received time:0.579, computation Capablity: 19.781, sample quantity : 3900, training time: 14.421 , globalInfo : 5.13093
+round4 C[3] model received, time : 0.603
+round4 C[3], model received time:0.603, computation Capablity: 5.68528, sample quantity : 3900, training time: 14.397 , globalInfo : 5.04177
+round4 C[25] model received, time : 0.641
+round4 C[25], model received time:0.641, computation Capablity: 14.5171, sample quantity : 3900, training time: 14.359 , globalInfo : 5.12903
+round4 C[9] model received, time : 0.759
+round4 C[9], model received time:0.759, computation Capablity: 19.7963, sample quantity : 3900, training time: 14.241 , globalInfo : 5.13683
+round4 C[21] model received, time : 0.771
+round4 C[21], model received time:0.771, computation Capablity: 3.05194, sample quantity : 3900, training time: 14.229 , globalInfo : 5.5791
+round4 C[7] model received, time : 0.948
+round4 C[7], model received time:0.948, computation Capablity: 14.0321, sample quantity : 3900, training time: 14.052 , globalInfo : 5.00491
+round4 C[19] model received, time : 0.954
+round4 C[19], model received time:0.954, computation Capablity: 13.8306, sample quantity : 300, training time: 14.046 , globalInfo : 4.67908
+round4 C[18] model received, time : 3.019
+round4 C[18], model received time:3.019, computation Capablity: 13.93, sample quantity : 300, training time: 11.981 , globalInfo : 5.14198
+round4 C[17] model received, time : 5.322
+round4 C[17], model received time:5.322, computation Capablity: 1.39871, sample quantity : 300, training time: 9.678 , globalInfo : 5.14151
+round4 C[6] model received, time : 5.541
+round4 C[6], model received time:5.541, computation Capablity: 13.1415, sample quantity : 3900, training time: 9.459 , globalInfo : 5.07525
+round4 C[24] model received, time : 5.942
+round4 C[24], model received time:5.942, computation Capablity: 19.7071, sample quantity : 3900, training time: 9.058 , globalInfo : 5.17906
+round4 C[8] model received, time : 5.948
+round4 C[8], model received time:5.948, computation Capablity: 17.6927, sample quantity : 3900, training time: 9.052 , globalInfo : 5.12868
+round4 C[22] model received, time : 6.887
+round4 C[22], model received time:6.887, computation Capablity: 14.3424, sample quantity : 3900, training time: 8.113 , globalInfo : 5.14169
+round4 top m SingleCell.C[1].app[3] 21 5.5791 754.687 50
+round4 top m SingleCell.C[1].app[3] 1 5.5791 945.601 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 21 5.5791 754.687 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 1 5.5791 945.601 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 27 5.26265 712.269 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 18 5.14198 719.509 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 28 5.14151 688.35 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 25 5.12903 698.428 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 6 5.07525 845.921 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 3 5.04177 589.72 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 13 4.99632 644.795 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 2 4.91365 544.1 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 14 4.91111 987.683 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 20 4.88109 593.563 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 19 4.67908 846.548 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 8 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[1].app[3] 10 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[1].app[3] 15 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[1].app[3] 17 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[1].app[3] 7 -1111 366.884 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 11 -1111 382.941 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 22 -1111 306.447 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 23 -1111 287.704 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 24 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[1].app[3] 5 -1111 302.842 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 26 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[1].app[3] 9 -1111 277.421 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 4 -1111 362.828 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 16 -3333 951.318 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 0 -3333 874.005 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 12 -3333 960.903 50
+round4 --globalINFO-- SingleCell.C[1].app[3] 29 -3333 938.413 50
+round4 SingleCell.C[1].app[3] selected as client , time 18
+round4 top m SingleCell.C[21].app[3] 21 5.5791 754.687 50
+round4 top m SingleCell.C[21].app[3] 1 5.5791 945.601 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 21 5.5791 754.687 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 1 5.5791 945.601 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 27 5.26265 712.269 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 4 5.17912 362.828 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 18 5.14198 719.509 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 22 5.14169 306.447 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 28 5.14151 688.35 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 9 5.13683 277.421 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 23 5.13093 287.704 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 25 5.12903 698.428 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 6 5.07525 845.921 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 3 5.04177 589.72 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 7 5.00491 366.884 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 11 5.00368 382.941 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 13 4.99632 644.795 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 2 4.91365 544.1 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 14 4.91111 987.683 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 20 4.88109 593.563 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 19 4.67908 846.548 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 17 -1111 191.595 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 8 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[21].app[3] 24 -1111 69.7289 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 26 -1111 196.331 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 15 -1111 186.984 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 10 -1111 203.367 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 12 -3333 960.903 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 5 -3333 302.842 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 16 -3333 951.318 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 0 -3333 874.005 50
+round4 --globalINFO-- SingleCell.C[21].app[3] 29 -3333 938.413 50
+round4 SingleCell.C[21].app[3] selected as client , time 18
+round4 top m SingleCell.C[24].app[3] 4 5.17912 362.828 50
+round4 top m SingleCell.C[24].app[3] 24 5.17906 69.7289 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 4 5.17912 362.828 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 24 5.17906 69.7289 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 26 5.15608 196.331 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 15 5.1528 186.984 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 22 5.14169 306.447 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 17 5.14151 191.595 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 9 5.13683 277.421 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 23 5.13093 287.704 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 8 5.12868 25.7124 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 7 5.00491 366.884 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 11 5.00368 382.941 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 2 4.91365 544.1 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 12 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 13 -1111 644.795 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 14 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 3 -1111 589.72 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 16 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 18 -1111 719.509 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 19 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 20 -1111 593.563 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 21 -1111 754.687 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 0 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 6 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 1 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 25 -1111 698.428 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 27 -1111 712.269 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 28 -1111 688.35 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 29 -1111 -2222 -2222
+round4 --globalINFO-- SingleCell.C[24].app[3] 10 -3333 203.367 50
+round4 --globalINFO-- SingleCell.C[24].app[3] 5 -3333 302.842 50
+round4 SingleCell.C[24].app[3] selected as client , time 18
+round4 Client 1 uploading model is finished, time 18.274
+round4 Client 21 uploading model is finished, time 19.061
+round4 Client 24 uploading model is finished, time 19.982
+round4 C[0] model received, time : 21.886
+round4 C[0], model received time:21.886, computation Capablity: 13.85, sample quantity : 3900, training time: -6.886 , globalInfo : 4.88109
+round5 C[1] model received, time : 0.271
+round5 C[1], model received time:0.271, computation Capablity: 11.8638, sample quantity : 3900, training time: 14.729 , globalInfo : 5.5791
+round5 C[0] model received, time : 0.273
+round5 C[0], model received time:0.273, computation Capablity: 12.7442, sample quantity : 3900, training time: 14.727 , globalInfo : 4.88109
+round5 C[4] model received, time : 0.331
+round5 C[4], model received time:0.331, computation Capablity: 7.83391, sample quantity : 3900, training time: 14.669 , globalInfo : 5.17912
+round5 C[6] model received, time : 0.341
+round5 C[6], model received time:0.341, computation Capablity: 5.90204, sample quantity : 3900, training time: 14.659 , globalInfo : 5.07525
+round5 C[7] model received, time : 0.352
+round5 C[7], model received time:0.352, computation Capablity: 5.45022, sample quantity : 3900, training time: 14.648 , globalInfo : 5.00491
+round5 C[8] model received, time : 0.414
+round5 C[8], model received time:0.414, computation Capablity: 3.99166, sample quantity : 3900, training time: 14.586 , globalInfo : 5.12868
+round5 C[9] model received, time : 0.473
+round5 C[9], model received time:0.473, computation Capablity: 11.4372, sample quantity : 3900, training time: 14.527 , globalInfo : 5.13683
+round5 C[21] model received, time : 0.532
+round5 C[21], model received time:0.532, computation Capablity: 16.6267, sample quantity : 3900, training time: 14.468 , globalInfo : 5.5791
+round5 C[22] model received, time : 0.539
+round5 C[22], model received time:0.539, computation Capablity: 15.9384, sample quantity : 3900, training time: 14.461 , globalInfo : 4.91366
+round5 C[24] model received, time : 0.549
+round5 C[24], model received time:0.549, computation Capablity: 5.78631, sample quantity : 3900, training time: 14.451 , globalInfo : 5.17906
+round5 C[26] model received, time : 0.596
+round5 C[26], model received time:0.596, computation Capablity: 7.99982, sample quantity : 300, training time: 14.404 , globalInfo : 4.77501
+round5 C[11] model received, time : 0.64
+round5 C[11], model received time:0.64, computation Capablity: 1.77805, sample quantity : 3900, training time: 14.36 , globalInfo : 5.00368
+round5 C[23] model received, time : 0.853
+round5 C[23], model received time:0.853, computation Capablity: 8.76537, sample quantity : 3900, training time: 14.147 , globalInfo : 5.04007
+round5 C[25] model received, time : 0.911
+round5 C[25], model received time:0.911, computation Capablity: 7.73705, sample quantity : 3900, training time: 14.089 , globalInfo : 5.12903
+round5 C[20] model received, time : 1.33
+round5 C[20], model received time:1.33, computation Capablity: 14.463, sample quantity : 3900, training time: 13.67 , globalInfo : 4.88109
+round5 C[29] model received, time : 1.442
+round5 C[29], model received time:1.442, computation Capablity: 13.7842, sample quantity : 300, training time: 13.558 , globalInfo : 5.14198
+round5 C[5] model received, time : 5.013
+round5 C[5], model received time:5.013, computation Capablity: 18.7302, sample quantity : 3900, training time: 9.987 , globalInfo : 5.12903
+round5 top m SingleCell.C[1].app[3] 21 5.5791 662.631 50
+round5 top m SingleCell.C[1].app[3] 1 5.5791 635.29 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 21 5.5791 662.631 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 1 5.5791 635.29 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 4 5.17912 580.159 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 24 5.17906 620.491 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 29 5.14198 678.694 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 9 5.13683 240.882 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 25 5.12903 785.802 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 5 5.12903 717.303 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 6 5.07525 622.509 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 23 5.04007 839.009 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 7 5.00491 476.857 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 22 4.91366 455.862 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 20 4.88109 868.387 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 0 4.88109 458.989 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 26 4.77501 510.199 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 11 -1111 116.011 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 3 -1111 89.0296 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 8 -1111 30.0512 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 2 -1111 9.23221 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 19 -3333 944.273 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 12 -3333 927.758 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 13 -3333 727.468 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 15 -3333 175.941 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 10 -3333 152.222 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 16 -3333 860.511 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 17 -3333 941.086 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 14 -3333 816.863 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 27 -3333 987.757 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 28 -3333 265.553 50
+round5 --globalINFO-- SingleCell.C[1].app[3] 18 -3333 705.643 50
+round5 SingleCell.C[1].app[3] selected as client , time 18
+round5 top m SingleCell.C[8].app[3] 9 5.13683 240.882 50
+round5 top m SingleCell.C[8].app[3] 8 5.12868 30.0512 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 9 5.13683 240.882 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 8 5.12868 30.0512 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 7 5.00491 476.857 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 11 5.00368 116.011 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 22 4.91366 455.862 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 0 4.88109 458.989 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 26 4.77501 510.199 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 1 -1111 635.29 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 5 -1111 717.303 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 12 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 13 -1111 727.468 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 14 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 16 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 17 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 18 -1111 705.643 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 19 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 20 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 21 -1111 662.631 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 4 -1111 580.159 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 23 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 24 -1111 620.491 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 25 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 6 -1111 622.509 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 27 -1111 -2222 -2222
+round5 --globalINFO-- SingleCell.C[8].app[3] 29 -1111 678.694 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 10 -3333 152.222 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 3 -3333 89.0296 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 15 -3333 175.941 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 28 -3333 265.553 50
+round5 --globalINFO-- SingleCell.C[8].app[3] 2 -3333 9.23221 50
+round5 SingleCell.C[8].app[3] selected as client , time 18
+round5 top m SingleCell.C[21].app[3] 21 5.5791 662.631 50
+round5 top m SingleCell.C[21].app[3] 1 5.5791 635.29 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 21 5.5791 662.631 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 1 5.5791 635.29 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 4 5.17912 580.159 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 24 5.17906 620.491 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 29 5.14198 678.694 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 9 5.13683 240.882 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 25 5.12903 785.802 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 5 5.12903 717.303 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 6 5.07525 622.509 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 23 5.04007 839.009 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 7 5.00491 476.857 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 22 4.91366 455.862 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 20 4.88109 868.387 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 0 4.88109 458.989 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 26 4.77501 510.199 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 11 -1111 116.011 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 10 -1111 152.222 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 3 -1111 89.0296 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 8 -1111 30.0512 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 2 -1111 9.23221 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 12 -3333 927.758 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 13 -3333 727.468 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 15 -3333 175.941 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 16 -3333 860.511 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 17 -3333 941.086 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 18 -3333 705.643 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 14 -3333 816.863 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 27 -3333 987.757 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 28 -3333 265.553 50
+round5 --globalINFO-- SingleCell.C[21].app[3] 19 -3333 944.273 50
+round5 SingleCell.C[21].app[3] selected as client , time 18
+round5 Client 1 uploading model is finished, time 18.272
+round5 Client 21 uploading model is finished, time 18.306
+round5 Client 8 uploading model is finished, time 18.317
+selected client which successful upload their model 8.pt 21.pt 1.pt 24.pt 
+After evaluate global model: 0.06078722743820596 0.9843
+round6 C[7] model received, time : 0.251
+round6 C[7], model received time:0.251, computation Capablity: 5.45022, sample quantity : 3900, training time: 14.749 , globalInfo : 5.00491
+round6 C[10] model received, time : 0.288
+round6 C[10], model received time:0.288, computation Capablity: 5.44955, sample quantity : 3900, training time: 14.712 , globalInfo : 5.10427
+round6 C[17] model received, time : 0.332
+round6 C[17], model received time:0.332, computation Capablity: 18.7776, sample quantity : 300, training time: 14.668 , globalInfo : 4.91552
+round6 C[12] model received, time : 0.364
+round6 C[12], model received time:0.364, computation Capablity: 2.10309, sample quantity : 3900, training time: 14.636 , globalInfo : 5.32064
+round6 C[18] model received, time : 0.372
+round6 C[18], model received time:0.372, computation Capablity: 5.19791, sample quantity : 300, training time: 14.628 , globalInfo : 5.14198
+round6 C[20] model received, time : 0.409
+round6 C[20], model received time:0.409, computation Capablity: 14.463, sample quantity : 3900, training time: 14.591 , globalInfo : 4.88109
+round6 C[21] model received, time : 0.448
+round6 C[21], model received time:0.448, computation Capablity: 16.6267, sample quantity : 3900, training time: 14.552 , globalInfo : 5.5791
+round6 C[3] model received, time : 0.468
+round6 C[3], model received time:0.468, computation Capablity: 19.2373, sample quantity : 3900, training time: 14.532 , globalInfo : 5.04177
+round6 C[11] model received, time : 0.487
+round6 C[11], model received time:0.487, computation Capablity: 1.77805, sample quantity : 3900, training time: 14.513 , globalInfo : 5.00368
+round6 C[25] model received, time : 0.561
+round6 C[25], model received time:0.561, computation Capablity: 7.73705, sample quantity : 3900, training time: 14.439 , globalInfo : 5.12903
+round6 C[24] model received, time : 0.587
+round6 C[24], model received time:0.587, computation Capablity: 5.78631, sample quantity : 3900, training time: 14.413 , globalInfo : 5.17906
+round6 C[29] model received, time : 0.659
+round6 C[29], model received time:0.659, computation Capablity: 13.7842, sample quantity : 300, training time: 14.341 , globalInfo : 5.14198
+round6 C[26] model received, time : 0.997
+round6 C[26], model received time:0.997, computation Capablity: 7.99982, sample quantity : 300, training time: 14.003 , globalInfo : 4.77501
+round6 C[16] model received, time : 1.017
+round6 C[16], model received time:1.017, computation Capablity: 17.801, sample quantity : 300, training time: 13.983 , globalInfo : 5.22245
+round6 C[9] model received, time : 1.064
+round6 C[9], model received time:1.064, computation Capablity: 11.4372, sample quantity : 3900, training time: 13.936 , globalInfo : 5.13683
+round6 C[4] model received, time : 1.072
+round6 C[4], model received time:1.072, computation Capablity: 7.83391, sample quantity : 3900, training time: 13.928 , globalInfo : 5.17912
+round6 C[13] model received, time : 2.197
+round6 C[13], model received time:2.197, computation Capablity: 16.4947, sample quantity : 3900, training time: 12.803 , globalInfo : 5.13381
+round6 C[27] model received, time : 5.623
+round6 C[27], model received time:5.623, computation Capablity: 1.21578, sample quantity : 300, training time: 9.377 , globalInfo : 5.26265
+round6 C[14] model received, time : 15.792
+round6 C[14], model received time:15.792, computation Capablity: 3.08487, sample quantity : 3900, training time: -0.792 , globalInfo : 5.14195
+round7 C[2] model received, time : 0.283
+round7 C[2], model received time:0.283, computation Capablity: 16.2352, sample quantity : 3900, training time: 14.717 , globalInfo : 4.92591
+round7 C[0] model received, time : 0.285
+round7 C[0], model received time:0.285, computation Capablity: 15.1305, sample quantity : 3900, training time: 14.715 , globalInfo : 5.13136
+round7 C[5] model received, time : 0.306
+round7 C[5], model received time:0.306, computation Capablity: 1.94742, sample quantity : 3900, training time: 14.694 , globalInfo : 5.23442
+round7 C[7] model received, time : 0.317
+round7 C[7], model received time:0.317, computation Capablity: 8.41697, sample quantity : 3900, training time: 14.683 , globalInfo : 5.03232
+round7 C[8] model received, time : 0.318
+round7 C[8], model received time:0.318, computation Capablity: 12.5247, sample quantity : 3900, training time: 14.682 , globalInfo : 5.26604
+round7 C[11] model received, time : 0.347
+round7 C[11], model received time:0.347, computation Capablity: 6.72649, sample quantity : 3900, training time: 14.653 , globalInfo : 5.08516
+round7 C[14] model received, time : 0.355
+round7 C[14], model received time:0.355, computation Capablity: 19.0734, sample quantity : 3900, training time: 14.645 , globalInfo : 5.13064
+round7 C[18] model received, time : 0.406
+round7 C[18], model received time:0.406, computation Capablity: 9.32634, sample quantity : 300, training time: 14.594 , globalInfo : 4.69518
+round7 C[1] model received, time : 0.427
+round7 C[1], model received time:0.427, computation Capablity: 11.5158, sample quantity : 3900, training time: 14.573 , globalInfo : 5.43376
+round7 C[20] model received, time : 0.456
+round7 C[20], model received time:0.456, computation Capablity: 4.51155, sample quantity : 3900, training time: 14.544 , globalInfo : 5.02329
+round7 C[19] model received, time : 0.478
+round7 C[19], model received time:0.478, computation Capablity: 6.83254, sample quantity : 300, training time: 14.522 , globalInfo : 5.18761
+round7 C[23] model received, time : 0.506
+round7 C[23], model received time:0.506, computation Capablity: 18.1352, sample quantity : 3900, training time: 14.494 , globalInfo : 5.12992
+round7 C[17] model received, time : 0.56
+round7 C[17], model received time:0.56, computation Capablity: 18.5287, sample quantity : 300, training time: 14.44 , globalInfo : 5.13538
+round7 C[24] model received, time : 0.586
+round7 C[24], model received time:0.586, computation Capablity: 10.0097, sample quantity : 3900, training time: 14.414 , globalInfo : 5.58007
+round7 C[26] model received, time : 0.641
+round7 C[26], model received time:0.641, computation Capablity: 14.9912, sample quantity : 300, training time: 14.359 , globalInfo : 4.54939
+round7 C[4] model received, time : 0.685
+round7 C[4], model received time:0.685, computation Capablity: 17.8925, sample quantity : 3900, training time: 14.315 , globalInfo : 5.58007
+round7 C[13] model received, time : 0.784
+round7 C[13], model received time:0.784, computation Capablity: 14.3587, sample quantity : 3900, training time: 14.216 , globalInfo : 5.10218
+round7 C[6] model received, time : 0.991
+round7 C[6], model received time:0.991, computation Capablity: 19.4006, sample quantity : 3900, training time: 14.009 , globalInfo : 5.14126
+round7 C[21] model received, time : 1.632
+round7 C[21], model received time:1.632, computation Capablity: 16.3246, sample quantity : 3900, training time: 13.368 , globalInfo : 5.43379
+round7 top m SingleCell.C[24].app[3] 4 5.58007 781.795 50
+round7 top m SingleCell.C[24].app[3] 24 5.58007 738.481 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 4 5.58007 781.795 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 24 5.58007 738.481 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 21 5.43379 977.164 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 1 5.43376 674.498 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 8 5.26604 352.309 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 5 5.23442 662.14 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 19 5.18761 420.577 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 6 5.14126 830.475 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 17 5.13538 292.087 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 0 5.13136 731.22 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 14 5.13064 779.719 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 23 5.12992 682.729 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 11 5.08516 514.77 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 7 5.03232 460.37 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 20 5.02329 563.978 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 2 4.92591 433.655 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 18 4.69518 487.653 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 26 4.54939 539.489 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 16 -1111 -2222 -2222
+round7 --globalINFO-- SingleCell.C[24].app[3] 13 -1111 58.9517 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 12 -1111 44.6719 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 3 -1111 132.777 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 25 -1111 20.9649 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 9 -1111 169.722 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 28 -1111 87.1697 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 22 -3333 853.356 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 10 -3333 990.841 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 27 -3333 868.862 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 15 -3333 980.642 50
+round7 --globalINFO-- SingleCell.C[24].app[3] 29 -3333 871.021 50
+round7 SingleCell.C[24].app[3] selected as client , time 18
+round7 top m SingleCell.C[4].app[3] 4 5.58007 781.795 50
+round7 top m SingleCell.C[4].app[3] 24 5.58007 738.481 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 4 5.58007 781.795 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 24 5.58007 738.481 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 21 5.43379 977.164 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 1 5.43376 674.498 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 8 5.26604 352.309 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 5 5.23442 662.14 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 19 5.18761 420.577 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 6 5.14126 830.475 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 17 5.13538 292.087 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 0 5.13136 731.22 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 14 5.13064 779.719 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 23 5.12992 682.729 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 11 5.08516 514.77 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 7 5.03232 460.37 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 20 5.02329 563.978 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 2 4.92591 433.655 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 18 4.69518 487.653 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 26 4.54939 539.489 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 16 -1111 -2222 -2222
+round7 --globalINFO-- SingleCell.C[4].app[3] 13 -1111 -2222 -2222
+round7 --globalINFO-- SingleCell.C[4].app[3] 12 -1111 -2222 -2222
+round7 --globalINFO-- SingleCell.C[4].app[3] 3 -1111 132.777 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 25 -1111 -2222 -2222
+round7 --globalINFO-- SingleCell.C[4].app[3] 9 -1111 169.722 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 28 -1111 87.1697 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 22 -3333 853.356 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 10 -3333 990.841 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 27 -3333 868.862 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 15 -3333 980.642 50
+round7 --globalINFO-- SingleCell.C[4].app[3] 29 -3333 871.021 50
+round7 SingleCell.C[4].app[3] selected as client , time 18

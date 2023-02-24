@@ -1,0 +1,720 @@
+version 2
+run VoIP-UL-0-20221109-17:19:59-27791
+attr configname VoIP-UL
+attr datetime 20221109-17:19:59
+attr experiment VoIP-UL
+attr inifile omnetpp.ini
+attr iterationvars $numUEs=10
+attr iterationvarsf numUEs=10-
+attr measurement $numUEs=10
+attr network inet.examples.simulations.cars.Highway
+attr processid 27791
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+itervar numUEs 10
+param *.server.numApps 10
+param *.server.app[*].typename "\"VoIPReceiver\""
+param *.server.app[*].localPort "3000 + ancestorIndex(0)"
+param *.car[*].numApps 1
+param *.car[*].app[0].typename "\"VoIPSender\""
+param *.car[*].app[0].destAddress "\"server\""
+param *.car[*].app[0].destPort "3000 + ancestorIndex(1)"
+param *.configurator.config "xmldoc(\"demo.xml\")"
+param **.coreDebug false
+param **.routingRecorder.enabled false
+param *.playgroundSizeX 20000m
+param *.playgroundSizeY 20000m
+param *.playgroundSizeZ 50m
+param *.veinsManager.host "\"localhost\""
+param *.veinsManager.moduleType "\"lte.corenetwork.nodes.cars.Car\""
+param *.veinsManager.moduleName "\"car\""
+param *.veinsManager.launchConfig "xmldoc(\"heterogeneous.launchd.xml\")"
+param *.veinsManager.updateInterval 0.1s
+param *.car[*].mobilityType "\"VeinsInetMobility\""
+param **.channelControl.pMax 10W
+param **.channelControl.alpha 1.0
+param **.channelControl.carrierFrequency 2100e+6Hz
+param *.car[*].lteNic.phy.dynamicCellAssociation true
+param **.car[*].masterId 1
+param **.car[*].macCellId 1
+param **.eNodeB1.macCellId 1
+param **.eNodeB1.macNodeId 1
+param **.eNodeB2.macCellId 2
+param **.eNodeB2.macNodeId 2
+param **.eNodeBCount 2
+param **.rbAllocationType "\"localized\""
+param **.feedbackType "\"ALLBANDS\""
+param **.feedbackGeneratorType "\"IDEAL\""
+param **.maxHarqRtx 3
+param **.numUe 10
+param **.cellInfo.ruRange 50
+param **.cellInfo.ruTxPower "\"50,50,50;\""
+param **.cellInfo.antennaCws "\"2;\""
+param **.cellInfo.numRbDl 25
+param **.cellInfo.numRbUl 25
+param **.numBands 25
+param **.fbDelay 1
+param *.car[*].lteNic.phy.enableHandover true
+param *.eNodeB*.lteNic.phy.enableHandover true
+param *.eNodeB*.lteNic.phy.broadcastMessageInterval 0.5s
+param *.eNodeB*.numX2Apps 1
+param *.eNodeB*.x2App[*].server.localPort "5000 + ancestorIndex(1)"
+param *.eNodeB1.x2App[0].client.connectAddress "\"eNodeB2%x2ppp0\""
+param *.eNodeB2.x2App[0].client.connectAddress "\"eNodeB1%x2ppp0\""
+param **.sctp.nagleEnabled false
+param **.sctp.enableHeartbeats false
+
+vector 0 Highway.server.ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 1 Highway.router.ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 2 Highway.router.ppp[1].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 3 Highway.pgw.ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 4 Highway.pgw.ppp[1].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 5 Highway.pgw.pppIf.ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 6 Highway.eNodeB1.pppIf.ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 7 Highway.eNodeB1.x2ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 8 Highway.eNodeB2.pppIf.ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 9 Highway.eNodeB2.x2ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 10 Highway.eNodeB1.x2ppp[0].ppp rcvdPkFromHl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+vector 11 Highway.eNodeB1.x2ppp[0].ppp.queue packetPushed:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet pushed, vector(packetBytes)"
+vector 12 Highway.eNodeB1.x2ppp[0].ppp.queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, vector"
+vector 13 Highway.eNodeB1.x2ppp[0].ppp.queue packetPopped:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet popped, vector(packetBytes)"
+vector 14 Highway.eNodeB1.x2ppp[0].ppp.queue queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, vector"
+attr unit s
+vector 15 Highway.eNodeB1.x2ppp[0].ppp txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 16 Highway.eNodeB2.x2ppp[0].ppp rcvdPkFromHl:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetReceivedFromUpper
+attr title "packets received from higher layer, vector(packetBytes)"
+vector 17 Highway.eNodeB2.x2ppp[0].ppp.queue packetPushed:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet pushed, vector(packetBytes)"
+vector 18 Highway.eNodeB2.x2ppp[0].ppp.queue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, vector"
+vector 19 Highway.eNodeB2.x2ppp[0].ppp.queue packetPopped:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet popped, vector(packetBytes)"
+vector 20 Highway.eNodeB2.x2ppp[0].ppp.queue queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, vector"
+attr unit s
+vector 21 Highway.eNodeB2.x2ppp[0].ppp txPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToLower
+attr title "packets transmitted, vector(packetBytes)"
+vector 22 Highway.eNodeB2.x2ppp[0].ppp rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 23 Highway.eNodeB2.x2ppp[0].ppp passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 24 Highway.eNodeB1.x2ppp[0].ppp rxPkOk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+vector 25 Highway.eNodeB1.x2ppp[0].ppp passedUpPk:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+vector 26 Highway.eNodeB1.lteNic.mac avgServedBlocksUl:vector ETV
+attr source avgServedBlocksUl
+attr title "LTE Avg Served Blocks Ul, vector"
+attr unit blocks
+vector 27 Highway.eNodeB1.lteNic.mac avgServedBlocksDl:vector ETV
+attr source avgServedBlocksDl
+attr title "LTE Avg Served Blocks Dl, vector"
+attr unit blocks
+vector 28 Highway.eNodeB2.lteNic.mac avgServedBlocksUl:vector ETV
+attr source avgServedBlocksUl
+attr title "LTE Avg Served Blocks Ul, vector"
+attr unit blocks
+vector 29 Highway.eNodeB2.lteNic.mac avgServedBlocksDl:vector ETV
+attr source avgServedBlocksDl
+attr title "LTE Avg Served Blocks Dl, vector"
+attr unit blocks
+vector 30 Highway.car[0].lteNic.phy servingCell:vector ETV
+attr source servingCell
+attr title "ID of the serving eNodeB for the UE, vector"
+attr unit ""
+vector 31 Highway.car[1].lteNic.phy servingCell:vector ETV
+attr source servingCell
+attr title "ID of the serving eNodeB for the UE, vector"
+attr unit ""
+vector 32 Highway.car[0].app[0] voIPGeneratedThroughput:vector ETV
+attr source voIPGeneratedThroughput
+attr title "Throughput generated by the application, vector"
+attr unit Bps
+vector 33 Highway.car[1].app[0] voIPGeneratedThroughput:vector ETV
+attr source voIPGeneratedThroughput
+attr title "Throughput generated by the application, vector"
+attr unit Bps
+vector 34 Highway.car[0].udp packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, vector(packetBytes)"
+vector 35 Highway.car[1].udp packetSent:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetSent
+attr title "packets sent, vector(packetBytes)"
+vector 36 Highway.car[0].ipv4.arp arpRequestSent:vector(packetBytes) ETV
+attr source arpRequestSent
+attr title "ARP request sent, vector(packetBytes)"
+vector 37 Highway.car[1].ipv4.arp arpRequestSent:vector(packetBytes) ETV
+attr source arpRequestSent
+attr title "ARP request sent, vector(packetBytes)"
+0	0	0	0
+1	0	0	0
+2	0	0	0
+3	0	0	0
+4	0	0	0
+5	0	0	0
+6	0	0	0
+7	0	0	0
+7	37	0	1
+7	41	0.0000000728	0
+7	52	0.0000001228	1
+7	54	0.0000002596	0
+7	63	0.0000003096	1
+7	65	0.000000408	0
+7	80	0.000000458	1
+7	84	0.0000004924	0
+8	0	0	0
+9	0	0	0
+9	38	0	1
+9	42	0.0000000728	0
+9	51	0.0000001228	1
+9	53	0.0000002596	0
+9	64	0.0000003096	1
+9	66	0.000000408	0
+9	78	0.000000458	1
+9	83	0.0000004924	0
+10	37	0	84
+10	52	0.0000001228	164
+10	63	0.0000003096	116
+10	80	0.000000458	36
+11	37	0	84
+11	52	0.0000001228	164
+11	63	0.0000003096	116
+11	80	0.000000458	36
+12	37	0	1
+12	37	0	0
+12	52	0.0000001228	1
+12	52	0.0000001228	0
+12	63	0.0000003096	1
+12	63	0.0000003096	0
+12	80	0.000000458	1
+12	80	0.000000458	0
+13	37	0	84
+13	52	0.0000001228	164
+13	63	0.0000003096	116
+13	80	0.000000458	36
+14	37	0	0
+14	52	0.0000001228	0
+14	63	0.0000003096	0
+14	80	0.000000458	0
+15	37	0	91
+15	52	0.0000001228	171
+15	63	0.0000003096	123
+15	80	0.000000458	43
+16	38	0	84
+16	51	0.0000001228	164
+16	64	0.0000003096	116
+16	78	0.000000458	36
+17	38	0	84
+17	51	0.0000001228	164
+17	64	0.0000003096	116
+17	78	0.000000458	36
+18	38	0	1
+18	38	0	0
+18	51	0.0000001228	1
+18	51	0.0000001228	0
+18	64	0.0000003096	1
+18	64	0.0000003096	0
+18	78	0.000000458	1
+18	78	0.000000458	0
+19	38	0	84
+19	51	0.0000001228	164
+19	64	0.0000003096	116
+19	78	0.000000458	36
+20	38	0	0
+20	51	0.0000001228	0
+20	64	0.0000003096	0
+20	78	0.000000458	0
+21	38	0	91
+21	51	0.0000001228	171
+21	64	0.0000003096	123
+21	78	0.000000458	43
+22	43	0.0000001228	91
+22	56	0.0000003096	171
+22	67	0.000000458	123
+22	86	0.0000005424	43
+23	43	0.0000001228	84
+23	56	0.0000003096	164
+23	67	0.000000458	116
+23	86	0.0000005424	36
+24	44	0.0000001228	91
+24	55	0.0000003096	171
+24	68	0.000000458	123
+24	85	0.0000005424	43
+25	44	0.0000001228	84
+25	55	0.0000003096	164
+25	68	0.000000458	116
+25	85	0.0000005424	36
+26	93	0.001	0
+26	97	0.002	0
+26	101	0.003	0
+26	105	0.004	0
+26	109	0.005	0
+26	113	0.006	0
+26	117	0.007	0
+26	121	0.008	0
+26	125	0.009	0
+26	129	0.01	0
+26	133	0.011	0
+26	137	0.012	0
+26	141	0.013	0
+26	145	0.014	0
+26	149	0.015	0
+26	153	0.016	0
+26	157	0.017	0
+26	161	0.018	0
+26	165	0.019	0
+26	169	0.02	0
+26	173	0.021	0
+26	177	0.022	0
+26	181	0.023	0
+26	185	0.024	0
+26	189	0.025	0
+26	193	0.026	0
+26	197	0.027	0
+26	201	0.028	0
+26	205	0.029	0
+26	209	0.03	0
+26	213	0.031	0
+26	217	0.032	0
+26	221	0.033	0
+26	225	0.034	0
+26	229	0.035	0
+26	233	0.036	0
+26	237	0.037	0
+26	241	0.038	0
+26	245	0.039	0
+26	249	0.04	0
+26	253	0.041	0
+26	257	0.042	0
+26	261	0.043	0
+26	265	0.044	0
+26	269	0.045	0
+26	273	0.046	0
+26	277	0.047	0
+26	281	0.048	0
+26	285	0.049	0
+26	289	0.05	0
+26	293	0.051	0
+26	297	0.052	0
+26	301	0.053	0
+26	305	0.054	0
+26	309	0.055	0
+26	313	0.056	0
+26	317	0.057	0
+26	321	0.058	0
+26	325	0.059	0
+26	329	0.06	0
+26	333	0.061	0
+26	337	0.062	0
+26	341	0.063	0
+26	345	0.064	0
+26	349	0.065	0
+26	353	0.066	0
+26	357	0.067	0
+26	361	0.068	0
+26	365	0.069	0
+26	369	0.07	0
+26	373	0.071	0
+26	377	0.072	0
+26	381	0.073	0
+26	385	0.074	0
+26	389	0.075	0
+26	393	0.076	0
+26	397	0.077	0
+26	401	0.078	0
+26	405	0.079	0
+26	409	0.08	0
+26	413	0.081	0
+26	417	0.082	0
+26	421	0.083	0
+26	425	0.084	0
+26	429	0.085	0
+26	433	0.086	0
+26	437	0.087	0
+26	441	0.088	0
+26	445	0.089	0
+26	449	0.09	0
+26	453	0.091	0
+26	457	0.092	0
+26	461	0.093	0
+26	465	0.094	0
+26	469	0.095	0
+26	473	0.096	0
+26	477	0.097	0
+26	481	0.098	0
+26	485	0.099	0
+27	93	0.001	0
+27	97	0.002	0
+27	101	0.003	0
+27	105	0.004	0
+27	109	0.005	0
+27	113	0.006	0
+27	117	0.007	0
+27	121	0.008	0
+27	125	0.009	0
+27	129	0.01	0
+27	133	0.011	0
+27	137	0.012	0
+27	141	0.013	0
+27	145	0.014	0
+27	149	0.015	0
+27	153	0.016	0
+27	157	0.017	0
+27	161	0.018	0
+27	165	0.019	0
+27	169	0.02	0
+27	173	0.021	0
+27	177	0.022	0
+27	181	0.023	0
+27	185	0.024	0
+27	189	0.025	0
+27	193	0.026	0
+27	197	0.027	0
+27	201	0.028	0
+27	205	0.029	0
+27	209	0.03	0
+27	213	0.031	0
+27	217	0.032	0
+27	221	0.033	0
+27	225	0.034	0
+27	229	0.035	0
+27	233	0.036	0
+27	237	0.037	0
+27	241	0.038	0
+27	245	0.039	0
+27	249	0.04	0
+27	253	0.041	0
+27	257	0.042	0
+27	261	0.043	0
+27	265	0.044	0
+27	269	0.045	0
+27	273	0.046	0
+27	277	0.047	0
+27	281	0.048	0
+27	285	0.049	0
+27	289	0.05	0
+27	293	0.051	0
+27	297	0.052	0
+27	301	0.053	0
+27	305	0.054	0
+27	309	0.055	0
+27	313	0.056	0
+27	317	0.057	0
+27	321	0.058	0
+27	325	0.059	0
+27	329	0.06	0
+27	333	0.061	0
+27	337	0.062	0
+27	341	0.063	0
+27	345	0.064	0
+27	349	0.065	0
+27	353	0.066	0
+27	357	0.067	0
+27	361	0.068	0
+27	365	0.069	0
+27	369	0.07	0
+27	373	0.071	0
+27	377	0.072	0
+27	381	0.073	0
+27	385	0.074	0
+27	389	0.075	0
+27	393	0.076	0
+27	397	0.077	0
+27	401	0.078	0
+27	405	0.079	0
+27	409	0.08	0
+27	413	0.081	0
+27	417	0.082	0
+27	421	0.083	0
+27	425	0.084	0
+27	429	0.085	0
+27	433	0.086	0
+27	437	0.087	0
+27	441	0.088	0
+27	445	0.089	0
+27	449	0.09	0
+27	453	0.091	0
+27	457	0.092	0
+27	461	0.093	0
+27	465	0.094	0
+27	469	0.095	0
+27	473	0.096	0
+27	477	0.097	0
+27	481	0.098	0
+27	485	0.099	0
+28	94	0.001	0
+28	98	0.002	0
+28	102	0.003	0
+28	106	0.004	0
+28	110	0.005	0
+28	114	0.006	0
+28	118	0.007	0
+28	122	0.008	0
+28	126	0.009	0
+28	130	0.01	0
+28	134	0.011	0
+28	138	0.012	0
+28	142	0.013	0
+28	146	0.014	0
+28	150	0.015	0
+28	154	0.016	0
+28	158	0.017	0
+28	162	0.018	0
+28	166	0.019	0
+28	170	0.02	0
+28	174	0.021	0
+28	178	0.022	0
+28	182	0.023	0
+28	186	0.024	0
+28	190	0.025	0
+28	194	0.026	0
+28	198	0.027	0
+28	202	0.028	0
+28	206	0.029	0
+28	210	0.03	0
+28	214	0.031	0
+28	218	0.032	0
+28	222	0.033	0
+28	226	0.034	0
+28	230	0.035	0
+28	234	0.036	0
+28	238	0.037	0
+28	242	0.038	0
+28	246	0.039	0
+28	250	0.04	0
+28	254	0.041	0
+28	258	0.042	0
+28	262	0.043	0
+28	266	0.044	0
+28	270	0.045	0
+28	274	0.046	0
+28	278	0.047	0
+28	282	0.048	0
+28	286	0.049	0
+28	290	0.05	0
+28	294	0.051	0
+28	298	0.052	0
+28	302	0.053	0
+28	306	0.054	0
+28	310	0.055	0
+28	314	0.056	0
+28	318	0.057	0
+28	322	0.058	0
+28	326	0.059	0
+28	330	0.06	0
+28	334	0.061	0
+28	338	0.062	0
+28	342	0.063	0
+28	346	0.064	0
+28	350	0.065	0
+28	354	0.066	0
+28	358	0.067	0
+28	362	0.068	0
+28	366	0.069	0
+28	370	0.07	0
+28	374	0.071	0
+28	378	0.072	0
+28	382	0.073	0
+28	386	0.074	0
+28	390	0.075	0
+28	394	0.076	0
+28	398	0.077	0
+28	402	0.078	0
+28	406	0.079	0
+28	410	0.08	0
+28	414	0.081	0
+28	418	0.082	0
+28	422	0.083	0
+28	426	0.084	0
+28	430	0.085	0
+28	434	0.086	0
+28	438	0.087	0
+28	442	0.088	0
+28	446	0.089	0
+28	450	0.09	0
+28	454	0.091	0
+28	458	0.092	0
+28	462	0.093	0
+28	466	0.094	0
+28	470	0.095	0
+28	474	0.096	0
+28	478	0.097	0
+28	482	0.098	0
+28	486	0.099	0
+29	94	0.001	0
+29	98	0.002	0
+29	102	0.003	0
+29	106	0.004	0
+29	110	0.005	0
+29	114	0.006	0
+29	118	0.007	0
+29	122	0.008	0
+29	126	0.009	0
+29	130	0.01	0
+29	134	0.011	0
+29	138	0.012	0
+29	142	0.013	0
+29	146	0.014	0
+29	150	0.015	0
+29	154	0.016	0
+29	158	0.017	0
+29	162	0.018	0
+29	166	0.019	0
+29	170	0.02	0
+29	174	0.021	0
+29	178	0.022	0
+29	182	0.023	0
+29	186	0.024	0
+29	190	0.025	0
+29	194	0.026	0
+29	198	0.027	0
+29	202	0.028	0
+29	206	0.029	0
+29	210	0.03	0
+29	214	0.031	0
+29	218	0.032	0
+29	222	0.033	0
+29	226	0.034	0
+29	230	0.035	0
+29	234	0.036	0
+29	238	0.037	0
+29	242	0.038	0
+29	246	0.039	0
+29	250	0.04	0
+29	254	0.041	0
+29	258	0.042	0
+29	262	0.043	0
+29	266	0.044	0
+29	270	0.045	0
+29	274	0.046	0
+29	278	0.047	0
+29	282	0.048	0
+29	286	0.049	0
+29	290	0.05	0
+29	294	0.051	0
+29	298	0.052	0
+29	302	0.053	0
+29	306	0.054	0
+29	310	0.055	0
+29	314	0.056	0
+29	318	0.057	0
+29	322	0.058	0
+29	326	0.059	0
+29	330	0.06	0
+29	334	0.061	0
+29	338	0.062	0
+29	342	0.063	0
+29	346	0.064	0
+29	350	0.065	0
+29	354	0.066	0
+29	358	0.067	0
+29	362	0.068	0
+29	366	0.069	0
+29	370	0.07	0
+29	374	0.071	0
+29	378	0.072	0
+29	382	0.073	0
+29	386	0.074	0
+29	390	0.075	0
+29	394	0.076	0
+29	398	0.077	0
+29	402	0.078	0
+29	406	0.079	0
+29	410	0.08	0
+29	414	0.081	0
+29	418	0.082	0
+29	422	0.083	0
+29	426	0.084	0
+29	430	0.085	0
+29	434	0.086	0
+29	438	0.087	0
+29	442	0.088	0
+29	446	0.089	0
+29	450	0.09	0
+29	454	0.091	0
+29	458	0.092	0
+29	462	0.093	0
+29	466	0.094	0
+29	470	0.095	0
+29	474	0.096	0
+29	478	0.097	0
+29	482	0.098	0
+29	486	0.099	0
+30	489	0.1	1
+31	489	0.1	2
+32	496	0.1	400
+33	497	0.1	400
+34	498	0.1	48
+35	499	0.1	48
+36	500	0.1	28
+37	501	0.1	28
+

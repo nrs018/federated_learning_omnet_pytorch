@@ -1,0 +1,178 @@
+file 12224 1668579301                                           
+version 2
+run Ping1-0-20221116-15:14:58-27702
+attr configname Ping1
+attr datetime 20221116-15:14:58
+attr experiment Ping1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Net80211
+attr processid 27702
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.numHosts 2
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 400m
+param **.constraintAreaMaxZ 0m
+param **.host*.mobility.typename "\"MassMobility\""
+param **.host*.mobility.initFromDisplayString false
+param **.host*.mobility.changeInterval "truncnormal(2s, 0.5s)"
+param **.host*.mobility.angleDelta "normal(0deg, 30deg)"
+param **.host*.mobility.speed "truncnormal(20mps, 8mps)"
+param **.host*.mobility.updateInterval 100ms
+param *.host[0].numApps 0
+param *.host[*].numApps 2
+param *.host[*].app[*].typename "\"PingApp\""
+param *.host[*].app[*].destAddr "\"host[0]\""
+param *.host[*].app[0].startTime uniform(1s,5s)
+param *.host[*].app[1].startTime 5s+uniform(1s,5s)
+param *.host[*].app[*].printPing true
+param **.wlan[*].bitrate 2Mbps
+param **.wlan[*].mac.dcf.channelAccess.cwMin 7
+param **.wlan[*].radio.transmitter.power 2mW
+param **.wlan[*].radio.receiver.sensitivity -85dBm
+param **.wlan[*].radio.receiver.snirThreshold 4dB
+
+vector 0 Net80211.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 Net80211.host[0].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 2 Net80211.host[1].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 Net80211.host[1].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 4 Net80211.host[0].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 5 Net80211.host[1].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 6 Net80211.host[0].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 7 Net80211.host[1].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 8 Net80211.host[1].app[0] pingTxSeq:vector ETV
+attr interpolationmode none
+attr title "ping tx seq, vector"
+vector 9 Net80211.host[1].ipv4.arp arpRequestSent:vector(packetBytes) ETV
+attr source arpRequestSent
+attr title "ARP request sent, vector(packetBytes)"
+vector 10 Net80211.host[1].wlan[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received from upper layer, vector(packetBytes)"
+vector 11 Net80211.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet pushed, vector(packetBytes)"
+vector 12 Net80211.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, vector"
+vector 13 Net80211.host[1].wlan[0].mac.dcf.channelAccess.contention backoffPeriodGenerated:vector ETV
+attr interpolationmode none
+attr title "backoff periods, vector"
+vector 14 Net80211.host[1].wlan[0].mac.dcf.channelAccess.contention backoffActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(backoffStarted)-count(backoffStopped)
+attr title "backoff active, vector"
+vector 15 Net80211.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet popped, vector(packetBytes)"
+vector 16 Net80211.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, vector"
+attr unit s
+vector 17 Net80211.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, vector"
+vector 18 Net80211.host[1].wlan[0].mac.dcf datarateSelected:vector ETV
+attr interpolationmode none
+attr title "datarates selected, vector"
+vector 19 Net80211.host[1].wlan[0].mac packetSentToLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 20 Net80211.host[1].wlan[0].mac.dcf frameSequenceActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(frameSequenceStarted)-count(frameSequenceFinished)
+attr title "frame sequence active, vector"
+vector 21 Net80211.host[1].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 22 Net80211.host[1].wlan[0].mac.dcf packetSentToPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent, vector(packetBytes)"
+vector 23 Net80211.host[1].wlan[0].mac.dcf packetSentToPeerMulticast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, vector(packetBytes)"
+vector 24 Net80211.host[1].wlan[0].mac.dcf packetSentToPeerBroadcast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , vector(packetBytes)"
+vector 25 Net80211.host[1].wlan[0].mac.dcf packetSentToPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, vector(packetBytes)"
+vector 26 Net80211.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, vector"
+vector 27 Net80211.host[1].ipv4.ip packetDropAddressResolutionFailed:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsAddressResolutionFailed(packetDropped)
+attr title "packet drop: address resolution failed, vector(packetBytes)"
+vector 28 Net80211.host[1].app[1] pingTxSeq:vector ETV
+attr interpolationmode none
+attr title "ping tx seq, vector"
+0	6782 24 0 0 0 0 3 0 2 2 4
+1	6806 8 0 0 0 0 1 0 0 0 0
+2	6814 344 0 289 0 9.195702009217 17 0 3 37 95
+3	7158 8 0 0 0 0 1 0 0 0 0
+4	7166 8 0 0 0 0 1 1 1 1 1
+5	7174 328 0 289 0 9.195702009217 15 0 1 8 8
+6	7502 8 0 0 0 0 1 7 7 7 49
+7	7510 8 0 0 0 0 1 7 7 7 49
+8	7518 160 66 278 3.195254009217 9.195254009217 7 0 6 21 91
+9	7678 167 68 280 3.195254009217 9.195254009217 7 28 28 196 5488
+10	7845 174 70 282 3.195254009217 9.195254009217 7 36 36 252 9072
+11	8019 174 70 282 3.195254009217 9.195254009217 7 64 64 448 28672
+12	8193 334 70 284 3.195254009217 9.195254009217 14 0 1 7 7
+13	8527 167 70 282 3.195254009217 9.195254009217 7 0 7 22 102
+14	8694 334 70 283 3.195254009217 9.195254009217 14 0 1 7 7
+15	9028 174 72 284 3.195254009217 9.195254009217 7 64 64 448 28672
+16	9202 167 72 284 3.195254009217 9.195254009217 7 0 0 0 0
+17	9369 334 72 288 3.195254009217 9.195702009217 14 0 1 7 7
+18	9703 209 72 284 3.195254009217 9.195254009217 7 2000000 2000000 14000000 28000000000000
+19	9912 174 72 284 3.195254009217 9.195254009217 7 64 64 448 28672
+20	10086 334 72 288 3.195254009217 9.195702009217 14 0 1 7 7
+21	10420 668 73 289 3.195254009217 9.195702009217 28 0 2 28 42
+22	11088 174 76 288 3.195702009217 9.195702009217 7 64 64 448 28672
+23	11262 174 76 288 3.195702009217 9.195702009217 7 64 64 448 28672
+24	11436 174 76 288 3.195702009217 9.195702009217 7 64 64 448 28672
+25	11610 174 76 288 3.195702009217 9.195702009217 7 64 64 448 28672
+26	11784 216 76 288 3.195702009217 9.195702009217 7 0.000448 0.000448 0.003136 1.404928e-06
+27	12000 175 171 279 6.195254009217 9.195254009217 7 84 84 588 49392
+28	12175 48 258 295 8.371378465556 9.371378465556 2 0 1 1 1
+

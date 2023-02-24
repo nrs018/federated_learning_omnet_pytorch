@@ -1,0 +1,47 @@
+version 2
+run General-0-20230117-13:18:28-14340
+attr configname General
+attr datetime 20230117-13:18:28
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network multi
+attr processid 14340
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param multi.testing false
+param multi.testTimeout 0s
+param *.cli1.hasSctp true
+param *.srv1.hasSctp true
+param **.ap.mobility.typename "\"StationaryMobility\""
+param **.cli1.numApps 1
+param **.cli1.app[0].typename "\"SctpClient\""
+param **.cli1.app[0].localAddress "\"\""
+param **.cli1.app[0].connectAddress "\"srv1%ppp0\""
+param **.cli1.app[0].connectPort 6666
+param **.cli1.app[0].startTime 1s
+param **.cli1.app[0].numRequestsPerSession 100
+param **.cli1.app[0].requestLength 1000
+param **.srv1.numApps 1
+param **.srv1.app[0].typename "\"SctpServer\""
+param **.srv1.app[0].localAddress "\"\""
+param **.srv1.app[0].localPort 6666
+param **.srv1.app[0].numPacketsToReceivePerClient 100
+param **.sctp.crcMode "\"computed\""
+param **.ipv4.**.crcMode "\"computed\""
+param **.srv1.numPcapRecorders 1
+param **.srv1.pcapRecorder[0].pcapFile "\"results/server1.pcap\""
+param **.cli1.numPcapRecorders 1
+param **.cli1.pcapRecorder[0].pcapFile "\"results/client1.pcap\""
+param **.srv1.pcapRecorder[0].pcapLinkType 204
+param **.cli1.pcapRecorder[0].pcapLinkType 204
+param **.ppp[*].ppp.queue.typename "\"DropTailQueue\""
+param **.ppp[*].ppp.queue.packetCapacity 20
+
+scalar multi.cli1.app[0] ums 1000
+

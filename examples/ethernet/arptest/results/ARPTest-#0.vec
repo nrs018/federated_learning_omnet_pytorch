@@ -1,0 +1,93 @@
+version 2
+run ARPTest-0-20230117-13:39:10-14994
+attr configname ARPTest
+attr datetime 20230117-13:39:10
+attr experiment ARPTest
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ARPTest
+attr processid 14994
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.client.numApps 1
+param **.client.app[*].typename "\"TcpSessionApp\""
+param **.client.app[*].active true
+param **.client.app[*].localAddress "\"\""
+param **.client.app[*].localPort -1
+param **.client.app[*].connectAddress "\"server\""
+param **.client.app[*].connectPort 1000
+param **.client.app[*].tOpen 1.0s
+param **.client.app[*].tSend 1.1s
+param **.client.app[*].sendBytes 1MiB
+param **.client.app[*].sendScript "\"\""
+param **.client.app[*].tClose 0s
+param **.server.numApps 1
+param **.server.app[*].typename "\"TcpEchoApp\""
+param **.server.app[0].localAddress "\"\""
+param **.server.app[0].localPort 1000
+param **.server.app[0].echoFactor 2.0
+param **.server.app[0].echoDelay 0s
+param **.eth[*].mac.duplexMode true
+param **.ppp[*].ppp.queue.typename "\"DropTailQueue\""
+param **.ppp[*].ppp.queue.packetCapacity 10
+param **.eth[*].mac.queue.typename "\"EtherQosQueue\""
+param **.eth[*].mac.queue.dataQueue.typename "\"DropTailQueue\""
+param **.eth[*].mac.queue.dataQueue.packetCapacity 10
+param **.switch*.relayUnit.typename "\"MacRelayUnit\""
+param **.relayUnit.addressTableSize 100
+param **.relayUnit.agingTime 120s
+param **.relayUnit.bufferSize 1MiB
+param **.relayUnit.highWatermark 512KiB
+param **.relayUnit.pauseUnits 300
+param **.relayUnit.addressTableFile "\"\""
+param **.relayUnit.numCPUs 2
+param **.relayUnit.processingTime 2us
+param **.mac[*].duplexMode true
+
+vector 0 ARPTest.net.ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 1 ARPTest.net.ppp[1].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 2 ARPTest.router.ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 3 ARPTest.server.ppp[0].ppp transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "tx state, vector"
+vector 4 ARPTest.ap.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 ARPTest.ap.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 6 ARPTest.ap.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 7 ARPTest.ap.wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+0	0	0	0
+1	0	0	0
+2	0	0	0
+3	0	0	0
+4	0	0	0
+4	0	0	0
+4	0	0	2
+5	0	0	0
+6	0	0	1
+7	0	0	31
+

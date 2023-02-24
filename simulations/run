@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/new_toyota_fl -n .:../src $*
+# for shared lib, use: opp_run -l ../src/new_toyota_fl -n .:../src $*

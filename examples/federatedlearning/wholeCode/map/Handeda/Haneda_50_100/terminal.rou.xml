@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-02-15 07:55:56 by Eclipse SUMO netedit Version 1.9.2
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\OTSLCPS004\Sumo\2022-01-28-09-57-08-Handeda\osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\OTSLCPS004\Sumo\2022-01-28-09-57-08-Handeda\osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\OTSLCPS004\Sumo\2022-01-28-09-57-08-Handeda\terminal.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="vehicle_0" depart="0.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_1" depart="0.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_2" depart="0.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_3" depart="0.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_4" depart="0.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+
+    <trip id="vehicle_5" depart="50.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_6" depart="50.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_7" depart="50.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_8" depart="50.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_9" depart="50.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+	
+    <trip id="vehicle_10" depart="100.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_11" depart="100.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_12" depart="100.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_13" depart="100.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_14" depart="100.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+
+    <trip id="vehicle_15" depart="150.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_16" depart="150.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_17" depart="150.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_18" depart="150.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_19" depart="150.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+
+    <trip id="vehicle_20" depart="200.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_21" depart="200.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_22" depart="200.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_23" depart="200.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_24" depart="200.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+	
+    <trip id="vehicle_25" depart="180.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_26" depart="180.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_27" depart="180.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_28" depart="180.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_29" depart="180.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+
+    <trip id="vehicle_30" depart="230.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_31" depart="230.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_32" depart="230.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_33" depart="230.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_34" depart="230.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>	
+	
+    <trip id="vehicle_35" depart="280.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_36" depart="280.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_37" depart="280.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_38" depart="280.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_39" depart="280.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>
+	
+    <trip id="vehicle_40" depart="300.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_41" depart="300.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_42" depart="300.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_43" depart="300.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_44" depart="300.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>		
+	
+    <trip id="vehicle_45" depart="320.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_46" depart="320.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_47" depart="320.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_48" depart="320.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_49" depart="320.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>	
+	
+    <trip id="vehicle_50" depart="330.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_51" depart="330.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_52" depart="330.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_53" depart="330.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_54" depart="330.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>		
+	
+    <trip id="vehicle_55" depart="380.00" color="red" from="42747912" to="42751509#6" via="250506423#1 42751321#2 881624922#4"/>
+    <trip id="vehicle_56" depart="380.00" color="green" from="340606259" to="340606281"/>
+    <trip id="vehicle_57" depart="380.00" color="orange" from="322744972#1" to="42748309" via="250506419#0"/>
+    <trip id="vehicle_58" depart="380.00" color="0,197,255" from="875753969#1" to="828700334#2" via="250506423#1 42751321#2 828700334#1"/>
+    <trip id="vehicle_59" depart="380.00" color="162,255,0" from="250506423#1" to="722087240" via="42747912 42748096 42747911#1"/>		
+	
+	
+</routes>

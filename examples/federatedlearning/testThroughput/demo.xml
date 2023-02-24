@@ -1,0 +1,18 @@
+<config>
+    <interface hosts="s" names="cellular*" address="192.168.0.2" netmask="255.255.x.x"/>
+    <interface hosts="s" names="wlan*" address="10.0.0.2" netmask="255.x.x.x"/>
+    
+    <interface hosts="C[0]" names="cellular*" address="192.168.0.3" netmask="255.255.x.x"/>
+	
+	
+	<interface hosts="*" names="wlan*" address="10.x.x.x" netmask="255.x.x.x"/>
+    <interface hosts="*" names="cellular*" address="192.168.x.x" netmask="255.255.x.x"/>
+    
+	<interface hosts="*"  address="11.10.x.x" netmask="255.255.x.x"/>
+    
+    <!--
+    <route hosts="s" destination="192.168.0.3" gateway="eNB" netmask="/32" metric="10" interface="cellular"/> 
+    <route hosts="eNB" destination="192.168.0.3" gateway="*" netmask="/32" metric="10" interface="cellular"/> 
+    -->
+    
+</config>

@@ -1,0 +1,333 @@
+===================  0  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  0
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  1  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  497
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  0
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  2  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  0
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  3  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  0
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  4  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  0
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  5  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  497
+class:  5  ,quantity:  0
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  499
+===================  6  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  0
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  7  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  0
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  499
+===================  8  ================
+class:  0  ,quantity:  498
+class:  1  ,quantity:  497
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  0
+class:  9  ,quantity:  499
+===================  9  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  0
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  500
+class:  9  ,quantity:  500
+===================  10  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  500
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  0
+class:  9  ,quantity:  500
+===================  11  ================
+class:  0  ,quantity:  500
+class:  1  ,quantity:  500
+class:  2  ,quantity:  500
+class:  3  ,quantity:  500
+class:  4  ,quantity:  497
+class:  5  ,quantity:  500
+class:  6  ,quantity:  500
+class:  7  ,quantity:  500
+class:  8  ,quantity:  0
+class:  9  ,quantity:  500
+===================  12  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  0
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  13  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  0
+===================  14  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  0
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  15  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  0
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  3
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  16  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  0
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  17  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  0
+===================  18  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  0
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  19  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  0
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  20  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  0
+===================  21  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  0
+class:  9  ,quantity:  5
+===================  22  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  0
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  23  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  0
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  24  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  0
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  25  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  0
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  26  ================
+class:  0  ,quantity:  0
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  27  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  0
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  28  ================
+class:  0  ,quantity:  0
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  5
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+===================  29  ================
+class:  0  ,quantity:  5
+class:  1  ,quantity:  5
+class:  2  ,quantity:  5
+class:  3  ,quantity:  5
+class:  4  ,quantity:  5
+class:  5  ,quantity:  0
+class:  6  ,quantity:  5
+class:  7  ,quantity:  5
+class:  8  ,quantity:  5
+class:  9  ,quantity:  5
+
+Process finished with exit code 0
+

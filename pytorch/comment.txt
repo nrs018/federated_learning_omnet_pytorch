@@ -1,0 +1,7 @@
+我们主要对比如下四中方案：
+         [.] vanilla fuzzy logic based client selection
+         [.] advanced fuzzy logic based client selection
+         [.] weight averaged client selection , 每个因素的权重占比相同
+         [.] random selection, 本方法是为每一个client生成一个随机数，然后将在本节点的指定范围内对比寻找random值最大的节点作为client。                
+
+vanillia fuzzy logic based client selection:模糊隶属函数的定义是固定的。他不会随着FL执行round的变化而变动。这样的方法存在如下的问题：第一，loss function随着训练的进行会不断地变小。这会导致loss的权重会变小，最终output（模糊逻辑计算出的值）全完由另外三个因素值决定。

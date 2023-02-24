@@ -1,0 +1,114 @@
+version 2
+run General-0-20230117-13:20:06-14385
+attr configname General
+attr datetime 20230117-13:20:06
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network HandoverNetwork
+attr processid 14385
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 400m
+param **.constraintAreaMaxZ 0m
+param **.mgmt.numChannels 5
+param **.ap1.wlan[*].address "\"10:00:00:00:00:00\""
+param **.ap2.wlan[*].address "\"20:00:00:00:00:00\""
+param **.ap1.wlan[*].mgmt.ssid "\"AP1\""
+param **.ap2.wlan[*].mgmt.ssid "\"AP2\""
+param **.ap*.wlan[*].mgmt.beaconInterval 100ms
+param **.wlan[*].mgmt.numAuthSteps 4
+param **.mobility.initFromDisplayString true
+param **.host*.mobility.typename "\"LinearMobility\""
+param **.host*.mobility.speed 10mps
+param **.host*.mobility.initialMovementHeading 0deg
+param **.host*.mobility.updateInterval 100ms
+param **.analogModel.ignorePartialInterference true
+param **.ap1.wlan[*].radio.channelNumber 2
+param **.ap2.wlan[*].radio.channelNumber 3
+param **.host.wlan[*].radio.channelNumber 0
+param **.wlan*.bitrate 2Mbps
+param **.wlan[*].agent.activeScan true
+param **.wlan[*].agent.defaultSsid "\"\""
+param **.wlan[*].agent.channelsToScan "\"\""
+param **.wlan[*].agent.probeDelay 0.1s
+param **.wlan[*].agent.minChannelTime 0.15s
+param **.wlan[*].agent.maxChannelTime 0.3s
+param **.wlan[*].agent.authenticationTimeout 5s
+param **.wlan[*].agent.associationTimeout 5s
+param **.wlan[*].mac.dcf.channelAccess.cwMin 7
+param **.radio.transmitter.power 2.0mW
+
+vector 0 HandoverNetwork.host.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 HandoverNetwork.host.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 2 HandoverNetwork.ap1.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 HandoverNetwork.ap1.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 4 HandoverNetwork.ap2.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 HandoverNetwork.ap2.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 6 HandoverNetwork.host.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 7 HandoverNetwork.ap1.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 8 HandoverNetwork.ap2.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 9 HandoverNetwork.host.wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 10 HandoverNetwork.ap1.wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 11 HandoverNetwork.ap2.wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+0	0	0	0
+0	0	0	0
+0	0	0	2
+1	0	0	0
+2	0	0	0
+2	0	0	0
+2	0	0	2
+3	0	0	2
+4	0	0	0
+4	0	0	0
+4	0	0	2
+5	0	0	3
+6	0	0	1
+7	0	0	1
+8	0	0	1
+9	0	0	7
+10	0	0	7
+11	0	0	7
+

@@ -1,0 +1,889 @@
+file 86476676 1668494026                                        
+version 2
+run Ping1-0-20221115-15:30:10-25327
+attr configname Ping1
+attr datetime 20221115-15:30:10
+attr experiment Ping1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Lan80211ac
+attr processid 25327
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.numHosts 2
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 400m
+param **.constraintAreaMaxZ 0m
+param **.ap.wlan[*].address "\"10:00:00:00:00:00\""
+param **.host[*].**.mgmt.accessPointAddress "\"10:00:00:00:00:00\""
+param **.host[*].mobility.typename "\"MassMobility\""
+param **.host[*].mobility.changeInterval "truncnormal(2ms, 0.5ms)"
+param **.host[*].mobility.angleDelta "normal(0deg, 30deg)"
+param **.host[*].mobility.speed "truncnormal(20mps, 8mps)"
+param **.host[*].mobility.updateInterval 100ms
+param **.numApps 1
+param **.app[0].typename "\"PingApp\""
+param *.host[0].app[0].destAddr "\"\""
+param *.host[*].app[0].destAddr "\"host[0]\""
+param *.host[*].app[0].sendInterval 10ms
+param **.bandName "\"5 GHz (20 MHz)\""
+param **.opMode "\"ac\""
+param **.wlan[*].radio.antenna.numAntennas 8
+param **.bitrate 693.3Mbps
+param **.wlan[*].radio.transmitter.power 100mW
+param **.wlan[*].radio.transmitter.headerBitLength 96b
+param **.centerFrequency 5GHz
+param **.wlan[*].radio.receiver.sensitivity -85dBm
+param **.wlan[*].radio.receiver.snirThreshold 4dB
+
+vector 0 Lan80211ac.host[0].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 1 Lan80211ac.host[0].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 2 Lan80211ac.host[1].wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 3 Lan80211ac.host[1].wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 4 Lan80211ac.ap.wlan[0].radio radioMode:vector ETV
+attr interpolationmode sample-hold
+attr source radioModeChanged
+attr title "Radio mode, vector"
+vector 5 Lan80211ac.ap.wlan[0].radio radioChannel:vector ETV
+attr interpolationmode sample-hold
+attr source radioChannelChanged
+attr title "Radio channel, vector"
+vector 6 Lan80211ac.host[0].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 7 Lan80211ac.host[1].wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 8 Lan80211ac.ap.wlan[0].radio receptionState:vector ETV
+attr interpolationmode sample-hold
+attr source receptionStateChanged
+attr title "Radio reception state, vector"
+vector 9 Lan80211ac.host[0].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 10 Lan80211ac.host[1].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 11 Lan80211ac.ap.wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
+attr interpolationmode sample-hold
+attr title "contention window, vector"
+vector 12 Lan80211ac.host[1].app[0] pingTxSeq:vector ETV
+attr interpolationmode none
+attr title "ping tx seq, vector"
+vector 13 Lan80211ac.host[1].ipv4.arp arpRequestSent:vector(packetBytes) ETV
+attr source arpRequestSent
+attr title "ARP request sent, vector(packetBytes)"
+vector 14 Lan80211ac.host[1].wlan[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received from upper layer, vector(packetBytes)"
+vector 15 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet pushed, vector(packetBytes)"
+vector 16 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, vector"
+vector 17 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.contention backoffPeriodGenerated:vector ETV
+attr interpolationmode none
+attr title "backoff periods, vector"
+vector 18 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.contention backoffActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(backoffStarted)-count(backoffStopped)
+attr title "backoff active, vector"
+vector 19 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet popped, vector(packetBytes)"
+vector 20 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, vector"
+attr unit s
+vector 21 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, vector"
+vector 22 Lan80211ac.host[1].wlan[0].mac.dcf datarateSelected:vector ETV
+attr interpolationmode none
+attr title "datarates selected, vector"
+vector 23 Lan80211ac.host[1].wlan[0].mac packetSentToLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 24 Lan80211ac.host[1].wlan[0].mac.dcf frameSequenceActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(frameSequenceStarted)-count(frameSequenceFinished)
+attr title "frame sequence active, vector"
+vector 25 Lan80211ac.host[1].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 26 Lan80211ac.host[1].wlan[0].mac.dcf packetSentToPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent, vector(packetBytes)"
+vector 27 Lan80211ac.host[1].wlan[0].mac.dcf packetSentToPeerUnicast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, vector(packetBytes)"
+vector 28 Lan80211ac.host[1].wlan[0].mac.dcf packetSentToPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, vector(packetBytes)"
+vector 29 Lan80211ac.host[1].wlan[0].mac.rx nav:vector ETV
+attr interpolationmode linear
+attr source navChanged
+attr title "network allocation vector, vector"
+vector 30 Lan80211ac.ap.wlan[0].mac packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 31 Lan80211ac.ap.wlan[0].mac.dcf packetReceivedFromPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received, vector(packetBytes)"
+vector 32 Lan80211ac.ap.wlan[0].mac.dcf packetReceivedFromPeerUnicast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, vector(packetBytes)"
+vector 33 Lan80211ac.ap.wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, vector(packetBytes)"
+vector 34 Lan80211ac.ap.wlan[0].mac.dcf datarateSelected:vector ETV
+attr interpolationmode none
+attr title "datarates selected, vector"
+vector 35 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet pushed, vector(packetBytes)"
+vector 36 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, vector"
+vector 37 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.contention backoffPeriodGenerated:vector ETV
+attr interpolationmode none
+attr title "backoff periods, vector"
+vector 38 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.contention backoffActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(backoffStarted)-count(backoffStopped)
+attr title "backoff active, vector"
+vector 39 Lan80211ac.ap.wlan[0].mac packetSentToUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to upper layer, vector(packetBytes)"
+vector 40 Lan80211ac.host[0].wlan[0].mac packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 41 Lan80211ac.host[0].wlan[0].mac.rx nav:vector ETV
+attr interpolationmode linear
+attr source navChanged
+attr title "network allocation vector, vector"
+vector 42 Lan80211ac.host[0].wlan[0].mac.dcf packetDrop:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, vector(packetBytes)"
+vector 43 Lan80211ac.host[0].wlan[0].mac.dcf packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, vector(packetBytes)"
+vector 44 Lan80211ac.host[0].wlan[0].mac packetDrop:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, vector(packetBytes)"
+vector 45 Lan80211ac.host[0].wlan[0].mac packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, vector(packetBytes)"
+vector 46 Lan80211ac.ap.wlan[0].mac packetSentToLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 47 Lan80211ac.ap.wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 48 Lan80211ac.ap.wlan[0].mac.dcf packetSentToPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent, vector(packetBytes)"
+vector 49 Lan80211ac.ap.wlan[0].mac.dcf packetSentToPeerUnicast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, vector(packetBytes)"
+vector 50 Lan80211ac.ap.wlan[0].mac.dcf packetSentToPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, vector(packetBytes)"
+vector 51 Lan80211ac.host[1].wlan[0].mac packetReceivedFromLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received from lower layer, vector(packetBytes)"
+vector 52 Lan80211ac.host[1].wlan[0].mac.dcf packetReceivedFromPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received, vector(packetBytes)"
+vector 53 Lan80211ac.host[1].wlan[0].mac.dcf packetReceivedFromPeerUnicast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, vector(packetBytes)"
+vector 54 Lan80211ac.host[1].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, vector(packetBytes)"
+vector 55 Lan80211ac.host[1].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, vector"
+vector 56 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet popped, vector(packetBytes)"
+vector 57 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, vector"
+attr unit s
+vector 58 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, vector"
+vector 59 Lan80211ac.ap.wlan[0].mac.dcf frameSequenceActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(frameSequenceStarted)-count(frameSequenceFinished)
+attr title "frame sequence active, vector"
+vector 60 Lan80211ac.ap.wlan[0].mac.dcf packetSentToPeerMulticast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Multicast(packetSentToPeer)
+attr title "packets sent: multicast, vector(packetBytes)"
+vector 61 Lan80211ac.ap.wlan[0].mac.dcf packetSentToPeerBroadcast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Broadcast(packetSentToPeer)
+attr title "packets sent: broadcast , vector(packetBytes)"
+vector 62 Lan80211ac.ap.wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, vector"
+vector 63 Lan80211ac.host[1].wlan[0].mac.dcf packetDrop:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, vector(packetBytes)"
+vector 64 Lan80211ac.host[1].wlan[0].mac.dcf packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, vector(packetBytes)"
+vector 65 Lan80211ac.host[1].wlan[0].mac packetDrop:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropped
+attr title "packet drops, vector(packetBytes)"
+vector 66 Lan80211ac.host[1].wlan[0].mac packetDropNotAddressedToUs:vector(packetBytes) ETV
+attr interpolationmode none
+attr source packetDropReasonIsNotAddressedToUs(packetDropped)
+attr title "packet drops: not addressed to us, vector(packetBytes)"
+vector 67 Lan80211ac.host[0].wlan[0].mac.dcf packetReceivedFromPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received, vector(packetBytes)"
+vector 68 Lan80211ac.host[0].wlan[0].mac.dcf packetReceivedFromPeerMulticast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Multicast(packetReceivedFromPeer)
+attr title "packets received: multicast, vector(packetBytes)"
+vector 69 Lan80211ac.host[0].wlan[0].mac.dcf packetReceivedFromPeerBroadcast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Broadcast(packetReceivedFromPeer)
+attr title "packets received: broadcast, vector(packetBytes)"
+vector 70 Lan80211ac.host[0].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetReceivedFromPeer)
+attr title "packets received: without retry, vector(packetBytes)"
+vector 71 Lan80211ac.host[0].wlan[0].mac packetSentToUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to upper layer, vector(packetBytes)"
+vector 72 Lan80211ac.host[0].ipv4.arp arpReplySent:vector(packetBytes) ETV
+attr source arpReplySent
+attr title "ARP replies sent, vector(packetBytes)"
+vector 73 Lan80211ac.host[0].wlan[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets received from upper layer, vector(packetBytes)"
+vector 74 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet pushed, vector(packetBytes)"
+vector 75 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
+attr title "queue length, vector"
+vector 76 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.contention backoffPeriodGenerated:vector ETV
+attr interpolationmode none
+attr title "backoff periods, vector"
+vector 77 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.contention backoffActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(backoffStarted)-count(backoffStopped)
+attr title "backoff active, vector"
+vector 78 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packet popped, vector(packetBytes)"
+vector 79 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetPopped)
+attr title "queueing times, vector"
+attr unit s
+vector 80 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:vector ETV
+attr interpolationmode sample-hold
+attr source "count(packetEnqueued) - count(packetDequeued)"
+attr title "queue length, vector"
+vector 81 Lan80211ac.host[0].wlan[0].mac.dcf datarateSelected:vector ETV
+attr interpolationmode none
+attr title "datarates selected, vector"
+vector 82 Lan80211ac.host[0].wlan[0].mac packetSentToLower:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to lower layer, vector(packetBytes)"
+vector 83 Lan80211ac.host[0].wlan[0].mac.dcf frameSequenceActive:vector ETV
+attr interpolationmode sample-hold
+attr source count(frameSequenceStarted)-count(frameSequenceFinished)
+attr title "frame sequence active, vector"
+vector 84 Lan80211ac.host[0].wlan[0].radio transmissionState:vector ETV
+attr interpolationmode sample-hold
+attr source transmissionStateChanged
+attr title "Radio transmission state, vector"
+vector 85 Lan80211ac.host[0].wlan[0].mac.dcf packetSentToPeer:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent, vector(packetBytes)"
+vector 86 Lan80211ac.host[0].wlan[0].mac.dcf packetSentToPeerUnicast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Unicast(packetSentToPeer)
+attr title "packets sent: unicast, vector(packetBytes)"
+vector 87 Lan80211ac.host[0].wlan[0].mac.dcf packetSentToPeerWithoutRetry:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211NotRetry(packetSentToPeer)
+attr title "packets sent: without retry, vector(packetBytes)"
+vector 88 Lan80211ac.host[0].wlan[0].mac.dcf packetReceivedFromPeerUnicast:vector(packetBytes) ETV
+attr interpolationmode none
+attr source ieee80211Unicast(packetReceivedFromPeer)
+attr title "packets received: unicast, vector(packetBytes)"
+vector 89 Lan80211ac.host[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:vector ETV
+attr interpolationmode none
+attr source queueingTime(packetDequeued)
+attr title "queueing times, vector"
+vector 90 Lan80211ac.ap.wlan[0].mac.rx nav:vector ETV
+attr interpolationmode linear
+attr source navChanged
+attr title "network allocation vector, vector"
+vector 91 Lan80211ac.host[1].wlan[0].mac packetSentToUpper:vector(packetBytes) ETV
+attr interpolationmode none
+attr title "packets sent to upper layer, vector(packetBytes)"
+vector 92 Lan80211ac.host[1].app[0] pingRxSeq:vector ETV
+attr interpolationmode none
+attr title "ping rx seq, vector"
+vector 93 Lan80211ac.host[1].app[0] rtt:vector ETV
+attr interpolationmode none
+attr title "ping round-trip time, vector"
+attr unit s
+0	19739 182557 0 240016 0 17.636775416906 7061 0 3 17647 45881
+1	202296 8 0 0 0 0 1 0 0 0 0
+2	202304 183005 0 240091 0 17.646307636964 7065 0 3 17657 45907
+3	385309 8 0 0 0 0 1 0 0 0 0
+4	385317 365339 0 240114 0 17.64642882366 14126 0 3 35310 91806
+5	750656 8 0 0 0 0 1 0 0 0 0
+6	750664 730313 0 240117 0 17.646429415611 28244 0 3 45901 109459
+7	1480977 730731 0 240116 0 17.646429010344 28244 0 3 45895 109441
+8	2211708 730516 0 240114 0 17.64642882366 28244 0 3 35302 77662
+9	2942224 9 0 0 0 0 1 15 15 15 225
+10	2942233 10 0 0 0 0 1 15 15 15 225
+11	2942243 10 0 0 0 0 1 15 15 15 225
+12	2942253 51788 6 240080 0.006235636964 17.646235636964 1765 0 1764 1556730 1831233390
+13	2994041 23 8 8 0.006235636964 0.006235636964 1 28 28 28 784
+14	2994064 49393 10 240083 0.006235636964 17.646235636964 1766 36 92 162416 14940256
+15	3043457 51158 10 240083 0.006235636964 17.646235636964 1766 64 120 211864 25420096
+16	3094615 95255 10 240085 0.006235636964 17.646235636964 3532 0 1 1766 1766
+17	3189870 48317 10 240083 0.006235636964 17.646235636964 1766 0 15 13499 140689
+18	3238187 95302 10 240084 0.006235636964 17.646235636964 3534 0 1 1767 1767
+19	3333489 51159 12 240085 0.006235636964 17.646235636964 1766 64 120 211864 25420096
+20	3384648 47635 12 240085 0.006235636964 17.646235636964 1766 0 0.000202 0.000202 4.0804e-08
+21	3432283 95070 12 240107 0.006235636964 17.646368010351 3532 0 1 1766 1766
+22	3527353 132100 12 240085 0.006235636964 17.646235636964 3531 78000000 693333333.33333 1362096666666.7 8.5967408222218e+20
+23	3659453 100317 12 240085 0.006235636964 17.646235636964 3531 14 120 236574 25766036
+24	3759770 95070 12 240107 0.006235636964 17.646368010351 3532 0 1 1766 1766
+25	3854840 380086 13 240091 0.006235636964 17.646307636964 14124 0 2 14124 21186
+26	4234926 100318 17 240090 0.006307636964 17.646307636964 3531 14 120 236574 25766036
+27	4335244 100318 17 240090 0.006307636964 17.646307636964 3531 14 120 236574 25766036
+28	4435562 100318 17 240090 0.006307636964 17.646307636964 3531 14 120 236574 25766036
+29	4535880 448581 17 240103 0.006307636964 17.646367636964 15885 0 6e-05 0.31770000000002 1.9062e-05
+30	4984461 200246 20 240093 0.006307862657 17.64630782366 7060 14 120 473014 51517476
+31	5184707 200246 20 240093 0.006307862657 17.64630782366 7060 14 120 473014 51517476
+32	5384953 200246 20 240093 0.006307862657 17.64630782366 7060 14 120 473014 51517476
+33	5585199 200246 20 240093 0.006307862657 17.64630782366 7060 14 120 473014 51517476
+34	5785445 263882 20 240113 0.006307862657 17.64642882366 7062 78000000 693333333.33333 2723578000000 1.7188735373332e+21
+35	6049327 101925 20 240093 0.006307862657 17.64630782366 3531 64 120 423608 50825792
+36	6151252 189731 20 240113 0.006307862657 17.64642882366 7062 0 1 3531 3531
+37	6340983 96172 20 240093 0.006307862657 17.64630782366 3531 0 15 26289 270421
+38	6437155 379463 20 240112 0.006307862657 17.64642882366 14124 0 1 7062 7062
+39	6816618 24 20 20 0.006307862657 0.006307862657 1 36 36 36 1296
+40	6816642 300350 23 240110 0.006308354723 17.646368415613 10592 14 120 709496 77269504
+41	7116992 447924 23 240108 0.006308354723 17.64636833499 15888 0 6e-05 0.31776000000002 1.90656e-05
+42	7564916 200240 23 240110 0.006308354723 17.646368415613 7062 14 120 473042 51517868
+43	7765156 200240 23 240110 0.006308354723 17.646368415613 7062 14 120 473042 51517868
+44	7965396 200240 23 240110 0.006308354723 17.646368415613 7062 14 120 473042 51517868
+45	8165636 200240 23 240110 0.006308354723 17.646368415613 7062 14 120 473042 51517868
+46	8365876 200323 24 240113 0.006323862657 17.64642882366 7062 14 120 473042 51517868
+47	8566199 758902 25 240118 0.006323862657 17.64650082366 28247 0 2 28248 42372
+48	9325101 200323 31 240118 0.006367862657 17.64650082366 7062 14 120 473042 51517868
+49	9525424 200270 31 240104 0.006367862657 17.64636782366 7060 14 120 472858 51499372
+50	9725694 200294 31 240104 0.006367862657 17.64636782366 7061 14 120 472922 51503468
+51	9925988 300331 34 240107 0.006368088342 17.646368010351 10590 14 120 709362 77254908
+52	10226319 100130 34 240107 0.006368088342 17.646368010351 3531 14 120 236468 25751832
+53	10326449 100130 34 240107 0.006368088342 17.646368010351 3531 14 120 236468 25751832
+54	10426579 100130 34 240107 0.006368088342 17.646368010351 3531 14 120 236468 25751832
+55	10526709 70181 34 240107 0.006368088342 17.646368010351 1766 0.000132368325 0.000132473888 0.233872212737 3.0971808450978e-05
+56	10596890 101926 39 240113 0.006500862657 17.64642882366 3531 64 120 423608 50825792
+57	10698816 141934 39 240113 0.006500862657 17.64642882366 3531 0.006500862657 17.64642882366 31140.629063604 366352.8300903
+58	10840750 189681 39 240113 0.006500862657 17.64642882366 7061 0 1 3531 3531
+59	11030431 189681 39 240113 0.006500862657 17.64642882366 7061 0 1 3531 3531
+60	11220112 24 44 44 0.006572862657 0.006572862657 1 64 64 64 4096
+61	11220136 24 44 44 0.006572862657 0.006572862657 1 64 64 64 4096
+62	11220160 140297 44 240065 0.006572862657 17.637137384041 3530 7.2e-05 0.00013320669 0.468711944468 6.2239549557394e-05
+63	11360457 200201 47 240033 0.006573088325 17.636836196796 7059 14 120 472894 51503076
+64	11560658 200201 47 240033 0.006573088325 17.636836196796 7059 14 120 472894 51503076
+65	11760859 200201 47 240033 0.006573088325 17.636836196796 7059 14 120 472894 51503076
+66	11961060 200201 47 240033 0.006573088325 17.636836196796 7059 14 120 472894 51503076
+67	12161261 100110 49 240035 0.006573436712 17.636836602121 3530 14 120 236454 25751636
+68	12261371 24 49 49 0.006573436712 0.006573436712 1 64 64 64 4096
+69	12261395 24 49 49 0.006573436712 0.006573436712 1 64 64 64 4096
+70	12261419 100110 49 240035 0.006573436712 17.636836602121 3530 14 120 236454 25751636
+71	12361529 49174 49 239985 0.006573436712 17.636528416906 1765 36 92 162324 14931792
+72	12410703 24 51 51 0.006573436712 0.006573436712 1 28 28 28 784
+73	12410727 49174 53 239991 0.006573436712 17.636528416906 1765 36 92 162324 14931792
+74	12459901 50938 53 239991 0.006573436712 17.636528416906 1765 64 120 211744 25405696
+75	12510839 94818 53 240010 0.006573436712 17.636703416906 3530 0 1 1765 1765
+76	12605657 48067 53 239991 0.006573436712 17.636528416906 1765 0 15 13433 138373
+77	12653724 189590 53 240009 0.006573436712 17.636703416906 7058 0 1 3529 3529
+78	12843314 50938 55 240010 0.006625436712 17.636703416906 1765 64 120 211744 25405696
+79	12894252 59447 55 240010 0.006625436712 17.636703416906 1765 5.2e-05 0.000229 0.286747 4.9522549e-05
+80	12953699 94816 55 240035 0.006625436712 17.636836602121 3530 0 1 1765 1765
+81	13048515 131853 55 240010 0.006625436712 17.636703416906 3529 78000000 693333333.33333 1361325333333.3 8.5918728711107e+20
+82	13180368 100088 55 240010 0.006625436712 17.636703416906 3529 14 120 236440 25751440
+83	13280456 94816 55 240035 0.006625436712 17.636836602121 3530 0 1 1765 1765
+84	13375272 379182 56 240016 0.006625436712 17.636775416906 14116 0 2 14116 21174
+85	13754454 100089 60 240015 0.006697436712 17.636775416906 3529 14 120 236440 25751440
+86	13854543 100089 60 240015 0.006697436712 17.636775416906 3529 14 120 236440 25751440
+87	13954632 100089 60 240015 0.006697436712 17.636775416906 3529 14 120 236440 25751440
+88	14054721 100086 79 240035 0.006758584813 17.636836602121 3529 14 120 236390 25747540
+89	14154807 70161 79 240035 0.006758584813 17.636836602121 1765 0.000133123054 0.0001332067 0.235033258705 3.1297809689881e-05
+90	14224968 298566 86 240061 0.006927010764 17.637137009517 10587 0 6e-05 0.21174000000001 1.2704399999999e-05
+91	14523534 49158 89 240048 0.006927236398 17.637077196782 1765 36 92 162324 14931792
+92	14572692 51552 207 240051 0.00771883562 17.637077196782 1764 0 1763 1554966 1828121694
+93	14624244 70079 207 240051 0.00771883562 17.637077196782 1764 0.000580571896 0.001483198656 1.366476095627 0.0010679086935062
+0	14694323 189948 240131 480162 17.646517415611 35.296685435744 7064 2 3 17660 45916
+2	14884271 190218 240192 480100 17.646913194215 35.296307636964 7060 2 3 17650 45890
+4	15074489 379734 240119 480128 17.64650082366 35.29647379458 14121 2 3 35302 91784
+6	15454223 759507 240122 480162 17.646501415611 35.296685435744 28245 0 3 45893 109433
+7	16213730 759820 240120 480159 17.646501010344 35.296614179145 28244 0 3 45898 109450
+8	16973550 759436 240119 480163 17.64650082366 35.296686076916 28245 0 3 35309 77681
+12	17732986 54715 240215 480089 17.656235636964 35.296235636964 1765 1765 3529 4671955 12824862415
+14	17787701 51185 240218 480092 17.656235636964 35.296235636964 1765 92 92 162380 14938960
+15	17838886 52950 240218 480092 17.656235636964 35.296235636964 1765 120 120 211800 25416000
+16	17891836 98840 240218 480094 17.656235636964 35.296235636964 3530 0 1 1765 1765
+17	17990676 50116 240218 480092 17.656235636964 35.296235636964 1765 0 15 13516 140570
+18	18040792 98840 240218 480093 17.656235636964 35.296235636964 3530 0 1 1765 1765
+19	18139632 52950 240220 480094 17.656235636964 35.296235636964 1765 120 120 211800 25416000
+20	18192582 49420 240220 480094 17.656235636964 35.296235636964 1765 0 0 0 0
+21	18242002 98643 240220 480116 17.656235636964 35.296367952192 3530 0 1 1765 1765
+22	18340645 135704 240184 480094 17.646897194215 35.296235636964 3530 78000000 693333333.33333 1361403333333.3 8.5919337111107e+20
+23	18476349 103934 240191 480094 17.646913194215 35.296235636964 3530 14 120 236510 25761940
+24	18580283 98643 240220 480116 17.656235636964 35.296367952192 3530 0 1 1765 1765
+25	18678926 394556 240192 480100 17.646913194215 35.296307636964 14120 0 2 14120 21180
+26	19073482 103934 240198 480099 17.646957194215 35.296307636964 3530 14 120 236510 25761940
+27	19177416 103934 240198 480099 17.646957194215 35.296307636964 3530 14 120 236510 25761940
+28	19281350 103934 240198 480099 17.646957194215 35.296307636964 3530 14 120 236510 25761940
+29	19385284 464905 240121 480146 17.646501010344 35.296533952188 15888 0 6e-05 0.31776000000002 1.90656e-05
+30	19850189 207476 240142 480150 17.646562007559 35.296535076911 7061 14 120 473034 51524076
+31	20057665 207476 240142 480150 17.646562007559 35.296535076911 7061 14 120 473034 51524076
+32	20265141 207476 240142 480150 17.646562007559 35.296535076911 7061 14 120 473034 51524076
+33	20472617 207476 240142 480150 17.646562007559 35.296535076911 7061 14 120 473034 51524076
+34	20680093 271044 240155 480122 17.646677007557 35.29640179458 7060 78000000 693333333.33333 2722806666666.7 1.7183867422221e+21
+35	20951137 105517 240155 480102 17.646677007557 35.29630779458 3530 120 120 423600 50832000
+36	21056654 196914 240155 480122 17.646677007557 35.29640179458 7060 0 1 3530 3530
+37	21253568 99778 240155 480102 17.646677007557 35.29630779458 3530 0 15 26543 274245
+38	21353346 393828 240155 480121 17.646677007557 35.29640179458 14120 0 1 7060 7060
+40	21747174 311271 240123 480132 17.646501415611 35.296474435744 10591 14 120 709650 77300220
+41	22058445 464253 240152 480161 17.646676415611 35.296685435744 15887 0 6e-05 0.31776000000002 1.90656e-05
+42	22522698 207509 240190 480119 17.646897599497 35.296368435741 7060 14 120 473020 51523880
+43	22730207 207509 240190 480119 17.646897599497 35.296368435741 7060 14 120 473020 51523880
+44	22937716 207509 240190 480119 17.646897599497 35.296368435741 7060 14 120 473020 51523880
+45	23145225 207509 240190 480119 17.646897599497 35.296368435741 7060 14 120 473020 51523880
+46	23352734 207504 240158 480122 17.646693007557 35.29640179458 7060 14 120 473020 51523880
+47	23560238 787683 240119 480128 17.64650082366 35.29647379458 28241 0 2 28240 42360
+48	24347921 207504 240165 480127 17.646737007557 35.29647379458 7060 14 120 473020 51523880
+49	24555425 207533 240118 480127 17.64650082366 35.29647379458 7061 14 120 473140 51538280
+50	24762958 207533 240118 480127 17.64650082366 35.29647379458 7061 14 120 473140 51538280
+51	24970491 311281 240121 480152 17.646501010344 35.296535179144 10592 14 120 709664 77300416
+52	25281772 103737 240184 480116 17.646897194215 35.296367952192 3530 14 120 236510 25761940
+53	25385509 103737 240184 480116 17.646897194215 35.296367952192 3530 14 120 236510 25761940
+54	25489246 103737 240184 480116 17.646897194215 35.296367952192 3530 14 120 236510 25761940
+55	25592983 71965 240242 480116 17.656368009375 35.296367952192 1765 0.000132300445 0.000132386687 0.233588437044 3.0914197719386e-05
+56	25664948 105517 240175 480122 17.646825007557 35.29640179458 3530 120 120 423600 50832000
+57	25770465 147494 240175 480122 17.646825007557 35.29640179458 3530 17.646825007557 35.29640179458 93445.114924688 2565291.0444057
+58	25917959 196885 240142 480150 17.646562007559 35.296535076911 7061 0 1 3530 3530
+59	26114844 196885 240142 480150 17.646562007559 35.296535076911 7061 0 1 3530 3530
+62	26311729 143965 240142 480150 17.646562007559 35.296535076911 3531 0.000132300456 0.000133282331 0.468846513145 6.2254154667334e-05
+63	26455694 207544 240121 480152 17.646501010344 35.296535179144 7062 14 120 473154 51538476
+64	26663238 207544 240121 480152 17.646501010344 35.296535179144 7062 14 120 473154 51538476
+65	26870782 207544 240121 480152 17.646501010344 35.296535179144 7062 14 120 473154 51538476
+66	27078326 207544 240121 480152 17.646501010344 35.296535179144 7062 14 120 473154 51538476
+67	27285870 103762 240123 480132 17.646501415611 35.296474435744 3531 14 120 236630 25776340
+70	27389632 103762 240123 480132 17.646501415611 35.296474435744 3531 14 120 236630 25776340
+71	27493394 51019 240123 480132 17.646501415611 35.296474435744 1766 92 92 162472 14947424
+73	27544413 51019 240129 480138 17.646501415611 35.296474435744 1766 92 92 162472 14947424
+74	27595432 52785 240129 480138 17.646501415611 35.296474435744 1766 120 120 211920 25430400
+75	27648217 98506 240129 480155 17.646501415611 35.296613435744 3532 0 1 1766 1766
+76	27746723 49917 240129 480138 17.646501415611 35.296474435744 1766 0 15 13382 139234
+77	27796640 197012 240129 480154 17.646501415611 35.296613435744 7064 0 1 3532 3532
+78	27993652 52785 240147 480155 17.646604415611 35.296613435744 1766 120 120 211920 25430400
+79	28046437 61282 240147 480155 17.646604415611 35.296613435744 1766 9.4e-05 0.000229 0.286442 4.9524674e-05
+80	28107719 98465 240147 480155 17.646604415611 35.296613435744 3531 0 1 1766 1766
+81	28206184 135592 240123 480155 17.646501415611 35.296613435744 3532 78000000 693333333.33333 1362174666666.7 8.5968016622218e+20
+82	28341776 103804 240130 480155 17.646517415611 35.296613435744 3532 14 120 236644 25776536
+83	28445580 98465 240147 480155 17.646604415611 35.296613435744 3531 0 1 1766 1766
+84	28544045 394024 240131 480162 17.646517415611 35.296685435744 14128 0 2 14128 21192
+85	28938069 103804 240139 480161 17.646561415611 35.296685435744 3532 14 120 236644 25776536
+86	29041873 103804 240139 480161 17.646561415611 35.296685435744 3532 14 120 236644 25776536
+87	29145677 103804 240139 480161 17.646561415611 35.296685435744 3532 14 120 236644 25776536
+88	29249481 103762 240123 480132 17.646501415611 35.296474435744 3531 14 120 236630 25776340
+89	29353243 71963 240171 480048 17.646737599501 35.286827717391 1765 0.000133178363 0.00013328139 0.235124741031 3.1322178813157e-05
+90	29425206 309576 240118 480145 17.64650082366 35.29653379458 10593 0 6e-05 0.21186000000001 1.2711599999999e-05
+91	29734782 50984 240184 480058 17.646897194215 35.286933234995 1765 92 92 162380 14938960
+92	29785766 54514 240187 480061 17.646897194215 35.286933234995 1765 1764 3528 4670190 12815520270
+93	29840280 71957 240187 480061 17.646897194215 35.286933234995 1765 0.000580552257 0.00096754894 1.368110233229 0.0010695235105223
+0	29912237 189840 480278 720185 35.306625435899 52.946838562906 7060 2 3 17650 45890
+2	30102077 190234 480201 720122 35.296985234499 52.946307636964 7060 2 3 17650 45890
+4	30292311 379844 480168 720215 35.296702076916 52.947122300731 14124 2 3 35310 91806
+6	30672155 759372 480171 720222 35.296702718091 52.947123038559 28244 0 3 45898 109450
+7	31431527 759965 480165 720216 35.296686179145 52.947122488845 28245 0 3 45899 109451
+8	32191492 759554 480168 720215 35.296702076916 52.947122300731 28244 0 3 35302 77662
+12	32951046 54715 480225 720111 35.306235636964 52.946235636964 1765 3530 5294 7787180 34815235690
+14	33005761 51185 480228 720114 35.306235636964 52.946235636964 1765 92 92 162380 14938960
+15	33056946 52950 480228 720114 35.306235636964 52.946235636964 1765 120 120 211800 25416000
+16	33109896 98840 480228 720116 35.306235636964 52.946235636964 3530 0 1 1765 1765
+17	33208736 50072 480228 720114 35.306235636964 52.946235636964 1765 0 15 13078 134682
+18	33258808 98840 480228 720115 35.306235636964 52.946235636964 3530 0 1 1765 1765
+19	33357648 52950 480230 720116 35.306235636964 52.946235636964 1765 120 120 211800 25416000
+20	33410598 49420 480230 720116 35.306235636964 52.946235636964 1765 0 0 0 0
+21	33460018 98647 480230 720138 35.306235636964 52.946368013203 3530 0 1 1765 1765
+22	33558665 135747 480193 720217 35.296969234499 52.947122488845 3531 78000000 693333333.33333 1361481333333.3 8.5919945511107e+20
+23	33694412 103942 480200 720116 35.296985234499 52.946235636964 3530 14 120 236510 25761940
+24	33798354 98647 480230 720138 35.306235636964 52.946368013203 3530 0 1 1765 1765
+25	33897001 394588 480201 720122 35.296985234499 52.946307636964 14120 0 2 14120 21180
+26	34291589 103942 480208 720121 35.297029234499 52.946307636964 3530 14 120 236510 25761940
+27	34395531 103942 480208 720121 35.297029234499 52.946307636964 3530 14 120 236510 25761940
+28	34499473 103942 480208 720121 35.297029234499 52.946307636964 3530 14 120 236510 25761940
+29	34603415 464881 480166 720200 35.296686179145 52.946899395333 15888 0 6e-05 0.31776000000002 1.90656e-05
+30	35068296 207535 480164 720187 35.296686076916 52.946839300731 7061 14 120 473140 51538280
+31	35275831 207535 480164 720187 35.296686076916 52.946839300731 7061 14 120 473140 51538280
+32	35483366 207535 480164 720187 35.296686076916 52.946839300731 7061 14 120 473140 51538280
+33	35690901 207535 480164 720187 35.296686076916 52.946839300731 7061 14 120 473140 51538280
+34	35898436 271135 480164 720207 35.296686076916 52.947050300731 7062 78000000 693333333.33333 2723578000000 1.7188735373332e+21
+35	36169571 105554 480164 720187 35.296686076916 52.946839300731 3531 120 120 423720 50846400
+36	36275125 196984 480164 720207 35.296686076916 52.947050300731 7062 0 1 3531 3531
+37	36472109 99849 480164 720187 35.296686076916 52.946839300731 3531 0 15 26721 277573
+38	36571958 393968 480164 720206 35.296686076916 52.947050300731 14124 0 1 7062 7062
+40	36965926 311246 480180 720223 35.296746718091 52.947123038559 10592 14 120 709664 77300416
+41	37277172 464248 480173 720197 35.296745435744 52.946898562906 15886 0 6e-05 0.31770000000002 1.9062e-05
+42	37741420 207457 480199 720141 35.296969718098 52.946368562904 7060 14 120 473020 51523880
+43	37948877 207457 480199 720141 35.296969718098 52.946368562904 7060 14 120 473020 51523880
+44	38156334 207457 480199 720141 35.296969718098 52.946368562904 7060 14 120 473020 51523880
+45	38363791 207457 480199 720141 35.296969718098 52.946368562904 7060 14 120 473020 51523880
+46	38571248 207577 480167 720207 35.296702076916 52.947050300731 7062 14 120 473154 51538476
+47	38778825 787936 480168 720215 35.296702076916 52.947122300731 28248 0 2 28248 42372
+48	39566761 207577 480174 720214 35.296746076916 52.947122300731 7062 14 120 473154 51538476
+49	39774338 207577 480174 720214 35.296746076916 52.947122300731 7062 14 120 473154 51538476
+50	39981915 207577 480174 720214 35.296746076916 52.947122300731 7062 14 120 473154 51538476
+51	40189492 311362 480166 720217 35.296686179145 52.947122488845 10593 14 120 709784 77314816
+52	40500854 103779 480193 720217 35.296969234499 52.947122488845 3531 14 120 236630 25776340
+53	40604633 103779 480193 720217 35.296969234499 52.947122488845 3531 14 120 236630 25776340
+54	40708412 103779 480193 720217 35.296969234499 52.947122488845 3531 14 120 236630 25776340
+55	40812191 71947 480252 720138 35.306367951415 52.946368013203 1765 0.000132298901 0.000132384605 0.233580013194 3.0911968287993e-05
+56	40884138 105554 480184 720207 35.296897076916 52.947050300731 3531 120 120 423720 50846400
+57	40989692 147550 480184 720207 35.296897076916 52.947050300731 3531 35.296897076916 52.947050300731 155802.55781564 6966380.9627036
+58	41137242 196943 480184 720207 35.296897076916 52.947050300731 7061 0 1 3531 3531
+59	41334185 196943 480184 720207 35.296897076916 52.947050300731 7061 0 1 3531 3531
+62	41531128 143945 480211 720173 35.297029392078 52.946634300729 3530 0.000132298823 0.000133479655 0.469000019672 6.2312866036432e-05
+63	41675073 207583 480166 720202 35.296686179145 52.946899488847 7062 14 120 473154 51538476
+64	41882656 207583 480166 720202 35.296686179145 52.946899488847 7062 14 120 473154 51538476
+65	42090239 207583 480166 720202 35.296686179145 52.946899488847 7062 14 120 473154 51538476
+66	42297822 207583 480166 720202 35.296686179145 52.946899488847 7062 14 120 473154 51538476
+67	42505405 103759 480180 720204 35.296746718091 52.946900038557 3531 14 120 236524 25762136
+70	42609164 103759 480180 720204 35.296746718091 52.946900038557 3531 14 120 236524 25762136
+71	42712923 50990 480270 720154 35.306609435899 52.946573562906 1765 92 92 162380 14938960
+73	42763913 50990 480276 720160 35.306609435899 52.946573562906 1765 92 92 162380 14938960
+74	42814903 52755 480276 720160 35.306609435899 52.946573562906 1765 120 120 211800 25416000
+75	42867658 98450 480276 720178 35.306609435899 52.946766562906 3530 0 1 1765 1765
+76	42966108 49846 480276 720160 35.306609435899 52.946573562906 1765 0 15 12919 131289
+77	43015954 196900 480276 720177 35.306609435899 52.946766562906 7060 0 1 3530 3530
+78	43212854 52755 480294 720178 35.306802435899 52.946766562906 1765 120 120 211800 25416000
+79	43265609 61268 480294 720178 35.306802435899 52.946766562906 1765 9.4e-05 0.000229 0.282181 4.8088897e-05
+80	43326877 98463 480180 720204 35.296746718091 52.946900038557 3531 0 1 1765 1765
+81	43425340 135515 480270 720178 35.306609435899 52.946766562906 3530 78000000 693333333.33333 1361403333333.3 8.5919337111107e+20
+82	43560855 103745 480277 720178 35.306625435899 52.946766562906 3530 14 120 236510 25761940
+83	43664600 98463 480180 720204 35.296746718091 52.946900038557 3531 0 1 1765 1765
+84	43763063 393800 480278 720185 35.306625435899 52.946838562906 14120 0 2 14120 21180
+85	44156863 103745 480285 720184 35.306669435899 52.946838562906 3530 14 120 236510 25761940
+86	44260608 103745 480285 720184 35.306669435899 52.946838562906 3530 14 120 236510 25761940
+87	44364353 103745 480285 720184 35.306669435899 52.946838562906 3530 14 120 236510 25761940
+88	44468098 103759 480180 720204 35.296746718091 52.946900038557 3531 14 120 236524 25762136
+89	44571857 71996 480180 720204 35.296746718091 52.946900038557 1766 0.000133282347 0.000133479668 0.235553353647 3.141867910006e-05
+90	44643853 309572 480190 720214 35.296969076916 52.947122300731 10592 0 6e-05 0.21186000000001 1.2711599999999e-05
+91	44953425 51021 480193 720217 35.296969234499 52.947122488845 1766 92 92 162472 14947424
+92	45004446 54553 480196 720220 35.296969234499 52.947122488845 1766 3529 5294 7790709 34827689531
+93	45058999 72025 480196 720220 35.296969234499 52.947122488845 1766 0.00058077289 0.000967770165 1.366466679246 0.001066781433813
+0	45131024 189936 720297 960219 52.956544562932 70.596784467634 7060 2 3 17650 45890
+2	45320960 190298 720225 960291 52.947138488845 70.606307636964 7064 2 3 17660 45916
+4	45511258 379568 720264 960247 52.956323824731 70.596978182729 14120 2 3 35300 91780
+6	45890826 759630 720228 960295 52.947139321286 70.606308427769 28244 0 3 45898 109450
+7	46650456 759750 720225 960291 52.947138488845 70.606307636964 28244 0 3 45892 109432
+8	47410206 759370 720227 960292 52.947138676955 70.606307752243 28244 0 3 35308 77680
+12	48169576 54746 720246 960280 52.956235636964 70.606235636964 1766 5295 7060 10909465 67852196815
+14	48224322 51214 720249 960283 52.956235636964 70.606235636964 1766 92 92 162472 14947424
+15	48275536 52980 720249 960283 52.956235636964 70.606235636964 1766 120 120 211920 25430400
+16	48328516 98896 720249 960285 52.956235636964 70.606235636964 3532 0 1 1766 1766
+17	48427412 50081 720249 960283 52.956235636964 70.606235636964 1766 0 15 12969 132669
+18	48477493 98896 720249 960284 52.956235636964 70.606235636964 3532 0 1 1766 1766
+19	48576389 52980 720251 960285 52.956235636964 70.606235636964 1766 120 120 211920 25430400
+20	48629369 49448 720251 960285 52.956235636964 70.606235636964 1766 0 0 0 0
+21	48678817 98676 720251 960285 52.956235636964 70.606235636964 3531 0 1 1766 1766
+22	48777493 135732 720251 960285 52.956235636964 70.606235636964 3531 78000000 693333333.33333 1362096666666.7 8.5967408222218e+20
+23	48913225 103979 720224 960285 52.947138488845 70.606235636964 3532 14 120 236644 25776536
+24	49017204 98676 720251 960285 52.956235636964 70.606235636964 3531 0 1 1766 1766
+25	49115880 394724 720225 960291 52.947138488845 70.606307636964 14128 0 2 14128 21192
+26	49510604 103979 720231 960290 52.947182488845 70.606307636964 3532 14 120 236644 25776536
+27	49614583 103979 720231 960290 52.947182488845 70.606307636964 3532 14 120 236644 25776536
+28	49718562 103979 720231 960290 52.947182488845 70.606307636964 3532 14 120 236644 25776536
+29	49822541 464820 720256 960290 52.956307636964 70.606307636964 15887 0 6e-05 0.31776000000002 1.90656e-05
+30	50287361 207556 720234 960293 52.947182676955 70.606307752243 7062 14 120 473154 51538476
+31	50494917 207556 720234 960293 52.947182676955 70.606307752243 7062 14 120 473154 51538476
+32	50702473 207556 720234 960293 52.947182676955 70.606307752243 7062 14 120 473154 51538476
+33	50910029 207556 720234 960293 52.947182676955 70.606307752243 7062 14 120 473154 51538476
+34	51117585 271009 720259 960293 52.956307824731 70.606307752243 7061 78000000 693333333.33333 2722884666666.7 1.7183928262221e+21
+35	51388594 105512 720259 960293 52.956307824731 70.606307752243 3531 120 120 423720 50846400
+36	51494106 196872 720259 960293 52.956307824731 70.606307752243 7061 0 1 3531 3531
+37	51690978 99734 720259 960293 52.956307824731 70.606307752243 3531 0 15 26026 267410
+38	51790712 393716 720259 960293 52.956307824731 70.606307752243 14121 0 1 7061 7061
+40	52184428 311327 720237 960296 52.947183321286 70.606308427769 10592 14 120 709664 77300416
+41	52495755 464428 720223 960296 52.947123038559 70.606308427769 15890 0 6e-05 0.31782000000002 1.90692e-05
+42	52960183 207584 720223 960296 52.947123038559 70.606308427769 7063 14 120 473274 51552876
+43	53167767 207584 720223 960296 52.947123038559 70.606308427769 7063 14 120 473274 51552876
+44	53375351 207584 720223 960296 52.947123038559 70.606308427769 7063 14 120 473274 51552876
+45	53582935 207584 720223 960296 52.947123038559 70.606308427769 7063 14 120 473274 51552876
+46	53790519 207434 720263 960240 52.956323824731 70.596906182729 7060 14 120 473020 51523880
+47	53997953 787376 720264 960247 52.956323824731 70.596978182729 28240 0 2 28240 42360
+48	54785329 207434 720270 960246 52.956367824731 70.596978182729 7060 14 120 473020 51523880
+49	54992763 207434 720270 960246 52.956367824731 70.596978182729 7060 14 120 473020 51523880
+50	55200197 207434 720270 960246 52.956367824731 70.596978182729 7060 14 120 473020 51523880
+51	55407631 311201 720273 960249 52.956368012492 70.596978298304 10590 14 120 709530 77285820
+52	55718832 103728 720273 960249 52.956368012492 70.596978298304 3530 14 120 236510 25761940
+53	55822560 103728 720273 960249 52.956368012492 70.596978298304 3530 14 120 236510 25761940
+54	55926288 103728 720273 960249 52.956368012492 70.596978298304 3530 14 120 236510 25761940
+55	56030016 71962 720273 960171 52.956368012492 70.596367868109 1765 0.000132210307 0.000132376575 0.233446439645 3.087662581245e-05
+56	56101978 105482 720279 960240 52.956455824731 70.596906182729 3530 120 120 423600 50832000
+57	56207460 147424 720279 960240 52.956455824731 70.596906182729 3530 52.956455824731 70.596906182729 218071.75794342 13563393.50699
+58	56354884 196935 720234 960266 52.947182676955 70.59703841388 7061 0 1 3530 3530
+59	56551819 196935 720234 960266 52.947182676955 70.59703841388 7061 0 1 3530 3530
+62	56748754 144019 720234 960266 52.947182676955 70.59703841388 3531 0.000132210265 0.000133520479 0.469163306706 6.2338939034777e-05
+63	56892773 207473 720287 960235 52.956528012484 70.596845298304 7060 14 120 473020 51523880
+64	57100246 207473 720287 960235 52.956528012484 70.596845298304 7060 14 120 473020 51523880
+65	57307719 207473 720287 960235 52.956528012484 70.596845298304 7060 14 120 473020 51523880
+66	57515192 207473 720287 960235 52.956528012484 70.596845298304 7060 14 120 473020 51523880
+67	57722665 103773 720289 960237 52.956528562932 70.596845897823 3530 14 120 236510 25761940
+70	57826438 103773 720289 960237 52.956528562932 70.596845897823 3530 14 120 236510 25761940
+71	57930211 51014 720289 960188 52.956528562932 70.596519467634 1765 92 92 162380 14938960
+73	57981225 51014 720295 960194 52.956528562932 70.596519467634 1765 92 92 162380 14938960
+74	58032239 52779 720295 960194 52.956528562932 70.596519467634 1765 120 120 211800 25416000
+75	58085018 98498 720295 960212 52.956528562932 70.596712467634 3530 0 1 1765 1765
+76	58183516 49923 720295 960194 52.956528562932 70.596519467634 1765 0 15 13377 138755
+77	58233439 196996 720295 960211 52.956528562932 70.596712467634 7060 0 1 3530 3530
+78	58430435 52779 720313 960212 52.956712562932 70.596712467634 1765 120 120 211800 25416000
+79	58483214 61255 720313 960212 52.956712562932 70.596712467634 1765 9.4e-05 0.000229 0.286303 4.9468579e-05
+80	58544469 98478 720313 960237 52.956712562932 70.596845897823 3530 0 1 1765 1765
+81	58642947 135563 720289 960212 52.956528562932 70.596712467634 3530 78000000 693333333.33333 1361403333333.3 8.5919337111107e+20
+82	58778510 103793 720296 960212 52.956544562932 70.596712467634 3530 14 120 236510 25761940
+83	58882303 98478 720313 960237 52.956712562932 70.596845897823 3530 0 1 1765 1765
+84	58980781 393992 720297 960219 52.956544562932 70.596784467634 14120 0 2 14120 21180
+85	59374773 103793 720305 960218 52.956588562932 70.596784467634 3530 14 120 236510 25761940
+86	59478566 103793 720305 960218 52.956588562932 70.596784467634 3530 14 120 236510 25761940
+87	59582359 103793 720305 960218 52.956588562932 70.596784467634 3530 14 120 236510 25761940
+88	59686152 103773 720289 960237 52.956528562932 70.596845897823 3530 14 120 236510 25761940
+89	59789925 71963 720338 960237 52.956846039337 70.596845897823 1765 0.000133427614 0.000133520455 0.235584500142 3.1444792216878e-05
+90	59861888 309414 720230 960262 52.947182300731 70.597038182729 10591 0 6e-05 0.21180000000001 1.2707999999999e-05
+91	60171302 50970 720349 960249 52.956969488857 70.596978298304 1765 92 92 162380 14938960
+92	60222272 54500 720352 960252 52.956969488857 70.596978298304 1765 5295 7059 10902405 67802353215
+93	60276772 71988 720352 960252 52.956969488857 70.596978298304 1765 0.000580692775 0.000976735798 1.363675935957 0.0010624228043869
+0	60348760 195732 960332 1200400 70.606562467604 88.256544436386 7061 2 3 17653 45899
+2	60544492 196078 960391 1200360 70.606949298208 88.256307636964 7060 2 3 17650 45890
+4	60740570 391571 960298 1200388 70.606323752243 88.256527691233 14124 2 3 35310 91806
+6	61132141 783022 960301 1200400 70.606324467602 88.256544436386 28245 0 3 45898 109450
+7	61915163 783262 960300 1200403 70.606323867517 88.256545203274 28245 0 3 45901 109459
+8	62698425 783055 960298 1200402 70.606323752243 88.256545181542 28245 0 3 35305 77671
+12	63481480 56188 960416 1200349 70.616235636964 88.256235636964 1765 7061 8825 14019395 111814252015
+14	63537668 52658 960419 1200352 70.616235636964 88.256235636964 1765 92 92 162380 14938960
+15	63590326 54423 960419 1200352 70.616235636964 88.256235636964 1765 120 120 211800 25416000
+16	63644749 101786 960419 1200354 70.616235636964 88.256235636964 3530 0 1 1765 1765
+17	63746535 51564 960419 1200352 70.616235636964 88.256235636964 1765 0 15 13353 137207
+18	63798099 101786 960419 1200353 70.616235636964 88.256235636964 3530 0 1 1765 1765
+19	63899885 54423 960421 1200354 70.616235636964 88.256235636964 1765 120 120 211800 25416000
+20	63954308 50893 960421 1200354 70.616235636964 88.256235636964 1765 0 0 0 0
+21	64005201 101608 960307 1200376 70.606367867517 88.25636774551 3531 0 1 1765 1765
+22	64106809 138634 960383 1200354 70.606933298208 88.256235636964 3530 78000000 693333333.33333 1361403333333.3 8.5919337111107e+20
+23	64245443 106864 960390 1200354 70.606949298208 88.256235636964 3530 14 120 236510 25761940
+24	64352307 101608 960307 1200376 70.606367867517 88.25636774551 3531 0 1 1765 1765
+25	64453915 406276 960391 1200360 70.606949298208 88.256307636964 14120 0 2 14120 21180
+26	64860191 106864 960398 1200359 70.606993298208 88.256307636964 3530 14 120 236510 25761940
+27	64967055 106864 960398 1200359 70.606993298208 88.256307636964 3530 14 120 236510 25761940
+28	65073919 106864 960398 1200359 70.606993298208 88.256307636964 3530 14 120 236510 25761940
+29	65180783 478090 960303 1200390 70.606367636964 88.256527745521 15888 0 6e-05 0.31776000000002 1.90656e-05
+30	65658873 213378 960343 1200362 70.606607182965 88.256307691233 7060 14 120 473020 51523880
+31	65872251 213378 960343 1200362 70.606607182965 88.256307691233 7060 14 120 473020 51523880
+32	66085629 213378 960343 1200362 70.606607182965 88.256307691233 7060 14 120 473020 51523880
+33	66299007 213378 960343 1200362 70.606607182965 88.256307691233 7060 14 120 473020 51523880
+34	66512385 276963 960313 1200382 70.606473752243 88.256455691233 7061 78000000 693333333.33333 2723500000000 1.7188674533332e+21
+35	66789348 108455 960355 1200362 70.606731182966 88.256307691233 3530 120 120 423600 50832000
+36	66897803 202819 960313 1200382 70.606473752243 88.256455691233 7061 0 1 3530 3530
+37	67100622 102757 960355 1200362 70.606731182966 88.256307691233 3530 0 15 27004 281208
+38	67203379 405666 960298 1200381 70.606323752243 88.256455691233 14123 0 1 7061 7061
+40	67609045 320125 960310 1200392 70.606368467602 88.256528436386 10592 14 120 709664 77300416
+41	67929170 477428 960308 1200377 70.606368427769 88.256368403826 15886 0 6e-05 0.31770000000002 1.9062e-05
+42	68406598 213406 960310 1200380 70.606368467602 88.25636843638 7061 14 120 473034 51524076
+43	68620004 213406 960310 1200380 70.606368467602 88.25636843638 7061 14 120 473034 51524076
+44	68833410 213406 960310 1200380 70.606368467602 88.25636843638 7061 14 120 473034 51524076
+45	69046816 213406 960310 1200380 70.606368467602 88.25636843638 7061 14 120 473034 51524076
+46	69260222 213440 960297 1200382 70.606323752243 88.256455691233 7062 14 120 473154 51538476
+47	69473662 811390 960298 1200388 70.606323752243 88.256527691233 28248 0 2 28248 42372
+48	70285052 213441 960304 1200387 70.606367752243 88.256527691233 7062 14 120 473154 51538476
+49	70498493 213441 960304 1200387 70.606367752243 88.256527691233 7062 14 120 473154 51538476
+50	70711934 213441 960304 1200387 70.606367752243 88.256527691233 7062 14 120 473154 51538476
+51	70925375 320058 960307 1200390 70.606367867517 88.256527745521 10592 14 120 709664 77300416
+52	71245433 106687 960307 1200376 70.606367867517 88.25636774551 3531 14 120 236524 25762136
+53	71352120 106687 960307 1200376 70.606367867517 88.25636774551 3531 14 120 236524 25762136
+54	71458807 106687 960307 1200376 70.606367867517 88.25636774551 3531 14 120 236524 25762136
+55	71565494 73475 960307 1200376 70.606367867517 88.25636774551 1766 0.000132090624 0.000132246152 0.233411410054 3.0849881838082e-05
+56	71638969 108486 960313 1200382 70.606473752243 88.256455691233 3531 120 120 423720 50846400
+57	71747455 150467 960313 1200382 70.606473752243 88.256455691233 3531 70.606473752243 88.256455691233 280464.52804835 22368792.396791
+58	71897922 202817 960313 1200382 70.606473752243 88.256455691233 7061 0 1 3531 3531
+59	72100739 202817 960313 1200382 70.606473752243 88.256455691233 7061 0 1 3531 3531
+62	72303556 146881 960343 1200334 70.606607182965 88.247074287838 3530 0.000132090544 0.000133513061 0.468847162256 6.227277959484e-05
+63	72450437 213371 960322 1200390 70.606545867508 88.256527745521 7061 14 120 473140 51538280
+64	72663808 213371 960322 1200390 70.606545867508 88.256527745521 7061 14 120 473140 51538280
+65	72877179 213371 960322 1200390 70.606545867508 88.256527745521 7061 14 120 473140 51538280
+66	73090550 213371 960322 1200390 70.606545867508 88.256527745521 7061 14 120 473140 51538280
+67	73303921 106719 960324 1200392 70.606546467604 88.256528436386 3531 14 120 236630 25776340
+70	73410640 106719 960324 1200392 70.606546467604 88.256528436386 3531 14 120 236630 25776340
+71	73517359 52486 960324 1200392 70.606546467604 88.256528436386 1766 92 92 162472 14947424
+73	73569845 52486 960330 1200398 70.606546467604 88.256528436386 1766 92 92 162472 14947424
+74	73622331 54252 960330 1200398 70.606546467604 88.256528436386 1766 120 120 211920 25430400
+75	73676583 101411 960330 1200398 70.606546467604 88.256528436386 3531 0 1 1766 1766
+76	73777994 51389 960330 1200398 70.606546467604 88.256528436386 1766 0 15 13473 139609
+77	73829383 202822 960330 1200400 70.606546467604 88.256544436386 7062 0 1 3531 3531
+78	74032205 54221 960347 1200281 70.606658467604 88.246748435544 1765 120 120 211800 25416000
+79	74086426 62722 960347 1200281 70.606658467604 88.246748435544 1765 9.4e-05 0.000229 0.287167 4.9700185e-05
+80	74149148 101393 960347 1200305 70.606658467604 88.246881925449 3530 0 1 1765 1765
+81	74250541 138483 960324 1200392 70.606546467604 88.256528436386 3531 78000000 693333333.33333 1361481333333.3 8.5919945511107e+20
+82	74389024 106707 960331 1200399 70.606562467604 88.256544436386 3531 14 120 236524 25762136
+83	74495731 101393 960347 1200305 70.606658467604 88.246881925449 3530 0 1 1765 1765
+84	74597124 405586 960332 1200401 70.606562467604 88.256544436386 14122 0 2 14123 21185
+85	75002710 106677 960340 1200286 70.606606467604 88.246820435544 3530 14 120 236510 25761940
+86	75109387 106677 960340 1200286 70.606606467604 88.246820435544 3530 14 120 236510 25761940
+87	75216064 106677 960340 1200286 70.606606467604 88.246820435544 3530 14 120 236510 25761940
+88	75322741 106719 960324 1200392 70.606546467604 88.256528436386 3531 14 120 236630 25776340
+89	75429460 73438 960372 1200305 70.606791898329 88.246881925449 1765 0.000133421888 0.000133513073 0.235567869267 3.1440352679089e-05
+90	75502898 318367 960319 1200387 70.606545752243 88.256527691233 10592 0 6e-05 0.21186000000001 1.2711599999999e-05
+91	75821265 52441 960383 1200317 70.606933298208 88.247014234165 1765 92 92 162380 14938960
+92	75873706 55971 960386 1200320 70.606933298208 88.247014234165 1765 7060 8824 14017630 111786214990
+93	75929677 73438 960386 1200320 70.606933298208 88.247014234165 1765 0.000580633505 0.000976653027 1.373248166838 0.001077859117844
+0	76003115 130992 1200409 1360076 88.256588436386 99.996766436762 4699 2 3 11747 30541
+2	76134107 131284 1200461 1360124 88.256904235868 99.997101236536 4698 2 3 11745 30537
+4	76265391 262032 1200429 1360106 88.256711181545 99.997041138276 9396 2 3 23490 61074
+6	76527423 524070 1200409 1360128 88.256588436386 99.997102018066 18793 0 3 30538 72820
+7	77051493 524376 1200412 1360124 88.256589203274 99.997101236536 18793 0 3 30538 72820
+8	77575869 524078 1200410 1360125 88.256589181542 99.997101334792 18793 0 3 23491 51679
+12	78099947 37568 1200485 1360003 88.266235636964 99.996235636964 1174 8826 9999 11050275 104145554675
+14	78137515 35220 1200488 1360006 88.266235636964 99.996235636964 1174 92 92 108008 9936736
+15	78172735 36394 1200488 1360006 88.266235636964 99.996235636964 1174 120 120 140880 16905600
+16	78209129 68092 1200488 1360008 88.266235636964 99.996235636964 2348 0 1 1174 1174
+17	78277221 34480 1200488 1360006 88.266235636964 99.996235636964 1174 0 15 8599 88479
+18	78311701 68092 1200488 1360007 88.266235636964 99.996235636964 2348 0 1 1174 1174
+19	78379793 36394 1200490 1360008 88.266235636964 99.996235636964 1174 120 120 140880 16905600
+20	78416187 34046 1200490 1360008 88.266235636964 99.996235636964 1174 0 0 0 0
+21	78450233 67964 1200490 1360030 88.266235636964 99.996367833552 2348 0 1 1174 1174
+22	78518197 92652 1200453 1360108 88.256888235868 99.997041236536 2349 78000000 693333333.33333 905623333333.35 5.7150354444443e+20
+23	78610849 71514 1200460 1360115 88.256904235868 99.997057236536 2349 14 120 157330 17135900
+24	78682363 67964 1200490 1360030 88.266235636964 99.996367833552 2348 0 1 1174 1174
+25	78750327 271964 1200461 1360124 88.256904235868 99.997101236536 9396 0 2 9396 14094
+26	79022291 71514 1200467 1360123 88.256948235868 99.997101236536 2349 14 120 157330 17135900
+27	79093805 71514 1200467 1360123 88.256948235868 99.997101236536 2349 14 120 157330 17135900
+28	79165319 71514 1200467 1360123 88.256948235868 99.997101236536 2349 14 120 157330 17135900
+29	79236833 319818 1200407 1360091 88.256587745521 99.996827218272 10570 0 6e-05 0.21138000000001 1.2682799999999e-05
+30	79556651 142784 1200411 1360126 88.256589181542 99.997101334792 4699 14 120 314780 34286200
+31	79699435 142784 1200411 1360126 88.256589181542 99.997101334792 4699 14 120 314780 34286200
+32	79842219 142784 1200411 1360126 88.256589181542 99.997101334792 4699 14 120 314780 34286200
+33	79985003 142784 1200411 1360126 88.256589181542 99.997101334792 4699 14 120 314780 34286200
+34	80127787 185043 1200425 1360099 88.256695181545 99.996969138276 4698 78000000 693333333.33333 1811861999999.9 1.1434817159999e+21
+35	80312830 72555 1200425 1360078 88.256695181545 99.996767138276 2349 120 120 281880 33825600
+36	80385385 135714 1200425 1360099 88.256695181545 99.996969138276 4698 0 1 2349 2349
+37	80521099 68736 1200425 1360078 88.256695181545 99.996767138276 2349 0 15 17834 184344
+38	80589835 271428 1200425 1360098 88.256695181545 99.996969138276 9396 0 1 4698 4698
+40	80861263 214156 1200441 1360129 88.256755926707 99.997102018066 7047 14 120 472096 51421904
+41	81075419 319451 1200422 1360127 88.256694436386 99.997101839799 10572 0 6e-05 0.21144000000001 1.2686399999999e-05
+42	81394870 142778 1200459 1360129 88.256888926712 99.997102018066 4698 14 120 314766 34286004
+43	81537648 142778 1200459 1360129 88.256888926712 99.997102018066 4698 14 120 314766 34286004
+44	81680426 142778 1200459 1360129 88.256888926712 99.997102018066 4698 14 120 314766 34286004
+45	81823204 142778 1200459 1360129 88.256888926712 99.997102018066 4698 14 120 314766 34286004
+46	81965982 142761 1200428 1360099 88.256711181545 99.996969138276 4698 14 120 314766 34286004
+47	82108743 542856 1200429 1360106 88.256711181545 99.997041138276 18792 0 2 18792 28188
+48	82651599 142761 1200435 1360105 88.256755181545 99.997041138276 4698 14 120 314766 34286004
+49	82794360 142761 1200435 1360105 88.256755181545 99.997041138276 4698 14 120 314766 34286004
+50	82937121 142761 1200435 1360105 88.256755181545 99.997041138276 4698 14 120 314766 34286004
+51	83079882 214180 1200413 1360108 88.256589203274 99.997041236536 7048 14 120 472216 51436304
+52	83294062 71387 1200453 1360108 88.256888235868 99.997041236536 2349 14 120 157436 17150104
+53	83365449 71387 1200453 1360108 88.256888235868 99.997041236536 2349 14 120 157436 17150104
+54	83436836 71387 1200453 1360108 88.256888235868 99.997041236536 2349 14 120 157436 17150104
+55	83508223 49030 1200512 1360030 88.266367747021 99.996367833552 1174 0.000132092207 0.000132198918 0.155129778577 2.0498508699779e-05
+56	83557253 72555 1200443 1360099 88.256816181545 99.996969138276 2349 120 120 281880 33825600
+57	83629808 100479 1200443 1360099 88.256816181545 99.996969138276 2349 88.256816181545 99.996969138276 221109.49937743 20839863.865089
+58	83730287 135736 1200411 1360126 88.256589181542 99.997101334792 4699 0 1 2349 2349
+59	83866023 135736 1200411 1360126 88.256589181542 99.997101334792 4699 0 1 2349 2349
+62	84001759 98187 1200411 1360126 88.256589181542 99.997101334792 2350 0.000132092245 0.000133493654 0.312055260949 4.1438653090339e-05
+63	84099946 142793 1200413 1360093 88.256589203274 99.996827236545 4699 14 120 314780 34286200
+64	84242739 142793 1200413 1360093 88.256589203274 99.996827236545 4699 14 120 314780 34286200
+65	84385532 142793 1200413 1360093 88.256589203274 99.996827236545 4699 14 120 314780 34286200
+66	84528325 142793 1200413 1360093 88.256589203274 99.996827236545 4699 14 120 314780 34286200
+67	84671118 71378 1200441 1360095 88.256755926707 99.996827839795 2349 14 120 157330 17135900
+70	84742496 71378 1200441 1360095 88.256755926707 99.996827839795 2349 14 120 157330 17135900
+71	84813874 35075 1200528 1360047 88.266474437541 99.996528436762 1174 92 92 108008 9936736
+73	84848949 35075 1200534 1360053 88.266474437541 99.996528436762 1174 92 92 108008 9936736
+74	84884024 36249 1200534 1360053 88.266474437541 99.996528436762 1174 120 120 140880 16905600
+75	84920273 67831 1200415 1360070 88.256622436386 99.996694436762 2349 0 1 1174 1174
+76	84988104 34353 1200534 1360053 88.266474437541 99.996528436762 1174 0 15 8691 88761
+77	85022457 135662 1200409 1360069 88.256588436386 99.996694436762 4698 0 1 2349 2349
+78	85158119 36280 1200415 1360070 88.256622436386 99.996694436762 1175 120 120 141000 16920000
+79	85194399 41952 1200415 1360070 88.256622436386 99.996694436762 1175 9.4e-05 0.000229 0.188669 3.2277113e-05
+80	85236351 67884 1200415 1360095 88.256622436386 99.996827839795 2350 0 1 1175 1175
+81	85304235 92499 1200415 1360070 88.256622436386 99.996694436762 2349 78000000 693333333.33333 906238666666.68 5.7197817155554e+20
+82	85396734 71355 1200415 1360070 88.256622436386 99.996694436762 2349 14 120 157436 17150104
+83	85468089 67884 1200415 1360095 88.256622436386 99.996827839795 2350 0 1 1175 1175
+84	85535973 271382 1200408 1360076 88.256588436386 99.996766436762 9398 0 2 9397 14095
+85	85807355 71385 1200408 1360075 88.256588436386 99.996766436762 2350 14 120 157450 17150300
+86	85878740 71385 1200408 1360075 88.256588436386 99.996766436762 2350 14 120 157450 17150300
+87	85950125 71385 1200408 1360075 88.256588436386 99.996766436762 2350 14 120 157450 17150300
+88	86021510 71378 1200441 1360095 88.256755926707 99.996827839795 2349 14 120 157330 17135900
+89	86092888 49107 1200441 1360095 88.256755926707 99.996827839795 1175 0.000133399905 0.000133493661 0.156793365825 2.0922689602461e-05
+90	86141995 212996 1200406 1360122 88.256587691233 99.997101138276 7048 0 6e-05 0.14094 8.4564000000001e-06
+91	86354991 35120 1200453 1360108 88.256888235868 99.997041236536 1175 92 92 108100 9945200
+92	86390111 37470 1200456 1360111 88.256888235868 99.997041236536 1175 8825 9999 11059100 104223435300
+93	86427581 49094 1200456 1360111 88.256888235868 99.997041236536 1175 0.000571596258 0.000967553093 0.910384256958 0.0007116626980962
+
