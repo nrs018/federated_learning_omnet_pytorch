@@ -1,1 +1,1 @@
-# federated_learning_omnet-pytorch
+# federated_learning_omnet_pytorch
