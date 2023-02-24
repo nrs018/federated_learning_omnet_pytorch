@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 | CI Status | master |
 |-----------|:------:|
 | Build and fingerprint tests | [![Travis CI][travis-master]][1] |
@@ -64,3 +65,6 @@ using 'make makefiles'.
 [2]: https://travis-ci.org/inet-framework/inet/branches
 [3]: https://circleci.com/gh/inet-framework/workflows/inet/tree/master
 [4]: https://circleci.com/gh/inet-framework/workflows/inet/tree/integration
+=======
+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
+>>>>>>> 5354c8d83e709e4460455ead251c14723dc63cee
